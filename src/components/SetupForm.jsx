@@ -232,187 +232,184 @@ const SetupForm = ({ categorias, dificultades, subcategoriasPorCategoria, usuari
 
   return (
     <section className="setup">
-      <div className="setup__layout">
-        <div className="setup__panel">
-          <header className="setup__header">
-            <div>
-              <h2>Configura tu simulacro</h2>
-              <p>
-                Bienvenido, <strong>{usuario}</strong>. Ajusta el cuestionario a tu plan de estudio o aplica una plantilla rápida para
-                empezar al instante.
-              </p>
-            </div>
-            <ul className="setup__chips">
-              {resumenSeleccion.map((chip) => (
-                <li key={chip.etiqueta}>
-                  <span>{chip.etiqueta}</span>
-                  <strong>{chip.valor}</strong>
-                </li>
-              ))}
-            </ul>
-          </header>
+      <header className="setup__intro">
+        <h2>Configura tu simulacro</h2>
+        <p>
+          Bienvenido, <strong>{usuario}</strong>. Ajusta el cuestionario a tu plan de estudio o aplica una plantilla rápida para
+          empezar al instante.
+        </p>
+      </header>
 
-          <div className="setup__presets">
-            <span>Plantillas recomendadas</span>
-            <div className="setup__preset-grid">
-              {quickPresets.map((preset) => (
-                <button
-                  key={preset.id}
-                  type="button"
-                  className="setup__preset"
-                  onClick={() => aplicarPreset(preset)}
-                  title={`Aplicar plantilla ${preset.titulo}`}
-                >
-                  <span className="setup__preset-icon" aria-hidden>
-                    {preset.icono}
-                  </span>
-                  <div>
-                    <strong>{preset.titulo}</strong>
-                    <small>{preset.descripcion}</small>
-                  </div>
-                </button>
-              ))}
-            </div>
-          </div>
+      <ul className="setup__chips">
+        {resumenSeleccion.map((chip) => (
+          <li key={chip.etiqueta}>
+            <span>{chip.etiqueta}</span>
+            <strong>{chip.valor}</strong>
+          </li>
+        ))}
+      </ul>
 
-          <form className="setup__form" onSubmit={handleSubmit}>
-            <fieldset className="setup__fieldset">
-              <legend>Modo de cuestionario</legend>
-
-              <div className="setup__options">
-                <label className={`setup__card ${modo === 'personalizado' ? 'setup__card--active' : ''}`}>
-              <input
-                type="radio"
-                name="modo"
-                value="personalizado"
-                checked={modo === 'personalizado'}
-                onChange={() => setModo('personalizado')}
-              />
-              <div className="setup__card-icon" aria-hidden>
-                🎯
-              </div>
-              <div className="setup__card-body">
-                <strong>Dirigido</strong>
-                <span>Control total sobre categoría, subcategoría y dificultad.</span>
-              </div>
-            </label>
-
-            <label className={`setup__card ${modo === 'aleatorio' ? 'setup__card--active' : ''}`}>
-              <input
-                type="radio"
-                name="modo"
-                value="aleatorio"
-                checked={modo === 'aleatorio'}
-                onChange={() => setModo('aleatorio')}
-              />
-              <div className="setup__card-icon" aria-hidden>
-                🔀
-              </div>
-              <div className="setup__card-body">
-                <strong>Aleatorio</strong>
-                <span>Te mezclamos categorías y niveles automáticamente.</span>
-              </div>
-            </label>
-          </div>
-        </fieldset>
-
-        <div className="setup__grid">
-          <label className="setup__field">
-            <span>Categoría</span>
-            <select
-              value={categoria}
-              onChange={(event) => setCategoria(event.target.value)}
-              required={modo === 'personalizado'}
-              disabled={modo === 'aleatorio'}
+      <div className="setup__quick">
+        <span>Plantillas recomendadas</span>
+        <div className="setup__quick-scroll">
+          {quickPresets.map((preset) => (
+            <button
+              key={preset.id}
+              type="button"
+              className="setup__quick-button"
+              onClick={() => aplicarPreset(preset)}
+              title={`Aplicar plantilla ${preset.titulo}`}
             >
-              {categorias.map((categoriaActual) => (
-                <option key={categoriaActual} value={categoriaActual}>
-                  {categoriaActual}
-                </option>
-              ))}
-            </select>
-          </label>
+              <span className="setup__quick-icon" aria-hidden>
+                {preset.icono}
+              </span>
+              <div>
+                <strong>{preset.titulo}</strong>
+                <small>{preset.descripcion}</small>
+              </div>
+            </button>
+          ))}
+        </div>
+      </div>
 
-          <label className="setup__field">
-            <span>Dificultad</span>
-            <select
-              value={mezclarDificultades || modo === 'aleatorio' ? 'Todas' : dificultad}
-              onChange={(event) => setDificultad(event.target.value)}
-              disabled={mezclarDificultades || modo === 'aleatorio'}
-              required
-            >
-              {(mezclarDificultades || modo === 'aleatorio') && (
-                <option value="Todas">Todas las dificultades (automático)</option>
-              )}
-              {dificultadesDisponibles.map((dificultadActual) => (
-                <option key={dificultadActual} value={dificultadActual}>
-                  {dificultadActual}
-                </option>
-              ))}
-            </select>
-          </label>
+      <div className="setup__main">
+        <form className="setup__form" onSubmit={handleSubmit}>
+          <fieldset className="setup__group">
+            <legend>Modo de cuestionario</legend>
 
-          {modo === 'personalizado' && subcategoriasDisponibles.length > 0 && (
-            <label className="setup__field setup__field--wide">
-              <span>Subcategoría</span>
-              <select value={subcategoria} onChange={(event) => setSubcategoria(event.target.value)}>
-                {subcategoriasDisponibles.map((opcion) => (
-                  <option key={opcion} value={opcion}>
-                    {opcion === 'todas' ? 'Todas las subcategorías' : opcion}
+            <div className="setup__options">
+              <label className={`setup__card ${modo === 'personalizado' ? 'setup__card--active' : ''}`}>
+                <input
+                  type="radio"
+                  name="modo"
+                  value="personalizado"
+                  checked={modo === 'personalizado'}
+                  onChange={() => setModo('personalizado')}
+                />
+                <div className="setup__card-icon" aria-hidden>
+                  🎯
+                </div>
+                <div className="setup__card-body">
+                  <strong>Dirigido</strong>
+                  <span>Control total sobre categoría, subcategoría y dificultad.</span>
+                </div>
+              </label>
+
+              <label className={`setup__card ${modo === 'aleatorio' ? 'setup__card--active' : ''}`}>
+                <input
+                  type="radio"
+                  name="modo"
+                  value="aleatorio"
+                  checked={modo === 'aleatorio'}
+                  onChange={() => setModo('aleatorio')}
+                />
+                <div className="setup__card-icon" aria-hidden>
+                  🔀
+                </div>
+                <div className="setup__card-body">
+                  <strong>Aleatorio</strong>
+                  <span>Te mezclamos categorías y niveles automáticamente.</span>
+                </div>
+              </label>
+            </div>
+          </fieldset>
+
+          <div className="setup__fields">
+            <label className="setup__field">
+              <span>Categoría</span>
+              <select
+                value={categoria}
+                onChange={(event) => setCategoria(event.target.value)}
+                required={modo === 'personalizado'}
+                disabled={modo === 'aleatorio'}
+              >
+                {categorias.map((categoriaActual) => (
+                  <option key={categoriaActual} value={categoriaActual}>
+                    {categoriaActual}
                   </option>
                 ))}
               </select>
             </label>
-          )}
 
-          <label className="setup__field">
-            <span>Número de preguntas</span>
-            <input
-              type="number"
-              min={1}
-              max={50}
-              value={numeroPreguntas}
-              onChange={(event) => setNumeroPreguntas(event.target.value)}
-            />
-          </label>
+            <label className="setup__field">
+              <span>Dificultad</span>
+              <select
+                value={mezclarDificultades || modo === 'aleatorio' ? 'Todas' : dificultad}
+                onChange={(event) => setDificultad(event.target.value)}
+                disabled={mezclarDificultades || modo === 'aleatorio'}
+                required
+              >
+                {(mezclarDificultades || modo === 'aleatorio') && (
+                  <option value="Todas">Todas las dificultades (automático)</option>
+                )}
+                {dificultadesDisponibles.map((dificultadActual) => (
+                  <option key={dificultadActual} value={dificultadActual}>
+                    {dificultadActual}
+                  </option>
+                ))}
+              </select>
+            </label>
 
-          <label className="setup__field">
-            <span>Tiempo por pregunta (seg)</span>
-            <input
-              type="number"
-              min={20}
-              max={300}
-              step={5}
-              value={tiempoPorPregunta}
-              onChange={(event) => setTiempoPorPregunta(event.target.value)}
-            />
-          </label>
-        </div>
+            {modo === 'personalizado' && subcategoriasDisponibles.length > 0 && (
+              <label className="setup__field setup__field--wide">
+                <span>Subcategoría</span>
+                <select value={subcategoria} onChange={(event) => setSubcategoria(event.target.value)}>
+                  {subcategoriasDisponibles.map((opcion) => (
+                    <option key={opcion} value={opcion}>
+                      {opcion === 'todas' ? 'Todas las subcategorías' : opcion}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            )}
 
-            <label className="setup__toggle">
-              <span>Mezclar preguntas de distintas dificultades</span>
+            <label className="setup__field">
+              <span>Número de preguntas</span>
               <input
-                type="checkbox"
-                checked={mezclarDificultades}
-                onChange={(event) => setMezclarDificultades(event.target.checked)}
+                type="number"
+                min={1}
+                max={50}
+                value={numeroPreguntas}
+                onChange={(event) => setNumeroPreguntas(event.target.value)}
               />
             </label>
 
-            <footer className="setup__footer">
-              <div className="setup__footer-copy">
-                <span>
-                  Duración máxima estimada: <strong>{tiempoTotalEstimado.etiqueta}</strong>
-                </span>
-                <span>
-                  Preguntas configuradas: <strong>{numeroPreguntas}</strong>
-                </span>
-              </div>
-              <button type="submit" className="setup__submit" disabled={deshabilitarInicio}>
-                Lanzar simulacro
-              </button>
-            </footer>
-          </form>
-        </div>
+            <label className="setup__field">
+              <span>Tiempo por pregunta (seg)</span>
+              <input
+                type="number"
+                min={20}
+                max={300}
+                step={5}
+                value={tiempoPorPregunta}
+                onChange={(event) => setTiempoPorPregunta(event.target.value)}
+              />
+            </label>
+          </div>
+
+          <label className="setup__toggle">
+            <span>Mezclar preguntas de distintas dificultades</span>
+            <input
+              type="checkbox"
+              checked={mezclarDificultades}
+              onChange={(event) => setMezclarDificultades(event.target.checked)}
+            />
+          </label>
+
+          <footer className="setup__footer">
+            <div className="setup__footer-copy">
+              <span>
+                Duración máxima estimada: <strong>{tiempoTotalEstimado.etiqueta}</strong>
+              </span>
+              <span>
+                Preguntas configuradas: <strong>{numeroPreguntas}</strong>
+              </span>
+            </div>
+            <button type="submit" className="setup__submit" disabled={deshabilitarInicio}>
+              Lanzar simulacro
+            </button>
+          </footer>
+        </form>
 
         <aside className="setup__insights">
           <h3>Consejos rápidos</h3>

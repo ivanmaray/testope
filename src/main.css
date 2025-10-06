@@ -278,7 +278,7 @@ main.app {
     grid-template-columns: 1fr;
   }
 
-  .setup__layout {
+  .setup__main {
     grid-template-columns: 1fr;
   }
 
@@ -325,11 +325,11 @@ main.app {
     justify-content: flex-start;
   }
 
-  .setup__preset-grid {
-    grid-template-columns: 1fr;
+  .setup__quick-scroll {
+    gap: 0.75rem;
   }
 
-  .setup__preset {
+  .setup__quick-button {
     padding: 0.85rem 1rem;
   }
 
@@ -338,7 +338,7 @@ main.app {
     gap: 0.6rem;
   }
 
-  .setup__grid {
+  .setup__fields {
     grid-template-columns: 1fr;
   }
 
@@ -386,17 +386,18 @@ main.app {
     justify-content: center;
   }
 
-  .setup__layout {
-    gap: 1.25rem;
+  .setup__main {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .setup__form {
-    padding: 1.45rem;
+    padding: 1.3rem 1.2rem;
   }
 
   .setup__insights {
-    padding: 1.35rem 1.2rem;
-    gap: 1rem;
+    padding: 1.1rem;
+    gap: 0.8rem;
   }
 
   .setup__chips li {
@@ -411,20 +412,20 @@ main.app {
     gap: 1rem;
   }
 
-  .setup__preset {
+  .setup__quick-button {
     flex-direction: column;
     align-items: flex-start;
     padding: 0.85rem 1rem;
   }
 
-  .setup__preset-icon {
+  .setup__quick-icon {
     width: 2.2rem;
     height: 2.2rem;
   }
 
   .setup__insights-list li {
     grid-template-columns: 1fr;
-    gap: 0.55rem;
+    gap: 0.45rem;
   }
 
   .storage-note {
@@ -529,43 +530,27 @@ button:active {
 }
 
 
+
 .setup {
   display: grid;
-  gap: 1.75rem;
+  gap: 1.5rem;
 }
 
-.setup__layout {
+.setup__intro {
   display: grid;
-  gap: 1.75rem;
-  grid-template-columns: minmax(0, 1.85fr) minmax(0, 1fr);
-  align-items: start;
-  min-width: 0;
+  gap: 0.5rem;
 }
 
-.setup__panel {
-  display: grid;
-  gap: 1.75rem;
-  min-width: 0;
-}
-
-.setup__header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1.25rem;
-}
-
-.setup__header h2 {
-  margin: 0 0 0.4rem;
-  font-size: clamp(1.6rem, 3vw, 1.85rem);
+.setup__intro h2 {
+  margin: 0;
+  font-size: clamp(1.7rem, 3vw, 1.95rem);
   color: #0f172a;
 }
 
-.setup__header p {
+.setup__intro p {
   margin: 0;
   color: #475569;
-  max-width: 48ch;
+  line-height: 1.5;
 }
 
 .setup__chips {
@@ -574,41 +559,38 @@ button:active {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.65rem;
+  gap: 0.6rem;
 }
 
 .setup__chips li {
   display: flex;
   align-items: center;
   gap: 0.45rem;
-  padding: 0.4rem 0.85rem;
+  padding: 0.45rem 0.85rem;
   border-radius: 999px;
   border: 1px solid #dbeafe;
   background: rgba(59, 130, 246, 0.08);
+  font-size: 0.85rem;
+  color: #0f172a;
 }
 
 .setup__chips li span {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.09em;
   color: #64748b;
 }
 
 .setup__chips li strong {
   font-size: 0.95rem;
-  color: #0f172a;
 }
 
-.setup__presets {
+.setup__quick {
   display: grid;
-  gap: 0.85rem;
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(14, 165, 233, 0.07));
-  border: 1px solid rgba(59, 130, 246, 0.18);
-  padding: 1.25rem 1.5rem;
-  border-radius: 20px;
+  gap: 0.65rem;
 }
 
-.setup__presets > span {
+.setup__quick > span {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -616,54 +598,99 @@ button:active {
   font-weight: 600;
 }
 
-.setup__preset-grid {
-  display: grid;
+.setup__quick-scroll {
+  display: flex;
   gap: 0.85rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+  scroll-snap-type: x mandatory;
 }
 
-.setup__preset {
+.setup__quick-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.setup__quick-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.setup__quick-scroll::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 999px;
+}
+
+.setup__quick-button {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
-  padding: 0.9rem 1.1rem;
+  gap: 0.8rem;
+  padding: 0.75rem 1rem;
   border-radius: 16px;
   border: 1px solid #dbeafe;
   background: #f8fafc;
   color: #0f172a;
   text-align: left;
+  min-width: 220px;
+  scroll-snap-align: center;
   transition: border 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
-  min-width: 0;
 }
 
-.setup__preset:hover,
-.setup__preset:focus-visible {
+.setup__quick-button:hover,
+.setup__quick-button:focus-visible {
   border-color: #2563eb;
   box-shadow: 0 14px 28px -24px rgba(37, 99, 235, 0.75);
   transform: translateY(-2px);
 }
 
-.setup__preset-icon {
+.setup__quick-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.2rem;
+  height: 2.2rem;
   border-radius: 14px;
   background: linear-gradient(135deg, rgba(37, 99, 235, 0.18), rgba(14, 165, 233, 0.1));
   font-size: 1.2rem;
 }
 
-.setup__preset strong {
+.setup__quick-button strong {
   display: block;
-  font-size: 1rem;
-  margin-bottom: 0.2rem;
+  font-size: 0.98rem;
+  margin-bottom: 0.15rem;
 }
 
-.setup__preset small {
+.setup__quick-button small {
   display: block;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: #64748b;
+}
+
+.setup__main {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  align-items: start;
+}
+
+.setup__form {
+  display: grid;
+  gap: 1.6rem;
+  background: rgba(248, 250, 252, 0.85);
+  border: 1px solid #e2e8f0;
+  padding: 1.85rem;
+  border-radius: 22px;
+}
+
+.setup__group {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1.2rem;
+}
+
+.setup__group legend {
+  font-weight: 600;
+  color: #0f172a;
 }
 
 .setup__insights {
@@ -730,7 +757,7 @@ button:active {
   border-radius: 22px;
 }
 
-.setup__fieldset {
+.setup__group {
   border: none;
   padding: 0;
   margin: 0;
@@ -738,7 +765,7 @@ button:active {
   gap: 1.25rem;
 }
 
-.setup__fieldset legend {
+.setup__group legend {
   font-weight: 600;
   color: #0f172a;
 }
@@ -1012,7 +1039,7 @@ main.app.app--auth {
   background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(14, 165, 233, 0.08));
 }
 
-.setup__grid {
+.setup__fields {
   display: grid;
   gap: 1.25rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -1309,7 +1336,7 @@ main.app.app--auth {
 }
 
 .app--focus .setup__toggle,
-.app--focus .setup__preset,
+.app--focus .setup__quick-button,
 .app--focus .question-stats__lists li {
   transform: none;
   box-shadow: none;
@@ -1891,7 +1918,7 @@ main.app.app--auth {
     grid-template-columns: 1fr;
   }
 
-  .setup__grid {
+  .setup__fields {
     grid-template-columns: 1fr;
   }
 
