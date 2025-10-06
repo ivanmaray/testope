@@ -18,7 +18,7 @@ const calcularAciertos = (preguntas, respuestas) =>
   preguntas.reduce((total, pregunta, index) => total + (respuestas[index] === pregunta.respuestaCorrecta ? 1 : 0), 0);
 
 const App = () => {
-  const FECHA_ACTUALIZACION = '27 de enero de 2025';
+  const FECHA_ACTUALIZACION = '6 de octubre de 2025';
   const [paso, setPaso] = useState('config');
   const [configuracion, setConfiguracion] = useState(null);
   const [preguntas, setPreguntas] = useState([]);
