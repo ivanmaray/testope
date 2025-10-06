@@ -418,6 +418,23 @@ const App = () => {
             </div>
 
             <div>
+              <h3>Subcategorías</h3>
+              <ul>
+                {estadisticasPreguntas.porSubcategoria.slice(0, 20).map((item) => (
+                  <li key={item.etiqueta}>
+                    <div className="question-stats__row">
+                      <span>{item.etiqueta}</span>
+                      <strong>{item.total}</strong>
+                    </div>
+                    <div className="question-stats__bar">
+                      <div style={{ width: `${Math.max(item.porcentaje, 2).toFixed(1)}%` }} />
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
               <h3>Dificultades</h3>
               <ul>
                 {estadisticasPreguntas.porDificultad.map((item) => (
