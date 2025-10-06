@@ -15,8 +15,121 @@ const SetupForm = ({ categorias, dificultades, subcategoriasPorCategoria, usuari
   }, [categoria, subcategoriasPorCategoria]);
 
   useEffect(() => {
-    setSubcategoria('todas');
-  }, [categoria, modo]);
+    const lista = subcategoriasPorCategoria.get(categoria) ?? [];
+    setSubcategoria((prev) => {
+      if (modo === 'aleatorio' || lista.length === 0) {
+        return 'todas';
+      }
+      if (prev !== 'todas' && lista.includes(prev)) {
+        return prev;
+      }
+      return 'todas';
+    });
+  }, [categoria, modo, subcategoriasPorCategoria]);
+
+  const resumenSeleccion = useMemo(() => {
+    const chips = [
+      { etiqueta: 'Modo', valor: modo === 'personalizado' ? 'Dirigido' : 'Aleatorio' },
+      { etiqueta: 'Categoría', valor: modo === 'aleatorio' ? 'Todas' : categoria || '—' },
+      {
+        etiqueta: 'Subcategoría',
+        valor: modo === 'personalizado' && subcategoria !== 'todas' ? subcategoria : null,
+      },
+      {
+        etiqueta: 'Dificultad',
+        valor: mezclarDificultades ? 'Mezcladas' : dificultad,
+      },
+      { etiqueta: 'Preguntas', valor: `${numeroPreguntas}` },
+      { etiqueta: 'Tiempo', valor: `${tiempoPorPregunta} seg` },
+    ];
+
+    return chips.filter((chip) => chip.valor);
+  }, [modo, categoria, subcategoria, dificultad, mezclarDificultades, numeroPreguntas, tiempoPorPregunta]);
+
+  const quickPresets = useMemo(
+    () => [
+      {
+        id: 'flash-10',
+        icono: '⚡️',
+        titulo: 'Flash 10 preguntas',
+        descripcion: 'Aleatorio · 45 seg',
+        ajustes: {
+          modo: 'aleatorio',
+          mezclarDificultades: true,
+          numeroPreguntas: 10,
+          tiempoPorPregunta: 45,
+        },
+      },
+      {
+        id: 'dirigido-20',
+        icono: '🧬',
+        titulo: 'Terapias avanzadas',
+        descripcion: '15 preguntas · 60 seg',
+        ajustes: {
+          modo: 'personalizado',
+          categoria: categorias.find((item) => item.includes('Hematología')) ?? categorias[0] ?? '',
+          subcategoria: 'Terapias avanzadas',
+          dificultad: 'Intermedio',
+          numeroPreguntas: 15,
+          tiempoPorPregunta: 60,
+          mezclarDificultades: false,
+        },
+      },
+      {
+        id: 'repaso-30',
+        icono: '🎯',
+        titulo: 'Repaso intensivo',
+        descripcion: '30 preguntas · 50 seg',
+        ajustes: {
+          modo: 'personalizado',
+          categoria: categorias.find((item) => item.includes('Farmacología')) ?? categorias[0] ?? '',
+          dificultad: 'Avanzado',
+          numeroPreguntas: 30,
+          tiempoPorPregunta: 50,
+          mezclarDificultades: false,
+        },
+      },
+    ],
+    [categorias, dificultades],
+  );
+
+  const tiempoTotalEstimado = useMemo(() => {
+    const totalSegundos = Number(numeroPreguntas) * Number(tiempoPorPregunta);
+    const minutos = Math.floor(totalSegundos / 60);
+    const segundos = totalSegundos % 60;
+    const etiqueta = `${minutos}m ${segundos.toString().padStart(2, '0')}s`;
+    return { totalSegundos, etiqueta };
+  }, [numeroPreguntas, tiempoPorPregunta]);
+
+  const aplicarPreset = (preset) => {
+    const ajustes = preset.ajustes;
+    const modoDestino = ajustes.modo ?? 'personalizado';
+    setModo(modoDestino);
+
+    const categoriaDestino = ajustes.categoria && categorias.includes(ajustes.categoria)
+      ? ajustes.categoria
+      : categoria;
+    if (categoriaDestino) {
+      setCategoria(categoriaDestino);
+    }
+
+    const listaSubcategorias = subcategoriasPorCategoria.get(categoriaDestino) ?? [];
+    if (modoDestino === 'aleatorio') {
+      setSubcategoria('todas');
+    } else if (ajustes.subcategoria && listaSubcategorias.includes(ajustes.subcategoria)) {
+      setSubcategoria(ajustes.subcategoria);
+    } else {
+      setSubcategoria('todas');
+    }
+
+    if (ajustes.dificultad && dificultades.includes(ajustes.dificultad)) {
+      setDificultad(ajustes.dificultad);
+    }
+
+    setNumeroPreguntas(ajustes.numeroPreguntas ?? numeroPreguntas);
+    setTiempoPorPregunta(ajustes.tiempoPorPregunta ?? tiempoPorPregunta);
+    setMezclarDificultades(Boolean(ajustes.mezclarDificultades));
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -34,12 +147,45 @@ const SetupForm = ({ categorias, dificultades, subcategoriasPorCategoria, usuari
   return (
     <section className="setup">
       <header className="setup__header">
-        <h2>Configura tu test</h2>
-        <p>
-          Practica como <strong>{usuario}</strong>. Personaliza el simulacro según el temario que quieras reforzar o deja que
-          sorprendamos a Chuli.
-        </p>
+        <div>
+          <h2>Configura tu simulacro</h2>
+          <p>
+            Bienvenido, <strong>{usuario}</strong>. Ajusta el cuestionario a tu plan de estudio o aplica una plantilla rápida para
+            empezar al instante.
+          </p>
+        </div>
+        <ul className="setup__chips">
+          {resumenSeleccion.map((chip) => (
+            <li key={chip.etiqueta}>
+              <span>{chip.etiqueta}</span>
+              <strong>{chip.valor}</strong>
+            </li>
+          ))}
+        </ul>
       </header>
+
+      <div className="setup__presets">
+        <span>Plantillas rápidas</span>
+        <div className="setup__preset-grid">
+          {quickPresets.map((preset) => (
+            <button
+              key={preset.id}
+              type="button"
+              className="setup__preset"
+              onClick={() => aplicarPreset(preset)}
+              title={`Aplicar plantilla ${preset.titulo}`}
+            >
+              <span className="setup__preset-icon" aria-hidden>
+                {preset.icono}
+              </span>
+              <div>
+                <strong>{preset.titulo}</strong>
+                <small>{preset.descripcion}</small>
+              </div>
+            </button>
+          ))}
+        </div>
+      </div>
 
       <form className="setup__form" onSubmit={handleSubmit}>
         <fieldset className="setup__fieldset">
@@ -59,7 +205,7 @@ const SetupForm = ({ categorias, dificultades, subcategoriasPorCategoria, usuari
               </div>
               <div className="setup__card-body">
                 <strong>Dirigido</strong>
-                <span>Elige categoría, subcategoría y dificultad específica.</span>
+                <span>Control total sobre categoría, subcategoría y dificultad.</span>
               </div>
             </label>
 
@@ -76,7 +222,7 @@ const SetupForm = ({ categorias, dificultades, subcategoriasPorCategoria, usuari
               </div>
               <div className="setup__card-body">
                 <strong>Aleatorio</strong>
-                <span>Te mezclamos categorías y (si quieres) niveles de dificultad.</span>
+                <span>Te mezclamos categorías y niveles automáticamente.</span>
               </div>
             </label>
           </div>
@@ -153,17 +299,25 @@ const SetupForm = ({ categorias, dificultades, subcategoriasPorCategoria, usuari
         </div>
 
         <label className="setup__toggle">
+          <span>Mezclar preguntas de distintas dificultades</span>
           <input
             type="checkbox"
             checked={mezclarDificultades}
             onChange={(event) => setMezclarDificultades(event.target.checked)}
           />
-          Mezclar preguntas de distintas dificultades
         </label>
 
         <footer className="setup__footer">
+          <div className="setup__footer-copy">
+            <span>
+              Duración máxima estimada: <strong>{tiempoTotalEstimado.etiqueta}</strong>
+            </span>
+            <span>
+              Preguntas configuradas: <strong>{numeroPreguntas}</strong>
+            </span>
+          </div>
           <button type="submit" className="setup__submit" disabled={deshabilitarInicio}>
-            Comenzar test
+            Lanzar simulacro
           </button>
         </footer>
       </form>

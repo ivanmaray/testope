@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import SetupForm from './components/SetupForm.jsx';
 import TestRunner from './components/TestRunner.jsx';
 import Summary from './components/Summary.jsx';
@@ -51,6 +51,8 @@ const App = () => {
   const [tiempoRestante, setTiempoRestante] = useState(null);
   const [tiempoTotal, setTiempoTotal] = useState(null);
   const [categoriasDesplegadas, setCategoriasDesplegadas] = useState(() => new Set());
+  const setupSectionRef = useRef(null);
+  const statsSectionRef = useRef(null);
 
   const subcategoriasPorCategoria = useMemo(() => {
     const mapa = new Map();
@@ -147,6 +149,23 @@ const App = () => {
     };
   }, []);
 
+  const heroHighlights = useMemo(() => {
+    return [
+      {
+        label: 'Preguntas únicas',
+        value: estadisticasPreguntas.total.toLocaleString('es-ES'),
+      },
+      {
+        label: 'Categorías clínicas',
+        value: estadisticasPreguntas.porCategoria.length.toLocaleString('es-ES'),
+      },
+      {
+        label: 'Subcategorías disponibles',
+        value: estadisticasPreguntas.porSubcategoria.length.toLocaleString('es-ES'),
+      },
+    ];
+  }, [estadisticasPreguntas]);
+
   useEffect(() => {
     setHistorial(cargarHistorial(storageKey));
   }, [storageKey]);
@@ -161,6 +180,18 @@ const App = () => {
       }
       return siguiente;
     });
+  }, []);
+
+  const scrollToSetup = useCallback(() => {
+    if (setupSectionRef.current) {
+      setupSectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, []);
+
+  const scrollToStats = useCallback(() => {
+    if (statsSectionRef.current) {
+      statsSectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }, []);
 
   const estadisticasHistorial = useMemo(() => {
@@ -379,17 +410,59 @@ const App = () => {
   return (
     <main className="app">
       <header className="hero">
-        <p className="hero__dedication">Para Chuli, para que saque un 10 en el BPS (preparación) que se lo merece.</p>
-        <h1 className="hero__title">Preparación BPS Oncología</h1>
-        <p className="hero__subtitle">
-          Entrena con preguntas tipo test, controla tu tiempo y lleva registro de tus resultados para conquistar el examen.
-        </p>
-        <div className="hero__session">
-          <span>Sesión: {displayName}</span>
-          <button type="button" className="hero__signout" onClick={signOut}>
-            Cerrar sesión
-          </button>
+        <div className="hero__content">
+          <span className="hero__badge">Actualizado {FECHA_ACTUALIZACION}</span>
+          <h1 className="hero__title">Diseña tu estrategia para el BPS de Oncología</h1>
+          <p className="hero__description">
+            Construye simulacros hiperpersonalizados, analiza tus resultados y refuerza las áreas críticas de farmacia oncológica en cuestión de minutos.
+          </p>
+          <ul className="hero__features">
+            <li>
+              <span className="hero__feature-icon" aria-hidden>
+                ⚡️
+              </span>
+              Simulacros por categoría, subcategoría, dificultad y tiempo por pregunta.
+            </li>
+            <li>
+              <span className="hero__feature-icon" aria-hidden>
+                🧬
+              </span>
+              Banco enriquecido con terapias avanzadas, farmacogenética y casos clínicos reales.
+            </li>
+            <li>
+              <span className="hero__feature-icon" aria-hidden>
+                📊
+              </span>
+              Estadísticas instantáneas, exportación de resultados y seguimiento histórico.
+            </li>
+          </ul>
+          <div className="hero__actions">
+            <button type="button" className="hero__cta" onClick={scrollToSetup}>
+              Comenzar simulacro
+            </button>
+            <button type="button" className="hero__ghost" onClick={scrollToStats}>
+              Explorar banco de preguntas
+            </button>
+          </div>
         </div>
+        <aside className="hero__metrics">
+          <div className="hero__session">
+            <span className="hero__user-label">Usuario actual:</span>
+            <span className="hero__user-name">{displayName}</span>
+            <button type="button" className="hero__signout" onClick={signOut}>
+              Cerrar sesión
+            </button>
+          </div>
+          <div className="hero__metric-grid">
+            {heroHighlights.map((item) => (
+              <div key={item.label} className="hero__metric">
+                <strong>{item.value}</strong>
+                <span>{item.label}</span>
+              </div>
+            ))}
+          </div>
+          <p className="hero__note">Optimiza tu estudio con datos actualizados, revisiones guiadas y descarga de resultados en CSV.</p>
+        </aside>
       </header>
 
       <div className="app__content">
@@ -405,14 +478,16 @@ const App = () => {
 
         {paso === 'config' && (
           <>
-            <SetupForm
-              categorias={categoriasDisponibles}
-              dificultades={dificultadesConDatos}
-              subcategoriasPorCategoria={subcategoriasPorCategoria}
-              usuario={displayName}
-              onStart={iniciarTest}
-              deshabilitarInicio={false}
-            />
+            <div ref={setupSectionRef}>
+              <SetupForm
+                categorias={categoriasDisponibles}
+                dificultades={dificultadesConDatos}
+                subcategoriasPorCategoria={subcategoriasPorCategoria}
+                usuario={displayName}
+                onStart={iniciarTest}
+                deshabilitarInicio={false}
+              />
+            </div>
 
             {mensaje && (
               <section className="setup__alert">
@@ -450,7 +525,7 @@ const App = () => {
         {paso === 'summary' && resultado && <Summary resultado={resultado} onRestart={reiniciar} />}
 
         {paso === 'config' && (
-          <section className="question-stats">
+          <section ref={statsSectionRef} className="question-stats">
             <div className="question-stats__summary">
               <div>
                 <span className="question-stats__label">Total de preguntas</span>
