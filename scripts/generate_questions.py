@@ -3642,6 +3642,2428 @@ add_question(
     "Talquetamab produce disgeusia intensa y riesgo de síndrome neurotóxico (ICANS); la ficha técnica aconseja monitorización neurológica.",
 )
 
+# Oncology Diagnosis and Testing -----------------------------------------------------------------
+
+# 1A Oncology Diagnosis (14 preguntas)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Etiología y fisiopatología",
+    "Avanzado",
+    "¿Cuál de los siguientes factores provoca inestabilidad microsatelital de forma hereditaria y aumenta el riesgo de cáncer colorrectal?",
+    [
+        "Mutaciones germinales en MLH1 o MSH2",
+        "Amplificación de HER2",
+        "Pérdida heterocigota de RB1",
+        "Translocación t(8;14)",
+    ],
+    0,
+    "El síndrome de Lynch se debe a mutaciones germinales en genes reparadores de errores de apareamiento como MLH1/MSH2, originando inestabilidad microsatelital y un alto riesgo de tumores colorrectales y otros.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Etiología y fisiopatología",
+    "Intermedio",
+    "En el carcinoma hepatocelular asociado a hepatitis B, ¿qué mecanismo contribuye directamente a la carcinogénesis?",
+    [
+        "Integración del ADN viral en el genoma hepatocitario",
+        "Hiperfosforilación de RB",
+        "Inhibición de PARP",
+        "Activación de ALK",
+    ],
+    0,
+    "La infección crónica por VHB integra material genético viral en el genoma humano con expresión de proteínas oncogénicas (HBx) que promueven proliferación y resistencia a la apoptosis.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Etiología y fisiopatología",
+    "Intermedio",
+    "¿Qué vía metabólica alterada explica la dependencia de glutamina en muchos tumores sólidos?",
+    [
+        "Activación de MYC que induce glutaminólisis",
+        "Pérdida de PTEN que inhibe mTOR",
+        "Sobreactivación de SMAD",
+        "Pérdida de APC",
+    ],
+    0,
+    "La sobreexpresión de MYC potencia la glutaminólisis para sostener la síntesis de nucleótidos y energía en células tumorales altamente proliferativas.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Etiología y fisiopatología",
+    "Avanzado",
+    "El fenómeno de evasión inmune tumoral vinculado a la expresión de PD-L1 en la superficie celular se debe principalmente a",
+    [
+        "Inhibición de la señal de coestimulación T a través de PD-1",
+        "Activación de la vía JAK/STAT en linfocitos",
+        "Secreción de IL-2 por la célula tumoral",
+        "Downregulation de CTLA-4",
+    ],
+    0,
+    "Cuando PD-L1 tumoral se une a PD-1 se transmite una señal inhibitoria a los linfocitos T que reduce su proliferación y producción de citocinas, facilitando la evasión inmune.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Tipos de cáncer",
+    "Intermedio",
+    "¿Cuál es la histología más frecuente en cáncer de pulmón asociado a mutaciones activadoras de EGFR en no fumadores?",
+    [
+        "Adenocarcinoma",
+        "Carcinoma escamoso",
+        "Carcinoma neuroendocrino de células grandes",
+        "Carcinoma adenoescamoso",
+    ],
+    0,
+    "Las mutaciones en EGFR aparecen mayoritariamente en adenocarcinomas pulmonares, especialmente en pacientes nunca fumadores o con escasa exposición al tabaco.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Tipos de cáncer",
+    "Avanzado",
+    "En el linfoma de Hodgkin clásico, la presencia de células Reed-Sternberg se caracteriza inmunofenotípicamente por",
+    [
+        "CD30 y CD15 positivos con ausencia de CD45",
+        "CD20 y CD3 coexpresados",
+        "CD5 y cyclin D1 positivos",
+        "CD10 y BCL6 negativos",
+    ],
+    0,
+    "Las células Reed-Sternberg típicas expresan CD30 y CD15, carecen de antígenos panleucocitarios como CD45 y muestran expresión variable de PAX5.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Tipos de cáncer",
+    "Intermedio",
+    "¿Qué subtipo molecular de cáncer de mama tiene mayor relación con mutaciones germinales BRCA1?",
+    [
+        "Triple negativo basal-like",
+        "Luminal A",
+        "Luminal B HER2 negativo",
+        "HER2 enriquecido",
+    ],
+    0,
+    "Las pacientes portadoras de mutaciones BRCA1 suelen desarrollar tumores triple negativos con perfil basal-like y alta proliferación.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Tipos de cáncer",
+    "Avanzado",
+    "¿Cuál es la neoplasia maligna más relacionada con la exposición ocupacional a asbestos?",
+    [
+        "Mesotelioma pleural",
+        "Carcinoma escamoso laríngeo",
+        "Carcinoma epidermoide cutáneo",
+        "Cáncer de tiroides medular",
+    ],
+    0,
+    "La inhalación prolongada de fibras de asbesto se vincula estrechamente con mesotelioma pleural maligno, además de aumentar el riesgo de cáncer de pulmón.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Biología molecular tumoral",
+    "Avanzado",
+    "¿Qué alteración define la dependencia oncogénica del GIST sensible a imatinib?",
+    [
+        "Mutaciones activadoras en KIT exón 11",
+        "Fusión BCR-ABL",
+        "Amplificación de MET",
+        "Mutaciones en IDH1",
+    ],
+    0,
+    "Los GIST clásicos muestran mutaciones activadoras en KIT, especialmente en el exón 11, que son sensibles a inhibidores de tirosina cinasa como imatinib.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Biología molecular tumoral",
+    "Intermedio",
+    "Una mutación BRAFV600E confiere sensibilidad a qué clase de terapias dirigidas en melanoma metastásico?",
+    [
+        "Inhibidores de BRAF y MEK",
+        "Inhibidores de ALK",
+        "Inhibidores de CDK4/6",
+        "Anticuerpos anti-HER2",
+    ],
+    0,
+    "La sustitución V600E activa la vía MAPK y se trata con combinaciones dabrafenib/trametinib u otros inhibidores BRAF/MEK.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Biología molecular tumoral",
+    "Avanzado",
+    "El fenotipo MSI-H (inestabilidad microsatelital alta) se asocia con",
+    [
+        "Mayor respuesta a inmunoterapia anti-PD-1",
+        "Resistencia a fluoropirimidinas",
+        "Menor carga mutacional tumoral",
+        "Sobreexpresión de EGFR",
+    ],
+    0,
+    "Los tumores MSI-H tienen alta carga mutacional y expresan neoantígenos que incrementan la eficacia de inhibidores de checkpoint como pembrolizumab.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Resistencia tumoral",
+    "Avanzado",
+    "La mutación T790M en EGFR representa",
+    [
+        "Un mecanismo de resistencia adquirida a inhibidores de EGFR de primera generación",
+        "Una mutación germinal predisponente autosómica dominante",
+        "Una deleción que confiere sensibilidad a gefitinib",
+        "La pérdida de expresión de PD-L1",
+    ],
+    0,
+    "El cambio T790M aumenta la afinidad de EGFR por ATP y confiere resistencia a gefitinib/erlotinib, siendo tratable con osimertinib.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Resistencia tumoral",
+    "Intermedio",
+    "La expresión de bombas de eflujo como P-glicoproteína (MDR1) causa",
+    [
+        "Resistencia a taxanos y antraciclinas",
+        "Hipermutación",
+        "Aumento del microambiente ácido",
+        "Activación de mTOR",
+    ],
+    0,
+    "La sobreexpresión de MDR1 favorece la expulsión de fármacos lipofílicos como taxanos, antraciclinas o vinca, reduciendo su eficacia.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Resistencia tumoral",
+    "Avanzado",
+    "¿Qué mecanismo permite a las células tumorales escapar de la terapia antiangiogénica con bevacizumab?",
+    [
+        "Activación de vías proangiogénicas alternativas como FGF",
+        "Expresión de HER2",
+        "Sobreproducción de IL-2",
+        "Desactivación de MET",
+    ],
+    0,
+    "La inhibición de VEGF puede inducir la señalización compensatoria de otros factores proangiogénicos (FGF, PDGF), manteniendo la neovascularización tumoral.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Resistencia tumoral",
+    "Intermedio",
+    "La paradoja de Warburg describe",
+    [
+        "Preferencia tumoral por glucólisis aeróbica incluso con oxígeno disponible",
+        "Dependencia exclusiva de fosforilación oxidativa",
+        "Producción de ácido láctico solo en hipoxia",
+        "Uso de glutamina como único combustible",
+    ],
+    0,
+    "La mayoría de tumores utilizan glucólisis aeróbica (efecto Warburg) generando lactato aun con oxígeno, favoreciendo ambiente ácido e intermediarios biosintéticos.",
+)
+
+# 1B Oncology Testing (14 preguntas)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Genómica",
+    "Avanzado",
+    "¿Qué tipo de alteración detecta con mayor sensibilidad un ensayo de NGS dirigido (panel) frente a la secuenciación Sanger?",
+    [
+        "Mutaciones puntuales concurrentes en múltiples genes",
+        "Translocaciones equilibradas",
+        "Aneuploidías cromosómicas",
+        "Amplificaciones de genes críticos",
+    ],
+    0,
+    "Los paneles de NGS permiten detectar simultáneamente variantes puntuales y pequeñas inserciones/deleciones en numerosos genes con alta cobertura, superando la capacidad unigen de Sanger.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Genómica",
+    "Intermedio",
+    "¿Cuál de las siguientes alteraciones es un ejemplo de amplificación génica accionable en cáncer de mama?",
+    [
+        "HER2 (ERBB2)",
+        "BRAF V600E",
+        "IDH2 R140Q",
+        "NPM1",
+    ],
+    0,
+    "La amplificación de HER2 conduce a sobreexpresión proteica detectable por IHQ/FISH y se trata con terapias anti-HER2.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Genómica",
+    "Avanzado",
+    "Una deleción en exon 19 de EGFR en pulmón se clasifica como",
+    [
+        "Mutación activadora sensible a inhibidores de EGFR",
+        "Mutación de resistencia primaria",
+        "Polimorfismo germinal sin significado",
+        "Reordenamiento cromosómico",
+    ],
+    0,
+    "Las deleciones en el exón 19 son mutaciones activadoras clásicas que confieren sensibilidad a gefitinib, erlotinib y osimertinib.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Prognóstico y pruebas predictivas",
+    "Intermedio",
+    "El índice FLIPI en linfoma folicular incluye",
+    [
+        "Edad, LDH, estadio Ann Arbor, recuento de ganglios y hemoglobina",
+        "Edad, ECOG, ferritina, beta-2 microglobulina",
+        "Edad, LDH, mutación MYD88, recuento plaquetario",
+        "Edad, PSA, Gleason, densidad prostática",
+    ],
+    0,
+    "FLIPI considera edad >60, estadio III/IV, LDH elevado, hemoglobina <12 g/dL y >4 áreas ganglionares afectas para estratificar riesgo.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Prognóstico y pruebas predictivas",
+    "Avanzado",
+    "Oncotype DX proporciona preferentemente",
+    [
+        "Riesgo de recurrencia y beneficio esperado de quimioterapia en cáncer de mama HR+",
+        "Probabilidad de respuesta a trastuzumab",
+        "Clasificación molecular triple negativo",
+        "Riesgo de metástasis óseas",
+    ],
+    0,
+    "Oncotype DX estima la probabilidad de recurrencia a 10 años y el beneficio quimioterápico en tumores HR+/HER2- estadio temprano.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Prognóstico y pruebas predictivas",
+    "Intermedio",
+    "¿Qué factor del IPI modificado para linfoma difuso de células B grandes se asocia con peor pronóstico?",
+    [
+        "Edad >60 años",
+        "Ser mujer",
+        "PCR elevada",
+        "Anemia",
+    ],
+    0,
+    "El IPI incluye edad >60, LDH elevada, ECOG ≥2, estadio III/IV y compromiso extranodal >1 sitio como factores adversos.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "NGS",
+    "Avanzado",
+    "En un panel de NGS multitumoral, ¿qué parámetro garantiza la sensibilidad para detectar variantes de baja frecuencia al analizar biopsia líquida?",
+    [
+        "Alta profundidad de lectura (coverage)",
+        "Uso de cebadores universales",
+        "Lectura de extremo único",
+        "Enriquecimiento por hibridación sin PCR",
+    ],
+    0,
+    "La ctDNA suele estar en bajas fracciones alélicas. Coberturas muy altas y umbrales bioinformáticos específicos permiten detectarlas.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "NGS",
+    "Intermedio",
+    "¿Qué limitación tiene la biopsia líquida respecto a la biopsia tisular en cáncer de pulmón?",
+    [
+        "Menor sensibilidad en enfermedad localizada",
+        "Imposibilidad de detectar mutaciones activadoras",
+        "No identifica reordenamientos",
+        "Mayor número de falsos positivos",
+    ],
+    0,
+    "En estadios tempranos la carga de DNA tumoral circulante es baja, reduciendo la sensibilidad de la biopsia líquida respecto al tejido.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Biomarcadores",
+    "Intermedio",
+    "¿Qué biomarcador se expresa como CPS (Combined Positive Score)?",
+    [
+        "PD-L1 en cáncer gástrico",
+        "TMB en melanoma",
+        "HER2 en mama",
+        "ALK en pulmón",
+    ],
+    0,
+    "El CPS para PD-L1 suma células tumorales y del microambiente positivas sobre el número total de células viables en determinadas indicaciones gástricas y de cabeza-cuello.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Biomarcadores",
+    "Avanzado",
+    "La puntuación TPS (tumor proportion score) en pulmón mide",
+    [
+        "Porcentaje de células tumorales viables con PD-L1",
+        "Número de mutaciones por megabase",
+        "Porcentaje de linfocitos CD8",
+        "Índice proliferativo Ki-67",
+    ],
+    0,
+    "El TPS evalúa la proporción de células tumorales que expresan PD-L1 respecto al total de tumores viables en el tejido.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Biomarcadores",
+    "Intermedio",
+    "¿Qué prueba se solicita para determinar elegibilidad a terapias anti-HER2 en cáncer gástrico?",
+    [
+        "Inmunohistoquímica con confirmación por FISH si 2+",
+        "PCR cuantitativa",
+        "Secuenciación Sanger",
+        "ELISA sérico",
+    ],
+    0,
+    "La sobreexpresión de HER2 se evalúa por IHQ (0-3+). Los casos 2+ requieren confirmación con hibridación in situ (FISH/DISH).",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Biomarcadores",
+    "Avanzado",
+    "¿Cuál de los siguientes marcadores predice beneficio de PARP inhibidores en cáncer de ovario?",
+    [
+        "Deficiencia de recombinación homóloga",
+        "Amplificación de CCND1",
+        "Expresión elevada de TOP2A",
+        "Mutación KRAS",
+    ],
+    0,
+    "Los tumores con deficiencia de recombinación homóloga (BRCA1/2 o score HRD alto) son sensibles a PARP inhibidores como olaparib.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Biomarcadores",
+    "Intermedio",
+    "Un TMB ≥10 mut/Mb se ha utilizado para",
+    [
+        "Aprobar pembrolizumab en tumor de sitio desconocido (indicación tissue-agnostic)",
+        "Seleccionar pacientes para bevacizumab",
+        "Indicar crizotinib",
+        "Sugerir terapia anti-EGFR",
+    ],
+    0,
+    "La FDA aprobó pembrolizumab para tumores sólidos con TMB alto (≥10 mut/Mb) refractarios a líneas previas, independentemente del origen.",
+)
+
+# 1C Detección y prevención (8 preguntas)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Detección",
+    "Intermedio",
+    "¿Con qué frecuencia se recomienda la mamografía en mujeres de riesgo promedio (50-74 años) según la USPSTF?",
+    [
+        "Cada 2 años",
+        "Anual",
+        "Cada 5 años",
+        "Solo a los 50 y 60",
+    ],
+    0,
+    "La USPSTF sugiere cribado bianual (cada dos años) en mujeres de 50 a 74 años con riesgo medio.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Detección",
+    "Intermedio",
+    "¿Qué técnica de cribado reduce mortalidad por cáncer de pulmón en fumadores de alto riesgo?",
+    [
+        "TAC de baja dosis anual",
+        "Radiografía de tórax bianual",
+        "Citología de esputo",
+        "PET-TC anual",
+    ],
+    0,
+    "Los ensayos NLST y NELSON demostraron reducción de mortalidad con TAC de baja dosis anual en fumadores/ exfumadores de alto riesgo.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Detección",
+    "Intermedio",
+    "Una mujer portadora de BRCA1 debe iniciar resonancia magnética mamaria",
+    [
+        "A partir de los 25-30 años anual",
+        "A los 40 años",
+        "Solo tras la menopausia",
+        "No indicada",
+    ],
+    0,
+    "Las guías recomiendan RM anual desde los 25-30 años en portadoras de BRCA, además de mamografía cuando sea apropiado.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Prevención",
+    "Intermedio",
+    "La vacunación frente al VPH se recomienda idealmente a",
+    [
+        "Niños y niñas de 11-12 años",
+        "Solo mujeres mayores de 21",
+        "Varones mayores de 40",
+        "Pacientes con cáncer metastásico",
+    ],
+    0,
+    "El CDC recomienda vacunación rutinaria contra VPH a 11-12 años (puede iniciarse desde los 9) en ambos sexos para prevenir cánceres asociados.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Prevención",
+    "Avanzado",
+    "¿Qué intervención reduce de forma significativa el riesgo de cáncer colorrectal en pacientes con poliposis adenomatosa familiar?",
+    [
+        "Colectomía profiláctica",
+        "Tamoxifeno",
+        "Uso crónico de estatinas",
+        "Vitamina E",
+    ],
+    0,
+    "La colectomía profiláctica (sub-total o total) es la intervención de elección en FAP para prevenir carcinoma colorrectal.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Prevención",
+    "Intermedio",
+    "¿Cuál es la recomendación de quimioprevención con tamoxifeno?",
+    [
+        "Mujeres premenopáusicas de alto riesgo de cáncer de mama ER+",
+        "Varones BRCA1",
+        "Pacientes con HER2 positivo",
+        "Mujeres con triple negativo",
+    ],
+    0,
+    "Tamoxifeno se ofrece a mujeres pre o perimenopáusicas con elevado riesgo de cáncer de mama ER+, reduciendo la incidencia de enfermedad invasiva y DCIS.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Recursos",
+    "Básico",
+    "¿Cuál de las siguientes organizaciones provee guías para pacientes y cuidadores sobre manejo de cáncer?",
+    [
+        "American Cancer Society",
+        "NIH Clinical Center",
+        "EMA",
+        "USPSTF",
+    ],
+    0,
+    "La ACS ofrece material educativo, guías y recursos de apoyo para pacientes oncológicos y sus familias.",
+)
+
+add_question(
+    "Diagnóstico y pruebas oncológicas",
+    "Recursos",
+    "Intermedio",
+    "¿Qué herramienta ayuda a evaluar alfabetización sanitaria y adaptar la educación al paciente?",
+    [
+        "Teach-back method",
+        "Índice ECOG",
+        "Puntuación FLIPI",
+        "Score MELD",
+    ],
+    0,
+    "La técnica teach-back consiste en pedir al paciente que repita con sus palabras la información para confirmar comprensión y ajustar la educación.",
+)
+
+# 2 Therapeutics and Patient Management ----------------------------------------------------------
+
+# 2A Treatment Planning (26 preguntas)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Avanzado",
+    "¿Cuál es el esquema estándar adyuvante para cáncer de colon estadio III con riesgo bajo según NCCN?",
+    [
+        "CAPOX durante 3 meses",
+        "FOLFOX durante 6 meses",
+        "FOLFIRI durante 6 meses",
+        "5-FU/leucovorina durante 12 meses",
+    ],
+    0,
+    "En tumores T1-3 N1, CAPOX por 3 meses ofrece beneficio comparable con menor toxicidad comparado con 6 meses de terapia.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "En cáncer de pulmón no microcítico estadio IV con mutación ALK, la terapia de primera línea preferida es",
+    [
+        "Alectinib",
+        "Carboplatino/pemetrexed",
+        "Pembrolizumab en monoterapia",
+        "Docetaxel",
+    ],
+    0,
+    "Los inhibidores ALK de segunda generación como alectinib, brigatinib o lorlatinib son estándar inicial por superioridad en PFS.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "¿Cuál es la terapia sistémica recomendada para cáncer de mama metastásico HR+/HER2- con mutación ESR1 tras inhibidor de aromatasa?",
+    [
+        "Elacestrant",
+        "Fulvestrant en monoterapia",
+        "Capecitabina",
+        "Pembrolizumab",
+    ],
+    0,
+    "Elacestrant, degradador oral selectivo de receptores de estrógeno, mostró superioridad en ESR1 mutado tras terapia endocrina.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Avanzado",
+    "En el tratamiento perioperatorio del cáncer gástrico localmente avanzado, el régimen preferido actualmente es",
+    [
+        "FLOT",
+        "EP",
+        "CAPOX",
+        "FOLFIRI",
+    ],
+    0,
+    "FLOT (5-FU, leucovorina, oxaliplatino y docetaxel) ha mostrado mejores resultados frente a ECF/ECX en supervivencia global.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "La terapia de consolidación tras quimiorradioterapia en NSCLC estadio III irresecable PD-L1 ≥1% es",
+    [
+        "Durvalumab durante 12 meses",
+        "Pembrolizumab durante 6 meses",
+        "Osimertinib",
+        "Carboplatino semanal",
+    ],
+    0,
+    "PACIFIC demostró beneficio significativo con durvalumab por un año tras finalizar quimiorradioterapia en estadio III irresecable.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Avanzado",
+    "¿Cuál es la combinación estándar para carcinoma hepatocelular avanzado en primera línea con función hepática Child-Pugh A?",
+    [
+        "Atezolizumab + bevacizumab",
+        "Sorafenib",
+        "Lenvatinib + pembrolizumab",
+        "Durvalumab en monoterapia",
+    ],
+    0,
+    "IMbrave150 estableció atezolizumab + bevacizumab como estándar al mejorar SG y SLP frente a sorafenib.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "En melanoma irresecable con mutación BRAFV600, ¿qué terapia combinada reduce el riesgo de recurrencia tras resección?",
+    [
+        "Dabrafenib + trametinib",
+        "Ipilimumab + nivolumab",
+        "Pembrolizumab",
+        "Imatinib",
+    ],
+    0,
+    "La terapia adyuvante con dabrafenib + trametinib reduce significativamente el riesgo de recurrencia en pacientes BRAFV600 mutados.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "El esquema preferido para carcinoma cervical persistente/recidivante PD-L1 positivo incluye",
+    [
+        "Pembrolizumab + quimioterapia ± bevacizumab",
+        "Bevacizumab + paclitaxel",
+        "Cisplatino semanal",
+        "Durvalumab",
+    ],
+    0,
+    "KEYNOTE-826 mostró beneficio significativo con pembrolizumab añadido a quimioterapia ± bevacizumab en enfermedad avanzada PD-L1 positiva.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Avanzado",
+    "En linfoma difuso de células B grandes recaído precoz tras R-CHOP, el estándar actual en segunda línea para candidatos es",
+    [
+        "Terapia CAR-T anti-CD19",
+        "R-ICE seguido de autotrasplante",
+        "Lenalidomida",
+        "Brentuximab vedotina",
+    ],
+    0,
+    "Ensayos ZUMA-7 y TRANSFORM demostraron superioridad de CAR-T frente a quimio-rescate+ASCT en recaídas tempranas.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "¿Cuál es la recomendación terapéutica en leucemia mieloide crónica con respuesta subóptima a imatinib y mutación T315I?",
+    [
+        "Ponatinib",
+        "Nilotinib",
+        "Dasatinib",
+        "Bosutinib",
+    ],
+    0,
+    "La mutación T315I confiere resistencia a la mayoría de ITK excepto ponatinib, que mantiene actividad contra esta variante.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "En cáncer de próstata metastásico hormonosensible de alto volumen, el tratamiento inicial debe incluir",
+    [
+        "ADT + docetaxel",
+        "ADT en monoterapia",
+        "Enzalutamida sin ADT",
+        "Apalutamida sola",
+    ],
+    0,
+    "Las guías recomiendan intensificación con docetaxel o antiandrógenos potentes combinados con supresión androgénica en enfermedad hormonosensible de alto volumen.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Avanzado",
+    "La terapia adyuvante estándar tras resección completa de carcinoma urotelial músculo invasivo con PD-L1 ≥1% incluye",
+    [
+        "Nivolumab durante 1 año",
+        "Pembrolizumab",
+        "Cisplatino",
+        "Durvalumab",
+    ],
+    0,
+    "CheckMate-274 demostró beneficio de nivolumab adyuvante en pacientes de alto riesgo (incluye PD-L1 ≥1%) tras cistectomía.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "¿Cuál es la terapia de elección en linfoma de Hodgkin clásico en recaída temprana tras autotrasplante?",
+    [
+        "Brentuximab vedotina",
+        "Lenalidomida",
+        "Ibritumomab",
+        "Ibrutinib",
+    ],
+    0,
+    "Brentuximab vedotina está aprobado como consolidación tras autotrasplante o en recaída, mejorando la supervivencia libre de progresión.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento del cáncer",
+    "Intermedio",
+    "Para pacientes con cáncer de ovario avanzado con respuesta completa a quimioterapia platino-sensible y HRD positivo, la recomendación de mantenimiento es",
+    [
+        "Olaparib",
+        "Bevacizumab solo",
+        "Carboplatino semanal",
+        "Trabectedina",
+    ],
+    0,
+    "Los PARP inhibidores como olaparib prolongan notablemente la SLP en pacientes con HRD positivo tras respuesta a platinos.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento de trastornos hematológicos",
+    "Intermedio",
+    "¿Cuál es el tratamiento de primera línea recomendado en anemia aplásica severa en menores de 40 años con donante compatible?",
+    [
+        "Trasplante alogénico de progenitores hematopoyéticos",
+        "Ciclosporina + ATG",
+        "Eltrombopag",
+        "Azacitidina",
+    ],
+    0,
+    "El trasplante alogénico de un donante HLA idéntico es la terapia curativa de elección en pacientes jóvenes con anemia aplásica severa.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento de trastornos hematológicos",
+    "Intermedio",
+    "¿Qué terapia de rescate es estándar en PTI crónica refractaria tras corticoides e IVIG?",
+    [
+        "Agonistas del receptor de trombopoyetina",
+        "Azatioprina",
+        "Profilaxis antibiótica",
+        "Micofenolato",
+    ],
+    0,
+    "Eltrombopag o romiplostim (agonistas del receptor de TPO) son pilares en PTI crónica refractaria, aumentando la producción plaquetaria.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Tratamiento de trastornos hematológicos",
+    "Avanzado",
+    "En anemia falciforme con crisis frecuentes y herencia homocigota, la terapia modificadora de enfermedad recomendada es",
+    [
+        "Hydroxiurea",
+        "Eritropoyetina",
+        "Transfusión simple mensual",
+        "Metotrexato",
+    ],
+    0,
+    "La hidroxiurea incrementa la hemoglobina fetal y reduce la tasa de crisis dolorosas y hospitalizaciones en anemia falciforme homocigota.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Paliativos y soporte",
+    "Intermedio",
+    "¿Qué escalera analgésica recomienda la OMS para dolor oncológico moderado-severo persistente pese a opioides débiles?",
+    [
+        "Escalar a opioides potentes",
+        "Añadir benzodiacepinas",
+        "Mantener AINE",
+        "Usar esteroides",
+    ],
+    0,
+    "La OMS propone escalar del segundo al tercer peldaño con opioides mayores (morfina, oxicodona) cuando los débiles resultan insuficientes.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Paliativos y soporte",
+    "Avanzado",
+    "¿Qué manejo farmacológico se considera de primera línea para disnea refractaria en paciente oncológico avanzado?",
+    [
+        "Opioides sistémicos",
+        "Broncodilatadores",
+        "Antibióticos",
+        "Diuréticos",
+    ],
+    0,
+    "Los opioides (morfina) son el tratamiento farmacológico más efectivo para disnea refractaria en cuidados paliativos.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Paliativos y soporte",
+    "Intermedio",
+    "¿Qué suplemento nutricional está indicado en caquexia oncológica cuando la ingesta oral es inadecuada?",
+    [
+        "Alimentos hiperproteicos orales",
+        "Parenteral total",
+        "Suplementos de vitamina A",
+        "Creatina",
+    ],
+    0,
+    "Se prioriza optimizar la ingesta oral con suplementos hiperproteicos antes de considerar nutrición enteral/parenteral.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Cuidados al final de la vida",
+    "Intermedio",
+    "En un paciente con dolor refractario y pronóstico de días, ¿qué intervención es apropiada?",
+    [
+        "Sedación paliativa proporcional",
+        "Escalar quimioterapia",
+        "Iniciar inmunoterapia",
+        "Derivar a UCI",
+    ],
+    0,
+    "La sedación paliativa proporcional permite aliviar síntomas refractarios como dolor o disnea en fases terminales, respetando principios éticos.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Supervivencia",
+    "Intermedio",
+    "En el plan de supervivencia tras cáncer de mama, ¿qué vigilancia es esencial?",
+    [
+        "Mamografía anual del seno restante o reconstruido",
+        "PET-TC anual",
+        "Determinación mensual de marcadores tumorales",
+        "Colonoscopia anual",
+    ],
+    0,
+    "La vigilancia incluye mamografía anual del tejido mamario residual y asesoramiento de estilo de vida; pruebas avanzadas no se recomiendan rutinariamente.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Supervivencia",
+    "Intermedio",
+    "¿Qué intervención reduce linfoedema en supervivientes de cáncer de mama?",
+    [
+        "Ejercicio supervisado y compresión temprana",
+        "Restricción total de movimiento",
+        "Furosemida",
+        "Vitaminas antioxidantes",
+    ],
+    0,
+    "El ejercicio controlado, terapia de compresión y educación sobre autocuidados disminuyen el riesgo y la severidad del linfoedema.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Determinantes sociales",
+    "Intermedio",
+    "¿Qué estrategia aborda mejor barreras de alfabetización en pacientes oncológicos de baja escolaridad?",
+    [
+        "Material educativo visual y lenguaje sencillo",
+        "Entrega de folletos técnicos",
+        "Citas menos frecuentes",
+        "Prescripción electrónica",
+    ],
+    0,
+    "Adaptar la comunicación con lenguaje claro, apoyos visuales y confirmación de comprensión mejora adherencia y seguridad.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Determinantes sociales",
+    "Básico",
+    "¿Cuál es un ejemplo de determinante social que puede modificar la adherencia a terapias orales oncológicas?",
+    [
+        "Inseguridad alimentaria o económica",
+        "Color de los comprimidos",
+        "Edad >70",
+        "Sexo masculino",
+    ],
+    0,
+    "Factores como inseguridad económica, transporte, apoyo familiar o cobertura sanitaria influyen directamente en la adherencia farmacológica.",
+)
+
+add_question(
+    "Planificación terapéutica",
+    "Guías clínicas",
+    "Intermedio",
+    "¿Qué recurso es referencia para guías de práctica clínica en oncología en EE. UU.?",
+    [
+        "NCCN",
+        "GOLD",
+        "ADA",
+        "IDSA",
+    ],
+    0,
+    "Las guías NCCN ofrecen recomendaciones basadas en evidencia para el manejo integral de cáncer y se actualizan regularmente.",
+)
+
+# 2B Therapeutic Implementation (27 preguntas)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Avanzado",
+    "Para ajustar dosis de carboplatino en quimioterapia, la fórmula de Calvert utiliza",
+    [
+        "AUC objetivo y aclaramiento de creatinina",
+        "Peso corporal ideal",
+        "Superficie corporal",
+        "Nivel plasmático de fármaco",
+    ],
+    0,
+    "Calvert calcula dosis = AUC deseada × (ClCr + 25). Es la fórmula estándar para personalizar carboplatino.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Intermedio",
+    "En pacientes con insuficiencia renal severa (ClCr <30 mL/min), ¿qué fármaco requiere evitarse por acumulación neurotóxica?",
+    [
+        "Pemetrexed",
+        "Paclitaxel",
+        "Doxorrubicina",
+        "Cisplatino",
+    ],
+    0,
+    "Pemetrexed está contraindicado en ClCr <45 (y especialmente <30) por riesgo elevado de toxicidad hematológica y GI.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Intermedio",
+    "La compatibilidad Y-site de vincristina durante la administración de infusión continua de cisplatino es",
+    [
+        "Incompatible; se debe usar línea separada",
+        "Compatible",
+        "Solo compatible con filtro 0.2 µm",
+        "Depende del disolvente",
+    ],
+    0,
+    "Vincristina no debe mezclarse con cisplatino en Y-site porque precipita y aumenta riesgo de toxicidad; se recomienda línea separada.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Avanzado",
+    "¿Qué ajuste posológico requiere la ifosfamida al sospechar neurotoxicidad encefalopática grado 3?",
+    [
+        "Suspensión inmediata y evitar dosis futuras",
+        "Reducir al 50%",
+        "Administrar azul de metileno y continuar",
+        "Aumentar hidratación y continuar",
+    ],
+    0,
+    "La encefalopatía grado ≥3 obliga a suspender ifosfamida definitivamente; el azul de metileno se usa profiláctico en algunos casos.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Intermedio",
+    "En pacientes con ictericia y bilirrubina total >3 mg/dL, se debe evitar",
+    [
+        "Irinotecán",
+        "Oxaliplatino",
+        "Cyclofosfamida",
+        "Gemcitabina",
+    ],
+    0,
+    "Irinotecán requiere metabolismo hepático y su toxicidad se incrementa notablemente con bilirrubina >2 mg/dL; se contraindica >3.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Modalidades no farmacológicas",
+    "Intermedio",
+    "La braquiterapia intersticial está indicada en",
+    [
+        "Carcinoma cervical IB2",
+        "Cáncer de tiroides",
+        "Mesotelioma",
+        "Leucemia linfoblástica",
+    ],
+    0,
+    "En carcinoma cervical localmente avanzado se combina radioterapia externa con braquiterapia intersticial para lograr dosis altas en el tumor.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Modalidades no farmacológicas",
+    "Intermedio",
+    "La resección quirúrgica metastásica (metastasectomía) mejora supervivencia en",
+    [
+        "Metástasis hepáticas resecables de cáncer colorrectal",
+        "Metástasis óseas múltiples",
+        "Metástasis cerebrales múltiples",
+        "Enfermedad leptomeníngea",
+    ],
+    0,
+    "La resección de metástasis hepáticas en cáncer colorrectal selecto ofrece supervivencia prolongada y potencial curación.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacogenómica",
+    "Avanzado",
+    "¿Qué alelo reduce drásticamente la actividad de dihidropirimidina deshidrogenasa y obliga a evitar fluoropirimidinas?",
+    [
+        "DPYD*2A",
+        "UGT1A1*28",
+        "TPMT*3A",
+        "HLA-B*57:01",
+    ],
+    0,
+    "DPYD*2A (mutación IVS14+1G>A) causa deficiencia de DPD y riesgo de toxicidad grave/lletal con 5-FU o capecitabina.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacogenómica",
+    "Intermedio",
+    "La dosis inicial de mercaptopurina debe reducirse en pacientes con",
+    [
+        "Deficiencia de TPMT o NUDT15",
+        "Polimorfismo DPYD",
+        "Mutación BRAF",
+        "Alteración EGFR",
+    ],
+    0,
+    "TPMT o NUDT15 reducidos disminuyen el metabolismo de tiopurinas; se requieren dosis reducidas o alternativas para evitar mielotoxicidad.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Educación de pacientes",
+    "Intermedio",
+    "¿Qué consejo es clave para pacientes que inician terapia oral con lenalidomida?",
+    [
+        "Participar en el programa REMS con controles de embarazo",
+        "Evitar alimentos grasos",
+        "Tomar con antiácido",
+        "Aumentar la ingesta de pomelo",
+    ],
+    0,
+    "Lenalidomida requiere un programa REMS por teratogenicidad; mujeres en edad fértil necesitan test negativos y doble método anticonceptivo.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Educación de pacientes",
+    "Básico",
+    "¿Qué técnica mejora adherencia en terapias orales complejas?",
+    [
+        "Pastilleros semanales y recordatorios electrónicos",
+        "Indicaciones generales sin material",
+        "Visitas trimestrales",
+        "Evitar hablar de efectos adversos",
+    ],
+    0,
+    "Organizadores físicos, recordatorios y educación personalizada facilitan adherencia a regímenes orales múltiples.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Coordinación interdisciplinaria",
+    "Intermedio",
+    "¿Qué intervención previene errores al transicionar quimioterapia oral del hospital a la farmacia comunitaria?",
+    [
+        "Conciliación proactiva y comunicación con farmacéutico externo",
+        "Entrega directa sin educación",
+        "Suspender medicamentos concomitantes",
+        "Uso de recetas en papel",
+    ],
+    0,
+    "La coordinación con farmacia comunitaria mediante conciliación de medicación y comunicación sobre dosis y monitoreo reduce errores.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Administración de fármacos",
+    "Intermedio",
+    "¿Qué vía de administración requiere filtro en línea de 0.22 µm para prevenir precipitados en taxanos?",
+    [
+        "Paclitaxel",
+        "Docetaxel",
+        "Nab-paclitaxel",
+        "Vinorelbina",
+    ],
+    0,
+    "Paclitaxel formulado en Cremophor requiere filtro 0.22 µm durante infusión para evitar partículas y reacciones.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Administración de fármacos",
+    "Avanzado",
+    "Para prevenir extravasación de vesicantes, la administración debe realizarse preferentemente",
+    [
+        "A través de catéter venoso central",
+        "Por acceso periférico en mano",
+        "Subcutánea",
+        "Intramuscular",
+    ],
+    0,
+    "Vesicantes como antraciclinas deben administrarse por acceso central estable para minimizar riesgo de extravasación.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Administración de fármacos",
+    "Intermedio",
+    "¿Cuál es el manejo recomendado si se retrasa la perfusión de rituximab por reacción grado 2?",
+    [
+        "Detener infusión, administrar medicación de soporte y reiniciar a velocidad reducida",
+        "Suspender definitivamente",
+        "Aumentar la velocidad",
+        "Convertir a bolo IV",
+    ],
+    0,
+    "Se detiene la infusión, se trata la reacción (antihistamínicos, esteroides) y tras resolución se reinicia lentamente.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Administración de fármacos",
+    "Básico",
+    "¿Por qué se administra dexametasona previa a docetaxel?",
+    [
+        "Disminuir edema y reacciones de hipersensibilidad",
+        "Mejorar absorción",
+        "Aumentar metabolismo",
+        "Potenciar efecto",
+    ],
+    0,
+    "La dexametasona reduce el riesgo de reacciones de hipersensibilidad y retención de líquidos asociada a docetaxel.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Terapias complementarias",
+    "Intermedio",
+    "¿Qué suplemento herbal puede interferir con imatinib al inducir CYP3A4?",
+    [
+        "Hierba de San Juan",
+        "Ginseng",
+        "Manzanilla",
+        "Equinácea",
+    ],
+    0,
+    "La hierba de San Juan induce CYP3A4/P-gp disminuyendo niveles plasmáticos de múltiples ITK como imatinib.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Avanzado",
+    "En pacientes con QTc prolongado, ¿qué inhibidor de ALK tiene menor riesgo de arritmias?",
+    [
+        "Alectinib",
+        "Crizotinib",
+        "Lorlatinib",
+        "Entrectinib",
+    ],
+    0,
+    "Alectinib presenta menor incidencia de prolongación QT comparado con crizotinib o lorlatinib, siendo preferible en pacientes de riesgo.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Intermedio",
+    "¿Cuál es la principal precaución al administrar vincristina en pediatría?",
+    [
+        "Nunca por vía intratecal",
+        "Diluir en dextrosa",
+        "Aumentar dosis según peso",
+        "Administrar en bolo rápido",
+    ],
+    0,
+    "La administración intratecal de vincristina es letal; deben existir medidas de seguridad estrictas para evitar errores de vía.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Intermedio",
+    "¿Qué agente requiere profilaxis con ácido fólico y vitamina B12 para reducir toxicidad hematológica?",
+    [
+        "Pemetrexed",
+        "Capecitabina",
+        "Irinotecán",
+        "Temozolomida",
+    ],
+    0,
+    "Pemetrexed necesita suplementación con ácido fólico y B12 y premedicación con dexametasona para minimizar toxicidad hematológica y cutánea.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Programas de asistencia",
+    "Intermedio",
+    "¿Qué recurso facilita acceso a fármacos orales costosos cuando no están cubiertos?",
+    [
+        "Programas de paciente de la industria",
+        "Reposición automática",
+        "Uso de medicamentos vencidos",
+        "Compartir medicación",
+    ],
+    0,
+    "Los programas de asistencia de fabricantes o fundaciones cubren parcialmente costos de terapias orales, cruciales en coordinación interdisciplinaria.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Avanzado",
+    "¿Cuál es la estrategia de primera línea para minimizar síndrome mano-pie por capecitabina?",
+    [
+        "Ajuste de dosis y cuidado preventivo con cremas de urea",
+        "Suspender definitivamente",
+        "Añadir filgrastim",
+        "Aumentar la dosis",
+    ],
+    0,
+    "El síndrome mano-pie leve/moderado se maneja con emolientes, educación y reducción/interrupción temporal de capecitabina.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Intermedio",
+    "¿Cuál es la recomendación al administrar olaratumab con doxorrubicina?",
+    [
+        "Control cardiaco base y acumulado",
+        "Administrar por bolo",
+        "Evitar antiemesis",
+        "No usar dexrazoxano",
+    ],
+    0,
+    "La doxorrubicina acumulada sigue siendo cardiotóxica; se requiere monitorizar función cardíaca y dosis acumulada incluso combinada con olaratumab.",
+)
+
+add_question(
+    "Implementación terapéutica",
+    "Farmacoterapia",
+    "Avanzado",
+    "Cuando se administra nivolumab + ipilimumab, ¿qué vigilancia es prioritaria en las primeras 12 semanas?",
+    [
+        "Control de toxicidad inmune (hepática, endocrina, dermatológica)",
+        "Recuento neutrófilos diario",
+        "Nivel plasmático de fármaco",
+        "Calcio sérico",
+    ],
+    0,
+    "Las combinaciones de checkpoint tienen alta incidencia de toxicidad inmune en las primeras semanas, requiriendo monitorización frecuente y educación.",
+)
+
+# 2C Cancer Outcomes and Treatment Monitoring (27 preguntas)
+
+add_question(
+    "Seguimiento y resultados",
+    "Interacciones farmacológicas",
+    "Intermedio",
+    "¿Cuál de los siguientes antifúngicos incrementa de forma notable las concentraciones de tacrolimus al inhibir CYP3A4?",
+    [
+        "Voriconazol",
+        "Fluconazol 100 mg",
+        "Isavuconazol",
+        "Caspofungina",
+    ],
+    0,
+    "Voriconazol es un inhibidor potente de CYP3A4; al combinarlo con tacrolimus se requiere reducir sustancialmente la dosis y monitorizar niveles valle.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Interacciones farmacológicas",
+    "Intermedio",
+    "La ingesta habitual de jugo de pomelo debe evitarse con",
+    [
+        "Erlotinib",
+        "Oxaliplatino",
+        "Bevacizumab",
+        "Lenalidomida",
+    ],
+    0,
+    "El pomelo inhibe CYP3A4 intestinal elevando las concentraciones de ITK como erlotinib; esto incrementa riesgo de toxicidad cutánea y hepática.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Interacciones farmacológicas",
+    "Intermedio",
+    "Aprepitant reduce el INR de pacientes tratados con warfarina porque",
+    [
+        "Induce CYP2C9",
+        "Inhibe CYP2C9",
+        "Aumenta la síntesis de vitamina K",
+        "Activa P-gp",
+    ],
+    0,
+    "Aprepitant es un inductor moderado de CYP2C9; la administración concomitante disminuye el INR y obliga a monitorizar más de cerca.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Interacciones farmacológicas",
+    "Avanzado",
+    "Los inhibidores de bomba de protones disminuyen la exposición de cuál de los siguientes ITK por dependencia del pH gástrico?",
+    [
+        "Gefitinib",
+        "Sorafenib",
+        "Ponatinib",
+        "Imatinib",
+    ],
+    0,
+    "Gefitinib y otros ITK como erlotinib presentan absorción reducida con pH elevado. Se recomienda evitar IBP o espaciar su administración.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Mecanismos de resistencia",
+    "Avanzado",
+    "La mutación C797S en EGFR suele aparecer tras",
+    [
+        "Tratamiento con osimertinib",
+        "Uso de gefitinib de primera línea",
+        "Quimioterapia basada en platinos",
+        "Inmunoterapia anti-PD-1",
+    ],
+    0,
+    "C797S impide la unión covalente de osimertinib al receptor EGFR, generando resistencia adquirida tras su uso prolongado.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Mecanismos de resistencia",
+    "Intermedio",
+    "¿Qué mecanismo confiere resistencia adquirida a terapias dirigidas anti-BRAF en melanoma?",
+    [
+        "Activación de NRAS",
+        "Pérdida de p53",
+        "Amplificación de EGFR",
+        "Mutación KIT",
+    ],
+    0,
+    "La activación de NRAS reactiva la vía MAPK pese a la inhibición de BRAF, generando resistencia a dabrafenib/ trametinib.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Mecanismos de resistencia",
+    "Intermedio",
+    "El desarrollo de variantes del receptor androgénico (AR-V7) se asocia con resistencia primaria a",
+    [
+        "Enzalutamida y abiraterona",
+        "Docetaxel",
+        "Sipuleucel-T",
+        "Mitoxantrona",
+    ],
+    0,
+    "Las variantes AR-V7 carecen del dominio de unión a ligando, permanecen constitutivamente activas y confieren resistencia a antiandrógenos.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Mecanismos de resistencia",
+    "Intermedio",
+    "La mutación ALK G1202R confiere resistencia a",
+    [
+        "Inhibidores ALK de primera y segunda generación",
+        "Lorlatinib",
+        "Quimioterapia con pemetrexed",
+        "Inhibidores de PD-1",
+    ],
+    0,
+    "G1202R reduce la afinidad de crizotinib, alectinib y brigatinib; lorlatinib mantiene actividad frente a dicha mutación.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Prevención y manejo de toxicidad",
+    "Intermedio",
+    "¿Qué parámetro se monitoriza para detectar cardiotoxicidad por trastuzumab?",
+    [
+        "Fracción de eyección ventricular izquierda",
+        "Troponina T diaria",
+        "CK total",
+        "LDH",
+    ],
+    0,
+    "La FEVI se evalúa con ecocardiograma o MUGA cada 3 meses durante trastuzumab para detectar disfunción temprana.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Prevención y manejo de toxicidad",
+    "Intermedio",
+    "¿Cómo se previene el síndrome mano-pie asociado a sorafenib o regorafenib?",
+    [
+        "Uso regular de cremas con urea y educación sobre cuidados de manos/pies",
+        "Aporte elevado de vitamina E",
+        "Aumentar la dosis",
+        "Profilaxis con filgrastim",
+    ],
+    0,
+    "La hidratación cutánea intensiva, evitar fricciones y detectar síntomas tempranos reduce la severidad del síndrome mano-pie.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Prevención y manejo de toxicidad",
+    "Avanzado",
+    "¿Qué parámetro debe controlarse semanalmente al iniciar alpelisib?",
+    [
+        "Glucemia capilar",
+        "Recuento plaquetario",
+        "Creatinina",
+        "Niveles de potasio",
+    ],
+    0,
+    "Al inhibir PI3K-alfa, alpelisib produce hiperglucemia significativa; se monitoriza glucosa y se maneja con dieta o antidiabéticos.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Prevención y manejo de toxicidad",
+    "Intermedio",
+    "¿Qué agente se administra junto con ifosfamida para prevenir cistitis hemorrágica?",
+    [
+        "Mesna",
+        "Palifermin",
+        "Ondansetrón",
+        "Darbepoetina",
+    ],
+    0,
+    "Mesna se une a los metabolitos urotóxicos (acroleína) de ifosfamida evitando daño vesical.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Prevención y manejo de toxicidad",
+    "Intermedio",
+    "La monitorización de DLCO es útil para detectar a tiempo toxicidad pulmonar asociada a",
+    [
+        "Bleomicina",
+        "Vincristina",
+        "Cetuximab",
+        "Oxaliplatino",
+    ],
+    0,
+    "Bleomicina puede causar neumonitis intersticial temprana; el DLCO cada ciclo es sensible para detectar deterioro pulmonar.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Emergencias oncológicas",
+    "Intermedio",
+    "¿Cuál es la medida profiláctica fundamental en pacientes con alto riesgo de síndrome de lisis tumoral?",
+    [
+        "Hidratación vigorosa y alopurinol o rasburicasa",
+        "Restricción hídrica",
+        "Diuréticos de asa",
+        "Calcitonina",
+    ],
+    0,
+    "La hidratación y control del ácido úrico con alopurinol o rasburicasa previenen síndrome de lisis en tumores altamente proliferativos.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Emergencias oncológicas",
+    "Intermedio",
+    "El síndrome de vena cava superior requiere inicialmente",
+    [
+        "Elevar cabecera, oxígeno suplementario y esteroides",
+        "Suspender líquidos",
+        "Anticoagulación inmediata",
+        "Quimioterapia en bolo",
+    ],
+    0,
+    "Las medidas iniciales incluyen soporte respiratorio, elevación de la cabeza y, en algunos casos, esteroides. El tratamiento definitivo depende de la etiología (radioterapia, stent o quimioterapia).",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Emergencias oncológicas",
+    "Intermedio",
+    "¿Qué agente es de elección en hipercalcemia maligna severa una vez corregida la volemia?",
+    [
+        "Ácido zoledrónico",
+        "Calcio intravenoso",
+        "Vitamina D",
+        "Tamoxifeno",
+    ],
+    0,
+    "Los bifosfonatos IV como zoledronato reducen la resorción ósea y son estándar en hipercalcemia maligna, junto a hidratación y calcitonina.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Emergencias oncológicas",
+    "Intermedio",
+    "En sospecha de compresión medular metastásica, el manejo inicial incluye",
+    [
+        "Corticoterapia de alta dosis y resonancia urgente",
+        "Diuréticos",
+        "Anticoagulación",
+        "Observación expectante",
+    ],
+    0,
+    "La dexametasona IV reduce el edema medular y la resonancia inmediata permite planificar radioterapia o descompresión quirúrgica.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones de terapia",
+    "Intermedio",
+    "¿Qué agente reduce la incidencia de mucositis oral severa en pacientes sometidos a quimioterapia de alta dosis antes de trasplante autólogo?",
+    [
+        "Palifermin",
+        "Filgrastim",
+        "Leucovorina",
+        "Eritropoyetina",
+    ],
+    0,
+    "Palifermin (factor de crecimiento de queratinocitos) disminuye la mucositis severa en pacientes sometidos a quimio de alta dosis previo a trasplante.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones de terapia",
+    "Intermedio",
+    "¿Qué intervención reduce el riesgo de neuropatía periférica por oxaliplatino?",
+    [
+        "Ajustar dosis ante síntomas persistentes y evitar exposición al frío",
+        "Administrar vitamina B12",
+        "Añadir taxanos",
+        "Aumentar tasa de infusión",
+    ],
+    0,
+    "La neuropatía se maneja reduciendo dosis o pausando tratamiento, y aconsejando evitar temperaturas frías que exacerban la sintomatología.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones de terapia",
+    "Intermedio",
+    "La tromboprofilaxis se recomienda en pacientes con cáncer ambulatorios cuando",
+    [
+        "Puntuación Khorana ≥2",
+        "LDH elevada",
+        "ECOG 0",
+        "Edad <50",
+    ],
+    0,
+    "Las guías ASCO/ASH sugieren tromboprofilaxis con DOAC o HBPM en pacientes ambulatorios con Khorana ≥2 sin contraindicaciones.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones de terapia",
+    "Intermedio",
+    "¿Cuál es la medida clave para prevenir osteonecrosis mandibular en pacientes que inician bifosfonatos?",
+    [
+        "Evaluación dental completa y resolución de focos infecciosos antes de la terapia",
+        "Profilaxis antibiótica crónica",
+        "Suplementación con vitamina D",
+        "Uso de clorhexidina diaria",
+    ],
+    0,
+    "La medida más efectiva es realizar evaluación odontológica y tratar problemas dentales antes de iniciar bifosfonatos o denosumab.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones de TPH/Celular",
+    "Intermedio",
+    "¿Cuál es la profilaxis estándar de enfermedad de injerto contra huésped en trasplante alogénico mieloablativo?",
+    [
+        "Inhibidor calcineurínico (ciclosporina/tacrolimus) + metotrexato",
+        "Ciclosporina sola",
+        "Rituximab",
+        "Azacitidina",
+    ],
+    0,
+    "La combinación de tacrolimus o ciclosporina con metotrexato en dosis bajas es el régimen profiláctico más utilizado para EICH aguda.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones de TPH/Celular",
+    "Avanzado",
+    "La enfermedad veno-oclusiva hepática post-trasplante se manifiesta con",
+    [
+        "Aumento de peso, hepatomegalia y bilirrubina elevada",
+        "Hipotermia",
+        "Hipoglucemia",
+        "Hiponatremia",
+    ],
+    0,
+    "La VOD cursa con retención hídrica >5%, hepatomegalia dolorosa y bilirrubina elevada; puede requerir defibrotide.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones de TPH/Celular",
+    "Intermedio",
+    "¿Cuál es el tratamiento de primera línea del síndrome de liberación de citocinas asociado a CAR-T grado ≥2?",
+    [
+        "Tocilizumab ± corticoides",
+        "Infliximab",
+        "Eculizumab",
+        "Anakinra",
+    ],
+    0,
+    "Tocilizumab (anti IL-6) es el tratamiento de elección para CRS moderado-severo; los corticoides se añaden si la respuesta es insuficiente.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones a largo plazo",
+    "Intermedio",
+    "¿Cuál es la complicación cardiovascular tardía más asociada con antraciclinas?",
+    [
+        "Cardiomiopatía dilatada",
+        "Hipertensión",
+        "Infarto agudo",
+        "Arritmia supraventricular",
+    ],
+    0,
+    "Las antraciclinas causan cardiomiopatía dilatada dependiente de la dosis acumulada; el riesgo persiste años después de la exposición.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones a largo plazo",
+    "Intermedio",
+    "En supervivientes de trasplante alogénico, la profilaxis de infecciones neumocócicas incluye",
+    [
+        "Vacunación secuencial con PCV13 seguida de PPSV23",
+        "Profilaxis con penicilina de por vida",
+        "Vacuna oral OPV",
+        "Vacuna antigripal nasal",
+    ],
+    0,
+    "Las guías recomiendan reinmunización con vacuna conjugada PCV13 y posteriormente PPSV23 aproximadamente 12 meses tras el trasplante.",
+)
+
+add_question(
+    "Seguimiento y resultados",
+    "Complicaciones a largo plazo",
+    "Intermedio",
+    "¿Qué estrategia ayuda a preservar la fertilidad en mujeres jóvenes sometidas a quimioterapia gonadotóxica?",
+    [
+        "Supresión ovárica con agonistas de GnRH",
+        "Tamoxifeno",
+        "Aspirina",
+        "Calcio",
+    ],
+    0,
+    "La administración de agonistas de GnRH durante la quimioterapia reduce el riesgo de insuficiencia ovárica prematura y preserva la fertilidad futura.",
+)
+
+# 3 Professional Practice -----------------------------------------------------------------------
+
+# 3A Clinical Trials and Research (22 preguntas)
+
+add_question(
+    "Práctica profesional",
+    "Métodos de investigación",
+    "Intermedio",
+    "¿Qué tipo de estudio utiliza asignación aleatoria pero no permite ciego de participantes por la naturaleza de la intervención?",
+    [
+        "Ensayo controlado aleatorizado abierto",
+        "Estudio de cohorte prospectivo",
+        "Serie de casos",
+        "Ensayo cruzado",
+    ],
+    0,
+    "Algunos ensayos clínicos deben ser abiertos (open-label) cuando el ciego es impracticable, pero mantienen la asignación aleatoria para minimizar sesgos.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Métodos de investigación",
+    "Intermedio",
+    "¿Cuál es el propósito de un ensayo fase I en oncología?",
+    [
+        "Determinar dosis máxima tolerada y toxicidades",
+        "Comparar eficacia con estándar",
+        "Evaluar supervivencia global",
+        "Analizar calidad de vida",
+    ],
+    0,
+    "Los ensayos fase I se centran en evaluar seguridad, farmacocinética y dosis recomendada para estudios posteriores.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Métodos de investigación",
+    "Avanzado",
+    "¿Qué diseño minimiza variabilidad interpaciente asignando cada sujeto a múltiples tratamientos en periodos distintos?",
+    [
+        "Ensayo cruzado (crossover)",
+        "Ensayo adaptativo",
+        "Cohorte retrospectiva",
+        "Caso-control",
+    ],
+    0,
+    "El diseño crossover asigna secuencialmente cada tratamiento al mismo participante, separando periodos por washout y reduciendo variabilidad interindividual.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Métodos de investigación",
+    "Intermedio",
+    "¿Cuál es la característica principal de un ensayo pragmatico?",
+    [
+        "Evalúa efectividad en condiciones de práctica real",
+        "Incluye solo pacientes muy seleccionados",
+        "Carece de grupo control",
+        "No requiere consentimiento",
+    ],
+    0,
+    "Los ensayos pragmáticos buscan generalizar resultados a la práctica habitual incluyendo poblaciones amplias y procedimientos flexibles.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Métodos de investigación",
+    "Intermedio",
+    "¿Qué elemento distingue un estudio caso-control de un estudio de cohorte?",
+    [
+        "La dirección temporal: caso-control es retrospectivo",
+        "El uso de aleatorización",
+        "El enfoque prospectivo obligatorio",
+        "La inclusión de intervenciones",
+    ],
+    0,
+    "Los estudios caso-control suelen ser retrospectivos, identifican sujetos con y sin evento y revisan exposiciones previas; las cohortes siguen sujetos en el tiempo.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Estadística",
+    "Intermedio",
+    "El poder estadístico (1-β) representa",
+    [
+        "Probabilidad de detectar un efecto real",
+        "Probabilidad de cometer error tipo I",
+        "Probabilidad de aceptar la hipótesis nula",
+        "Medida de tamaño de muestra",
+    ],
+    0,
+    "El poder es la probabilidad de rechazar la hipótesis nula cuando es falsa; depende del tamaño de la muestra, la magnitud del efecto y el nivel alfa.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Estadística",
+    "Intermedio",
+    "¿Qué estadístico se utiliza para comparar supervivencia entre dos grupos en un ensayo clínico?",
+    [
+        "Prueba de log-rank",
+        "T de Student",
+        "Chi cuadrado",
+        "ANOVA",
+    ],
+    0,
+    "La prueba de log-rank es la herramienta estándar para comparar curvas de Kaplan-Meier entre grupos de tratamiento.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Estadística",
+    "Intermedio",
+    "El intervalo de confianza del 95% para hazard ratio de 0.70 (0.50-0.95) indica",
+    [
+        "Reducción significativa del riesgo",
+        "No diferencia significativa",
+        "Mayor riesgo en grupo experimental",
+        "Error tipo II",
+    ],
+    0,
+    "El IC del 95% no cruza 1, lo que sugiere reducción estadísticamente significativa del riesgo con el tratamiento experimental.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Estadística",
+    "Intermedio",
+    "¿Qué medida resume el beneficio clínico necesario en términos de pacientes tratados para evitar un evento adicional?",
+    [
+        "Número necesario a tratar (NNT)",
+        "Riesgo relativo",
+        "Odds ratio",
+        "Valor p",
+    ],
+    0,
+    "El NNT indica cuántos pacientes deben tratarse para prevenir un evento adicional comparado con control; se calcula como 1/ARR.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Resultados de investigación",
+    "Intermedio",
+    "Los desenlaces centrados en el paciente (patient-reported outcomes) evalúan",
+    [
+        "Percepción del paciente sobre síntomas y calidad de vida",
+        "Respuesta tumoral radiológica",
+        "Supervivencia libre de progresión",
+        "Eventos adversos cardiacos",
+    ],
+    0,
+    "Los PRO recogen la experiencia del paciente ante tratamientos, síntomas y calidad de vida sin intervención del clínico.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Resultados de investigación",
+    "Intermedio",
+    "¿Cuál es un desenlace compuesto utilizado en ensayos oncológicos?",
+    [
+        "Supervivencia libre de fracaso",
+        "Tasa de respuesta objetiva",
+        "Tiempo hasta neutropenia",
+        "Incidencia de diarrea",
+    ],
+    0,
+    "La supervivencia libre de fracaso combina varios eventos (progresión, muerte, abandono por toxicidad) y es útil para reflejar fracaso del tratamiento.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Resultados de investigación",
+    "Intermedio",
+    "Los estudios que evalúan utilidad de nuevas terapias incorporan análisis de",
+    [
+        "Medidas de beneficio clínico neto",
+        "Costo directo únicamente",
+        "Valor p exclusivamente",
+        "Solo SG",
+    ],
+    0,
+    "El beneficio clínico neto integra reducción de riesgo, supervivencia y toxicidad, ofreciendo una perspectiva equilibrada del impacto terapéutico.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Ética e investigación",
+    "Intermedio",
+    "El principio de beneficencia en investigación clínica implica",
+    [
+        "Maximizar beneficios y minimizar riesgos",
+        "Mantener confidencialidad absoluta",
+        "Distribuir recursos equitativamente",
+        "Obtener consentimiento verbal",
+    ],
+    0,
+    "Beneficencia exige que los riesgos sean razonables en relación con los potenciales beneficios tanto para participantes como para la sociedad.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Ética e investigación",
+    "Intermedio",
+    "¿Cuál de los siguientes elementos es obligatorio en un consentimiento informado válido?",
+    [
+        "Descripción de riesgos, beneficios y alternativas",
+        "Compensación económica",
+        "Firma del investigador únicamente",
+        "Garantía de beneficio terapéutico",
+    ],
+    0,
+    "El consentimiento debe describir finalidad, procedimientos, riesgos, beneficios, alternativas y derechos del participante, sin prometer beneficio seguro.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Ética e investigación",
+    "Intermedio",
+    "La justicia en ensayos clínicos se refiere a",
+    [
+        "Selección equitativa de participantes",
+        "Maximizar poder estadístico",
+        "Minimizar costos",
+        "Asegurar anonimato",
+    ],
+    0,
+    "El principio de justicia implica una distribución equitativa de cargas y beneficios, evitando excluir o explotar poblaciones sin justificación científica.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Diseño de ensayos",
+    "Intermedio",
+    "¿Qué fase de ensayo evalúa eficacia comparativa con el estándar de cuidado en grandes poblaciones?",
+    [
+        "Fase III",
+        "Fase I",
+        "Fase II",
+        "Fase IV",
+    ],
+    0,
+    "Los ensayos fase III comparan nuevas terapias con el estándar, evaluando eficacia, seguridad y potencial aprobación regulatoria.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Diseño de ensayos",
+    "Avanzado",
+    "Los diseños adaptativos permiten",
+    [
+        "Modificar el ensayo basándose en análisis interinos preespecificados",
+        "Cegar retrospectivamente a los investigadores",
+        "Eliminar la aleatorización",
+        "Evitar la necesidad de consentimiento",
+    ],
+    0,
+    "Los ensayos adaptativos permiten ajustes (tamaño muestral, brazos) según datos interinos siempre que se planifique prospectivamente.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Diseño de ensayos",
+    "Intermedio",
+    "Un endpoint compuesto usual en ensayos oncológicos incluye",
+    [
+        "Supervivencia libre de progresión",
+        "Número de hospitalizaciones",
+        "Tiempo hasta recuperación",
+        "Carga viral",
+    ],
+    0,
+    "La SLP combina progresión o muerte, reflejando el tiempo que un paciente permanece sin empeoramiento de la enfermedad.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Diseño de ensayos",
+    "Intermedio",
+    "¿Qué fase suele evaluar intervenciones en población pediátrica tras establecer dosis en adultos?",
+    [
+        "Fase I/II pediátrica",
+        "Fase III",
+        "Fase IV",
+        "Fase 0",
+    ],
+    0,
+    "Una vez establecida dosis y seguridad en adultos, se realizan estudios fase I/II pediátricos para definir farmacocinética y eficacia preliminar.",
+)
+
+add_question(
+    "Práctica profesional",
+    "IRB/IEC",
+    "Intermedio",
+    "¿Cuál es la función principal de un Comité de Ética (IRB)?",
+    [
+        "Proteger los derechos y bienestar de los participantes",
+        "Financiar estudios",
+        "Reclutar pacientes",
+        "Realizar análisis estadísticos",
+    ],
+    0,
+    "El IRB revisa protocolos para garantizar que los riesgos sean razonables, el consentimiento informado adecuado y se protejan poblaciones vulnerables.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Aprobación de fármacos",
+    "Intermedio",
+    "Un medicamento oncológico puede recibir aprobación acelerada de la FDA cuando",
+    [
+        "Muestra beneficio en un endpoint sustituto razonablemente probable",
+        "Tiene menor costo",
+        "No existen opciones de quimioterapia",
+        "Se solicita por el fabricante",
+    ],
+    0,
+    "La aprobación acelerada se basa en resultados sobre endpoints sustitutos (p. ej., respuesta) que predicen beneficio clínico en enfermedades graves sin opciones.",
+)
+
+add_question(
+    "Práctica profesional",
+    "Gestión de fármacos en investigación",
+    "Intermedio",
+    "¿Qué documento detalla almacenamiento, logística y devoluciones de un medicamento en investigación?",
+    [
+        "Manual del investigador",
+        "Consentimiento informado",
+        "Carta IRB",
+        "Case report form",
+    ],
+    0,
+    "El manual del investigador describe propiedades farmacológicas, condiciones de almacenamiento, manejo de devoluciones y seguridad del fármaco en investigación.",
+)
+
+# 3B Practice Management (22 preguntas)
+
+add_question(
+    "Gestión profesional",
+    "Gestión de calidad",
+    "Intermedio",
+    "¿Cuál es el objetivo de un análisis causa-raíz tras un evento adverso?",
+    [
+        "Identificar causas sistémicas y proponer mejoras",
+        "Asignar culpables",
+        "Calcular costos",
+        "Decidir sanciones",
+    ],
+    0,
+    "El análisis causa-raíz busca entender procesos y barreras que llevaron al error para implementar acciones correctivas efectivas.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Gestión de calidad",
+    "Intermedio",
+    "¿Qué indicador monitoriza la adecuación de protocolos de quimioterapia en farmacia oncológica?",
+    [
+        "Porcentaje de órdenes revisadas y verificadas por farmacéutico",
+        "Número de pacientes atendidos",
+        "Coste medio por ciclo",
+        "Tiempo de espera",
+    ],
+    0,
+    "El porcentaje de órdenes de quimioterapia verificadas por farmacéutico garantiza seguridad y adherencia a protocolos.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Gestión de calidad",
+    "Intermedio",
+    "La metodología PDSA (Plan-Do-Study-Act) se utiliza para",
+    [
+        "Implementar mejoras continuas",
+        "Validar medicamentos",
+        "Auditorías regulatorias",
+        "Capacitación",
+    ],
+    0,
+    "PDSA es un ciclo iterativo que planifica, ejecuta, estudia resultados y ajusta procesos para la mejora continua.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Gestión de inventario",
+    "Intermedio",
+    "¿Qué estrategia minimiza el desabasto de medicamentos oncológicos críticos?",
+    [
+        "Revisiones periódicas de niveles mínimos y acuerdos con múltiples proveedores",
+        "Comprar grandes cantidades anualmente",
+        "Compartir viales entre pacientes sin control",
+        "Usar sustitutos no autorizados",
+    ],
+    0,
+    "Mantener inventarios par, diversificar proveedores y monitorear demanda permite anticipar desabastos y establecer alternativas seguras.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Gestión de inventario",
+    "Intermedio",
+    "El análisis ABC en inventario clasifica fármacos según",
+    [
+        "Valor económico y consumo",
+        "Riesgo de toxicidad",
+        "Requerimientos de refrigeración",
+        "Fecha de caducidad",
+    ],
+    0,
+    "La clasificación ABC prioriza recursos enfocándose en los productos de mayor valor o uso (clase A) para optimizar gestión y control.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Gestión de inventario",
+    "Intermedio",
+    "¿Qué indicador evalúa la eficiencia en el uso de fármacos caros como CAR-T?",
+    [
+        "Tasa de utilización vs. caducidad",
+        "Número de enfermeras",
+        "Tiempo de infusión",
+        "Nivel de glucosa",
+    ],
+    0,
+    "Monitorear la proporción de dosis utilizadas frente a caducadas permite ajustar pedidos y minimizar pérdidas en terapias de alto costo.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Manipulación y eliminación",
+    "Intermedio",
+    "La USP <800> establece estándares para",
+    [
+        "Manejo seguro de medicamentos peligrosos",
+        "Regulación de ensayos clínicos",
+        "Control de radiaciones",
+        "Gestión de residuos biológicos",
+    ],
+    0,
+    "La USP <800> proporciona lineamientos obligatorios sobre recepción, almacenamiento, preparación, administración y eliminación de fármacos peligrosos.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Manipulación y eliminación",
+    "Intermedio",
+    "¿Cuál es la práctica correcta para desechar viales parcialmente usados de antraciclinas?",
+    [
+        "Eliminarlos como residuos peligrosos RCRA",
+        "Vertirlos al desagüe",
+        "Neutralizarlos con hipoclorito",
+        "Refrigerarlos para uso posterior",
+    ],
+    0,
+    "Las antraciclinas son residuos peligrosos listados por RCRA y deben descartarse en contenedores designados para incineración segura.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Manipulación y eliminación",
+    "Intermedio",
+    "El uso de cabinas biológicas clase II en farmacias oncológicas permite",
+    [
+        "Mantener protección del trabajador y del producto durante la preparación",
+        "Eliminar necesidad de guantes",
+        "Almacenar viales",
+        "Disminuir caducidades",
+    ],
+    0,
+    "Las cabinas clase II BSC proporcionan flujo laminar y extracción filtrada que protegen tanto al personal como al medicamento estéril.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Programas REMS",
+    "Intermedio",
+    "El programa REMS de lenalidomida requiere",
+    [
+        "Registro de prescriptores, farmacias y verificación de pruebas de embarazo",
+        "Uso exclusivo hospitalario",
+        "Receta en papel",
+        "Monitorización de niveles plasmáticos",
+    ],
+    0,
+    "El REMS de lenalidomida controla el riesgo teratogénico: prescriptores, farmacias y pacientes deben estar registrados y cumplir pruebas periódicas.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Programas REMS",
+    "Intermedio",
+    "¿Cuál es un componente típico de un REMS para fármacos cardiotóxicos?",
+    [
+        "Monitorización periódica de ECG y reporte de eventos",
+        "Aprobación de deriva",
+        "Seguro obligatorio",
+        "Hospitalización",
+    ],
+    0,
+    "Los REMS pueden requerir monitorización de parámetros (p. ej., ECG, FEVI) y reporte, asegurando detección temprana de toxicidades graves.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Programas REMS",
+    "Intermedio",
+    "El REMS de clozapina comparte con terapias oncológicas orales el requisito de",
+    [
+        "Notificar resultados de laboratorio antes de dispensar",
+        "Entrega exclusivamente hospitalaria",
+        "Uso de catéter central",
+        "Consentimiento escrito",
+    ],
+    0,
+    "Al igual que algunos fármacos oncológicos de alto riesgo, ciertos REMS exigen confirmación de laboratorio (ej. ANC) antes de cada dispensación.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Uso compasivo",
+    "Intermedio",
+    "El acceso expandido (compasivo) a un fármaco en investigación requiere",
+    [
+        "Aprobación de la agencia regulatoria y consentimiento informado",
+        "Aprobación automática del fabricante",
+        "Entrega gratuita obligatoria",
+        "Ensayo fase III activo",
+    ],
+    0,
+    "Los programas de uso compasivo necesitan respaldo regulatorio (FDA/EMA), consentimiento informado y disponibilidad del fabricante.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Uso compasivo",
+    "Intermedio",
+    "En EE. UU., el mecanismo \"Right-to-Try\" permite",
+    [
+        "Acceso a fármacos fase I aprobados para pacientes en situación crítica sin alternativas",
+        "Uso de medicamentos genéricos",
+        "Disminuir requisitos de REMS",
+        "Evitar consentimiento informado",
+    ],
+    0,
+    "La ley Right-to-Try posibilita que pacientes con enfermedades graves accedan a fármacos en investigación tras fase I, siempre que el fabricante acepte.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Biosimilares",
+    "Intermedio",
+    "Un biosimilar se aprueba tras demostrar",
+    [
+        "Alta similitud en calidad, eficacia y seguridad con el biológico de referencia",
+        "Precio más bajo",
+        "Mayor potencia",
+        "Fase III con miles de pacientes",
+    ],
+    0,
+    "La aprobación se basa en un paquete analítico y clínico que demuestre ausencia de diferencias clínicamente significativas respecto al producto de referencia.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Biosimilares",
+    "Intermedio",
+    "¿Qué concepto permite intercambiar un biosimilar por el producto original en farmacia sin contacto con el prescriptor (en EE. UU.)?",
+    [
+        "Designación de intercambiable",
+        "Exención REMS",
+        "Prior Authorization",
+        "Off-label",
+    ],
+    0,
+    "Solo los biosimilares con designación de \"interchangeable\" pueden sustituirse automáticamente según regulación estatal.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Biosimilares",
+    "Intermedio",
+    "La farmacovigilancia de biosimilares requiere",
+    [
+        "Notificación con nombre comercial y número de lote",
+        "Reporte solo por ingrediente activo",
+        "No informar",
+        "Usar códigos internos",
+    ],
+    0,
+    "Para rastrear eventos adversos es imprescindible registrar nombre comercial y lote del biosimilar administrado.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Estándares y regulaciones",
+    "Intermedio",
+    "¿Qué organización emite guías sobre seguridad en mezclas estériles antineoplásicas?",
+    [
+        "ASHP",
+        "ADA",
+        "GOLD",
+        "AAFP",
+    ],
+    0,
+    "La American Society of Health-System Pharmacists publica guías detalladas sobre preparación y seguridad de mezclas estériles oncológicas.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Estándares y regulaciones",
+    "Intermedio",
+    "Las guías OSHA/NIOSH recomiendan",
+    [
+        "Uso de doble guante y protección ocular en manipulación de quimioterápicos",
+        "Eliminar cabinas de seguridad",
+        "Reutilizar jeringas",
+        "Evitar controles anuales",
+    ],
+    0,
+    "Para reducir exposición, las guías OSHA/NIOSH establecen EPP, cabinas apropiadas y procedimientos de derrames al manipular medicamentos peligrosos.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Estándares y regulaciones",
+    "Intermedio",
+    "USP <797> aborda",
+    [
+        "Preparaciones estériles",
+        "Manipulación de radiofármacos",
+        "Control de calidad",
+        "Bioequivalencia",
+    ],
+    0,
+    "La USP <797> establece requisitos para preparación de productos estériles en farmacias, incluidos procedimientos, capacitación y monitoreo ambiental.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Estándares y regulaciones",
+    "Intermedio",
+    "¿Qué norma regula la eliminación segura de residuos peligrosos farmacéuticos en EE. UU.?",
+    [
+        "RCRA",
+        "HIPAA",
+        "CLIA",
+        "OSHA",
+    ],
+    0,
+    "La Resource Conservation and Recovery Act (RCRA) regula el manejo y eliminación de residuos peligrosos, incluidos fármacos citotóxicos listados.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Estándares y regulaciones",
+    "Intermedio",
+    "La documentación de medicamentos peligrosos administrados a cada paciente debe incluir",
+    [
+        "Fecha, lote y personal que preparó/administró",
+        "Costo unitario",
+        "Únicamente dosis",
+        "Tiempo de viaje",
+    ],
+    0,
+    "Un registro completo facilita trazabilidad ante eventos adversos y cumple con requisitos regulatorios y de calidad.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Estándares y regulaciones",
+    "Intermedio",
+    "¿Qué medida reduce errores de prescripción en quimioterapia?",
+    [
+        "Uso de ordenes electrónicas normalizadas con doble verificación",
+        "Recetas manuscritas",
+        "Comunicación verbal",
+        "Dosis en mg/kg sin superficie",
+    ],
+    0,
+    "Las órdenes electrónicas estandarizadas, con calculadoras integradas y doble verificación, reducen errores de dosis y esquema en quimioterapia.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Gestión de inventario",
+    "Intermedio",
+    "¿Qué indicador evalúa el desperdicio financiero asociado a medicamentos oncológicos multidosis?",
+    [
+        "Porcentaje de viales abiertos descartados",
+        "Número de pacientes tratados",
+        "Tiempo de infusión",
+        "Salario del personal",
+    ],
+    0,
+    "Calcular el porcentaje de viales descartados permite implementar estrategias como vial sharing estandarizado y programación eficiente para reducir costos.",
+)
+
+add_question(
+    "Gestión profesional",
+    "Programas REMS",
+    "Intermedio",
+    "Un programa REMS puede requerir materiales educativos obligatorios para",
+    [
+        "Garantizar que prescriptores y pacientes comprendan riesgos específicos",
+        "Aumentar ventas",
+        "Reducir costos",
+        "Evitar controles regulatorios",
+    ],
+    0,
+    "Algunos REMS incluyen guías educativas y comprobantes de conocimiento para asegurar que todos los implicados entiendan riesgos y medidas de mitigación.",
+)
+
 
 
 
