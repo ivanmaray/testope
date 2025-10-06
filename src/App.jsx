@@ -18,6 +18,19 @@ const mezclarPreguntas = (lista) => [...lista].sort(() => Math.random() - 0.5);
 const calcularAciertos = (preguntas, respuestas) =>
   preguntas.reduce((total, pregunta, index) => total + (respuestas[index] === pregunta.respuestaCorrecta ? 1 : 0), 0);
 
+const LegalFooter = () => (
+  <footer className="legal-footer">
+    <p>
+      © 2025 Iván Maray. Plataforma elaborada para preparación educativa BPS Oncología. Preguntas generadas con apoyo de
+      inteligencia artificial; no se garantiza la veracidad absoluta del contenido.
+    </p>
+    <p>
+      Uso exclusivamente formativo. Contacto:{' '}
+      <a href="mailto:ivanmaraymateos@gmail.com">ivanmaraymateos@gmail.com</a>
+    </p>
+  </footer>
+);
+
 const App = () => {
   const { user, loading: authLoading, signOut } = useAuth();
   const storageKey = user?.id ?? 'Invitado';
@@ -346,9 +359,10 @@ const App = () => {
     return (
       <main className="app">
         <section className="auth auth--loading">
-          <h1>Simuped Onco Test</h1>
+          <h1>Preparación BPS Oncología</h1>
           <p>Cargando sesión…</p>
         </section>
+        <LegalFooter />
       </main>
     );
   }
@@ -357,6 +371,7 @@ const App = () => {
     return (
       <main className="app app--auth">
         <LoginForm />
+        <LegalFooter />
       </main>
     );
   }
@@ -528,6 +543,7 @@ const App = () => {
           </section>
         )}
       </div>
+      <LegalFooter />
     </main>
   );
 };

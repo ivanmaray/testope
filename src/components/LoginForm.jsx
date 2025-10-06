@@ -38,56 +38,67 @@ const LoginForm = () => {
   const alternateMode = mode === 'signIn' ? 'signUp' : 'signIn';
 
   return (
-    <section className="auth">
-      <header className="auth__header">
-        <h1>Simuped Onco Test</h1>
-        <p>Inicia sesión o crea una cuenta para guardar tu progreso en la nube.</p>
-      </header>
+    <section className="auth auth--split">
+      <div className="auth__visual" aria-hidden>
+        <div className="auth__visual-overlay" />
+        <div className="auth__visual-content">
+          <span className="auth__badge">Farmacia clínica</span>
+          <h2>Protocolos, farmacogenética y terapias avanzadas en una sola plataforma.</h2>
+          <p>Entrena con bancos actualizados y visualiza tu progreso en tiempo real.</p>
+        </div>
+      </div>
 
-      <form className="auth__form" onSubmit={handleSubmit}>
-        <label className="auth__field">
-          <span>Email</span>
-          <input
-            type="email"
-            value={email}
-            onChange={(event) => setEmail(event.target.value)}
-            required
-            autoComplete="email"
-            placeholder="tu@email.com"
-          />
-        </label>
+      <div className="auth__panel">
+        <header className="auth__header">
+          <h1>Preparación BPS Oncología</h1>
+          <p>Identifícate para guardar tu avance y seguir tu preparación desde cualquier dispositivo.</p>
+        </header>
 
-        <label className="auth__field">
-          <span>Contraseña</span>
-          <input
-            type="password"
-            value={password}
-            onChange={(event) => setPassword(event.target.value)}
-            required
-            minLength={6}
-            autoComplete={mode === 'signIn' ? 'current-password' : 'new-password'}
-          />
-        </label>
+        <form className="auth__form" onSubmit={handleSubmit}>
+          <label className="auth__field">
+            <span>Email</span>
+            <input
+              type="email"
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+              required
+              autoComplete="email"
+              placeholder="tu@email.com"
+            />
+          </label>
 
-        {message && <div className="auth__message">{message}</div>}
+          <label className="auth__field">
+            <span>Contraseña</span>
+            <input
+              type="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              required
+              minLength={6}
+              autoComplete={mode === 'signIn' ? 'current-password' : 'new-password'}
+            />
+          </label>
 
-        <button type="submit" className="auth__submit" disabled={loading}>
-          {loading ? 'Procesando…' : mode === 'signIn' ? 'Entrar' : 'Crear cuenta'}
-        </button>
-      </form>
+          {message && <div className="auth__message">{message}</div>}
 
-      <footer className="auth__footer">
-        <button
-          type="button"
-          className="auth__toggle"
-          onClick={() => {
-            setMode(alternateMode);
-            setMessage(null);
-          }}
-        >
-          {mode === 'signIn' ? '¿No tienes cuenta? Regístrate' : '¿Ya tienes cuenta? Inicia sesión'}
-        </button>
-      </footer>
+          <button type="submit" className="auth__submit" disabled={loading}>
+            {loading ? 'Procesando…' : mode === 'signIn' ? 'Entrar' : 'Crear cuenta'}
+          </button>
+        </form>
+
+        <footer className="auth__footer">
+          <button
+            type="button"
+            className="auth__toggle"
+            onClick={() => {
+              setMode(alternateMode);
+              setMessage(null);
+            }}
+          >
+            {mode === 'signIn' ? '¿No tienes cuenta? Regístrate' : '¿Ya tienes cuenta? Inicia sesión'}
+          </button>
+        </footer>
+      </div>
     </section>
   );
 };

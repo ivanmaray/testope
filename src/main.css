@@ -22,6 +22,7 @@ main.app {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  min-height: 100vh;
 }
 
 .hero {
@@ -56,6 +57,7 @@ main.app {
 .app__content {
   display: grid;
   gap: 2rem;
+  flex: 1;
 }
 
 section {
@@ -161,6 +163,71 @@ button:active {
   margin: 0 auto;
 }
 
+.auth--split {
+  width: min(920px, 100%);
+  padding: 0;
+  grid-template-columns: minmax(280px, 1.1fr) minmax(320px, 1fr);
+  overflow: hidden;
+}
+
+.auth__visual {
+  position: relative;
+  background-image: url('./fondo.avif');
+  background-size: cover;
+  background-position: center;
+  min-height: 420px;
+  display: flex;
+  align-items: flex-end;
+  padding: 2.5rem;
+}
+
+.auth__visual-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 10% 20%, rgba(14, 165, 233, 0.55), transparent 55%),
+    radial-gradient(circle at 90% 80%, rgba(37, 99, 235, 0.75), transparent 55%),
+    rgba(15, 23, 42, 0.35);
+  animation: dnaPulse 12s ease-in-out infinite alternate;
+}
+
+.auth__visual-content {
+  position: relative;
+  z-index: 1;
+  color: #f8fafc;
+  display: grid;
+  gap: 0.65rem;
+  max-width: 32ch;
+}
+
+.auth__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.45);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.auth__visual-content h2 {
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  margin: 0;
+}
+
+.auth__visual-content p {
+  margin: 0;
+  line-height: 1.5;
+  color: rgba(241, 245, 249, 0.85);
+}
+
+.auth__panel {
+  padding: 3rem 2.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
 .auth__header h1 {
   margin-bottom: 0.25rem;
   text-align: center;
@@ -234,11 +301,70 @@ button:active {
 }
 
 main.app.app--auth {
-  max-width: 560px;
+  max-width: 960px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 6rem;
+  padding: 2.5rem 1.5rem;
+  gap: 1.5rem;
+  min-height: 100vh;
+}
+
+@keyframes dnaPulse {
+  0% {
+    transform: scale(1) translateY(0);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.02) translateY(-6px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.04) translateY(0);
+    opacity: 0.95;
+  }
+}
+
+@media (max-width: 860px) {
+  .auth--split {
+    grid-template-columns: 1fr;
+  }
+
+  .auth__visual {
+    min-height: 220px;
+    padding: 2rem;
+  }
+
+  .auth__panel {
+    padding: 2.25rem 1.75rem 2.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .auth__visual-overlay {
+    animation: none;
+  }
+}
+
+.legal-footer {
+  text-align: center;
+  color: #475569;
+  font-size: 0.85rem;
+  display: grid;
+  gap: 0.35rem;
+  margin-top: auto;
+  padding: 1.5rem 1rem 2.5rem;
+}
+
+.legal-footer a {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.legal-footer a:hover {
+  text-decoration: underline;
 }
 
 .setup__options {
