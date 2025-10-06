@@ -13,6 +13,14 @@ Simulador de preguntas tipo test para preparar el BS de oncología. Construido c
 npm install
 ```
 
+### Configuración de Supabase
+
+1. Copia el archivo `.env.example` a `.env`.
+2. Rellena `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY` con las credenciales de tu proyecto de Supabase.
+3. Reinicia `npm run dev` para que Vite cargue las nuevas variables de entorno.
+
+Si las variables no están presentes, la autenticación mostrará un aviso en consola y no se podrá iniciar sesión.
+
 ## Scripts
 
 - `npm run dev`: levanta Vite en modo desarrollo.

@@ -3,7 +3,8 @@ import SetupForm from './components/SetupForm.jsx';
 import TestRunner from './components/TestRunner.jsx';
 import Summary from './components/Summary.jsx';
 import HistoryPanel from './components/HistoryPanel.jsx';
-import UserSelector from './components/UserSelector.jsx';
+import LoginForm from './components/LoginForm.jsx';
+import { useAuth } from './context/AuthContext.jsx';
 import {
   preguntasDisponibles,
   categoriasDisponibles,
@@ -18,6 +19,13 @@ const calcularAciertos = (preguntas, respuestas) =>
   preguntas.reduce((total, pregunta, index) => total + (respuestas[index] === pregunta.respuestaCorrecta ? 1 : 0), 0);
 
 const App = () => {
+  const { user, loading: authLoading, signOut } = useAuth();
+  const storageKey = user?.id ?? 'Invitado';
+  const displayName = useMemo(
+    () => user?.user_metadata?.full_name?.trim() || user?.email || 'Invitado',
+    [user],
+  );
+
   const FECHA_ACTUALIZACION = '6 de octubre de 2025';
   const [paso, setPaso] = useState('config');
   const [configuracion, setConfiguracion] = useState(null);
@@ -25,15 +33,7 @@ const App = () => {
   const [indiceActual, setIndiceActual] = useState(0);
   const [respuestas, setRespuestas] = useState([]);
   const [resultado, setResultado] = useState(null);
-  const [usuarioSeleccionado, setUsuarioSeleccionado] = useState('Raquel');
-  const [nombreInvitado, setNombreInvitado] = useState('');
-  const usuarioActivo = useMemo(() => {
-    if (usuarioSeleccionado === 'Invitado') {
-      return nombreInvitado.trim();
-    }
-    return usuarioSeleccionado;
-  }, [usuarioSeleccionado, nombreInvitado]);
-  const [historial, setHistorial] = useState(() => cargarHistorial('Raquel'));
+  const [historial, setHistorial] = useState(() => cargarHistorial(storageKey));
   const [mensaje, setMensaje] = useState('');
   const [tiempoRestante, setTiempoRestante] = useState(null);
   const [tiempoTotal, setTiempoTotal] = useState(null);
@@ -135,9 +135,8 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    const nombreValidado = usuarioActivo || 'Invitado';
-    setHistorial(cargarHistorial(nombreValidado));
-  }, [usuarioActivo]);
+    setHistorial(cargarHistorial(storageKey));
+  }, [storageKey]);
 
   const alternarCategoria = useCallback((categoria) => {
     setCategoriasDesplegadas((previas) => {
@@ -197,12 +196,7 @@ const App = () => {
     numeroPreguntas,
     tiempoPorPregunta,
   }) => {
-    const nombreUsuario = usuarioActivo || 'Invitado';
-
-    if (usuarioSeleccionado === 'Invitado' && !usuarioActivo) {
-      setMensaje('Introduce un nombre para el modo invitado antes de comenzar.');
-      return;
-    }
+    const nombreUsuario = displayName;
 
     let pool = [];
 
@@ -276,7 +270,7 @@ const App = () => {
     (respuestasCompletas) => {
       const respuestasFinales = respuestasCompletas ?? respuestas;
       const aciertos = calcularAciertos(preguntas, respuestasFinales);
-      const nombreHistorial = usuarioActivo || 'Invitado';
+      const nombreHistorial = storageKey;
 
       const nuevoResultado = {
         id: `resultado-${Date.now()}`,
@@ -294,7 +288,7 @@ const App = () => {
       setResultado(nuevoResultado);
       setPaso('summary');
     },
-    [configuracion, preguntas, respuestas, tiempoRestante, tiempoTotal, usuarioActivo],
+    [configuracion, preguntas, respuestas, tiempoRestante, tiempoTotal, storageKey],
   );
 
   const finalizarDesdeUI = () => {
@@ -336,18 +330,36 @@ const App = () => {
     setTiempoTotal(null);
   };
 
-  const puedeComenzar = usuarioSeleccionado !== 'Invitado' || Boolean(usuarioActivo);
-
   const limpiarHistorial = () => {
-    const nombre = usuarioActivo || 'Invitado';
-    const confirmacion = window.confirm(`Se eliminará el historial local de ${nombre}. ¿Quieres continuar?`);
+    const confirmacion = window.confirm(
+      `Se eliminará el historial local de ${displayName}. ¿Quieres continuar?`,
+    );
     if (!confirmacion) {
       return;
     }
-    eliminarHistorial(nombre);
+    eliminarHistorial(storageKey);
     setHistorial([]);
     setMensaje('Historial local eliminado.');
   };
+
+  if (authLoading) {
+    return (
+      <main className="app">
+        <section className="auth auth--loading">
+          <h1>Simuped Onco Test</h1>
+          <p>Cargando sesión…</p>
+        </section>
+      </main>
+    );
+  }
+
+  if (!user) {
+    return (
+      <main className="app app--auth">
+        <LoginForm />
+      </main>
+    );
+  }
 
   return (
     <main className="app">
@@ -356,15 +368,20 @@ const App = () => {
         <h1 className="hero__title">Preparación BPS Oncología</h1>
         <p className="hero__subtitle">
           Entrena con preguntas tipo test, controla tu tiempo y lleva registro de tus resultados para conquistar el examen.
-          {usuarioActivo ? ` Sesión activa: ${usuarioActivo}.` : ''}
         </p>
+        <div className="hero__session">
+          <span>Sesión: {displayName}</span>
+          <button type="button" className="hero__signout" onClick={signOut}>
+            Cerrar sesión
+          </button>
+        </div>
       </header>
 
       <div className="app__content">
         <section className="storage-note">
           <div>
-            <strong>Nota:</strong> El historial se guarda únicamente en este navegador. Si cambias de dispositivo, móvil u ordenador,
-            el progreso no se sincroniza automáticamente.
+            <strong>Nota:</strong> El historial se guarda únicamente en este navegador. Aunque accedes con Supabase, el progreso aún no
+            se sincroniza en la nube.
           </div>
           <button type="button" className="storage-note__button" onClick={limpiarHistorial}>
             Borrar historial local
@@ -373,20 +390,13 @@ const App = () => {
 
         {paso === 'config' && (
           <>
-            <UserSelector
-              usuarioSeleccionado={usuarioSeleccionado}
-              onSeleccionar={setUsuarioSeleccionado}
-              nombreInvitado={nombreInvitado}
-              onCambiarNombre={setNombreInvitado}
-            />
-
             <SetupForm
               categorias={categoriasDisponibles}
               dificultades={dificultadesConDatos}
               subcategoriasPorCategoria={subcategoriasPorCategoria}
-              usuario={usuarioActivo || 'Invitado'}
+              usuario={displayName}
               onStart={iniciarTest}
-              deshabilitarInicio={!puedeComenzar}
+              deshabilitarInicio={false}
             />
 
             {mensaje && (
@@ -399,7 +409,7 @@ const App = () => {
               <HistoryPanel
                 historial={historial}
                 estadisticas={estadisticasHistorial}
-                usuario={usuarioActivo || 'Invitado'}
+                usuario={displayName}
               />
             )}
           </>

@@ -65,6 +65,28 @@ section {
   box-shadow: 0 24px 56px -32px rgba(15, 23, 42, 0.45);
 }
 
+.hero__session {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.hero__signout {
+  background: rgba(255, 255, 255, 0.85);
+  color: #1e3a8a;
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  padding: 0.55rem 1rem;
+}
+
+.hero__signout:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px -14px rgba(37, 99, 235, 0.6);
+}
+
 h1,
  h2,
  h3 {
@@ -126,6 +148,97 @@ button:active {
 .setup__fieldset legend {
   font-weight: 600;
   color: #0f172a;
+}
+
+.auth {
+  display: grid;
+  gap: 1.5rem;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 24px 56px -32px rgba(15, 23, 42, 0.45);
+  width: min(420px, 100%);
+  margin: 0 auto;
+}
+
+.auth__header h1 {
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.auth__header p {
+  margin: 0;
+  text-align: center;
+  color: #475569;
+}
+
+.auth__form {
+  display: grid;
+  gap: 1rem;
+}
+
+.auth__field {
+  display: grid;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.auth__field input {
+  padding: 0.75rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid #dbeafe;
+  background: #f8fafc;
+  font-size: 1rem;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth__field input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+}
+
+.auth__message {
+  padding: 0.75rem;
+  background: rgba(59, 130, 246, 0.12);
+  color: #1d4ed8;
+  border-radius: 12px;
+  font-size: 0.95rem;
+}
+
+.auth__submit {
+  width: 100%;
+}
+
+.auth__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.auth__toggle {
+  background: transparent;
+  color: #2563eb;
+  border: none;
+  padding: 0;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.auth__toggle:hover {
+  box-shadow: none;
+  transform: none;
+}
+
+.auth--loading {
+  text-align: center;
+}
+
+main.app.app--auth {
+  max-width: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6rem;
 }
 
 .setup__options {
