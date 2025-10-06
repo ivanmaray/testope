@@ -64,18 +64,27 @@ const App = () => {
 
   const estadisticasPreguntas = useMemo(() => {
     const total = preguntasDisponibles.length;
+
     const porCategoria = categoriasDisponibles
-      .map((categoria) => ({
-        etiqueta: categoria,
-        total: preguntasDisponibles.filter((pregunta) => pregunta.categoria === categoria).length,
-      }))
+      .map((categoria) => {
+        const totalCategoria = preguntasDisponibles.filter((pregunta) => pregunta.categoria === categoria).length;
+        return {
+          etiqueta: categoria,
+          total: totalCategoria,
+          porcentaje: total === 0 ? 0 : (totalCategoria / total) * 100,
+        };
+      })
       .filter((item) => item.total > 0);
 
     const porDificultad = dificultadesDisponibles
-      .map((dificultad) => ({
-        etiqueta: dificultad,
-        total: preguntasDisponibles.filter((pregunta) => pregunta.dificultad === dificultad).length,
-      }))
+      .map((dificultad) => {
+        const totalDificultad = preguntasDisponibles.filter((pregunta) => pregunta.dificultad === dificultad).length;
+        return {
+          etiqueta: dificultad,
+          total: totalDificultad,
+          porcentaje: total === 0 ? 0 : (totalDificultad / total) * 100,
+        };
+      })
       .filter((item) => item.total > 0);
 
     return {
@@ -381,8 +390,13 @@ const App = () => {
               <ul>
                 {estadisticasPreguntas.porCategoria.map((item) => (
                   <li key={item.etiqueta}>
-                    <span>{item.etiqueta}</span>
-                    <strong>{item.total}</strong>
+                    <div className="question-stats__row">
+                      <span>{item.etiqueta}</span>
+                      <strong>{item.total}</strong>
+                    </div>
+                    <div className="question-stats__bar">
+                      <div style={{ width: `${Math.max(item.porcentaje, 2).toFixed(1)}%` }} />
+                    </div>
                   </li>
                 ))}
               </ul>
@@ -393,8 +407,13 @@ const App = () => {
               <ul>
                 {estadisticasPreguntas.porDificultad.map((item) => (
                   <li key={item.etiqueta}>
-                    <span>{item.etiqueta}</span>
-                    <strong>{item.total}</strong>
+                    <div className="question-stats__row">
+                      <span>{item.etiqueta}</span>
+                      <strong>{item.total}</strong>
+                    </div>
+                    <div className="question-stats__bar">
+                      <div style={{ width: `${Math.max(item.porcentaje, 2).toFixed(1)}%` }} />
+                    </div>
                   </li>
                 ))}
               </ul>
