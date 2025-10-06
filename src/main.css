@@ -337,6 +337,16 @@ main.app {
     grid-template-columns: 1fr;
     gap: 0.6rem;
   }
+
+  .setup__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .setup__header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1006,6 +1016,7 @@ main.app.app--auth {
   display: grid;
   gap: 1.25rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  min-width: 0;
 }
 
 .setup__field {
@@ -1021,6 +1032,7 @@ main.app.app--auth {
   border: 1px solid #d0d5dd;
   font-size: 1rem;
   font-family: inherit;
+  width: 100%;
 }
 
 .setup__field--wide {
