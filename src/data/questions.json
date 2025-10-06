@@ -1201,7 +1201,7 @@
   },
   {
     "id": "onco-081",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Básico",
     "pregunta": "¿Qué alteración genética define la leucemia mieloide crónica?",
@@ -1216,7 +1216,7 @@
   },
   {
     "id": "onco-082",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Básico",
     "pregunta": "¿Qué tratamiento inicial se utiliza en leucemia linfática crónica sintomática con del17p?",
@@ -1231,7 +1231,7 @@
   },
   {
     "id": "onco-083",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Intermedio",
     "pregunta": "En leucemia aguda promielocítica, ¿qué combinación se emplea en primera línea?",
@@ -1246,7 +1246,7 @@
   },
   {
     "id": "onco-084",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué mutación implica mal pronóstico en leucemia mieloide aguda normal cariotipo?",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "onco-085",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es la indicación del trasplante alogénico en leucemia linfoblástica aguda del adulto?",
@@ -1276,7 +1276,7 @@
   },
   {
     "id": "onco-086",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Básico",
     "pregunta": "¿Qué signo clínico clásico sugiere leucemia aguda?",
@@ -1291,7 +1291,7 @@
   },
   {
     "id": "onco-087",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué terapia dirigida se usa en LMC resistente a imatinib con mutación T315I?",
@@ -1306,7 +1306,7 @@
   },
   {
     "id": "onco-088",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué estrategia reduce síndrome de lisis tumoral al iniciar venetoclax?",
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "onco-089",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué marcador de enfermedad residual mínima se usa en LLA B?",
@@ -1336,7 +1336,7 @@
   },
   {
     "id": "onco-090",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Leucemias",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué terapia celular se recomienda en LLA B refractaria?",
@@ -1351,7 +1351,7 @@
   },
   {
     "id": "onco-091",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Básico",
     "pregunta": "¿Cuál es el esquema estándar de primera línea en linfoma difuso de células B grandes?",
@@ -1366,7 +1366,7 @@
   },
   {
     "id": "onco-092",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Básico",
     "pregunta": "¿Qué terapia se utiliza en linfoma de Hodgkin clásico en estadios avanzados?",
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "onco-093",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué anticuerpo biespecífico se usa en linfoma B replanteado tras múltiples líneas?",
@@ -1396,7 +1396,7 @@
   },
   {
     "id": "onco-094",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Intermedio",
     "pregunta": "En linfoma folicular grado 1-2 sintomático, ¿qué combinación se emplea en primera línea?",
@@ -1411,7 +1411,7 @@
   },
   {
     "id": "onco-095",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué papel tiene CAR-T en linfoma difuso B en segunda línea?",
@@ -1426,7 +1426,7 @@
   },
   {
     "id": "onco-096",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Básico",
     "pregunta": "¿Qué marcador de proliferación se usa para diferenciar linfoma indolente de agresivo?",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "onco-097",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué factor pronóstico se incluye en el IPI?",
@@ -1456,7 +1456,7 @@
   },
   {
     "id": "onco-098",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Avanzado",
     "pregunta": "En linfoma de Hodgkin refractario, ¿qué nuevo anticuerpo-drug conjugate se usa?",
@@ -1471,7 +1471,7 @@
   },
   {
     "id": "onco-099",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué patología viral está ligada a linfoma de Burkitt endémico?",
@@ -1486,7 +1486,7 @@
   },
   {
     "id": "onco-100",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Linfomas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué terapia se considera en linfoma T periférico recaído?",
@@ -1501,7 +1501,7 @@
   },
   {
     "id": "onco-101",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Básico",
     "pregunta": "¿Qué criterio define mieloma múltiple sintomático?",
@@ -1516,7 +1516,7 @@
   },
   {
     "id": "onco-102",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Básico",
     "pregunta": "¿Cuál es el tratamiento de inducción estándar en pacientes candidatos a trasplante autólogo?",
@@ -1531,7 +1531,7 @@
   },
   {
     "id": "onco-103",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué estudio se realiza para evaluar citogenética de alto riesgo en mieloma?",
@@ -1546,7 +1546,7 @@
   },
   {
     "id": "onco-104",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué agente anti-CD38 se añade a regímenes de primera línea en pacientes no candidatos a trasplante?",
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "onco-105",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué terapia celular emergente se usa en mieloma refractario triple clase?",
@@ -1576,7 +1576,7 @@
   },
   {
     "id": "onco-106",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Básico",
     "pregunta": "¿Qué prueba de imagen se recomienda inicial para detectar lesiones óseas?",
@@ -1591,7 +1591,7 @@
   },
   {
     "id": "onco-107",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué profilaxis se debe administrar en pacientes tratados con lenalidomida?",
@@ -1606,7 +1606,7 @@
   },
   {
     "id": "onco-108",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué combina teclistamab en mieloma refractario?",
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "onco-109",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué define la respuesta completa estricta según IMWG?",
@@ -1636,7 +1636,7 @@
   },
   {
     "id": "onco-110",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Mieloma",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué agente reduce riesgo de eventos óseos en mieloma?",
@@ -1651,7 +1651,7 @@
   },
   {
     "id": "onco-111",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Básico",
     "pregunta": "¿Qué esquema se recomienda en quimioterapia altamente emetógena como cisplatino?",
@@ -1666,7 +1666,7 @@
   },
   {
     "id": "onco-112",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Básico",
     "pregunta": "¿Qué antiemético se añade para prevenir náuseas anticipatorias?",
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "onco-113",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué fármaco se incluye para prevenir emesis tardía en cisplatino?",
@@ -1696,7 +1696,7 @@
   },
   {
     "id": "onco-114",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué diferencia existe entre ondasetrón y palonosetrón?",
@@ -1711,7 +1711,7 @@
   },
   {
     "id": "onco-115",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Avanzado",
     "pregunta": "En pacientes con doble profilaxis estándar que siguen con náuseas, ¿qué fármaco puede añadirse?",
@@ -1726,7 +1726,7 @@
   },
   {
     "id": "onco-116",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Básico",
     "pregunta": "¿Qué profilaxis se usa en quimioterapia de bajo riesgo emético?",
@@ -1741,7 +1741,7 @@
   },
   {
     "id": "onco-117",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué antiemesis se recomienda en quimioterapia oral moderadamente emetógena?",
@@ -1756,7 +1756,7 @@
   },
   {
     "id": "onco-118",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué estrategia se utiliza en pacientes con retraso de la motilidad gástrica?",
@@ -1771,7 +1771,7 @@
   },
   {
     "id": "onco-119",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué diferencia hay entre emesis aguda y tardía?",
@@ -1786,7 +1786,7 @@
   },
   {
     "id": "onco-120",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Antiemesis",
     "dificultad": "Avanzado",
     "pregunta": "¿Cómo se manejan las náuseas en quimioterapia multiday altamente emetógena?",
@@ -1801,7 +1801,7 @@
   },
   {
     "id": "onco-121",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Básico",
     "pregunta": "¿Qué profilaxis antimicrobiana se recomienda en neutropenia febril de alto riesgo?",
@@ -1816,7 +1816,7 @@
   },
   {
     "id": "onco-122",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Básico",
     "pregunta": "¿Qué medida previene neumonía por Pneumocystis jirovecii en tumores sólidos con altas dosis de corticoides?",
@@ -1831,7 +1831,7 @@
   },
   {
     "id": "onco-123",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuándo administrar G-CSF profiláctico primario?",
@@ -1846,7 +1846,7 @@
   },
   {
     "id": "onco-124",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué vacunación anual se aconseja en pacientes oncológicos?",
@@ -1861,7 +1861,7 @@
   },
   {
     "id": "onco-125",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué pauta antiviral se utiliza en trasplante autólogo para prevenir reactivación de herpes?",
@@ -1876,7 +1876,7 @@
   },
   {
     "id": "onco-126",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Básico",
     "pregunta": "¿Qué definición describe la sepsis en neutropenia febril?",
@@ -1891,7 +1891,7 @@
   },
   {
     "id": "onco-127",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué prueba se realiza ante fiebre persistente en neutropenia pese a antibióticos?",
@@ -1906,7 +1906,7 @@
   },
   {
     "id": "onco-128",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué marcador orienta a infección fúngica invasora en neutropenia prolongada?",
@@ -1921,7 +1921,7 @@
   },
   {
     "id": "onco-129",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué medida reduce el riesgo de infección en pacientes con catéter venoso central?",
@@ -1936,7 +1936,7 @@
   },
   {
     "id": "onco-130",
-    "categoria": "Cuidados de soporte",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Infecciones",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuándo suspender profilaxis con fluoroquinolonas en neutropenia?",
@@ -1951,7 +1951,7 @@
   },
   {
     "id": "onco-131",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Básico",
     "pregunta": "Según la escalera analgésica de la OMS, ¿qué se recomienda tras fracaso de opioides débiles?",
@@ -1966,7 +1966,7 @@
   },
   {
     "id": "onco-132",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Básico",
     "pregunta": "¿Qué adyuvante es útil en dolor neuropático oncológico?",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "onco-133",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué opioide es preferente en insuficiencia renal avanzada?",
@@ -1996,7 +1996,7 @@
   },
   {
     "id": "onco-134",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué recomendación se hace al iniciar opioides de liberación prolongada?",
@@ -2011,7 +2011,7 @@
   },
   {
     "id": "onco-135",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué técnica intervencionista se usa en dolor refractario por cáncer pancreático?",
@@ -2026,7 +2026,7 @@
   },
   {
     "id": "onco-136",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Básico",
     "pregunta": "¿Qué efecto adverso es frecuente con opioides y precisa profilaxis?",
@@ -2041,7 +2041,7 @@
   },
   {
     "id": "onco-137",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Intermedio",
     "pregunta": "¿Cómo se calcula la dosis de rescate de opioide?",
@@ -2056,7 +2056,7 @@
   },
   {
     "id": "onco-138",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué manejo se recomienda ante hiperalgesia inducida por opioides?",
@@ -2071,7 +2071,7 @@
   },
   {
     "id": "onco-139",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué escala evalúa dolor irruptivo?",
@@ -2086,7 +2086,7 @@
   },
   {
     "id": "onco-140",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Control del dolor",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué tratamiento se usa en dolor óseo metastásico focal?",
@@ -2101,7 +2101,7 @@
   },
   {
     "id": "onco-141",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Básico",
     "pregunta": "¿Cuál es el fármaco de elección para disnea refractaria en cáncer avanzado?",
@@ -2116,7 +2116,7 @@
   },
   {
     "id": "onco-142",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Básico",
     "pregunta": "¿Qué medida ambiental ayuda a aliviar disnea?",
@@ -2131,7 +2131,7 @@
   },
   {
     "id": "onco-143",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué manejo se recomienda en congestión bronquial terminal?",
@@ -2146,7 +2146,7 @@
   },
   {
     "id": "onco-144",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué intervención no farmacológica mejora ansiedad asociada a disnea?",
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "onco-145",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuándo está indicada la sedación paliativa por disnea?",
@@ -2176,7 +2176,7 @@
   },
   {
     "id": "onco-146",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Básico",
     "pregunta": "¿Qué papel tiene el oxígeno en disnea sin hipoxemia?",
@@ -2191,7 +2191,7 @@
   },
   {
     "id": "onco-147",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué combinación farmacológica se usa en crisis de disnea con ansiedad intensa?",
@@ -2206,7 +2206,7 @@
   },
   {
     "id": "onco-148",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué considerar en derrame pleural masivo sintomático en paciente paliativo?",
@@ -2221,7 +2221,7 @@
   },
   {
     "id": "onco-149",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué define disnea refractaria?",
@@ -2236,7 +2236,7 @@
   },
   {
     "id": "onco-150",
-    "categoria": "Cuidados paliativos",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Síntomas respiratorios",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué evaluación se utiliza para monitorizar disnea?",
@@ -2251,8 +2251,8 @@
   },
   {
     "id": "onco-151",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Básico",
     "pregunta": "¿Qué significa IMRT en radioterapia moderna?",
     "opciones": [
@@ -2266,8 +2266,8 @@
   },
   {
     "id": "onco-152",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Básico",
     "pregunta": "¿Qué prueba de imagen es esencial para la planificación de radioterapia externa?",
     "opciones": [
@@ -2281,8 +2281,8 @@
   },
   {
     "id": "onco-153",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué volumen incluye márgenes para el movimiento del tumor causado por la respiración?",
     "opciones": [
@@ -2296,8 +2296,8 @@
   },
   {
     "id": "onco-154",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué técnica reduce el volumen pulmonar irradiado en cáncer de mama izquierdo?",
     "opciones": [
@@ -2311,8 +2311,8 @@
   },
   {
     "id": "onco-155",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué tecnología permite administrar dosis ablativas en lesiones pequeñas?",
     "opciones": [
@@ -2326,8 +2326,8 @@
   },
   {
     "id": "onco-156",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Básico",
     "pregunta": "¿Qué parámetro dosimétrico se usa para evaluar cobertura del PTV?",
     "opciones": [
@@ -2341,8 +2341,8 @@
   },
   {
     "id": "onco-157",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué herramienta se usa para verificación diaria de posición?",
     "opciones": [
@@ -2356,8 +2356,8 @@
   },
   {
     "id": "onco-158",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué concepto describe la dosis media restringida en órganos de riesgo?",
     "opciones": [
@@ -2371,8 +2371,8 @@
   },
   {
     "id": "onco-159",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué ventaja aporta la protonterapia?",
     "opciones": [
@@ -2386,8 +2386,8 @@
   },
   {
     "id": "onco-160",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Planeación",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Radioterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué algoritmo de planificación es preferible en SBRT pulmonar?",
     "opciones": [
@@ -2401,8 +2401,8 @@
   },
   {
     "id": "onco-161",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Básico",
     "pregunta": "¿Qué toxicidad aguda es típica en radioterapia de cabeza y cuello?",
     "opciones": [
@@ -2416,8 +2416,8 @@
   },
   {
     "id": "onco-162",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Básico",
     "pregunta": "¿Qué órgano limita la radioterapia en cáncer de pulmón?",
     "opciones": [
@@ -2431,8 +2431,8 @@
   },
   {
     "id": "onco-163",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué medida previene xerostomía en radioterapia de cabeza y cuello?",
     "opciones": [
@@ -2446,8 +2446,8 @@
   },
   {
     "id": "onco-164",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué toxicidad tardía preocupa en radioterapia mamaria izquierda?",
     "opciones": [
@@ -2461,8 +2461,8 @@
   },
   {
     "id": "onco-165",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué toxicidad se monitoriza tras irradiación hepática?",
     "opciones": [
@@ -2476,8 +2476,8 @@
   },
   {
     "id": "onco-166",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Básico",
     "pregunta": "¿Qué grado de toxicidad cutánea corresponde a eritema leve?",
     "opciones": [
@@ -2491,8 +2491,8 @@
   },
   {
     "id": "onco-167",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué fármaco protege contra cistitis rádica en próstata?",
     "opciones": [
@@ -2506,8 +2506,8 @@
   },
   {
     "id": "onco-168",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué complicación tardía aparece tras irradiación medular?",
     "opciones": [
@@ -2521,8 +2521,8 @@
   },
   {
     "id": "onco-169",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué parámetros se controlan para evitar toxicidad intestinal en irradiación pélvica?",
     "opciones": [
@@ -2536,8 +2536,8 @@
   },
   {
     "id": "onco-170",
-    "categoria": "Oncología radioterápica",
-    "subcategoria": "Toxicidades",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué tratamiento se emplea para osteorradionecrosis mandibular?",
     "opciones": [
@@ -2551,7 +2551,7 @@
   },
   {
     "id": "onco-171",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Básico",
     "pregunta": "¿Qué biomarcador se evalúa para indicar trastuzumab en cáncer de mama?",
@@ -2566,7 +2566,7 @@
   },
   {
     "id": "onco-172",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Básico",
     "pregunta": "¿Qué biomarcador orienta el uso de inhibidores de PARP en ovario?",
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "onco-173",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué prueba detecta inestabilidad de microsatélites?",
@@ -2596,7 +2596,7 @@
   },
   {
     "id": "onco-174",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué biomarcador define sensibilidad a EGFR-TKIs en cáncer de pulmón?",
@@ -2611,7 +2611,7 @@
   },
   {
     "id": "onco-175",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué biomarcador tumoral se emplea para terapia tisotumab vedotina en cérvix?",
@@ -2626,7 +2626,7 @@
   },
   {
     "id": "onco-176",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Básico",
     "pregunta": "¿Qué determina candidatas a inmunoterapia en cáncer endometrial?",
@@ -2641,7 +2641,7 @@
   },
   {
     "id": "onco-177",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué biomarcador indica terapia con entrectinib?",
@@ -2656,7 +2656,7 @@
   },
   {
     "id": "onco-178",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué biomarcador se usa para seleccionar sotorasib?",
@@ -2671,7 +2671,7 @@
   },
   {
     "id": "onco-179",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué análisis se emplea para alteraciones complejas (TMB, firmas)?",
@@ -2686,7 +2686,7 @@
   },
   {
     "id": "onco-180",
-    "categoria": "Genética y biología tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué biomarcador emergente predice respuesta a inmunoterapia en melanoma?",
@@ -2701,8 +2701,8 @@
   },
   {
     "id": "onco-181",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Básico",
     "pregunta": "¿Qué mecanismo de acción tiene imatinib en GIST?",
     "opciones": [
@@ -2716,8 +2716,8 @@
   },
   {
     "id": "onco-182",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Básico",
     "pregunta": "¿Qué terapia dirigida se usa en cáncer renal metastásico?",
     "opciones": [
@@ -2731,8 +2731,8 @@
   },
   {
     "id": "onco-183",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué combinación se usa en cáncer colorrectal BRAF V600E?",
     "opciones": [
@@ -2746,8 +2746,8 @@
   },
   {
     "id": "onco-184",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué terapia dirigida se usa en cáncer de mama con mutación PIK3CA?",
     "opciones": [
@@ -2761,8 +2761,8 @@
   },
   {
     "id": "onco-185",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué fármaco bloquea mutaciones RET en cáncer de tiroides y pulmón?",
     "opciones": [
@@ -2776,8 +2776,8 @@
   },
   {
     "id": "onco-186",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Básico",
     "pregunta": "¿Qué define la resistencia secundaria a EGFR-TKIs de primera generación?",
     "opciones": [
@@ -2791,8 +2791,8 @@
   },
   {
     "id": "onco-187",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué terapia se usa en leucemia mieloide crónica resistente con T315I?",
     "opciones": [
@@ -2806,8 +2806,8 @@
   },
   {
     "id": "onco-188",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué terapia dirigida se usa en tumores con fusiones ROS1?",
     "opciones": [
@@ -2821,8 +2821,8 @@
   },
   {
     "id": "onco-189",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué estrategia combate resistencia mediada por MET tras EGFR-TKI?",
     "opciones": [
@@ -2836,8 +2836,8 @@
   },
   {
     "id": "onco-190",
-    "categoria": "Genética y biología tumoral",
-    "subcategoria": "Terapias dirigidas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué fármaco inhibe IDH1 mutado en leucemia?",
     "opciones": [
@@ -2851,8 +2851,8 @@
   },
   {
     "id": "onco-191",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Básico",
     "pregunta": "¿Qué fase de ensayo evalúa seguridad y dosis máxima tolerada?",
     "opciones": [
@@ -2866,8 +2866,8 @@
   },
   {
     "id": "onco-192",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Básico",
     "pregunta": "¿Qué característica define un ensayo fase II?",
     "opciones": [
@@ -2881,8 +2881,8 @@
   },
   {
     "id": "onco-193",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué paradigma sigue un ensayo controlado aleatorizado?",
     "opciones": [
@@ -2896,8 +2896,8 @@
   },
   {
     "id": "onco-194",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué es una variable primaria?",
     "opciones": [
@@ -2911,8 +2911,8 @@
   },
   {
     "id": "onco-195",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué ventaja tienen los ensayos adaptativos?",
     "opciones": [
@@ -2926,8 +2926,8 @@
   },
   {
     "id": "onco-196",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Básico",
     "pregunta": "¿Qué es un ensayo doble ciego?",
     "opciones": [
@@ -2941,8 +2941,8 @@
   },
   {
     "id": "onco-197",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué finalidad tiene un análisis interino de seguridad?",
     "opciones": [
@@ -2956,8 +2956,8 @@
   },
   {
     "id": "onco-198",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué es un endpoint compuesto?",
     "opciones": [
@@ -2971,8 +2971,8 @@
   },
   {
     "id": "onco-199",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué caracteriza un estudio crossover?",
     "opciones": [
@@ -2986,8 +2986,8 @@
   },
   {
     "id": "onco-200",
-    "categoria": "Investigación clínica",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué objetivo tiene un ensayo de no inferioridad?",
     "opciones": [
@@ -3001,8 +3001,8 @@
   },
   {
     "id": "onco-201",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Anticuerpos conjugados",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el mecanismo de acción principal de trastuzumab deruxtecán (T-DXd) en cáncer de mama HER2+?",
     "opciones": [
@@ -3016,8 +3016,8 @@
   },
   {
     "id": "onco-202",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Anticuerpos conjugados",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué toxicidad limitante obliga a monitorizar la función pulmonar con T-DXd?",
     "opciones": [
@@ -3031,8 +3031,8 @@
   },
   {
     "id": "onco-203",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Anticuerpos conjugados",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué diana reconoce sacituzumab govitecán y qué citotóxico libera?",
     "opciones": [
@@ -3046,8 +3046,8 @@
   },
   {
     "id": "onco-204",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Anticuerpos conjugados",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el efecto adverso ocular característico de belantamab mafodotin?",
     "opciones": [
@@ -3061,8 +3061,8 @@
   },
   {
     "id": "onco-205",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Anticuerpos conjugados",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué recomendación recoge la ficha técnica de enfortumab vedotina respecto a la microangiopatía trombótica (MAT)?",
     "opciones": [
@@ -3076,7 +3076,7 @@
   },
   {
     "id": "onco-206",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Inmunoterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué biomarcador condiciona la dosis de tarlatamab (anti-DLL3) en CP microcítico según ficha técnica?",
@@ -3091,7 +3091,7 @@
   },
   {
     "id": "onco-207",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Inmunoterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el manejo recomendado para la hepatotoxicidad grado 3 inducida por ipilimumab según ficha técnica?",
@@ -3106,7 +3106,7 @@
   },
   {
     "id": "onco-208",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Inmunoterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué toxicidad cardiaca obliga a monitorizar ECG y troponinas durante el inicio de pembrolizumab + lenvatinib?",
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "onco-209",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Inmunoterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué profilaxis recomienda la ficha técnica de teclistamab para el síndrome de liberación de citocinas (SLC)?",
@@ -3136,7 +3136,7 @@
   },
   {
     "id": "onco-210",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Inmunoterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué tratamiento recoge la ficha técnica para hipogammaglobulinemia sintomática inducida por teclistamab?",
@@ -3151,7 +3151,7 @@
   },
   {
     "id": "onco-211",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Inmunoterapia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué pauta de premedicación describe la ficha técnica de glofitamab (CD20xCD3) para prevenir SLC?",
@@ -3166,8 +3166,8 @@
   },
   {
     "id": "onco-212",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Inhibidores de tirosina cinasa",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué tratamiento requiere ajustar la dosis de osimertinib ante prolongación QTc >500 ms?",
     "opciones": [
@@ -3181,8 +3181,8 @@
   },
   {
     "id": "onco-213",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Inhibidores de tirosina cinasa",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es la principal interacción de gilteritinib (FLT3) mencionada en ficha técnica?",
     "opciones": [
@@ -3196,8 +3196,8 @@
   },
   {
     "id": "onco-214",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Inhibidores de tirosina cinasa",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué ajuste recomienda la ficha técnica de selpercatinib ante hipertensión arterial grado 3?",
     "opciones": [
@@ -3211,8 +3211,8 @@
   },
   {
     "id": "onco-215",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Inhibidores de tirosina cinasa",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué pauta alimentaria indica la ficha técnica de tucatinib?",
     "opciones": [
@@ -3226,8 +3226,8 @@
   },
   {
     "id": "onco-216",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Inhibidores de tirosina cinasa",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el manejo recomendado para toxicidad cutánea grado 3 con encorafenib + binimetinib?",
     "opciones": [
@@ -3241,8 +3241,8 @@
   },
   {
     "id": "onco-217",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Inhibidores de tirosina cinasa",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué riesgo cardiovascular obliga a monitorizar lipasas con alpelisib?",
     "opciones": [
@@ -3256,7 +3256,7 @@
   },
   {
     "id": "onco-218",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es la toxicidad característica que obliga a monitorizar fósforo con infigratinib (FGFR2)?",
@@ -3271,7 +3271,7 @@
   },
   {
     "id": "onco-219",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué combinación requiere profilaxis antiemética triple en la primera línea de cáncer gástrico HER2 negativo según ficha de zolbetuximab?",
@@ -3286,7 +3286,7 @@
   },
   {
     "id": "onco-220",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué mutación confiere resistencia primaria a larotrectinib según datos de ficha técnica?",
@@ -3301,7 +3301,7 @@
   },
   {
     "id": "onco-221",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Terapias dirigidas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué precaución existe con abemaciclib respecto a la función hepática?",
@@ -3316,8 +3316,8 @@
   },
   {
     "id": "onco-222",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Quimioterapia clásica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Quimioterapia y citotóxicos",
     "dificultad": "Avanzado",
     "pregunta": "Según la ficha técnica de la doxorrubicina liposomal, ¿cuál es la medida inicial recomendada ante extravasación?",
     "opciones": [
@@ -3331,8 +3331,8 @@
   },
   {
     "id": "onco-223",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Quimioterapia clásica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Quimioterapia y citotóxicos",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué soporte es obligatorio con altas dosis de methotrexato (>1 g/m²)?",
     "opciones": [
@@ -3346,8 +3346,8 @@
   },
   {
     "id": "onco-224",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Quimioterapia clásica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Quimioterapia y citotóxicos",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué medida reduce el riesgo de neurotoxicidad aguda con oxaliplatino?",
     "opciones": [
@@ -3361,8 +3361,8 @@
   },
   {
     "id": "onco-225",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Quimioterapia clásica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Quimioterapia y citotóxicos",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué antiemesis refleja la ficha técnica de cisplatino a dosis >70 mg/m²?",
     "opciones": [
@@ -3376,8 +3376,8 @@
   },
   {
     "id": "onco-226",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Quimioterapia clásica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Quimioterapia y citotóxicos",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué monitorización hematológica es obligatoria con temozolomida concurrente a radioterapia?",
     "opciones": [
@@ -3391,8 +3391,8 @@
   },
   {
     "id": "onco-227",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Quimioterapia clásica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Quimioterapia y citotóxicos",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué condición obliga a usar factor estimulante de colonias primario con dosetaxel + carboplatino + trastuzumab + pertuzumab?",
     "opciones": [
@@ -3406,8 +3406,8 @@
   },
   {
     "id": "onco-228",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Quimioterapia clásica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Quimioterapia y citotóxicos",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué suplemento debe evitarse con capecitabina según ficha técnica por interacción farmacocinética?",
     "opciones": [
@@ -3421,8 +3421,8 @@
   },
   {
     "id": "onco-229",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Quimioterapia clásica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Quimioterapia y citotóxicos",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué síndrome obliga a suspender definitivamente irinotecán?",
     "opciones": [
@@ -3436,8 +3436,8 @@
   },
   {
     "id": "onco-230",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Soporte y hormonoterapia",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué precaución destaca la ficha técnica de degarelix respecto al síndrome de QT prolongado?",
     "opciones": [
@@ -3451,8 +3451,8 @@
   },
   {
     "id": "onco-231",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Soporte y hormonoterapia",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué antídoto revierte las hemorragias por sobredosis de cabazitaxel?",
     "opciones": [
@@ -3466,8 +3466,8 @@
   },
   {
     "id": "onco-232",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Soporte y hormonoterapia",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué efecto adverso grave obliga a monitorizar peso y presión arterial con abiraterona + prednisona?",
     "opciones": [
@@ -3481,8 +3481,8 @@
   },
   {
     "id": "onco-233",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Soporte y hormonoterapia",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué medicamento debe suspenderse 7 días antes de lenalidomida según ficha técnica en pacientes de riesgo trombótico?",
     "opciones": [
@@ -3496,8 +3496,8 @@
   },
   {
     "id": "onco-234",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Soporte y hormonoterapia",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué limitación renal impone la ficha técnica de zoledrónico en metástasis óseas?",
     "opciones": [
@@ -3511,8 +3511,8 @@
   },
   {
     "id": "onco-235",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Soporte y hormonoterapia",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es la interacción relevante entre apalutamida y anticonvulsivantes?",
     "opciones": [
@@ -3526,8 +3526,8 @@
   },
   {
     "id": "onco-236",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Radioprotección",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué indicación recoge amifostina en ficha técnica para prevenir xerostomía?",
     "opciones": [
@@ -3541,8 +3541,8 @@
   },
   {
     "id": "onco-237",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Radioprotección",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué ajuste precisa Pluvicto (Lu-177 PSMA) según función renal?",
     "opciones": [
@@ -3556,8 +3556,8 @@
   },
   {
     "id": "onco-238",
-    "categoria": "Farmacología oncológica",
-    "subcategoria": "Radioprotección",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Soporte farmacológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué profilaxis antiemética requiere Pluvicto según ficha técnica?",
     "opciones": [
@@ -3571,7 +3571,7 @@
   },
   {
     "id": "onco-239",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Terapias celulares",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué premedicación estándar exige la infusión de idecabtagene vicleucel (abecma) para reducir SLC?",
@@ -3586,7 +3586,7 @@
   },
   {
     "id": "onco-240",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Terapias celulares",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué efecto adverso neurológico obliga a monitorización estrecha tras talquetamab (GPRC5D)?",
@@ -3601,8 +3601,8 @@
   },
   {
     "id": "onco-241",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Etiología y fisiopatología",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál de los siguientes factores provoca inestabilidad microsatelital de forma hereditaria y aumenta el riesgo de cáncer colorrectal?",
     "opciones": [
@@ -3616,8 +3616,8 @@
   },
   {
     "id": "onco-242",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Etiología y fisiopatología",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Intermedio",
     "pregunta": "En el carcinoma hepatocelular asociado a hepatitis B, ¿qué mecanismo contribuye directamente a la carcinogénesis?",
     "opciones": [
@@ -3631,8 +3631,8 @@
   },
   {
     "id": "onco-243",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Etiología y fisiopatología",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué vía metabólica alterada explica la dependencia de glutamina en muchos tumores sólidos?",
     "opciones": [
@@ -3646,8 +3646,8 @@
   },
   {
     "id": "onco-244",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Etiología y fisiopatología",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Avanzado",
     "pregunta": "El fenómeno de evasión inmune tumoral vinculado a la expresión de PD-L1 en la superficie celular se debe principalmente a",
     "opciones": [
@@ -3661,8 +3661,8 @@
   },
   {
     "id": "onco-245",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Tipos de cáncer",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Diagnóstico y estadificación",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la histología más frecuente en cáncer de pulmón asociado a mutaciones activadoras de EGFR en no fumadores?",
     "opciones": [
@@ -3676,8 +3676,8 @@
   },
   {
     "id": "onco-246",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Tipos de cáncer",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Diagnóstico y estadificación",
     "dificultad": "Avanzado",
     "pregunta": "En el linfoma de Hodgkin clásico, la presencia de células Reed-Sternberg se caracteriza inmunofenotípicamente por",
     "opciones": [
@@ -3691,8 +3691,8 @@
   },
   {
     "id": "onco-247",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Tipos de cáncer",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Diagnóstico y estadificación",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué subtipo molecular de cáncer de mama tiene mayor relación con mutaciones germinales BRCA1?",
     "opciones": [
@@ -3706,8 +3706,8 @@
   },
   {
     "id": "onco-248",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Tipos de cáncer",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Diagnóstico y estadificación",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es la neoplasia maligna más relacionada con la exposición ocupacional a asbestos?",
     "opciones": [
@@ -3721,8 +3721,8 @@
   },
   {
     "id": "onco-249",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Biología molecular tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué alteración define la dependencia oncogénica del GIST sensible a imatinib?",
     "opciones": [
@@ -3736,8 +3736,8 @@
   },
   {
     "id": "onco-250",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Biología molecular tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "Una mutación BRAFV600E confiere sensibilidad a qué clase de terapias dirigidas en melanoma metastásico?",
     "opciones": [
@@ -3751,8 +3751,8 @@
   },
   {
     "id": "onco-251",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Biología molecular tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Avanzado",
     "pregunta": "El fenotipo MSI-H (inestabilidad microsatelital alta) se asocia con",
     "opciones": [
@@ -3766,8 +3766,8 @@
   },
   {
     "id": "onco-252",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Resistencia tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Avanzado",
     "pregunta": "La mutación T790M en EGFR representa",
     "opciones": [
@@ -3781,8 +3781,8 @@
   },
   {
     "id": "onco-253",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Resistencia tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "La expresión de bombas de eflujo como P-glicoproteína (MDR1) causa",
     "opciones": [
@@ -3796,8 +3796,8 @@
   },
   {
     "id": "onco-254",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Resistencia tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué mecanismo permite a las células tumorales escapar de la terapia antiangiogénica con bevacizumab?",
     "opciones": [
@@ -3811,8 +3811,8 @@
   },
   {
     "id": "onco-255",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Resistencia tumoral",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "La paradoja de Warburg describe",
     "opciones": [
@@ -3826,8 +3826,8 @@
   },
   {
     "id": "onco-256",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Genómica",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Genómica y NGS",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué tipo de alteración detecta con mayor sensibilidad un ensayo de NGS dirigido (panel) frente a la secuenciación Sanger?",
     "opciones": [
@@ -3841,8 +3841,8 @@
   },
   {
     "id": "onco-257",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Genómica",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Genómica y NGS",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál de las siguientes alteraciones es un ejemplo de amplificación génica accionable en cáncer de mama?",
     "opciones": [
@@ -3856,8 +3856,8 @@
   },
   {
     "id": "onco-258",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Genómica",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Genómica y NGS",
     "dificultad": "Avanzado",
     "pregunta": "Una deleción en exon 19 de EGFR en pulmón se clasifica como",
     "opciones": [
@@ -3871,8 +3871,8 @@
   },
   {
     "id": "onco-259",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Prognóstico y pruebas predictivas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Pronóstico y predicción",
     "dificultad": "Intermedio",
     "pregunta": "El índice FLIPI en linfoma folicular incluye",
     "opciones": [
@@ -3886,8 +3886,8 @@
   },
   {
     "id": "onco-260",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Prognóstico y pruebas predictivas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Pronóstico y predicción",
     "dificultad": "Avanzado",
     "pregunta": "Oncotype DX proporciona preferentemente",
     "opciones": [
@@ -3901,8 +3901,8 @@
   },
   {
     "id": "onco-261",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Prognóstico y pruebas predictivas",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Pronóstico y predicción",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué factor del IPI modificado para linfoma difuso de células B grandes se asocia con peor pronóstico?",
     "opciones": [
@@ -3916,8 +3916,8 @@
   },
   {
     "id": "onco-262",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "NGS",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Genómica y NGS",
     "dificultad": "Avanzado",
     "pregunta": "En un panel de NGS multitumoral, ¿qué parámetro garantiza la sensibilidad para detectar variantes de baja frecuencia al analizar biopsia líquida?",
     "opciones": [
@@ -3931,8 +3931,8 @@
   },
   {
     "id": "onco-263",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "NGS",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Genómica y NGS",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué limitación tiene la biopsia líquida respecto a la biopsia tisular en cáncer de pulmón?",
     "opciones": [
@@ -3946,7 +3946,7 @@
   },
   {
     "id": "onco-264",
-    "categoria": "Diagnóstico y pruebas oncológicas",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué biomarcador se expresa como CPS (Combined Positive Score)?",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "onco-265",
-    "categoria": "Diagnóstico y pruebas oncológicas",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Avanzado",
     "pregunta": "La puntuación TPS (tumor proportion score) en pulmón mide",
@@ -3976,7 +3976,7 @@
   },
   {
     "id": "onco-266",
-    "categoria": "Diagnóstico y pruebas oncológicas",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué prueba se solicita para determinar elegibilidad a terapias anti-HER2 en cáncer gástrico?",
@@ -3991,7 +3991,7 @@
   },
   {
     "id": "onco-267",
-    "categoria": "Diagnóstico y pruebas oncológicas",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál de los siguientes marcadores predice beneficio de PARP inhibidores en cáncer de ovario?",
@@ -4006,7 +4006,7 @@
   },
   {
     "id": "onco-268",
-    "categoria": "Diagnóstico y pruebas oncológicas",
+    "categoria": "Diagnóstico y biología tumoral",
     "subcategoria": "Biomarcadores",
     "dificultad": "Intermedio",
     "pregunta": "Un TMB ≥10 mut/Mb se ha utilizado para",
@@ -4021,8 +4021,8 @@
   },
   {
     "id": "onco-269",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Detección",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Intermedio",
     "pregunta": "¿Con qué frecuencia se recomienda la mamografía en mujeres de riesgo promedio (50-74 años) según la USPSTF?",
     "opciones": [
@@ -4036,8 +4036,8 @@
   },
   {
     "id": "onco-270",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Detección",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué técnica de cribado reduce mortalidad por cáncer de pulmón en fumadores de alto riesgo?",
     "opciones": [
@@ -4051,8 +4051,8 @@
   },
   {
     "id": "onco-271",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Detección",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Intermedio",
     "pregunta": "Una mujer portadora de BRCA1 debe iniciar resonancia magnética mamaria",
     "opciones": [
@@ -4066,8 +4066,8 @@
   },
   {
     "id": "onco-272",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Prevención",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Intermedio",
     "pregunta": "La vacunación frente al VPH se recomienda idealmente a",
     "opciones": [
@@ -4081,8 +4081,8 @@
   },
   {
     "id": "onco-273",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Prevención",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué intervención reduce de forma significativa el riesgo de cáncer colorrectal en pacientes con poliposis adenomatosa familiar?",
     "opciones": [
@@ -4096,8 +4096,8 @@
   },
   {
     "id": "onco-274",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Prevención",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Prevención y riesgo",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la recomendación de quimioprevención con tamoxifeno?",
     "opciones": [
@@ -4111,8 +4111,8 @@
   },
   {
     "id": "onco-275",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Recursos",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Recursos diagnósticos",
     "dificultad": "Básico",
     "pregunta": "¿Cuál de las siguientes organizaciones provee guías para pacientes y cuidadores sobre manejo de cáncer?",
     "opciones": [
@@ -4126,8 +4126,8 @@
   },
   {
     "id": "onco-276",
-    "categoria": "Diagnóstico y pruebas oncológicas",
-    "subcategoria": "Recursos",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Recursos diagnósticos",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué herramienta ayuda a evaluar alfabetización sanitaria y adaptar la educación al paciente?",
     "opciones": [
@@ -4141,8 +4141,8 @@
   },
   {
     "id": "onco-277",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el esquema estándar adyuvante para cáncer de colon estadio III con riesgo bajo según NCCN?",
     "opciones": [
@@ -4156,8 +4156,8 @@
   },
   {
     "id": "onco-278",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "En cáncer de pulmón no microcítico estadio IV con mutación ALK, la terapia de primera línea preferida es",
     "opciones": [
@@ -4171,8 +4171,8 @@
   },
   {
     "id": "onco-279",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la terapia sistémica recomendada para cáncer de mama metastásico HR+/HER2- con mutación ESR1 tras inhibidor de aromatasa?",
     "opciones": [
@@ -4186,8 +4186,8 @@
   },
   {
     "id": "onco-280",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "En el tratamiento perioperatorio del cáncer gástrico localmente avanzado, el régimen preferido actualmente es",
     "opciones": [
@@ -4201,8 +4201,8 @@
   },
   {
     "id": "onco-281",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "La terapia de consolidación tras quimiorradioterapia en NSCLC estadio III irresecable PD-L1 ≥1% es",
     "opciones": [
@@ -4216,8 +4216,8 @@
   },
   {
     "id": "onco-282",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es la combinación estándar para carcinoma hepatocelular avanzado en primera línea con función hepática Child-Pugh A?",
     "opciones": [
@@ -4231,8 +4231,8 @@
   },
   {
     "id": "onco-283",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "En melanoma irresecable con mutación BRAFV600, ¿qué terapia combinada reduce el riesgo de recurrencia tras resección?",
     "opciones": [
@@ -4246,8 +4246,8 @@
   },
   {
     "id": "onco-284",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "El esquema preferido para carcinoma cervical persistente/recidivante PD-L1 positivo incluye",
     "opciones": [
@@ -4261,8 +4261,8 @@
   },
   {
     "id": "onco-285",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "En linfoma difuso de células B grandes recaído precoz tras R-CHOP, el estándar actual en segunda línea para candidatos es",
     "opciones": [
@@ -4276,8 +4276,8 @@
   },
   {
     "id": "onco-286",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la recomendación terapéutica en leucemia mieloide crónica con respuesta subóptima a imatinib y mutación T315I?",
     "opciones": [
@@ -4291,8 +4291,8 @@
   },
   {
     "id": "onco-287",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "En cáncer de próstata metastásico hormonosensible de alto volumen, el tratamiento inicial debe incluir",
     "opciones": [
@@ -4306,8 +4306,8 @@
   },
   {
     "id": "onco-288",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "La terapia adyuvante estándar tras resección completa de carcinoma urotelial músculo invasivo con PD-L1 ≥1% incluye",
     "opciones": [
@@ -4321,8 +4321,8 @@
   },
   {
     "id": "onco-289",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la terapia de elección en linfoma de Hodgkin clásico en recaída temprana tras autotrasplante?",
     "opciones": [
@@ -4336,8 +4336,8 @@
   },
   {
     "id": "onco-290",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento del cáncer",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "Para pacientes con cáncer de ovario avanzado con respuesta completa a quimioterapia platino-sensible y HRD positivo, la recomendación de mantenimiento es",
     "opciones": [
@@ -4351,8 +4351,8 @@
   },
   {
     "id": "onco-291",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento de trastornos hematológicos",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es el tratamiento de primera línea recomendado en anemia aplásica severa en menores de 40 años con donante compatible?",
     "opciones": [
@@ -4366,8 +4366,8 @@
   },
   {
     "id": "onco-292",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento de trastornos hematológicos",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué terapia de rescate es estándar en PTI crónica refractaria tras corticoides e IVIG?",
     "opciones": [
@@ -4381,8 +4381,8 @@
   },
   {
     "id": "onco-293",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Tratamiento de trastornos hematológicos",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "En anemia falciforme con crisis frecuentes y herencia homocigota, la terapia modificadora de enfermedad recomendada es",
     "opciones": [
@@ -4396,8 +4396,8 @@
   },
   {
     "id": "onco-294",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Paliativos y soporte",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Cuidados paliativos",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué escalera analgésica recomienda la OMS para dolor oncológico moderado-severo persistente pese a opioides débiles?",
     "opciones": [
@@ -4411,8 +4411,8 @@
   },
   {
     "id": "onco-295",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Paliativos y soporte",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Cuidados paliativos",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué manejo farmacológico se considera de primera línea para disnea refractaria en paciente oncológico avanzado?",
     "opciones": [
@@ -4426,8 +4426,8 @@
   },
   {
     "id": "onco-296",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Paliativos y soporte",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Cuidados paliativos",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué suplemento nutricional está indicado en caquexia oncológica cuando la ingesta oral es inadecuada?",
     "opciones": [
@@ -4441,8 +4441,8 @@
   },
   {
     "id": "onco-297",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Cuidados al final de la vida",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Cuidados paliativos",
     "dificultad": "Intermedio",
     "pregunta": "En un paciente con dolor refractario y pronóstico de días, ¿qué intervención es apropiada?",
     "opciones": [
@@ -4456,8 +4456,8 @@
   },
   {
     "id": "onco-298",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Supervivencia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Supervivencia y seguimiento",
     "dificultad": "Intermedio",
     "pregunta": "En el plan de supervivencia tras cáncer de mama, ¿qué vigilancia es esencial?",
     "opciones": [
@@ -4471,8 +4471,8 @@
   },
   {
     "id": "onco-299",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Supervivencia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Supervivencia y seguimiento",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué intervención reduce linfoedema en supervivientes de cáncer de mama?",
     "opciones": [
@@ -4486,8 +4486,8 @@
   },
   {
     "id": "onco-300",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Determinantes sociales",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Determinantes sociales y guías",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué estrategia aborda mejor barreras de alfabetización en pacientes oncológicos de baja escolaridad?",
     "opciones": [
@@ -4501,8 +4501,8 @@
   },
   {
     "id": "onco-301",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Determinantes sociales",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Determinantes sociales y guías",
     "dificultad": "Básico",
     "pregunta": "¿Cuál es un ejemplo de determinante social que puede modificar la adherencia a terapias orales oncológicas?",
     "opciones": [
@@ -4516,8 +4516,8 @@
   },
   {
     "id": "onco-302",
-    "categoria": "Planificación terapéutica",
-    "subcategoria": "Guías clínicas",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Determinantes sociales y guías",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué recurso es referencia para guías de práctica clínica en oncología en EE. UU.?",
     "opciones": [
@@ -4531,8 +4531,8 @@
   },
   {
     "id": "onco-303",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "Para ajustar dosis de carboplatino en quimioterapia, la fórmula de Calvert utiliza",
     "opciones": [
@@ -4546,8 +4546,8 @@
   },
   {
     "id": "onco-304",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "En pacientes con insuficiencia renal severa (ClCr <30 mL/min), ¿qué fármaco requiere evitarse por acumulación neurotóxica?",
     "opciones": [
@@ -4561,8 +4561,8 @@
   },
   {
     "id": "onco-305",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "La compatibilidad Y-site de vincristina durante la administración de infusión continua de cisplatino es",
     "opciones": [
@@ -4576,8 +4576,8 @@
   },
   {
     "id": "onco-306",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué ajuste posológico requiere la ifosfamida al sospechar neurotoxicidad encefalopática grado 3?",
     "opciones": [
@@ -4591,8 +4591,8 @@
   },
   {
     "id": "onco-307",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "En pacientes con ictericia y bilirrubina total >3 mg/dL, se debe evitar",
     "opciones": [
@@ -4606,8 +4606,8 @@
   },
   {
     "id": "onco-308",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Modalidades no farmacológicas",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Modalidades complementarias",
     "dificultad": "Intermedio",
     "pregunta": "La braquiterapia intersticial está indicada en",
     "opciones": [
@@ -4621,8 +4621,8 @@
   },
   {
     "id": "onco-309",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Modalidades no farmacológicas",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Modalidades complementarias",
     "dificultad": "Intermedio",
     "pregunta": "La resección quirúrgica metastásica (metastasectomía) mejora supervivencia en",
     "opciones": [
@@ -4636,8 +4636,8 @@
   },
   {
     "id": "onco-310",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacogenómica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Farmacogenética",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué alelo reduce drásticamente la actividad de dihidropirimidina deshidrogenasa y obliga a evitar fluoropirimidinas?",
     "opciones": [
@@ -4651,8 +4651,8 @@
   },
   {
     "id": "onco-311",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacogenómica",
+    "categoria": "Farmacología y farmacogenética",
+    "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "La dosis inicial de mercaptopurina debe reducirse en pacientes con",
     "opciones": [
@@ -4666,8 +4666,8 @@
   },
   {
     "id": "onco-312",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Educación de pacientes",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Coordinación y educación",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué consejo es clave para pacientes que inician terapia oral con lenalidomida?",
     "opciones": [
@@ -4681,8 +4681,8 @@
   },
   {
     "id": "onco-313",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Educación de pacientes",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Coordinación y educación",
     "dificultad": "Básico",
     "pregunta": "¿Qué técnica mejora adherencia en terapias orales complejas?",
     "opciones": [
@@ -4696,8 +4696,8 @@
   },
   {
     "id": "onco-314",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Coordinación interdisciplinaria",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Coordinación y educación",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué intervención previene errores al transicionar quimioterapia oral del hospital a la farmacia comunitaria?",
     "opciones": [
@@ -4711,8 +4711,8 @@
   },
   {
     "id": "onco-315",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Administración de fármacos",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué vía de administración requiere filtro en línea de 0.22 µm para prevenir precipitados en taxanos?",
     "opciones": [
@@ -4726,8 +4726,8 @@
   },
   {
     "id": "onco-316",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Administración de fármacos",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "Para prevenir extravasación de vesicantes, la administración debe realizarse preferentemente",
     "opciones": [
@@ -4741,8 +4741,8 @@
   },
   {
     "id": "onco-317",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Administración de fármacos",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es el manejo recomendado si se retrasa la perfusión de rituximab por reacción grado 2?",
     "opciones": [
@@ -4756,8 +4756,8 @@
   },
   {
     "id": "onco-318",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Administración de fármacos",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Básico",
     "pregunta": "¿Por qué se administra dexametasona previa a docetaxel?",
     "opciones": [
@@ -4771,8 +4771,8 @@
   },
   {
     "id": "onco-319",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Terapias complementarias",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Modalidades complementarias",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué suplemento herbal puede interferir con imatinib al inducir CYP3A4?",
     "opciones": [
@@ -4786,8 +4786,8 @@
   },
   {
     "id": "onco-320",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "En pacientes con QTc prolongado, ¿qué inhibidor de ALK tiene menor riesgo de arritmias?",
     "opciones": [
@@ -4801,8 +4801,8 @@
   },
   {
     "id": "onco-321",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la principal precaución al administrar vincristina en pediatría?",
     "opciones": [
@@ -4816,8 +4816,8 @@
   },
   {
     "id": "onco-322",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué agente requiere profilaxis con ácido fólico y vitamina B12 para reducir toxicidad hematológica?",
     "opciones": [
@@ -4831,8 +4831,8 @@
   },
   {
     "id": "onco-323",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Programas de asistencia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Coordinación y educación",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué recurso facilita acceso a fármacos orales costosos cuando no están cubiertos?",
     "opciones": [
@@ -4846,8 +4846,8 @@
   },
   {
     "id": "onco-324",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es la estrategia de primera línea para minimizar síndrome mano-pie por capecitabina?",
     "opciones": [
@@ -4861,8 +4861,8 @@
   },
   {
     "id": "onco-325",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la recomendación al administrar olaratumab con doxorrubicina?",
     "opciones": [
@@ -4876,8 +4876,8 @@
   },
   {
     "id": "onco-326",
-    "categoria": "Implementación terapéutica",
-    "subcategoria": "Farmacoterapia",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Planificación terapéutica",
     "dificultad": "Avanzado",
     "pregunta": "Cuando se administra nivolumab + ipilimumab, ¿qué vigilancia es prioritaria en las primeras 12 semanas?",
     "opciones": [
@@ -4891,7 +4891,7 @@
   },
   {
     "id": "onco-327",
-    "categoria": "Seguimiento y resultados",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Interacciones farmacológicas",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál de los siguientes antifúngicos incrementa de forma notable las concentraciones de tacrolimus al inhibir CYP3A4?",
@@ -4906,7 +4906,7 @@
   },
   {
     "id": "onco-328",
-    "categoria": "Seguimiento y resultados",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Interacciones farmacológicas",
     "dificultad": "Intermedio",
     "pregunta": "La ingesta habitual de jugo de pomelo debe evitarse con",
@@ -4921,7 +4921,7 @@
   },
   {
     "id": "onco-329",
-    "categoria": "Seguimiento y resultados",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Interacciones farmacológicas",
     "dificultad": "Intermedio",
     "pregunta": "Aprepitant reduce el INR de pacientes tratados con warfarina porque",
@@ -4936,7 +4936,7 @@
   },
   {
     "id": "onco-330",
-    "categoria": "Seguimiento y resultados",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Interacciones farmacológicas",
     "dificultad": "Avanzado",
     "pregunta": "Los inhibidores de bomba de protones disminuyen la exposición de cuál de los siguientes ITK por dependencia del pH gástrico?",
@@ -4951,8 +4951,8 @@
   },
   {
     "id": "onco-331",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Mecanismos de resistencia",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Avanzado",
     "pregunta": "La mutación C797S en EGFR suele aparecer tras",
     "opciones": [
@@ -4966,8 +4966,8 @@
   },
   {
     "id": "onco-332",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Mecanismos de resistencia",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué mecanismo confiere resistencia adquirida a terapias dirigidas anti-BRAF en melanoma?",
     "opciones": [
@@ -4981,8 +4981,8 @@
   },
   {
     "id": "onco-333",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Mecanismos de resistencia",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "El desarrollo de variantes del receptor androgénico (AR-V7) se asocia con resistencia primaria a",
     "opciones": [
@@ -4996,8 +4996,8 @@
   },
   {
     "id": "onco-334",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Mecanismos de resistencia",
+    "categoria": "Diagnóstico y biología tumoral",
+    "subcategoria": "Biología molecular y resistencia",
     "dificultad": "Intermedio",
     "pregunta": "La mutación ALK G1202R confiere resistencia a",
     "opciones": [
@@ -5011,8 +5011,8 @@
   },
   {
     "id": "onco-335",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Prevención y manejo de toxicidad",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué parámetro se monitoriza para detectar cardiotoxicidad por trastuzumab?",
     "opciones": [
@@ -5026,8 +5026,8 @@
   },
   {
     "id": "onco-336",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Prevención y manejo de toxicidad",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Cómo se previene el síndrome mano-pie asociado a sorafenib o regorafenib?",
     "opciones": [
@@ -5041,8 +5041,8 @@
   },
   {
     "id": "onco-337",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Prevención y manejo de toxicidad",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué parámetro debe controlarse semanalmente al iniciar alpelisib?",
     "opciones": [
@@ -5056,8 +5056,8 @@
   },
   {
     "id": "onco-338",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Prevención y manejo de toxicidad",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué agente se administra junto con ifosfamida para prevenir cistitis hemorrágica?",
     "opciones": [
@@ -5071,8 +5071,8 @@
   },
   {
     "id": "onco-339",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Prevención y manejo de toxicidad",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "La monitorización de DLCO es útil para detectar a tiempo toxicidad pulmonar asociada a",
     "opciones": [
@@ -5086,7 +5086,7 @@
   },
   {
     "id": "onco-340",
-    "categoria": "Seguimiento y resultados",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Emergencias oncológicas",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la medida profiláctica fundamental en pacientes con alto riesgo de síndrome de lisis tumoral?",
@@ -5101,7 +5101,7 @@
   },
   {
     "id": "onco-341",
-    "categoria": "Seguimiento y resultados",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Emergencias oncológicas",
     "dificultad": "Intermedio",
     "pregunta": "El síndrome de vena cava superior requiere inicialmente",
@@ -5116,7 +5116,7 @@
   },
   {
     "id": "onco-342",
-    "categoria": "Seguimiento y resultados",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Emergencias oncológicas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué agente es de elección en hipercalcemia maligna severa una vez corregida la volemia?",
@@ -5131,7 +5131,7 @@
   },
   {
     "id": "onco-343",
-    "categoria": "Seguimiento y resultados",
+    "categoria": "Cuidados y soporte integral",
     "subcategoria": "Emergencias oncológicas",
     "dificultad": "Intermedio",
     "pregunta": "En sospecha de compresión medular metastásica, el manejo inicial incluye",
@@ -5146,8 +5146,8 @@
   },
   {
     "id": "onco-344",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones de terapia",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué agente reduce la incidencia de mucositis oral severa en pacientes sometidos a quimioterapia de alta dosis antes de trasplante autólogo?",
     "opciones": [
@@ -5161,8 +5161,8 @@
   },
   {
     "id": "onco-345",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones de terapia",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué intervención reduce el riesgo de neuropatía periférica por oxaliplatino?",
     "opciones": [
@@ -5176,8 +5176,8 @@
   },
   {
     "id": "onco-346",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones de terapia",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "La tromboprofilaxis se recomienda en pacientes con cáncer ambulatorios cuando",
     "opciones": [
@@ -5191,8 +5191,8 @@
   },
   {
     "id": "onco-347",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones de terapia",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la medida clave para prevenir osteonecrosis mandibular en pacientes que inician bifosfonatos?",
     "opciones": [
@@ -5206,8 +5206,8 @@
   },
   {
     "id": "onco-348",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones de TPH/Celular",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la profilaxis estándar de enfermedad de injerto contra huésped en trasplante alogénico mieloablativo?",
     "opciones": [
@@ -5221,8 +5221,8 @@
   },
   {
     "id": "onco-349",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones de TPH/Celular",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Avanzado",
     "pregunta": "La enfermedad veno-oclusiva hepática post-trasplante se manifiesta con",
     "opciones": [
@@ -5236,8 +5236,8 @@
   },
   {
     "id": "onco-350",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones de TPH/Celular",
+    "categoria": "Cuidados y soporte integral",
+    "subcategoria": "Toxicidad y complicaciones",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es el tratamiento de primera línea del síndrome de liberación de citocinas asociado a CAR-T grado ≥2?",
     "opciones": [
@@ -5251,8 +5251,8 @@
   },
   {
     "id": "onco-351",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones a largo plazo",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Supervivencia y seguimiento",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la complicación cardiovascular tardía más asociada con antraciclinas?",
     "opciones": [
@@ -5266,8 +5266,8 @@
   },
   {
     "id": "onco-352",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones a largo plazo",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Supervivencia y seguimiento",
     "dificultad": "Intermedio",
     "pregunta": "En supervivientes de trasplante alogénico, la profilaxis de infecciones neumocócicas incluye",
     "opciones": [
@@ -5281,8 +5281,8 @@
   },
   {
     "id": "onco-353",
-    "categoria": "Seguimiento y resultados",
-    "subcategoria": "Complicaciones a largo plazo",
+    "categoria": "Planificación y seguimiento terapéutico",
+    "subcategoria": "Supervivencia y seguimiento",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué estrategia ayuda a preservar la fertilidad en mujeres jóvenes sometidas a quimioterapia gonadotóxica?",
     "opciones": [
@@ -5296,8 +5296,8 @@
   },
   {
     "id": "onco-354",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Métodos de investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué tipo de estudio utiliza asignación aleatoria pero no permite ciego de participantes por la naturaleza de la intervención?",
     "opciones": [
@@ -5311,8 +5311,8 @@
   },
   {
     "id": "onco-355",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Métodos de investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es el propósito de un ensayo fase I en oncología?",
     "opciones": [
@@ -5326,8 +5326,8 @@
   },
   {
     "id": "onco-356",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Métodos de investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué diseño minimiza variabilidad interpaciente asignando cada sujeto a múltiples tratamientos en periodos distintos?",
     "opciones": [
@@ -5341,8 +5341,8 @@
   },
   {
     "id": "onco-357",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Métodos de investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la característica principal de un ensayo pragmatico?",
     "opciones": [
@@ -5356,8 +5356,8 @@
   },
   {
     "id": "onco-358",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Métodos de investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué elemento distingue un estudio caso-control de un estudio de cohorte?",
     "opciones": [
@@ -5371,8 +5371,8 @@
   },
   {
     "id": "onco-359",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Estadística",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Intermedio",
     "pregunta": "El poder estadístico (1-β) representa",
     "opciones": [
@@ -5386,8 +5386,8 @@
   },
   {
     "id": "onco-360",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Estadística",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué estadístico se utiliza para comparar supervivencia entre dos grupos en un ensayo clínico?",
     "opciones": [
@@ -5401,8 +5401,8 @@
   },
   {
     "id": "onco-361",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Estadística",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Intermedio",
     "pregunta": "El intervalo de confianza del 95% para hazard ratio de 0.70 (0.50-0.95) indica",
     "opciones": [
@@ -5416,8 +5416,8 @@
   },
   {
     "id": "onco-362",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Estadística",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Metodología y estadística",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué medida resume el beneficio clínico necesario en términos de pacientes tratados para evitar un evento adicional?",
     "opciones": [
@@ -5431,8 +5431,8 @@
   },
   {
     "id": "onco-363",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Resultados de investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "Los desenlaces centrados en el paciente (patient-reported outcomes) evalúan",
     "opciones": [
@@ -5446,8 +5446,8 @@
   },
   {
     "id": "onco-364",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Resultados de investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es un desenlace compuesto utilizado en ensayos oncológicos?",
     "opciones": [
@@ -5461,8 +5461,8 @@
   },
   {
     "id": "onco-365",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Resultados de investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "Los estudios que evalúan utilidad de nuevas terapias incorporan análisis de",
     "opciones": [
@@ -5476,8 +5476,8 @@
   },
   {
     "id": "onco-366",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Ética e investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "El principio de beneficencia en investigación clínica implica",
     "opciones": [
@@ -5491,8 +5491,8 @@
   },
   {
     "id": "onco-367",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Ética e investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál de los siguientes elementos es obligatorio en un consentimiento informado válido?",
     "opciones": [
@@ -5506,8 +5506,8 @@
   },
   {
     "id": "onco-368",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Ética e investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "La justicia en ensayos clínicos se refiere a",
     "opciones": [
@@ -5521,8 +5521,8 @@
   },
   {
     "id": "onco-369",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué fase de ensayo evalúa eficacia comparativa con el estándar de cuidado en grandes poblaciones?",
     "opciones": [
@@ -5536,8 +5536,8 @@
   },
   {
     "id": "onco-370",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Avanzado",
     "pregunta": "Los diseños adaptativos permiten",
     "opciones": [
@@ -5551,8 +5551,8 @@
   },
   {
     "id": "onco-371",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "Un endpoint compuesto usual en ensayos oncológicos incluye",
     "opciones": [
@@ -5566,8 +5566,8 @@
   },
   {
     "id": "onco-372",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Diseño de ensayos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Investigación clínica",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué fase suele evaluar intervenciones en población pediátrica tras establecer dosis en adultos?",
     "opciones": [
@@ -5581,8 +5581,8 @@
   },
   {
     "id": "onco-373",
-    "categoria": "Práctica profesional",
-    "subcategoria": "IRB/IEC",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la función principal de un Comité de Ética (IRB)?",
     "opciones": [
@@ -5596,8 +5596,8 @@
   },
   {
     "id": "onco-374",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Aprobación de fármacos",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "Un medicamento oncológico puede recibir aprobación acelerada de la FDA cuando",
     "opciones": [
@@ -5611,8 +5611,8 @@
   },
   {
     "id": "onco-375",
-    "categoria": "Práctica profesional",
-    "subcategoria": "Gestión de fármacos en investigación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué documento detalla almacenamiento, logística y devoluciones de un medicamento en investigación?",
     "opciones": [
@@ -5626,8 +5626,8 @@
   },
   {
     "id": "onco-376",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Gestión de calidad",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es el objetivo de un análisis causa-raíz tras un evento adverso?",
     "opciones": [
@@ -5641,8 +5641,8 @@
   },
   {
     "id": "onco-377",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Gestión de calidad",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué indicador monitoriza la adecuación de protocolos de quimioterapia en farmacia oncológica?",
     "opciones": [
@@ -5656,8 +5656,8 @@
   },
   {
     "id": "onco-378",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Gestión de calidad",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "La metodología PDSA (Plan-Do-Study-Act) se utiliza para",
     "opciones": [
@@ -5671,8 +5671,8 @@
   },
   {
     "id": "onco-379",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Gestión de inventario",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué estrategia minimiza el desabasto de medicamentos oncológicos críticos?",
     "opciones": [
@@ -5686,8 +5686,8 @@
   },
   {
     "id": "onco-380",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Gestión de inventario",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "El análisis ABC en inventario clasifica fármacos según",
     "opciones": [
@@ -5701,8 +5701,8 @@
   },
   {
     "id": "onco-381",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Gestión de inventario",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué indicador evalúa la eficiencia en el uso de fármacos caros como CAR-T?",
     "opciones": [
@@ -5716,8 +5716,8 @@
   },
   {
     "id": "onco-382",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Manipulación y eliminación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "La USP <800> establece estándares para",
     "opciones": [
@@ -5731,8 +5731,8 @@
   },
   {
     "id": "onco-383",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Manipulación y eliminación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la práctica correcta para desechar viales parcialmente usados de antraciclinas?",
     "opciones": [
@@ -5746,8 +5746,8 @@
   },
   {
     "id": "onco-384",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Manipulación y eliminación",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "El uso de cabinas biológicas clase II en farmacias oncológicas permite",
     "opciones": [
@@ -5761,8 +5761,8 @@
   },
   {
     "id": "onco-385",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Programas REMS",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "El programa REMS de lenalidomida requiere",
     "opciones": [
@@ -5776,8 +5776,8 @@
   },
   {
     "id": "onco-386",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Programas REMS",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es un componente típico de un REMS para fármacos cardiotóxicos?",
     "opciones": [
@@ -5791,8 +5791,8 @@
   },
   {
     "id": "onco-387",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Programas REMS",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "El REMS de clozapina comparte con terapias oncológicas orales el requisito de",
     "opciones": [
@@ -5806,8 +5806,8 @@
   },
   {
     "id": "onco-388",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Uso compasivo",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "El acceso expandido (compasivo) a un fármaco en investigación requiere",
     "opciones": [
@@ -5821,8 +5821,8 @@
   },
   {
     "id": "onco-389",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Uso compasivo",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "En EE. UU., el mecanismo \"Right-to-Try\" permite",
     "opciones": [
@@ -5836,8 +5836,8 @@
   },
   {
     "id": "onco-390",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Biosimilares",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "Un biosimilar se aprueba tras demostrar",
     "opciones": [
@@ -5851,8 +5851,8 @@
   },
   {
     "id": "onco-391",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Biosimilares",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué concepto permite intercambiar un biosimilar por el producto original en farmacia sin contacto con el prescriptor (en EE. UU.)?",
     "opciones": [
@@ -5866,8 +5866,8 @@
   },
   {
     "id": "onco-392",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Biosimilares",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Gestión de recursos",
     "dificultad": "Intermedio",
     "pregunta": "La farmacovigilancia de biosimilares requiere",
     "opciones": [
@@ -5881,8 +5881,8 @@
   },
   {
     "id": "onco-393",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Estándares y regulaciones",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué organización emite guías sobre seguridad en mezclas estériles antineoplásicas?",
     "opciones": [
@@ -5896,8 +5896,8 @@
   },
   {
     "id": "onco-394",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Estándares y regulaciones",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "Las guías OSHA/NIOSH recomiendan",
     "opciones": [
@@ -5911,8 +5911,8 @@
   },
   {
     "id": "onco-395",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Estándares y regulaciones",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "USP <797> aborda",
     "opciones": [
@@ -5926,8 +5926,8 @@
   },
   {
     "id": "onco-396",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Estándares y regulaciones",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué norma regula la eliminación segura de residuos peligrosos farmacéuticos en EE. UU.?",
     "opciones": [
@@ -5941,8 +5941,8 @@
   },
   {
     "id": "onco-397",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Estándares y regulaciones",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "La documentación de medicamentos peligrosos administrados a cada paciente debe incluir",
     "opciones": [
@@ -5956,8 +5956,8 @@
   },
   {
     "id": "onco-398",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Estándares y regulaciones",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Regulación y acceso",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué medida reduce errores de prescripción en quimioterapia?",
     "opciones": [
@@ -7501,8 +7501,8 @@
   },
   {
     "id": "onco-501",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Básico",
     "pregunta": "¿Qué indicador mide la adherencia a guías clínicas en una unidad oncológica?",
     "opciones": [
@@ -7516,8 +7516,8 @@
   },
   {
     "id": "onco-502",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Básico",
     "pregunta": "¿Cuál es el objetivo del círculo de Deming (PDCA) en mejora continua?",
     "opciones": [
@@ -7531,8 +7531,8 @@
   },
   {
     "id": "onco-503",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué herramienta usa la matriz de priorización gravedad-probabilidad para riesgo clínico?",
     "opciones": [
@@ -7546,8 +7546,8 @@
   },
   {
     "id": "onco-504",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué documento recoge la trazabilidad de un evento adverso grave según normas de calidad?",
     "opciones": [
@@ -7561,8 +7561,8 @@
   },
   {
     "id": "onco-505",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Avanzado",
     "pregunta": "Según la norma ISO 9001, ¿qué elemento sustenta la gestión basada en riesgos?",
     "opciones": [
@@ -7576,8 +7576,8 @@
   },
   {
     "id": "onco-506",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué metodología se usa para comparar resultados propios con los de centros líderes?",
     "opciones": [
@@ -7591,8 +7591,8 @@
   },
   {
     "id": "onco-507",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Básico",
     "pregunta": "¿Qué componente del informe de calidad percibida evalúa la satisfacción de pacientes oncológicos?",
     "opciones": [
@@ -7606,8 +7606,8 @@
   },
   {
     "id": "onco-508",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué indicador de calidad refleja seguridad en la administración de quimioterapia?",
     "opciones": [
@@ -7621,8 +7621,8 @@
   },
   {
     "id": "onco-509",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué fase del ciclo Six Sigma corresponde a la etapa 'Analyze'?",
     "opciones": [
@@ -7636,8 +7636,8 @@
   },
   {
     "id": "onco-510",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es la meta principal de un informe de evaluación de tecnología sanitaria (HTA) para calidad?",
     "opciones": [
@@ -7651,8 +7651,8 @@
   },
   {
     "id": "onco-511",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué técnica permite mapear tiempos y desperdicios en el recorrido del paciente oncológico?",
     "opciones": [
@@ -7666,8 +7666,8 @@
   },
   {
     "id": "onco-512",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué herramienta de calidad requiere definir límites superior e inferior para detectar variaciones?",
     "opciones": [
@@ -7681,8 +7681,8 @@
   },
   {
     "id": "onco-513",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué requisito impone la norma UNE 179003 sobre gestión de riesgos sanitarios?",
     "opciones": [
@@ -7696,8 +7696,8 @@
   },
   {
     "id": "onco-514",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Básico",
     "pregunta": "¿Qué componente es obligatorio en un plan de calidad hospitalario?",
     "opciones": [
@@ -7711,8 +7711,8 @@
   },
   {
     "id": "onco-515",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué acción corresponde a la fase 'Act' del ciclo PDCA tras detectar desviaciones?",
     "opciones": [
@@ -7726,8 +7726,8 @@
   },
   {
     "id": "onco-516",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué informe analiza eventos adversos graves desde la perspectiva de sistemas?",
     "opciones": [
@@ -7741,8 +7741,8 @@
   },
   {
     "id": "onco-517",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué indicador cualitativo valora la experiencia de cuidadores en oncología?",
     "opciones": [
@@ -7756,8 +7756,8 @@
   },
   {
     "id": "onco-518",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué estrategia Lean elimina pasos sin valor en circuitos oncológicos?",
     "opciones": [
@@ -7771,8 +7771,8 @@
   },
   {
     "id": "onco-519",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué análisis cuantifica la variabilidad injustificada en la práctica clínica?",
     "opciones": [
@@ -7786,8 +7786,8 @@
   },
   {
     "id": "onco-520",
-    "categoria": "Gestión profesional",
-    "subcategoria": "Calidad asistencial",
+    "categoria": "Gestión e investigación profesional",
+    "subcategoria": "Calidad y seguridad",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el propósito de un contrato programa interno en calidad oncológica?",
     "opciones": [
@@ -7801,7 +7801,7 @@
   },
   {
     "id": "onco-521",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Básico",
     "pregunta": "¿Qué clase de cabina se utiliza para preparar citotóxicos en farmacia hospitalaria?",
@@ -7816,7 +7816,7 @@
   },
   {
     "id": "onco-522",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué parámetro controla el recuento de partículas en salas limpias de preparación oncológica?",
@@ -7831,7 +7831,7 @@
   },
   {
     "id": "onco-523",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Básico",
     "pregunta": "¿Cuál es el EPI mínimo obligatorio durante la reconstitución de citostáticos?",
@@ -7846,7 +7846,7 @@
   },
   {
     "id": "onco-524",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué sistema minimiza aerosoles al desconectar equipos de infusión citotóxica?",
@@ -7861,7 +7861,7 @@
   },
   {
     "id": "onco-525",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué significa estabilizar una mezcla intravenosa según guías de compounding?",
@@ -7876,7 +7876,7 @@
   },
   {
     "id": "onco-526",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué ensayo verifica integridad de cierre en jeringas precargadas con citotóxicos?",
@@ -7891,7 +7891,7 @@
   },
   {
     "id": "onco-527",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué control documenta cada paso de la preparación en farmacia oncológica?",
@@ -7906,7 +7906,7 @@
   },
   {
     "id": "onco-528",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Básico",
     "pregunta": "¿Qué acción minimiza errores de dosificación en compounding pediátrico oncológico?",
@@ -7921,7 +7921,7 @@
   },
   {
     "id": "onco-529",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué parámetro define la beyond-use date (BUD) en preparaciones estériles?",
@@ -7936,7 +7936,7 @@
   },
   {
     "id": "onco-530",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué procedimiento se sigue tras un derrame de citotóxicos en sala blanca?",
@@ -7951,7 +7951,7 @@
   },
   {
     "id": "onco-531",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué parámetro evalúa la prueba de humo en cabinas de bioseguridad?",
@@ -7966,7 +7966,7 @@
   },
   {
     "id": "onco-532",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué control asegura la compatibilidad de diluyentes en mezclas citotóxicas?",
@@ -7981,7 +7981,7 @@
   },
   {
     "id": "onco-533",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué evaluación se realiza para validar software de prescripción y compounding integrado?",
@@ -7996,7 +7996,7 @@
   },
   {
     "id": "onco-534",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué prueba confirma esterilidad en lotes extendidos de nutrición parenteral oncológica?",
@@ -8011,7 +8011,7 @@
   },
   {
     "id": "onco-535",
-    "categoria": "Implementación terapéutica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Compounding oncológico",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué requisito establece USP <800> para transporte interno de citotóxicos listos?",
@@ -8026,7 +8026,7 @@
   },
   {
     "id": "onco-536",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué molécula se bloquea con CAR-T tisagenlecleucel?",
@@ -8041,7 +8041,7 @@
   },
   {
     "id": "onco-537",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la complicación aguda más frecuente tras infusión de CAR-T?",
@@ -8056,7 +8056,7 @@
   },
   {
     "id": "onco-538",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué biomarcador se monitoriza para anticipar neurotoxicidad ICANS en CAR-T?",
@@ -8071,7 +8071,7 @@
   },
   {
     "id": "onco-539",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué preparación previa requiere la mayoría de terapias CAR-T antes de la infusión?",
@@ -8086,7 +8086,7 @@
   },
   {
     "id": "onco-540",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el objetivo de los macrófagos modificados (CAR-M) en oncología?",
@@ -8101,7 +8101,7 @@
   },
   {
     "id": "onco-541",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Básico",
     "pregunta": "¿Qué terapia celular utiliza células NK modificadas con receptores quiméricos?",
@@ -8116,7 +8116,7 @@
   },
   {
     "id": "onco-542",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué fármaco se usa de primera línea para manejo del síndrome de liberación de citocinas grado ≥2?",
@@ -8131,7 +8131,7 @@
   },
   {
     "id": "onco-543",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué estrategia reduce el riesgo de recaída en pacientes con CAR-T anti-CD19?",
@@ -8146,7 +8146,7 @@
   },
   {
     "id": "onco-544",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué diana reconocen los CAR-T idecabtagene vicleucel y ciltacabtagene autoleucel?",
@@ -8161,7 +8161,7 @@
   },
   {
     "id": "onco-545",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Básico",
     "pregunta": "¿Qué requisito logístico es imprescindible antes de fabricar una terapia CAR-T?",
@@ -8176,7 +8176,7 @@
   },
   {
     "id": "onco-546",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué define el periodo de monitorización REMS en terapias CAR-T aprobadas?",
@@ -8191,7 +8191,7 @@
   },
   {
     "id": "onco-547",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué ventaja tienen los CAR-T allogénicos de 'off-the-shelf' en ensayo?",
@@ -8206,7 +8206,7 @@
   },
   {
     "id": "onco-548",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué infección oportunista requiere profilaxis tras CAR-T por linfopenia prolongada?",
@@ -8221,7 +8221,7 @@
   },
   {
     "id": "onco-549",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué muestra se analiza para liberar el lote final de CAR-T?",
@@ -8236,7 +8236,7 @@
   },
   {
     "id": "onco-550",
-    "categoria": "Hemato-oncología",
+    "categoria": "Hematología y terapias avanzadas",
     "subcategoria": "Terapias avanzadas",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué mecanismo buscan los CAR-T duales (bispecíficos) en investigación?",
@@ -8251,7 +8251,7 @@
   },
   {
     "id": "onco-551",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Básico",
     "pregunta": "¿Qué gen se analiza para prevenir toxicidad grave con fluoropirimidinas?",
@@ -8266,7 +8266,7 @@
   },
   {
     "id": "onco-552",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué variante de UGT1A1 condiciona la pauta de irinotecán?",
@@ -8281,7 +8281,7 @@
   },
   {
     "id": "onco-553",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué polimorfismo de TPMT es relevante en azatioprina para linfomas?",
@@ -8296,7 +8296,7 @@
   },
   {
     "id": "onco-554",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Básico",
     "pregunta": "¿Qué marcador se relaciona con toxicidad cutánea por EGFR inhibidores?",
@@ -8311,7 +8311,7 @@
   },
   {
     "id": "onco-555",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué gen se evalúa antes de iniciar abiraterona con prednisona?",
@@ -8326,7 +8326,7 @@
   },
   {
     "id": "onco-556",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué transportador afecta farmacocinética de metotrexato en altas dosis?",
@@ -8341,7 +8341,7 @@
   },
   {
     "id": "onco-557",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué HLA se relaciona con reacciones cutáneas severas por carbamazepina usada en soporte oncológico?",
@@ -8356,7 +8356,7 @@
   },
   {
     "id": "onco-558",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Básico",
     "pregunta": "¿Qué gen se analiza para ajustar dosis de tamoxifeno?",
@@ -8371,7 +8371,7 @@
   },
   {
     "id": "onco-559",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué variante germinal influye en toxicidad neurológica por vincristina?",
@@ -8386,7 +8386,7 @@
   },
   {
     "id": "onco-560",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué variante del receptor de vitamina D modula respuesta a imatinib en GIST?",
@@ -8401,7 +8401,7 @@
   },
   {
     "id": "onco-561",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué gen regula la inactivación del mercaptopurina en leucemia linfoblástica aguda?",
@@ -8416,7 +8416,7 @@
   },
   {
     "id": "onco-562",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Básico",
     "pregunta": "¿Qué ensayo farmacogenético se recomienda antes de azatioprina en enfermedad inflamatoria asociada a cáncer?",
@@ -8431,7 +8431,7 @@
   },
   {
     "id": "onco-563",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué variante de CYP3A afecta metabolización de sunitinib?",
@@ -8446,7 +8446,7 @@
   },
   {
     "id": "onco-564",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué gen transportador se vincula con toxicidad por oxaliplatino?",
@@ -8461,7 +8461,7 @@
   },
   {
     "id": "onco-565",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué polimorfismo de CES1 influye en activación de irinotecán oral (S-1)?",
@@ -8476,7 +8476,7 @@
   },
   {
     "id": "onco-566",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué gen determina riesgo de rabdomiolisis con inhibidores de BRAF/MEK y estatinas?",
@@ -8491,7 +8491,7 @@
   },
   {
     "id": "onco-567",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué marcador germinal predice síndrome mano-pie severo con sorafenib?",
@@ -8506,7 +8506,7 @@
   },
   {
     "id": "onco-568",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué genotipo condiciona el uso de lapatinib con inhibidores de bomba de protones?",
@@ -8521,7 +8521,7 @@
   },
   {
     "id": "onco-569",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué biomarcador germinal guía la dosis inicial de pazopanib?",
@@ -8536,7 +8536,7 @@
   },
   {
     "id": "onco-570",
-    "categoria": "Farmacología oncológica",
+    "categoria": "Farmacología y farmacogenética",
     "subcategoria": "Farmacogenética",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué gen se está explorando para predecir cardiotoxicidad por trastuzumab?",
