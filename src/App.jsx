@@ -467,9 +467,14 @@ const App = () => {
 
       <div className="app__content">
         <section className="storage-note">
-          <div>
-            <strong>Nota:</strong> El historial se guarda únicamente en este navegador. Aunque accedes con Supabase, el progreso aún no
-            se sincroniza en la nube.
+          <div className="storage-note__content">
+            <span className="storage-note__icon" aria-hidden>
+              💾
+            </span>
+            <p>
+              <strong>Nota:</strong> El historial se guarda únicamente en este navegador. Aunque accedes con Supabase, el progreso aún
+              no se sincroniza en la nube.
+            </p>
           </div>
           <button type="button" className="storage-note__button" onClick={limpiarHistorial}>
             Borrar historial local
@@ -539,7 +544,9 @@ const App = () => {
 
             <div className="question-stats__lists">
               <div>
-                <h3>Categorías</h3>
+                <h3 className="question-stats__title">
+                  <span aria-hidden>🗂️</span>Categorías
+                </h3>
                 <ul>
                   {estadisticasPreguntas.porCategoria.map((item) => {
                     const subcategorias = estadisticasPreguntas.subcategoriasPorCategoria.get(item.etiqueta) ?? null;
@@ -599,7 +606,9 @@ const App = () => {
               </div>
 
               <div>
-                <h3>Dificultades</h3>
+                <h3 className="question-stats__title">
+                  <span aria-hidden>🎚️</span>Dificultades
+                </h3>
                 <ul>
                   {estadisticasPreguntas.porDificultad.map((item) => (
                     <li key={item.etiqueta}>
