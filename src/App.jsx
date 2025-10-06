@@ -424,95 +424,99 @@ const App = () => {
 
         {paso === 'summary' && resultado && <Summary resultado={resultado} onRestart={reiniciar} />}
 
-        <section className="question-stats">
-          <div className="question-stats__summary">
-            <div>
-              <span className="question-stats__label">Total de preguntas</span>
-              <strong className="question-stats__value">{estadisticasPreguntas.total}</strong>
+        {paso === 'config' && (
+          <section className="question-stats">
+            <div className="question-stats__summary">
+              <div>
+                <span className="question-stats__label">Total de preguntas</span>
+                <strong className="question-stats__value">{estadisticasPreguntas.total}</strong>
+              </div>
+              <div>
+                <span className="question-stats__label">Última actualización</span>
+                <strong className="question-stats__value question-stats__value--small">{FECHA_ACTUALIZACION}</strong>
+              </div>
             </div>
-            <div>
-              <span className="question-stats__label">Última actualización</span>
-              <strong className="question-stats__value question-stats__value--small">{FECHA_ACTUALIZACION}</strong>
-            </div>
-          </div>
 
-          <div className="question-stats__lists">
-            <div>
-              <h3>Categorías</h3>
-              <ul>
-                {estadisticasPreguntas.porCategoria.map((item) => {
-                  const subcategorias = estadisticasPreguntas.subcategoriasPorCategoria.get(item.etiqueta) ?? null;
-                  const desplegada = subcategorias ? categoriasDesplegadas.has(item.etiqueta) : false;
-                  const idSubcategorias = `subcategorias-${item.etiqueta.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+            <div className="question-stats__lists">
+              <div>
+                <h3>Categorías</h3>
+                <ul>
+                  {estadisticasPreguntas.porCategoria.map((item) => {
+                    const subcategorias = estadisticasPreguntas.subcategoriasPorCategoria.get(item.etiqueta) ?? null;
+                    const desplegada = subcategorias ? categoriasDesplegadas.has(item.etiqueta) : false;
+                    const idSubcategorias = `subcategorias-${item.etiqueta.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 
-                  return (
+                    return (
+                      <li key={item.etiqueta}>
+                        <div
+                          className="question-stats__row"
+                          role={subcategorias ? 'button' : undefined}
+                          tabIndex={subcategorias ? 0 : undefined}
+                          onClick={() => subcategorias && alternarCategoria(item.etiqueta)}
+                          onKeyDown={(event) => {
+                            if (!subcategorias) {
+                              return;
+                            }
+                            if (event.key === 'Enter' || event.key === ' ') {
+                              event.preventDefault();
+                              alternarCategoria(item.etiqueta);
+                            }
+                          }}
+                          style={{ cursor: subcategorias ? 'pointer' : 'default' }}
+                          aria-expanded={subcategorias ? desplegada : undefined}
+                          aria-controls={subcategorias ? idSubcategorias : undefined}
+                        >
+                          {subcategorias && (
+                            <span className="question-stats__toggle" aria-hidden>
+                              {desplegada ? '▾' : '▸'}
+                            </span>
+                          )}
+                          <span>{item.etiqueta}</span>
+                          <strong>{item.total}</strong>
+                        </div>
+                        <div className="question-stats__bar">
+                          <div style={{ width: `${Math.max(item.porcentaje, 2).toFixed(1)}%` }} />
+                        </div>
+                        {subcategorias && desplegada && (
+                          <ul className="question-stats__sublist" id={idSubcategorias}>
+                            {subcategorias.map((sub) => (
+                              <li key={sub.etiqueta}>
+                                <div className="question-stats__row">
+                                  <span>{sub.etiqueta}</span>
+                                  <strong>{sub.total}</strong>
+                                </div>
+                                <div className="question-stats__bar question-stats__bar--sub">
+                                  <div style={{ width: `${Math.max(sub.porcentajeCategoria, 2).toFixed(1)}%` }} />
+                                </div>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+
+              <div>
+                <h3>Dificultades</h3>
+                <ul>
+                  {estadisticasPreguntas.porDificultad.map((item) => (
                     <li key={item.etiqueta}>
                       <div className="question-stats__row">
-                        {subcategorias && (
-                          <button
-                            type="button"
-                            className="question-stats__toggle"
-                            onClick={() => alternarCategoria(item.etiqueta)}
-                            aria-expanded={desplegada}
-                            aria-controls={idSubcategorias}
-                            style={{
-                              border: 'none',
-                              background: 'transparent',
-                              padding: 0,
-                              marginRight: '0.5rem',
-                              cursor: 'pointer',
-                              fontSize: '1rem',
-                              lineHeight: 1,
-                            }}
-                          >
-                            {desplegada ? '▾' : '▸'}
-                          </button>
-                        )}
                         <span>{item.etiqueta}</span>
                         <strong>{item.total}</strong>
                       </div>
                       <div className="question-stats__bar">
                         <div style={{ width: `${Math.max(item.porcentaje, 2).toFixed(1)}%` }} />
                       </div>
-                      {subcategorias && desplegada && (
-                        <ul className="question-stats__sublist" id={idSubcategorias}>
-                          {subcategorias.map((sub) => (
-                            <li key={sub.etiqueta}>
-                              <div className="question-stats__row">
-                                <span>{sub.etiqueta}</span>
-                                <strong>{sub.total}</strong>
-                              </div>
-                              <div className="question-stats__bar question-stats__bar--sub">
-                                <div style={{ width: `${Math.max(sub.porcentajeCategoria, 2).toFixed(1)}%` }} />
-                              </div>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
                     </li>
-                  );
-                })}
-              </ul>
+                  ))}
+                </ul>
+              </div>
             </div>
-
-            <div>
-              <h3>Dificultades</h3>
-              <ul>
-                {estadisticasPreguntas.porDificultad.map((item) => (
-                  <li key={item.etiqueta}>
-                    <div className="question-stats__row">
-                      <span>{item.etiqueta}</span>
-                      <strong>{item.total}</strong>
-                    </div>
-                    <div className="question-stats__bar">
-                      <div style={{ width: `${Math.max(item.porcentaje, 2).toFixed(1)}%` }} />
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
+          </section>
+        )}
       </div>
     </main>
   );
