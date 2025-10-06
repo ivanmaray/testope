@@ -626,16 +626,12 @@ const App = () => {
         <section className="storage-note">
           <div className="storage-note__content">
             <span className="storage-note__icon" aria-hidden>
-              💾
+              ☁️
             </span>
             <p>
-              <strong>Nota:</strong> El historial se guarda únicamente en este navegador. Aunque accedes con Supabase, el progreso aún
-              no se sincroniza en la nube.
+              <strong>Sincronizado:</strong> tus resultados se guardan en Supabase y también localmente para acceso sin conexión.
             </p>
           </div>
-          <button type="button" className="storage-note__button" onClick={limpiarHistorial}>
-            Borrar historial local
-          </button>
         </section>
 
         {paso === 'config' && (

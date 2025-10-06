@@ -278,9 +278,7 @@ main.app {
     grid-template-columns: 1fr;
   }
 
-  .setup__main {
-    grid-template-columns: 1fr;
-  }
+  
 
   .setup__insights {
     order: -1;
@@ -386,10 +384,7 @@ main.app {
     justify-content: center;
   }
 
-  .setup__main {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
+  
 
   .setup__form {
     padding: 1.3rem 1.2rem;
@@ -664,12 +659,7 @@ button:active {
   color: #64748b;
 }
 
-.setup__main {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
-  align-items: start;
-}
+
 
 .setup__form {
   display: grid;
@@ -1116,9 +1106,10 @@ main.app.app--auth {
   font-size: 0.95rem;
 }
 
+
 .storage-note {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.14), rgba(59, 130, 246, 0.12));
-  border: 1px solid rgba(59, 130, 246, 0.22);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(14, 165, 233, 0.1));
+  border: 1px solid rgba(59, 130, 246, 0.18);
   color: #0f172a;
   border-radius: 20px;
   padding: 1rem 1.35rem;
@@ -1126,18 +1117,12 @@ main.app.app--auth {
   display: flex;
   gap: 0.75rem;
   align-items: center;
-  justify-content: space-between;
-}
-
-.storage-note strong {
-  font-weight: 700;
 }
 
 .storage-note__content {
   display: flex;
   align-items: center;
   gap: 0.85rem;
-  max-width: 75%;
   min-width: 0;
 }
 
@@ -1148,14 +1133,14 @@ main.app.app--auth {
 }
 
 .storage-note__icon {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
   border-radius: 16px;
-  background: rgba(15, 23, 42, 0.08);
+  background: rgba(15, 23, 42, 0.1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
 }
 
 .storage-note__button {

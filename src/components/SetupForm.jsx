@@ -272,8 +272,7 @@ const SetupForm = ({ categorias, dificultades, subcategoriasPorCategoria, usuari
         </div>
       </div>
 
-      <div className="setup__main">
-        <form className="setup__form" onSubmit={handleSubmit}>
+      <form className="setup__form" onSubmit={handleSubmit}>
           <fieldset className="setup__group">
             <legend>Modo de cuestionario</legend>
 
@@ -409,23 +408,22 @@ const SetupForm = ({ categorias, dificultades, subcategoriasPorCategoria, usuari
               Lanzar simulacro
             </button>
           </footer>
-        </form>
+      </form>
 
-        <aside className="setup__insights">
-          <h3>Consejos rápidos</h3>
-          <ul className="setup__insights-list">
-            {insights.map((insight) => (
-              <li key={insight.titulo}>
-                <span aria-hidden>{insight.icono}</span>
-                <div>
-                  <strong>{insight.titulo}</strong>
-                  <p>{insight.descripcion}</p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </aside>
-      </div>
+      <aside className="setup__insights">
+        <h3>Consejos rápidos</h3>
+        <ul className="setup__insights-list">
+          {insights.map((insight) => (
+            <li key={insight.titulo}>
+              <span aria-hidden>{insight.icono}</span>
+              <div>
+                <strong>{insight.titulo}</strong>
+                <p>{insight.descripcion}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </aside>
     </section>
   );
 };
