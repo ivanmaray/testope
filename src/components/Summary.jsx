@@ -23,7 +23,7 @@ const buildAggregate = (preguntas, respuestas, clave) => {
   }, {});
 };
 
-const Summary = ({ resultado, onRestart }) => {
+const Summary = ({ resultado, onRestart, onLaunchPreset }) => {
   const { respuestas, preguntas, aciertos, configuracion, tiempoTotal, tiempoEmpleado } = resultado;
   const totalPreguntas = preguntas.length;
   const sinResponder = respuestas.filter((respuesta) => respuesta === undefined).length;
@@ -35,6 +35,77 @@ const Summary = ({ resultado, onRestart }) => {
   const resumenPorSubcategoria = buildAggregate(preguntas, respuestas, 'subcategoria');
 
   const tiempoMedio = tiempoEmpleado && totalPreguntas > 0 ? Math.round(tiempoEmpleado / totalPreguntas) : null;
+
+  const recomendaciones = (() => {
+    const lista = [];
+
+    const categoriasProblematicas = Object.entries(resumenPorCategoria)
+      .map(([categoria, datos]) => ({
+        tipo: 'categoria',
+        etiqueta: categoria,
+        total: datos.total,
+        aciertos: datos.aciertos,
+        precision: datos.total === 0 ? 0 : datos.aciertos / datos.total,
+      }))
+      .filter((item) => item.total >= 3 && item.precision < 0.8 && item.etiqueta !== 'Sin categoría')
+      .sort((a, b) => a.precision - b.precision)
+      .slice(0, 2);
+
+    const subcategoriasProblematicas = Object.entries(resumenPorSubcategoria)
+      .map(([subcategoria, datos]) => ({
+        tipo: 'subcategoria',
+        etiqueta: subcategoria,
+        total: datos.total,
+        aciertos: datos.aciertos,
+        precision: datos.total === 0 ? 0 : datos.aciertos / datos.total,
+      }))
+      .filter(
+        (item) =>
+          item.total >= 2 &&
+          item.precision < 0.75 &&
+          item.etiqueta &&
+          item.etiqueta !== 'Sin categoría',
+      )
+      .sort((a, b) => a.precision - b.precision)
+      .slice(0, 2);
+
+    const tiempoReferencia = configuracion?.tiempoPorPregunta ?? 60;
+    const dificultadReferencia = configuracion?.dificultad ?? 'Todas';
+
+    categoriasProblematicas.forEach((item) => {
+      lista.push({
+        titulo: `Refuerza ${item.etiqueta}`,
+        descripcion: `Acertaste ${item.aciertos} de ${item.total} (${Math.round(item.precision * 100)}%).`,
+        config: {
+          modo: 'personalizado',
+          categoria: item.etiqueta,
+          subcategoria: 'todas',
+          dificultad: dificultadReferencia,
+          mezclarDificultades: false,
+          numeroPreguntas: Math.min(20, Math.max(10, item.total * 2)),
+          tiempoPorPregunta: tiempoReferencia,
+        },
+      });
+    });
+
+    subcategoriasProblematicas.forEach((item) => {
+      lista.push({
+        titulo: `Repasa ${item.etiqueta}`,
+        descripcion: `Solo ${Math.round(item.precision * 100)}% de acierto (${item.aciertos}/${item.total}).`,
+        config: {
+          modo: 'personalizado',
+          categoria: preguntas.find((pregunta) => pregunta.subcategoria === item.etiqueta)?.categoria ?? configuracion.categoria,
+          subcategoria: item.etiqueta,
+          dificultad: dificultadReferencia,
+          mezclarDificultades: false,
+          numeroPreguntas: Math.min(15, Math.max(8, item.total * 2)),
+          tiempoPorPregunta: tiempoReferencia,
+        },
+      });
+    });
+
+    return lista.slice(0, 3);
+  })();
 
   return (
     <section className="summary">
@@ -81,6 +152,33 @@ const Summary = ({ resultado, onRestart }) => {
           </div>
         </div>
       </header>
+
+      {recomendaciones.length > 0 && (
+        <section className="summary__recommendations">
+          <h3>Revisión inteligente</h3>
+          <p>
+            Te proponemos entrenamientos focalizados según los bloques donde obtuviste menor precisión. Lánzalos al instante o toma nota
+            para el configurador.
+          </p>
+          <ul>
+            {recomendaciones.map((recomendacion) => (
+              <li key={recomendacion.titulo}>
+                <div>
+                  <strong>{recomendacion.titulo}</strong>
+                  <span>{recomendacion.descripcion}</span>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => onLaunchPreset?.(recomendacion.config)}
+                  disabled={!onLaunchPreset}
+                >
+                  Lanzar repaso dirigido
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="summary__aggregates">
         <div>

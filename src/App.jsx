@@ -14,6 +14,94 @@ import {
 import { guardarResultado, cargarHistorial, eliminarHistorial } from './utils/historyStorage.js';
 import { guardarIntentoRemoto, cargarIntentosRemotos } from './utils/remoteHistory.js';
 
+const PROGRESS_STORAGE_KEY = 'simuped-progress';
+
+const loadProgress = () => {
+  if (typeof window === 'undefined') {
+    return {
+      totalTests: 0,
+      totalQuestions: 0,
+      currentStreak: 0,
+      bestStreak: 0,
+      lastAttemptDate: null,
+    };
+  }
+  try {
+    const raw = window.localStorage.getItem(PROGRESS_STORAGE_KEY);
+    if (!raw) {
+      return {
+        totalTests: 0,
+        totalQuestions: 0,
+        currentStreak: 0,
+        bestStreak: 0,
+        lastAttemptDate: null,
+      };
+    }
+    const parsed = JSON.parse(raw);
+    return {
+      totalTests: parsed.totalTests ?? 0,
+      totalQuestions: parsed.totalQuestions ?? 0,
+      currentStreak: parsed.currentStreak ?? 0,
+      bestStreak: parsed.bestStreak ?? 0,
+      lastAttemptDate: parsed.lastAttemptDate ?? null,
+    };
+  } catch (error) {
+    return {
+      totalTests: 0,
+      totalQuestions: 0,
+      currentStreak: 0,
+      bestStreak: 0,
+      lastAttemptDate: null,
+    };
+  }
+};
+
+const saveProgress = (progress) => {
+  if (typeof window === 'undefined') {
+    return;
+  }
+  try {
+    window.localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(progress));
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.warn('No se pudo guardar el progreso local', error);
+  }
+};
+
+const computeProgress = (prev, intento) => {
+  const fecha = new Date(intento.fecha);
+  const hoy = new Date(fecha.getFullYear(), fecha.getMonth(), fecha.getDate());
+  const ultimo = prev.lastAttemptDate ? new Date(prev.lastAttemptDate) : null;
+  const ultimoNormalizado = ultimo
+    ? new Date(ultimo.getFullYear(), ultimo.getMonth(), ultimo.getDate())
+    : null;
+
+  let currentStreak = prev.currentStreak;
+  if (!ultimoNormalizado) {
+    currentStreak = 1;
+  } else {
+    const diffDias = Math.floor((hoy - ultimoNormalizado) / (1000 * 60 * 60 * 24));
+    if (diffDias === 0) {
+      // mismo día, mantener streak
+      currentStreak = prev.currentStreak;
+    } else if (diffDias === 1) {
+      currentStreak = prev.currentStreak + 1;
+    } else {
+      currentStreak = 1;
+    }
+  }
+
+  const mejorRacha = Math.max(prev.bestStreak, currentStreak);
+
+  return {
+    totalTests: prev.totalTests + 1,
+    totalQuestions: prev.totalQuestions + intento.preguntas.length,
+    currentStreak,
+    bestStreak: mejorRacha,
+    lastAttemptDate: hoy.toISOString(),
+  };
+};
+
 const mezclarPreguntas = (lista) => [...lista].sort(() => Math.random() - 0.5);
 
 const calcularAciertos = (preguntas, respuestas) =>
@@ -48,6 +136,7 @@ const App = () => {
   const [respuestas, setRespuestas] = useState([]);
   const [resultado, setResultado] = useState(null);
   const [historial, setHistorial] = useState([]);
+  const [progress, setProgress] = useState(() => loadProgress());
   const [mensaje, setMensaje] = useState('');
   const [tiempoRestante, setTiempoRestante] = useState(null);
   const [tiempoTotal, setTiempoTotal] = useState(null);
@@ -151,7 +240,7 @@ const App = () => {
   }, []);
 
   const heroHighlights = useMemo(() => {
-    return [
+    const base = [
       {
         label: 'Preguntas únicas',
         value: estadisticasPreguntas.total.toLocaleString('es-ES'),
@@ -165,7 +254,19 @@ const App = () => {
         value: estadisticasPreguntas.porSubcategoria.length.toLocaleString('es-ES'),
       },
     ];
-  }, [estadisticasPreguntas]);
+
+    base.push({
+      label: 'Tests completados',
+      value: progress.totalTests.toLocaleString('es-ES'),
+    });
+
+    base.push({
+      label: 'Racha activa',
+      value: `${progress.currentStreak} días`,
+    });
+
+    return base;
+  }, [estadisticasPreguntas, progress]);
 
   useEffect(() => {
     if (!user) {
@@ -363,6 +464,12 @@ const App = () => {
 
       guardarResultado(nombreHistorial, nuevoResultado);
       setHistorial((historialPrevio) => [nuevoResultado, ...historialPrevio].slice(0, 20));
+
+      setProgress((previo) => {
+        const actualizado = computeProgress(previo, nuevoResultado);
+        saveProgress(actualizado);
+        return actualizado;
+      });
 
       if (user?.id) {
         guardarIntentoRemoto(user.id, nuevoResultado).then(({ success, error }) => {
@@ -577,7 +684,13 @@ const App = () => {
           />
         )}
 
-        {paso === 'summary' && resultado && <Summary resultado={resultado} onRestart={reiniciar} />}
+        {paso === 'summary' && resultado && (
+          <Summary
+            resultado={resultado}
+            onRestart={reiniciar}
+            onLaunchPreset={(config) => iniciarTest(config)}
+          />
+        )}
 
         {paso === 'config' && (
           <section ref={statsSectionRef} className="question-stats">
