@@ -8248,5 +8248,755 @@
     ],
     "respuestaCorrecta": 0,
     "explicacion": "Los CAR-T bispecíficos reconocen dos antígenos diferentes para disminuir el riesgo de escape por pérdida de diana."
+  },
+  {
+    "id": "onco-551",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué gen se analiza para prevenir toxicidad grave con fluoropirimidinas?",
+    "opciones": [
+      "DPYD",
+      "UGT1A1",
+      "TPMT",
+      "CYP2D6"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las variantes en DPYD reducen la actividad de dihidropirimidina deshidrogenasa y predisponen a toxicidad con 5-FU o capecitabina."
+  },
+  {
+    "id": "onco-552",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué variante de UGT1A1 condiciona la pauta de irinotecán?",
+    "opciones": [
+      "*28 homocigota",
+      "*1/*1",
+      "*6 heterocigota",
+      "*37 heterocigota"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los pacientes UGT1A1*28/*28 presentan menor glucuronidación del SN-38 y requieren reducción de dosis para evitar neutropenia grave."
+  },
+  {
+    "id": "onco-553",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué polimorfismo de TPMT es relevante en azatioprina para linfomas?",
+    "opciones": [
+      "*3A",
+      "*1",
+      "*2",
+      "*8"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las variantes TPMT*3A o *3C reducen la metiltransferasa y exigen dosis menores para evitar mielotoxicidad."
+  },
+  {
+    "id": "onco-554",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué marcador se relaciona con toxicidad cutánea por EGFR inhibidores?",
+    "opciones": [
+      "Mutaciones en EGFR del tumor, no germinales",
+      "HLA-B*57:01",
+      "CYP3A5*3",
+      "DPYD*2A"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La presencia de mutaciones activadoras de EGFR en el tumor se asocia a eficacia y también a toxicidad cutánea inducida por inhibidores."
+  },
+  {
+    "id": "onco-555",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué gen se evalúa antes de iniciar abiraterona con prednisona?",
+    "opciones": [
+      "CYP17A1 del tumor",
+      "HSD3B1 germinal",
+      "CYP2C9 germinal",
+      "SLCO2B1 germinal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Variantes en HSD3B1 se han asociado a resistencia temprana; aunque en evaluación, pueden influir en la respuesta a abiraterona."
+  },
+  {
+    "id": "onco-556",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué transportador afecta farmacocinética de metotrexato en altas dosis?",
+    "opciones": [
+      "SLCO1B1",
+      "ABCB1",
+      "ABCG2",
+      "SLC22A1"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Polimorfismos en SLCO1B1 (OATP1B1) reducen la captación hepática y se asocian a clearance lento de metotrexato."
+  },
+  {
+    "id": "onco-557",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué HLA se relaciona con reacciones cutáneas severas por carbamazepina usada en soporte oncológico?",
+    "opciones": [
+      "HLA-B*15:02",
+      "HLA-A*02:01",
+      "HLA-B*35:01",
+      "HLA-DRB1*04"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "HLA-B*15:02 aumenta el riesgo de síndrome de Stevens-Johnson, relevante en pacientes asiáticos que reciben carbamazepina para neuropatía."
+  },
+  {
+    "id": "onco-558",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué gen se analiza para ajustar dosis de tamoxifeno?",
+    "opciones": [
+      "CYP2D6",
+      "CYP3A4",
+      "ESR1",
+      "UGT2B7"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "CYP2D6 metaboliza tamoxifeno a endoxifeno activo; metabolizadores lentos pueden requerir alternativas terapéuticas."
+  },
+  {
+    "id": "onco-559",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué variante germinal influye en toxicidad neurológica por vincristina?",
+    "opciones": [
+      "CYP3A5*3",
+      "GSTP1 Ile105Val",
+      "HLA-B*58:01",
+      "NAT2*5"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El polimorfismo GSTP1 Ile105Val se ha relacionado con mayor riesgo de neuropatía periférica inducida por vincristina."
+  },
+  {
+    "id": "onco-560",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué variante del receptor de vitamina D modula respuesta a imatinib en GIST?",
+    "opciones": [
+      "VDR FokI",
+      "VDR ApaI",
+      "CYP24A1*2",
+      "NR1I2*1"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Variantes FokI del gen VDR se han asociado con diferencias en la respuesta a imatinib en algunos estudios de GIST."
+  },
+  {
+    "id": "onco-561",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué gen regula la inactivación del mercaptopurina en leucemia linfoblástica aguda?",
+    "opciones": [
+      "NUDT15",
+      "CYP2C19",
+      "VKORC1",
+      "SLC01A2"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Mutaciones en NUDT15 disminuyen la degradación de tiopurinas, aumentando riesgo de mielosupresión; son frecuentes en poblaciones asiáticas."
+  },
+  {
+    "id": "onco-562",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué ensayo farmacogenético se recomienda antes de azatioprina en enfermedad inflamatoria asociada a cáncer?",
+    "opciones": [
+      "Determinación de TPMT y NUDT15",
+      "Secuenciación completa de KRAS",
+      "Genotipado de PIK3CA",
+      "Expresión de PD-L1"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las guías recomiendan medir TPMT y NUDT15 para ajustar tiopurinas debido al riesgo de mielotoxicidad."
+  },
+  {
+    "id": "onco-563",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué variante de CYP3A afecta metabolización de sunitinib?",
+    "opciones": [
+      "CYP3A5*1",
+      "CYP2B6*6",
+      "CYP2D6*4",
+      "CYP1A2*1F"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La expresión funcional de CYP3A5 (alelo *1) aumenta el metabolismo y puede reducir niveles de sunitinib."
+  },
+  {
+    "id": "onco-564",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué gen transportador se vincula con toxicidad por oxaliplatino?",
+    "opciones": [
+      "ATP7B",
+      "SLC7A5",
+      "ABCC1",
+      "SLC6A2"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Polimorfismos en ATP7B, transportador de cobre, se han correlacionado con neuropatía por oxaliplatino."
+  },
+  {
+    "id": "onco-565",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué polimorfismo de CES1 influye en activación de irinotecán oral (S-1)?",
+    "opciones": [
+      "G143E",
+      "K71E",
+      "R208Q",
+      "T44I"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "CES1 G143E reduce actividad de carboxilesterasa 1 y puede alterar la bioactivación de irinotecán oral."
+  },
+  {
+    "id": "onco-566",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué gen determina riesgo de rabdomiolisis con inhibidores de BRAF/MEK y estatinas?",
+    "opciones": [
+      "SLCO1B1",
+      "HLA-B*57:01",
+      "CYP2C19",
+      "SLC6A4"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "SLCO1B1 modula captación hepática de estatinas; variantes reducen su transporte y elevan riesgo de toxicidad cuando se combinan."
+  },
+  {
+    "id": "onco-567",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué marcador germinal predice síndrome mano-pie severo con sorafenib?",
+    "opciones": [
+      "CYP3A5*1",
+      "UGT1A9*3",
+      "VEGFA-2578C/A",
+      "ABCC2 -24C>T"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El polimorfismo ABCC2 -24C>T se ha asociado con aumento de toxicidad dermatológica en pacientes tratados con sorafenib."
+  },
+  {
+    "id": "onco-568",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué genotipo condiciona el uso de lapatinib con inhibidores de bomba de protones?",
+    "opciones": [
+      "CYP3A5 expresor",
+      "ABCG2 c.421C>A",
+      "DPYD*13",
+      "HLA-A*31:01"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El alelo ABCG2 c.421C>A reduce la eflujo intestinal y aumenta exposición a lapatinib, lo que puede potenciar interacciones con IBP."
+  },
+  {
+    "id": "onco-569",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué biomarcador germinal guía la dosis inicial de pazopanib?",
+    "opciones": [
+      "CYP3A4*22",
+      "CYP2C8*3",
+      "DYPD*9B",
+      "GSTT1 nulo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El alelo CYP3A4*22 se asocia a menor metabolismo de pazopanib, pudiendo requerir reducciones de dosis para evitar hepatotoxicidad."
+  },
+  {
+    "id": "onco-570",
+    "categoria": "Farmacología oncológica",
+    "subcategoria": "Farmacogenética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué gen se está explorando para predecir cardiotoxicidad por trastuzumab?",
+    "opciones": [
+      "ERBB2 I655V",
+      "HLA-B*27",
+      "CYP2B6*9",
+      "SOD2 Ala16Val"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El polimorfismo Ala16Val en SOD2 altera la capacidad antioxidante mitocondrial y podría aumentar la susceptibilidad a cardiotoxicidad por trastuzumab."
+  },
+  {
+    "id": "onco-571",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Básico",
+    "pregunta": "Niño de 4 años con masa abdominal y hematuria microscopica. ¿Qué tumor embrionario es más probable?",
+    "opciones": [
+      "Tumor de Wilms",
+      "Neuroblastoma suprarrenal",
+      "Rabdomiosarcoma vesical",
+      "Hepatoblastoma"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El tumor de Wilms suele manifestarse como masa renal en menores de 5 años asociada a hematuria o hipertensión."
+  },
+  {
+    "id": "onco-572",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Adolescente con leucemia linfoblástica aguda B de alto riesgo. ¿Qué terapia dirigida se añade en presencia de fusión BCR-ABL1?",
+    "opciones": [
+      "Imatinib",
+      "Blinatumomab",
+      "Inotuzumab ozogamicina",
+      "Rituximab"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La presencia de t(9;22) BCR-ABL1 requiere añadir un inhibidor de tirosina cinasa como imatinib al esquema quimioterapéutico."
+  },
+  {
+    "id": "onco-573",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Básico",
+    "pregunta": "Lactante con masa suprarrenal, niveles elevados de ácido vanilmandélico e imagen calcificada. Diagnóstico más probable:",
+    "opciones": [
+      "Neuroblastoma",
+      "Feocromocitoma",
+      "Hiperplasia suprarrenal congénita",
+      "Tumor de Wilms"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El neuroblastoma produce catecolaminas con aumento de metabolitos como ácido vanilmandélico y suele calcificar en imagen."
+  },
+  {
+    "id": "onco-574",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Paciente pediátrico con osteosarcoma metafisario. ¿Cuál es la quimioterapia estándar neoadyuvante?",
+    "opciones": [
+      "MAP (metotrexato alta dosis, doxorrubicina, cisplatino)",
+      "VAC (vincristina, actinomicina D, ciclofosfamida)",
+      "ICE (ifosfamida, carboplatino, etopósido)",
+      "CHOP"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El esquema MAP es la base del tratamiento neoadyuvante en osteosarcoma pediátrico antes de la cirugía de resección."
+  },
+  {
+    "id": "onco-575",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Avanzado",
+    "pregunta": "Niña con meduloblastoma subtipo SHH y mutación germinal PTCH1. ¿Qué síndrome se asocia frecuentemente?",
+    "opciones": [
+      "Síndrome de Gorlin",
+      "Neurofibromatosis tipo 1",
+      "Síndrome de Li-Fraumeni",
+      "Esclerosis tuberosa"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las mutaciones en PTCH1 se vinculan al síndrome de Gorlin, que predispone a meduloblastoma subtipo SHH y carcinomas basocelulares."
+  },
+  {
+    "id": "onco-576",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niño con LLA B positiva para CD19 en segunda recaída. ¿Terapia celular aprobada?",
+    "opciones": [
+      "CAR-T tisagenlecleucel",
+      "Trasplante autólogo",
+      "Ipilimumab",
+      "Pembrolizumab"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Tisagenlecleucel es un CAR-T anti-CD19 aprobado para LLA B pediátrica refractaria o en segunda recaída."
+  },
+  {
+    "id": "onco-577",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es el hallazgo clásico en retinoblastoma bilateral hereditario?",
+    "opciones": [
+      "Mutación germinal RB1",
+      "Amplificación N-MYC",
+      "Translocación t(11;22)",
+      "Mutación WT1"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los casos bilaterales de retinoblastoma implican mutación germinal del gen supresor RB1."
+  },
+  {
+    "id": "onco-578",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Adolescente con linfoma de Hodgkin clásico estadio IIA. ¿Cuál es el esquema estándar menos intensivo?",
+    "opciones": [
+      "OEPA seguido de COPDAC",
+      "ABVD cuatro ciclos",
+      "HyperCVAD",
+      "ICE de primera línea"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los protocolos pediátricos utilizan OEPA/COPDAC para minimizar toxicidad y mantener altas tasas de curación."
+  },
+  {
+    "id": "onco-579",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niño con rabdomiosarcoma alveolar FOXO1 positivo. ¿Qué factor pronóstico se asocia a peor supervivencia?",
+    "opciones": [
+      "Fusión PAX3-FOXO1",
+      "Edad menor de 10 años",
+      "Localización orbitaria",
+      "Tamaño tumoral <5 cm"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La fusión PAX3-FOXO1 define el subtipo alveolar y confiere peor pronóstico respecto al embrionario."
+  },
+  {
+    "id": "onco-580",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Básico",
+    "pregunta": "Lactante con hepatoblastoma PRETEXT II y AFP elevada. Tratamiento inicial recomendado:",
+    "opciones": [
+      "Quimioterapia con cisplatino y doxorrubicina seguida de cirugía",
+      "Resección inmediata sin quimioterapia",
+      "Radioterapia hepática exclusiva",
+      "Trasplante hepático primario"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La mayoría de hepatoblastomas requieren quimioterapia neoadyuvante con cisplatino antes de la resección."
+  },
+  {
+    "id": "onco-581",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Paciente con sarcoma de Ewing primario en pelvis. ¿Qué característica molecular es típica?",
+    "opciones": [
+      "Translocación EWSR1-FLI1",
+      "Amplificación de MYCN",
+      "Mutación ALK",
+      "Deleción SMARCB1"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los sarcomas de Ewing presentan translocaciones EWSR1-FLI1 o EWSR1-ERG responsables de la oncogénesis."
+  },
+  {
+    "id": "onco-582",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Avanzado",
+    "pregunta": "Niño postrasplante de progenitores hematopoyéticos con enfermedad mínima residual positiva en LLA. Terapia emergente:",
+    "opciones": [
+      "Blinatumomab como puente",
+      "Quimioterapia MOPP",
+      "Rituximab monoterapia",
+      "Talidomida"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Blinatumomab, un BiTE anti-CD19/CD3, es eficaz para eliminar enfermedad mínima residual en LLA B pediátrica."
+  },
+  {
+    "id": "onco-583",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué signo oftalmológico es típico del retinoblastoma?",
+    "opciones": [
+      "Leucocoria",
+      "Ojo rojo doloroso",
+      "Diplopía horizontal",
+      "Estrabismo convergente sin más hallazgos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La leucocoria (reflejo blanco pupilar) es el signo más característico del retinoblastoma."
+  },
+  {
+    "id": "onco-584",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niño con linfoma no Hodgkin tipo Burkitt abdominal. Tratamiento estándar inicial:",
+    "opciones": [
+      "Quimioterapia intensiva basada en altas dosis de metotrexato y citarabina",
+      "Quimioterapia oral continua de mantenimiento",
+      "Radioterapia abdominal exclusiva",
+      "Trasplante autólogo upfront"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El linfoma de Burkitt requiere quimioterapia sistémica intensiva con altas dosis de metotrexato, citarabina y ciclofosfamida."
+  },
+  {
+    "id": "onco-585",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Preescolar con LLA B y enfermedad mínima residual ≥0,1% tras inducción. ¿Qué cambio terapéutico se realiza?",
+    "opciones": [
+      "Intensificación de quimioterapia con bloques de alto riesgo",
+      "Suspensión de tratamiento",
+      "Radioterapia craneal inmediata",
+      "Trasplante alogénico obligatorio"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Una EMR elevada tras inducción reclasifica al paciente como alto riesgo e indica intensificación quimioterápica."
+  },
+  {
+    "id": "onco-586",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Avanzado",
+    "pregunta": "Adolescente con glioma difuso de tronco H3K27M mutado. ¿Cuál es una opción de ensayo terapéutico actual?",
+    "opciones": [
+      "Inhibidores de panobinostat o ONC201",
+      "Craneotomía con resección completa",
+      "Quimioterapia temozolomida exclusiva",
+      "Inmunoterapia con anti-CTLA4 estándar"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los gliomas difusos de línea media H3K27M mutados tienen mal pronóstico y se estudian terapias dirigidas como panobinostat u ONC201."
+  },
+  {
+    "id": "onco-587",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué prueba de imagen inicial se recomienda ante sospecha de tumor óseo pediátrico?",
+    "opciones": [
+      "Radiografía simple del segmento afecto",
+      "Resonancia magnética corporal total",
+      "PET-CT",
+      "Gammagrafía ósea"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La radiografía convencional permite caracterizar lesiones óseas y es el primer paso diagnóstico antes de estudios avanzados."
+  },
+  {
+    "id": "onco-588",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niño con tumor germinal testicular no seminomatoso estadio I. Conducta inicial habitual:",
+    "opciones": [
+      "Vigilancia estricta tras orquiectomía",
+      "Quimioterapia BEP inmediata",
+      "Radioterapia inguinal",
+      "Bloqueo hormonal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los tumores germinales pediátricos estadio I se manejan con vigilancia tras la orquiectomía, reservando quimioterapia para recaídas."
+  },
+  {
+    "id": "onco-589",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es la complicación metabólica más frecuente en síndrome de lisis tumoral pediátrico?",
+    "opciones": [
+      "Hiperuricemia",
+      "Hipocalcemia",
+      "Hipoglucemia",
+      "Hipernatremia"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La lisis masiva de células libera purinas que se metabolizan a ácido úrico, elevando el riesgo de hiperuricemia y nefropatía."
+  },
+  {
+    "id": "onco-590",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niña con tumor neuroectodérmico primitivo periférico (pPNET). ¿Qué característica molecular comparte con sarcoma de Ewing?",
+    "opciones": [
+      "Translocaciones EWSR1",
+      "Mutaciones IDH1",
+      "Reordenamiento ALK",
+      "Amplificación HER2"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los pPNET pertenecen al espectro de sarcomas de Ewing y presentan translocaciones con EWSR1."
+  },
+  {
+    "id": "onco-591",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Paciente pediátrico con linfoma anaplásico de células grandes ALK positivo. ¿Qué fármaco dirigido se emplea en recaída?",
+    "opciones": [
+      "Crizotinib",
+      "Rituximab",
+      "Lenalidomida",
+      "Cetuximab"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Crizotinib inhibe ALK y ha mostrado eficacia en linfoma anaplásico ALK positivo en recaída pediátrica."
+  },
+  {
+    "id": "onco-592",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Avanzado",
+    "pregunta": "Niño con leucemia mieloide aguda FLT3-ITD. ¿Qué terapia dirigida se añade a quimioterapia?",
+    "opciones": [
+      "Midostaurina",
+      "Gilteritinib en monoterapia",
+      "Dasatinib",
+      "Venetoclax"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Midostaurina se incorpora a la quimioterapia estándar en AML FLT3-ITD, incluido en adolescentes."
+  },
+  {
+    "id": "onco-593",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niña con histiocitosis de células de Langerhans multisistémica. Tratamiento inicial recomendado:",
+    "opciones": [
+      "Prednisona y vinblastina",
+      "Interferón alfa",
+      "Quimioterapia ICE",
+      "Trasplante hepático"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las guías pediátricas recomiendan prednisona y vinblastina como primera línea en LCH multisistémica."
+  },
+  {
+    "id": "onco-594",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué vacuna debe evitarse temporalmente tras terapia con altas dosis de quimioterapia en pediatría?",
+    "opciones": [
+      "Vacunas con virus vivos atenuados",
+      "Vacunas inactivadas",
+      "Vacunas conjugadas",
+      "Vacuna antigripal inactivada"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las vacunas vivas se contraindican temporalmente en pacientes inmunodeprimidos por quimioterapia intensiva."
+  },
+  {
+    "id": "onco-595",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niño con tumor de Wilms estadio IV con metástasis pulmonares resecables. ¿Qué enfoque terapéutico estándar incluye?",
+    "opciones": [
+      "Quimioterapia, nefrectomía y resección de metástasis pulmonares",
+      "Nefrectomía aislada",
+      "Trasplante renal inmediato",
+      "Radioterapia abdominal exclusiva"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El manejo incluye quimioterapia multimodal, nefrectomía y resección o radioterapia de metástasis pulmonares según respuesta."
+  },
+  {
+    "id": "onco-596",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Avanzado",
+    "pregunta": "Paciente pediátrico con recaída de neuroblastoma de alto riesgo. ¿Qué terapia con radioligando se emplea?",
+    "opciones": [
+      "MIBG (metayodobencilguanidina) marcada con I-131",
+      "Radioinmunoterapia con ibritumomab",
+      "Lu-177 DOTATATE",
+      "Y-90 microsferas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La I-131 MIBG se utiliza en neuroblastoma refractario por su captación selectiva en células derivadas de cresta neural."
+  },
+  {
+    "id": "onco-597",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Adolescente con osteosarcoma recaído tratado con mifamurtida. ¿Cuál es su mecanismo?",
+    "opciones": [
+      "Activación de macrófagos mediante receptor de manosa",
+      "Inhibición de mTOR",
+      "Bloqueo de VEGF",
+      "Inhibición de ALK"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Mifamurtida es un adyuvante inmunomodulador que activa macrófagos y aumenta la respuesta contra células tumorales."
+  },
+  {
+    "id": "onco-598",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niño con sarcoma sinovial primario en extremidad distal. ¿Qué rearrangement cromosómico es característico?",
+    "opciones": [
+      "t(X;18)(p11;q11)",
+      "t(12;21)",
+      "t(15;17)",
+      "t(8;14)"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El sarcoma sinovial se caracteriza por la translocación t(X;18) que fusiona SS18 con SSX1/2."
+  },
+  {
+    "id": "onco-599",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Avanzado",
+    "pregunta": "Niño con LLA T refractaria tras trasplante. ¿Qué inhibidor de NOTCH1 en investigación podría considerarse?",
+    "opciones": [
+      "Inhibidores de gamma-secretasa",
+      "Inhibidores de BCL2",
+      "Inhibidores de EGFR",
+      "Inmunoterapia anti-PD1"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La activación aberrante de NOTCH1 en LLA T ha impulsado ensayos con inhibidores de gamma-secretasa."
+  },
+  {
+    "id": "onco-600",
+    "categoria": "Casos clínicos",
+    "subcategoria": "Oncopediatría",
+    "dificultad": "Intermedio",
+    "pregunta": "Niño con síndrome de Down y LMA megacarioblástica. ¿Qué particularidad terapéutica se considera?",
+    "opciones": [
+      "Mayor sensibilidad a citarabina y antraciclinas con ajuste de dosis",
+      "Necesidad de trasplante alogénico upfront",
+      "Uso de arsenico trióxido desde el inicio",
+      "Prohibición de citarabina"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los pacientes con síndrome de Down y LMA M7 responden mejor a citarabina y antraciclinas pero requieren reducir dosis por toxicidad."
   }
 ]
