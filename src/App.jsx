@@ -310,45 +310,6 @@ const App = () => {
           </button>
         </section>
 
-        <section className="question-stats">
-          <div className="question-stats__summary">
-            <div>
-              <span className="question-stats__label">Total de preguntas</span>
-              <strong className="question-stats__value">{estadisticasPreguntas.total}</strong>
-            </div>
-            <div>
-              <span className="question-stats__label">Última actualización</span>
-              <strong className="question-stats__value question-stats__value--small">{FECHA_ACTUALIZACION}</strong>
-            </div>
-          </div>
-
-          <div className="question-stats__lists">
-            <div>
-              <h3>Categorías</h3>
-              <ul>
-                {estadisticasPreguntas.porCategoria.map((item) => (
-                  <li key={item.etiqueta}>
-                    <span>{item.etiqueta}</span>
-                    <strong>{item.total}</strong>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h3>Dificultades</h3>
-              <ul>
-                {estadisticasPreguntas.porDificultad.map((item) => (
-                  <li key={item.etiqueta}>
-                    <span>{item.etiqueta}</span>
-                    <strong>{item.total}</strong>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
-
         {paso === 'config' && (
           <>
             <UserSelector
@@ -401,6 +362,45 @@ const App = () => {
         )}
 
         {paso === 'summary' && resultado && <Summary resultado={resultado} onRestart={reiniciar} />}
+
+        <section className="question-stats">
+          <div className="question-stats__summary">
+            <div>
+              <span className="question-stats__label">Total de preguntas</span>
+              <strong className="question-stats__value">{estadisticasPreguntas.total}</strong>
+            </div>
+            <div>
+              <span className="question-stats__label">Última actualización</span>
+              <strong className="question-stats__value question-stats__value--small">{FECHA_ACTUALIZACION}</strong>
+            </div>
+          </div>
+
+          <div className="question-stats__lists">
+            <div>
+              <h3>Categorías</h3>
+              <ul>
+                {estadisticasPreguntas.porCategoria.map((item) => (
+                  <li key={item.etiqueta}>
+                    <span>{item.etiqueta}</span>
+                    <strong>{item.total}</strong>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h3>Dificultades</h3>
+              <ul>
+                {estadisticasPreguntas.porDificultad.map((item) => (
+                  <li key={item.etiqueta}>
+                    <span>{item.etiqueta}</span>
+                    <strong>{item.total}</strong>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );

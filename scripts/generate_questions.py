@@ -6034,35 +6034,1544 @@ add_question(
     "Las órdenes electrónicas estandarizadas, con calculadoras integradas y doble verificación, reducen errores de dosis y esquema en quimioterapia.",
 )
 
+# Casos clínicos avanzados -----------------------------------------------------------------------
+
+# Hematología (30 preguntas)
+
 add_question(
-    "Gestión profesional",
-    "Gestión de inventario",
-    "Intermedio",
-    "¿Qué indicador evalúa el desperdicio financiero asociado a medicamentos oncológicos multidosis?",
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Varón de 48 años con leucemia mieloide aguda con mutación FLT3-ITD de alta carga alelica. Completa 7+3 y obtiene remisión completa. ¿Cuál es el siguiente paso terapéutico preferido según guías actuales?",
     [
-        "Porcentaje de viales abiertos descartados",
-        "Número de pacientes tratados",
-        "Tiempo de infusión",
-        "Salario del personal",
+        "Trasplante alogénico en primera remisión",
+        "Consolidación con altas dosis de citarabina sin trasplante",
+        "Mantenimiento con midostaurin en monoterapia",
+        "Observación con controles trimestrales",
     ],
     0,
-    "Calcular el porcentaje de viales descartados permite implementar estrategias como vial sharing estandarizado y programación eficiente para reducir costos.",
+    "Los pacientes FLT3-ITD de alto riesgo deben ser remitidos de forma temprana a trasplante alogénico en primera remisión para mejorar la supervivencia libre de recaída.",
 )
 
 add_question(
-    "Gestión profesional",
-    "Programas REMS",
-    "Intermedio",
-    "Un programa REMS puede requerir materiales educativos obligatorios para",
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente de 62 años con mieloma múltiple, 17p- y estadio R-ISS III. Tras inducción con VRd y trasplante autólogo, ¿qué mantenimiento es preferido?",
     [
-        "Garantizar que prescriptores y pacientes comprendan riesgos específicos",
-        "Aumentar ventas",
-        "Reducir costos",
-        "Evitar controles regulatorios",
+        "Lenalidomida + carfilzomib",
+        "Lenalidomida en monoterapia",
+        "Bortezomib subcutáneo",
+        "Elotuzumab",
     ],
     0,
-    "Algunos REMS incluyen guías educativas y comprobantes de conocimiento para asegurar que todos los implicados entiendan riesgos y medidas de mitigación.",
+    "Los pacientes de alto riesgo citogenético se benefician de mantenimiento intensificado con lenalidomida más un inhibidor de proteasoma como carfilzomib o bortezomib semanal.",
 )
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Mujer de 35 años, anemia aplásica severa, HLA idéntico disponible. ¿Terapia inicial recomendada?",
+    [
+        "Trasplante alogénico de progenitores hematopoyéticos",
+        "Ciclosporina + ATG",
+        "Eltrombopag",
+        "Azacitidina",
+    ],
+    0,
+    "En pacientes jóvenes con donante HLA idéntico se prefiere trasplante alogénico upfront por mayor tasa de curación.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con LLA B Philadelphia positiva, 28 años, recibe quimioterapia basada en hiper-CVAD más dasatinib y logra MRD negativa. ¿Plan post-remisión óptimo?",
+    [
+        "Trasplante alogénico en primera remisión",
+        "Mantenimiento indefinido con dasatinib",
+        "Quimioterapia de consolidación sin TKI",
+        "CAR-T anti-CD19",
+    ],
+    0,
+    "En LLA Ph+ adulta, incluso con MRD negativa, se recomienda trasplante alogénico en primera remisión cuando es factible por alto riesgo de recaída.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Hombre de 71 años con LMC en fase crónica, resistencia a imatinib y nilotinib, mutación T315I detectada. ¿ITK de elección?",
+    [
+        "Ponatinib",
+        "Bosutinib",
+        "Asciminib 80 mg",
+        "Dasatinib",
+    ],
+    0,
+    "Ponatinib mantiene actividad frente a T315I; debe utilizarse con monitorización cardiovascular estrecha.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con síndrome de Richter (transformación de LLC a DLBCL), performance status aceptable. ¿Terapia inicial recomendada?",
+    [
+        "R-CHOP seguido de evaluación para trasplante",
+        "Ibrutinib en monoterapia",
+        "Venetoclax + obinutuzumab",
+        "Clorambucilo",
+    ],
+    0,
+    "La transformación a linfoma agresivo se maneja como DLBCL con R-CHOP o esquemas intensivos, considerando trasplante en respondedores.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con linfoma difuso B primario mediastínico estadio IIA, masa >10 cm, LDH elevada. Tratamiento estándar?",
+    [
+        "R-DA-EPOCH",
+        "R-CHOP",
+        "R-ICE",
+        "Lenalidomida",
+    ],
+    0,
+    "El linfoma primario mediastínico responde mejor a R-DA-EPOCH con altas tasas de curación y menor necesidad de radioterapia mediastínica.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Varón de 56 años con macroglobulinemia de Waldenström, síntomas constitucionales, IgM elevada, MYD88 L265P positivo. ¿Primera línea óptima?",
+    [
+        "Ibrutinib +/- rituximab",
+        "Bendamustina + rituximab",
+        "Clorambucilo",
+        "Fludarabina",
+    ],
+    0,
+    "Ibrutinib se considera tratamiento preferente en pacientes sintomáticos con mutación MYD88 L265P, con altas tasas de respuesta y rapidez de acción.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente de 68 años con síndrome mielodisplásico de muy alto riesgo (IPSS-M). ¿Terapia recomendada si no es candidato a trasplante inmediato?",
+    [
+        "Azacitidina",
+        "Lenalidomida",
+        "G-CSF",
+        "Clorambucilo",
+    ],
+    0,
+    "Los pacientes de alto riesgo se benefician de agentes hipometilantes como azacitidina que prolongan supervivencia y retrasan transformación a LMA.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con TTP adquirida confirmada (ADAMTS13 <10%), plaquetas 8.000/µL. ¿Tratamiento inicial?",
+    [
+        "Plasmaféresis diaria + corticoides + caplacizumab",
+        "Transfusión plaquetaria",
+        "Solo esteroides",
+        "Rituximab en monoterapia",
+    ],
+    0,
+    "El manejo estándar combina recambio plasmático urgente, corticoides y caplacizumab para acelerar normalización plaquetaria y reducir recaídas.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Varón con LLA B pediátrica refractaria tratado con CAR-T anti-CD19. Presenta fiebre 39 °C, hipotensión leve, ferritina elevada al día 3 postinfusión. Grado CRS 2. ¿Manejo inicial?",
+    [
+        "Tocilizumab",
+        "Infliximab",
+        "Azitromicina",
+        "Interferón",
+    ],
+    0,
+    "Los casos de CRS grado ≥2 se tratan con tocilizumab; se añaden corticoides si no responde o hay neurotoxicidad concomitante grave.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente tras trasplante alogénico desarrolla enfermedad injerto contra huésped cutánea y hepática grado II. ¿Primer línea terapéutica?",
+    [
+        "Corticoides sistémicos",
+        "Ruxolitinib",
+        "Fotoféresis",
+        "Sirolimus",
+    ],
+    0,
+    "El tratamiento inicial de EICH aguda grado II-IV combina corticoides a dosis altas; ruxolitinib se reserva para refractariedad.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con leucemia promielocítica aguda intermedia (WBC 6.000). Presenta dolor torácico, disnea en día 5 de ATRA + ATO. Saturación 88%, infiltrados bilaterales. ¿Diagnóstico y manejo?",
+    [
+        "Síndrome de diferenciación; iniciar dexametasona IV y suspender ATRA/ATO temporalmente",
+        "Neumonía bacteriana; añadir meropenem",
+        "Síndrome de lisis; administrar rasburicasa",
+        "IC por ATO; reducir dosis",
+    ],
+    0,
+    "El síndrome de diferenciación es una complicación temprana del ATRA/ATO. Se trata con dexametasona IV y, según severidad, suspensión temporal del tratamiento.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente adulto con PTT presenta plaquetas 12.000, esquistocitos, creatinina normal. Tratamiento iniciado con plasmaféresis. ¿Qué fármaco añade beneficio para reducir recaídas?",
+    [
+        "Rituximab",
+        "Azatioprina",
+        "Eltrombopag",
+        "Tacrolimus",
+    ],
+    0,
+    "Rituximab añadido a plasmaféresis y corticoides disminuye recaídas y acelera recuperación en PTT adquirida.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Varón de 60 años con LMA secundaria, mutación TP53, candidato frágil. ¿Esquema preferido?",
+    [
+        "Azacitidina + venetoclax",
+        "7+3 estándar",
+        "Lenalidomida",
+        "Gilteritinib",
+    ],
+    0,
+    "En pacientes inaptos o con biología adversa (TP53) se recomienda azacitidina + venetoclax por mejores tasas de remisión comparado con hipometilante solo.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con mielofibrosis sintomática, riesgo intermedio-2, esplenomegalia masiva. ¿Terapia indicada?",
+    [
+        "Ruxolitinib",
+        "Hydroxiurea",
+        "Talidomida",
+        "Lenalidomida",
+    ],
+    0,
+    "Ruxolitinib reduce tamaño esplénico y mejora síntomas en mielofibrosis intermedio/alto riesgo.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente pediátrico con LLA B recaída tardía (>36 meses) tras esquema ALL-BFM. ¿Mejor estrategia?",
+    [
+        "Blinatumomab seguido de trasplante alogénico",
+        "Dosis altas de metotrexato",
+        "Mercaptopurina",
+        "Venetoclax",
+    ],
+    0,
+    "Las recaídas posteriores se benefician de inmunoterapia (blinatumomab o inotuzumab) y consolidación con trasplante alogénico cuando es posible.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con policitemia vera, hematocrito 57%, plaquetas 650.000, prurito. Tratamiento inicial recomendado incluye",
+    [
+        "Flebotomía + aspirina",
+        "Anagrelida",
+        "Warfarina",
+        "EPO",
+    ],
+    0,
+    "El manejo de PV se basa en flebotomías para mantener Hct <45%, aspirina baja dosis salvo contraindicación y estratificación de riesgo para citoreducción.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Mujer con síndrome antifosfolípido catastrófico asociado a neoplasia. ¿Cuál es el tratamiento de emergencia?",
+    [
+        "Anticoagulación, corticoides y plasmaféresis ± IVIG",
+        "Heparina de bajo peso sola",
+        "Rituximab en monoterapia",
+        "Aspirina únicamente",
+    ],
+    0,
+    "El síndrome catastrófico exige anticoagulación plena, corticoides y soporte con plasmaféresis o IVIG; se consideran terapias dirigidas según etiología.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con ITP crónica refractaria. Plaquetas 18.000, hemorragias mucosas. Recibió esteroides e IVIG sin respuesta. ¿Siguiente paso según guías?",
+    [
+        "Agonista del receptor de trombopoyetina",
+        "Vincristina",
+        "Azatioprina",
+        "Ciclofosfamida",
+    ],
+    0,
+    "Eltrombopag o romiplostim son recomendados tras fracaso de primera línea para elevar rápidamente recuentos plaquetarios y reducir sangrado.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Hombre con leucemia linfocítica crónica, ibrutinib desde hace 2 años. Desarrolla fibrilación auricular sintomática. ¿Manejo oncológico recomendado?",
+    [
+        "Suspender ibrutinib y cambiar a acalabrutinib",
+        "Continuar ibrutinib con beta-bloqueo",
+        "Interrumpir terapia indefinidamente",
+        "Añadir amiodarona",
+    ],
+    0,
+    "La fibrilación auricular asociada a ibrutinib puede requerir cambio a un BTK de segunda generación como acalabrutinib con menor cardiotoxicidad.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con leucemia promielocítica recaída tras ATRA/ATO. ¿Esquema estratégico actual?",
+    [
+        "Inducción con ATO + ATRA y trasplante autólogo si responde",
+        "7+3",
+        "Midostaurin",
+        "Lenalidomida",
+    ],
+    0,
+    "Las recaídas se tratan nuevamente con ATO+ATRA; quienes logran segunda remisión son candidatos a trasplante autólogo.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con enfermedad de Hodgkin escleronodular, recaída 18 meses tras BEACOPP escalado. Responde a ICE y es candidato. ¿Consolidación estándar?",
+    [
+        "Autotrasplante seguido de brentuximab vedotina",
+        "Radioterapia mediastínica",
+        "Pembrolizumab",
+        "Lenalidomida",
+    ],
+    0,
+    "Los pacientes en segunda remisión tras quimio de rescate se consolidan con autotrasplante y brentuximab vedotina para reducir recaídas.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con mieloma e insuficiencia renal aguda (creatinina 3.5 mg/dL), cadenas ligeras libres elevadas. ¿Medida inicial?",
+    [
+        "Iniciar rápidamente terapia con bortezomib-dexametasona y soporte",
+        "Esperar biopsia ósea",
+        "Administrar lenalidomida",
+        "Solo hidratación",
+    ],
+    0,
+    "La nefropatía por cadenas ligeras requiere iniciar de inmediato un régimen con bortezomib para reducir la producción plasmocitaria junto con soporte renal.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Varón de 70 años con mieloma en recaída, refractario a lenalidomida y bortezomib, expuesto a daratumumab. ¿Nueva opción disponible?",
+    [
+        "Teclistamab",
+        "Talidomida",
+        "Clodronato",
+        "Interferón",
+    ],
+    0,
+    "Teclistamab, anticuerpo biespecífico BCMAxCD3, está indicado en mieloma triple refractario tras exponerse a IMiD, PI y anti-CD38.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con LMA IDH2 R140Q, no apto para quimioterapia intensiva. ¿Tratamiento dirigido?",
+    [
+        "Enasidenib",
+        "Midostaurin",
+        "Gilteritinib",
+        "Venetoclax solo",
+    ],
+    0,
+    "Enasidenib es un inhibidor IDH2 indicado para LMA R140Q/R172K refractaria o ELA no apta para quimio intensiva.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con leucemia linfocítica crónica, mutación TP53, linfocitosis y adenopatías sintomáticas. ¿Primera línea recomendada?",
+    [
+        "Ibrutinib o acalabrutinib",
+        "FCR",
+        "Clorambucilo",
+        "Rituximab monoterapia",
+    ],
+    0,
+    "Los pacientes con TP53 mutado no responden bien a quimioterapia, por lo que BTK inhibidores son preferidos desde primera línea.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con anemia hemolítica autoinmune severa secundaria a linfoma. No responde a corticoides. ¿Segundo escalón recomendado?",
+    [
+        "Rituximab",
+        "Azatioprina",
+        "Transfusión masiva",
+        "Ciclofosfamida",
+    ],
+    0,
+    "Rituximab se utiliza en segunda línea por alta tasa de respuesta y perfil de toxicidad favorable.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Linfoma de Burkitt con carga tumoral elevada presenta síndrome de lisis refractario pese a alopurinol. ¿Siguiente medida?",
+    [
+        "Administrar rasburicasa",
+        "Heparina",
+        "Calcitonina",
+        "Suspender quimioterapia",
+    ],
+    0,
+    "La rasburicasa degrada el ácido úrico rápidamente y está indicada cuando el síndrome de lisis existente no responde a alopurinol.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con leucemia de células del manto recaída, previamente tratada con R-CHOP y autotrasplante. Presenta recaída a 18 meses. ¿Terapia recomendada?",
+    [
+        "Acalabrutinib",
+        "Lenalidomida + rituximab",
+        "Bendamustina",
+        "Clorambucilo",
+    ],
+    0,
+    "Los BTK inhibidores como acalabrutinib o zanubrutinib son estándar en recaída de leucemia de células del manto.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con LLC bajo tratamiento con venetoclax presenta neutropenia grado 4 persistente. ¿Medida recomendada?",
+    [
+        "Interrumpir venetoclax y reiniciar a dosis reducida tras recuperación",
+        "Añadir filgrastim y continuar misma dosis",
+        "Suspender definitivamente",
+        "Continuar sin cambios",
+    ],
+    0,
+    "Neutropenia persistente obliga a suspender venetoclax y, tras recuperación, reiniciar con reducción de dosis según pautas del fabricante.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con trombocitosis esencial, antecedentes de trombosis arterial, JAK2 positivo. Hematocrito controlado. ¿Citorreducción preferida?",
+    [
+        "Hydroxiurea",
+        "Interferón pegilado",
+        "Anagrelida",
+        "Lenalidomida",
+    ],
+    0,
+    "Hydroxiurea es primera línea en pacientes de alto riesgo de trombosis con trombocitosis esencial.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con LMA NPM1 mutada, MRD positiva tras consolidación, sin FLT3. ¿Opciones?",
+    [
+        "Trasplante alogénico",
+        "Mantenimiento con oral azacitidina",
+        "Observación",
+        "Lenalidomida",
+    ],
+    0,
+    "La presencia de MRD positiva postconsolidación indica alto riesgo de recaída, justificando trasplante alogénico cuando sea elegible.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con LLHC (linfoma de Hodgkin clásico) presenta recaída refractaria tras autotrasplante y brentuximab. ¿Siguiente opción?",
+    [
+        "Pembrolizumab",
+        "FCR",
+        "Clorambucilo",
+        "Ibrutinib",
+    ],
+    0,
+    "Los inhibidores de PD-1 como pembrolizumab o nivolumab son estándar en recaídas refractarias tras brentuximab y trasplante.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Paciente con leucemia basófila crónica resistente, sin opciones curativas. ¿Terapia dirigida?",
+    [
+        "Hydroxiurea",
+        "Bosutinib",
+        "Imatinib",
+        "Venetoclax",
+    ],
+    0,
+    "El manejo paliativo se basa en hidroxiurea y soporte; no existe terapia dirigida específica aprobada.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Intermedio",
+    "Paciente con leucemia linfocítica aguda T, presenta recaída parcial en SNC tras quimio. ¿Tratamiento preferido?",
+    [
+        "Quimioterapia intratecal combinada + radioterapia craneoespinal",
+        "Blinatumomab",
+        "CAR-T",
+        "Imatinib",
+    ],
+    0,
+    "Las recaídas en SNC precisan intensificación local mediante quimioterapia intratecal y radioterapia, además de terapia sistémica correspondiente.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Hematología",
+    "Avanzado",
+    "Un paciente con SMD de bajo riesgo dependiente de transfusiones y mutación SF3B1 con sideroblastos en anillo. ¿Terapia recomendada?",
+    [
+        "Luspatercept",
+        "Lenalidomida",
+        "Azacitidina",
+        "Venetoclax",
+    ],
+    0,
+    "Luspatercept mejora la anemia en SMD con sideroblastos en anillo y mutación SF3B1 tras fracaso de eritropoyetina.",
+)
+
+# Tumores sólidos (70 preguntas)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Mujer de 52 años con cáncer de mama HR+/HER2-, estadio IV, con metástasis óseas y hepáticas. Progresó tras letrozol + palbociclib. ESR1 mutado. ¿Siguiente línea preferida?",
+    [
+        "Elacestrant",
+        "Capecitabina",
+        "Fulvestrant + abemaciclib",
+        "Trastuzumab deruxtecán",
+    ],
+    0,
+    "En pacientes HR+ con mutación ESR1 y progresión a ITK CDK4/6, elacestrant ha demostrado prolongar SLP.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con carcinoma de pulmón no microcítico, mutación EGFR exon 19, recibe osimertinib primera línea. A los 2 años aparece progresión oligometastásica ósea, mutación C797S. ¿Manejo?",
+    [
+        "Radioterapia estereotáxica a lesión y continuar osimertinib",
+        "Cambiar a quimioterapia platino-pemetrexed",
+        "Añadir bevacizumab",
+        "Iniciar dacomitinib",
+    ],
+    0,
+    "En progresión oligometastásica se pueden tratar localmente las lesiones y mantener osimertinib, preservando control sistémico.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Hombre 68 años con carcinoma de pulmón escamoso PD-L1 80%, sin mutaciones conductoras. Historial fumador. ¿Primera línea preferida?",
+    [
+        "Pembrolizumab monoterapia",
+        "Quimio platino + pembrolizumab",
+        "Atezolizumab + bevacizumab",
+        "Carboplatino/gemcitabina",
+    ],
+    0,
+    "Para PD-L1 ≥50% en NSCLC sin driver, se puede usar pembrolizumab en monoterapia.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con adenocarcinoma gástrico metastásico HER2+, CPS 15. Recibió FOLFOX + trastuzumab y progresa a los 8 meses. ¿Segunda línea actual recomendada?",
+    [
+        "Trastuzumab deruxtecán",
+        "Ramucirumab + paclitaxel",
+        "Pembrolizumab en monoterapia",
+        "Irinotecán",
+    ],
+    0,
+    "Tras progresión a quimio + trastuzumab, T-DXd demostró beneficio significativo en supervivencia y tasas de respuesta.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Varón con carcinoma renal células claras metastásico, riesgo intermedio IMDC. ¿Combinación primera línea preferida?",
+    [
+        "Nivolumab + cabozantinib",
+        "Sunitinib",
+        "Everolimus",
+        "Pazopanib",
+    ],
+    0,
+    "Las combinaciones IO/TKI como nivolumab+cabozantinib o pembrolizumab+axitinib son estándar en riesgo intermedio-alto.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Mujer con cáncer de ovario platino-sensible recaída a los 20 meses, HRD positivo. Tratada con carboplatino/paclitaxel + bevacizumab. Responde. ¿Mantenimiento óptimo?",
+    [
+        "Olaparib + bevacizumab",
+        "Bevacizumab solo",
+        "Niraparib",
+        "Observación",
+    ],
+    0,
+    "En pacientes HRD positivos tras responder a platino + bevacizumab, la combinación de olaparib + bevacizumab prolonga significativamente la SLP.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con carcinoma colorrectal metastásico RAS/BRAF wild-type, localizado en colon izquierdo. ¿Primera línea preferida?",
+    [
+        "FOLFOX + cetuximab",
+        "FOLFOX + bevacizumab",
+        "FOLFIRI + bevacizumab",
+        "Capecitabina",
+    ],
+    0,
+    "En tumores RAS/BRAF wild-type y colon izquierdo, EGFR inhibidores combinados con FOLFOX/FOLFIRI ofrecen mayor tasa de respuesta.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Varón con cáncer de páncreas metastásico, ECOG 1, bilirrubina normal. ¿Esquema de primera línea recomendado si busca máxima eficacia?",
+    [
+        "FOLFIRINOX modificado",
+        "Gemcitabina",
+        "Gemcitabina + nab-paclitaxel",
+        "Capecitabina",
+    ],
+    0,
+    "En pacientes con buen estado funcional, FOLFIRINOX ofrece la mayor supervivencia a costa de mayor toxicidad; también es opción nab-paclitaxel+gemcitabina.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con adenocarcinoma de colon estadio III, recibió 3 meses CAPOX, completó hace 2 años. Presenta metástasis pulmonares resecables. ¿Plan?",
+    [
+        "Quimioterapia perioperatoria con FOLFOX y resección",
+        "Radioterapia pulmonar",
+        "Inmunoterapia",
+        "Solo resección",
+    ],
+    0,
+    "La resección de metástasis pulmonares resecables suele combinarse con quimioterapia perioperatoria basada en oxaliplatino.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con carcinoma hepatocelular avanzado, Child-Pugh B7, sin hipertensión portal significativa. ¿Terapia sistémica preferida?",
+    [
+        "Atezolizumab + bevacizumab si se controla sangrado",
+        "Sorafenib",
+        "Lenalidomida",
+        "FOLFOX",
+    ],
+    0,
+    "Aunque la evidencia es limitada en CP B, puede considerarse atezolizumab+bev si no hay varices sangrantes; de lo contrario, sorafenib/lenvatinib.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma de próstata metastásico resistente a castración, progresó tras abiraterona y docetaxel. PSA y dolor óseo en aumento, sin enfermedad visceral. ¿Tratamiento?",
+    [
+        "Cabazitaxel",
+        "Sipuleucel-T",
+        "Apalutamida",
+        "Enzalutamida",
+    ],
+    0,
+    "Tras docetaxel y antiandrógeno, cabazitaxel es estándar en progresión sintomática con enfermedad predominantemente ósea.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Mujer con carcinoma de mama triple negativo metastásico, PD-L1 CPS 12, sin tratamiento previo. ¿Esquema inicial recomendado?",
+    [
+        "Pembrolizumab + quimioterapia basada en platino",
+        "Carboplatino + bevacizumab",
+        "Capecitabina",
+        "Trastuzumab deruxtecán",
+    ],
+    0,
+    "Pembrolizumab combinado con quimioterapia (paclitaxel, nab-paclitaxel o carboplatino/gemcitabina) es estándar en TNBC metastásico PD-L1+.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma de cabeza y cuello recurrente PD-L1 CPS 5, sin tratamiento sistémico previo para enfermedad recurrente. ¿Primera línea preferida?",
+    [
+        "Pembrolizumab + platino/5-FU",
+        "Cetuximab + platino",
+        "Docetaxel",
+        "Nivolumab",
+    ],
+    0,
+    "KEYNOTE-048 estableció pembrolizumab + platino/5-FU como estándar en CPS ≥1.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con carcinoma endometrial avanzado dMMR. ¿Terapia sistémica preferida?",
+    [
+        "Dostarlimab",
+        "Carboplatino/paclitaxel",
+        "Bevacizumab",
+        "Everolimus",
+    ],
+    0,
+    "Dostarlimab o pembrolizumab son altamente eficaces en tumores dMMR después de quimioterapia; en primera línea se evalúa combinación con quimio.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con melanoma metastásico BRAF mutado, metástasis cerebrales sintomáticas múltiples. ¿Tratamiento inicial?",
+    [
+        "Combinación dabrafenib + trametinib",
+        "Nivolumab + ipilimumab",
+        "Pembrolizumab",
+        "Quimioterapia con dacarbazina",
+    ],
+    0,
+    "Las terapias BRAF/MEK actúan rápidamente y son opción en pacientes con metástasis cerebrales sintomáticas.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con cáncer anal escamoso localmente avanzado T3N1. ¿Tratamiento estándar curativo?",
+    [
+        "Quimiorradioterapia con mitomicina + 5-FU/capecitabina",
+        "Cirugía inmediata",
+        "Radioterapia sola",
+        "FOLFOX",
+    ],
+    0,
+    "La quimiorradioterapia con mitomicina y 5-FU o capecitabina es el estándar para preservar esfínter en cáncer anal.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma de vías biliares intrahepático, FGFR2 fusión. Progresó tras gemcitabina/cisplatino. ¿Terapia dirigida?",
+    [
+        "Pemigatinib",
+        "Ivosidenib",
+        "Sorafenib",
+        "Regorafenib",
+    ],
+    0,
+    "Pemigatinib es un inhibidor FGFR2 aprobado para colangiocarcinoma con fusiones FGFR2 tras quimioterapia.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Mujer de 45 años con carcinoma de cuello uterino metastásico PD-L1 CPS 25. Ha recibido quimiorradioterapia previamente. ¿Esquema sistémico de elección?",
+    [
+        "Pembrolizumab + platino/paclitaxel ± bevacizumab",
+        "Carboplatino/paclitaxel solo",
+        "Topotecán",
+        "Trastuzumab",
+    ],
+    0,
+    "En enfermedad recurrente/metastásica PD-L1 positiva, pembrolizumab combinado con quimioterapia ± bevacizumab mejora supervivencia.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Varón con seminoma metastásico estadio IIC, recibirá quimioterapia. ¿Esquema estándar?",
+    [
+        "BEP (bleomicina, etopósido, cisplatino) x3 ciclos",
+        "VIP x6",
+        "Carboplatino AUC7",
+        "Radioterapia",
+    ],
+    0,
+    "Para seminoma avanzado se utiliza BEP 3 ciclos o EP 4 ciclos; BEP es estándar si no hay contraindicación a bleomicina.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma urotelial metastásico, PD-L1 alto, progresó tras quimioterapia platino y mantenimiento con avelumab. Presenta mutación FGFR3. ¿Tratamiento siguiente?",
+    [
+        "Erdafitinib",
+        "Docetaxel",
+        "Pembrolizumab",
+        "Gemcitabina",
+    ],
+    0,
+    "Erdafitinib está indicado en carcinoma urotelial localmente avanzado/metastásico con mutaciones FGFR2/3 tras fallo a platino.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Mujer con cáncer de mama HER2 positivo metastásico, recibió trastuzumab/pertuzumab + taxano y T-DM1. Progresión sistémica. ¿Sig. línea recomendada?",
+    [
+        "Trastuzumab deruxtecán",
+        "Lapatinib + capecitabina",
+        "Sacituzumab govitecán",
+        "Olaparib",
+    ],
+    0,
+    "Tras progresión a doble bloqueo y T-DM1, T-DXd ha mostrado superioridad significativa en PFS y SG.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma escamoso de esófago metastásico, PD-L1 CPS 10, sin tratamiento previo. ¿Esquema de primera línea?",
+    [
+        "Nivolumab + platino/5-FU",
+        "Paclitaxel semanal",
+        "Gemcitabina/cisplatino",
+        "Atezolizumab",
+    ],
+    0,
+    "CheckMate-648 mostró beneficio con nivolumab más quimioterapia en carcinoma escamoso esofágico PD-L1 positivo.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con tumor neuroendocrino pancreático bien diferenciado, Ki-67 8%, progresión lenta. ¿Terapia sistémica inicial?",
+    [
+        "Everolimus",
+        "Sunitinib",
+        "Quimioterapia con temozolomida",
+        "FOLFIRINOX",
+    ],
+    0,
+    "En TNE pancreáticos bien diferenciados de crecimiento lento, everolimus es una opción controlando proliferación.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma pulmonar microcítico limitado tratado con quimiorradioterapia y remisión completa. ¿Terapia adicional recomendada?",
+    [
+        "Radioterapia craneal profiláctica",
+        "Durvalumab",
+        "Ninguna",
+        "Nivolumab",
+    ],
+    0,
+    "En CPCP limitado con respuesta completa, la radioterapia craneal profiláctica reduce riesgo de metástasis cerebrales y mejora SG.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con cáncer de colon MSI-H estadio IV, sin tratamiento previo. ¿Terapia de primera línea preferida?",
+    [
+        "Pembrolizumab",
+        "FOLFOX + bevacizumab",
+        "FOLFOXIRI",
+        "Cetuximab",
+    ],
+    0,
+    "Keynote-177 demostró superioridad de pembrolizumab frente a quimioterapia en tumores MSI-H metastásicos.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Varón con carcinoma hepatocelular avanzado Child-Pugh A, hipertensión portal controlada, varices tratadas. ¿Qué evaluación previa se requiere antes de iniciar atezolizumab+bev?",
+    [
+        "Endoscopia para descartar varices sangrantes",
+        "Cardiografía",
+        "DLCO",
+        "PET",
+    ],
+    0,
+    "Antes de bevacizumab se debe descartar varices gastroesofágicas sangrantes mediante endoscopia y tratarlas si es necesario.",
+)
+
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma de pulmón ALK+, tratado con alectinib. Presenta progresión cerebral aislada. ¿Manejo recomendado?",
+    [
+        "Radiocirugía estereotáxica y continuar alectinib",
+        "Cambiar a quimioterapia",
+        "Suspender tratamiento",
+        "Añadir crizotinib",
+    ],
+    0,
+    "En progresiones oligometastásicas cerebrales se puede tratar localmente con SRS y mantener el ALK TKI actual.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Mujer con cáncer de mama HER2+, recibiendo T-DXd, presenta disnea y tos seca, TC muestra infiltrados en vidrio esmerilado. ¿Acción inmediata?",
+    [
+        "Suspender T-DXd e iniciar corticoides",
+        "Continuar y observar",
+        "Añadir antibiótico",
+        "Cambiar a T-DM1",
+    ],
+    0,
+    "La enfermedad pulmonar intersticial asociada a T-DXd requiere suspensión inmediata y corticoides sistémicos.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Varón con glioblastoma multiforme recién diagnosticado, MGMT metilado. ¿Tratamiento estándar tras resección máxima?",
+    [
+        "Radioterapia con temozolomida concomitante y adyuvante",
+        "Radioterapia sola",
+        "Bevacizumab",
+        "Temozolomida sola",
+    ],
+    0,
+    "El protocolo de Stupp (radioterapia + temozolomida concomitante y adyuvante) mejora supervivencia especialmente en MGMT metilado.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con sarcoma de partes blandas de alto grado, tumor 8 cm en muslo. ¿Manejo inicial curativo?",
+    [
+        "Resección amplia con márgenes + radioterapia adyuvante",
+        "Quimioterapia neoadyuvante",
+        "Amputación",
+        "Imatinib",
+    ],
+    0,
+    "La combinación de cirugía con márgenes amplios y radioterapia adyuvante es estándar para sarcomas de alto grado en extremidades.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con cáncer de pulmón microcítico extensión limitada, completó quimiorradioterapia y radioterapia craneal profiláctica. Progresión sistémica rápida. Mejor opción sistémica?",
+    [
+        "Lurbinectedina",
+        "Topotecán",
+        "Carboplatino/etopósido",
+        "Pembrolizumab",
+    ],
+    0,
+    "Tras progresión a primera línea, lurbinectedina es opción aprobada con respuestas moderadas; topotecán es alternativa.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Varón con carcinoma nasofaríngeo recurrente EBV positivo tras quimiorradioterapia. ¿Tratamiento sistémico preferido?",
+    [
+        "Nivolumab",
+        "Gemcitabina/cisplatino",
+        "Erlotinib",
+        "Cetuximab",
+    ],
+    0,
+    "Los inhibidores de PD-1 como nivolumab/camrelizumab muestran eficacia en nasofaríngeo recurrente post quimiorradioterapia.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con cáncer de páncreas resecado, pT3N1, ECOG 1. ¿Adyuvancia recomendada?",
+    [
+        "mFOLFIRINOX",
+        "Gemcitabina",
+        "Capecitabina",
+        "No requiere",
+    ],
+    0,
+    "El ensayo PRODIGE demostró superioridad de mFOLFIRINOX adyuvante frente a gemcitabina para pacientes aptos.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Mujer con cáncer de mama HER2+ temprano pT2N0, Ki-67 alto. ¿Quimioterapia neoadyuvante recomendada?",
+    [
+        "Docetaxel + carboplatino + trastuzumab/pertuzumab",
+        "AC-T",
+        "Paclitaxel semanal",
+        "T-DM1",
+    ],
+    0,
+    "La combinación TCHP en neoadyuvancia ofrece altas tasas de respuesta patológica completa en tumores HER2+.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma de tiroides medular metastásico RET mutado. ¿Terapia dirigida actual?",
+    [
+        "Selpercatinib",
+        "Sorafenib",
+        "Lenvatinib",
+        "Vandetanib",
+    ],
+    0,
+    "Selpercatinib es un inhibidor selectivo RET aprobado para cáncer medular RET mutado con alta eficacia.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con tumor GIST metastásico, mutación KIT exón 11, en tratamiento con imatinib 400 mg diarios. Progresión localizada a hígado. ¿Siguiente paso?",
+    [
+        "Escalar imatinib a 800 mg y valorar resección",
+        "Cambiar a regorafenib",
+        "Suspender imatinib",
+        "Añadir sunitinib",
+    ],
+    0,
+    "Ante progresión limitada en GIST KIT exón 11 se recomienda dosis alta de imatinib y considerar cirugía de lesión progresiva.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con cáncer colorrectal metastásico BRAF V600E mutado, progresó a FOLFOXIRI + bevacizumab. ¿Terapia posterior recomendada?",
+    [
+        "Encorafenib + cetuximab",
+        "Regorafenib",
+        "FOLFIRI",
+        "Nivolumab",
+    ],
+    0,
+    "El estudio BEACON estableció encorafenib + cetuximab como tratamiento eficaz tras progresión en tumores BRAF V600E.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con NSCLC KRAS G12C positivo, recibió platino + pembrolizumab y progresa. ¿Tratamiento dirigido?",
+    [
+        "Sotorasib",
+        "Docetaxel",
+        "Osimertinib",
+        "Crizotinib",
+    ],
+    0,
+    "Sotorasib está aprobado para NSCLC con mutación KRAS G12C tras línea previa.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Varón con NSCLC METex14 skipping. ¿Terapia inicial?",
+    [
+        "Capmatinib",
+        "Pembrolizumab",
+        "Gefitinib",
+        "Pemetrexed",
+    ],
+    0,
+    "Capmatinib y tepotinib son inhibidores MET específicos aprobados para METex14.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con NSCLC PD-L1 <1%, sin mutaciones, ECOG 1. ¿Esquema preferido?",
+    [
+        "Carboplatino/pemetrexed + pembrolizumab",
+        "Pembrolizumab en monoterapia",
+        "Docetaxel",
+        "Gefitinib",
+    ],
+    0,
+    "En PD-L1 bajo, la combinación quimioterapia platino + pembrolizumab ofrece mayor beneficio.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma endometrial pMMR avanzado tras carboplatino/paclitaxel. ¿Terapia siguiente?",
+    [
+        "Lenvatinib + pembrolizumab",
+        "Dostarlimab",
+        "Doxorrubicina",
+        "Bevacizumab",
+    ],
+    0,
+    "La combinación lenvatinib+pembrolizumab es estándar en tumores pMMR tras fracaso de platino.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con carcinoma cervicouterino metastásico progresado tras pembrolizumab + quimioterapia. ¿Opción dirigida a FRα alto?",
+    [
+        "Tisotumab vedotin",
+        "Topotecán",
+        "Gemcitabina",
+        "Anlotinib",
+    ],
+    0,
+    "Tisotumab vedotin es un ADC aprobado en recaída tras quimioterapia.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Varón con carcinoma de próstata mCRPC PSMA positivo tras docetaxel y ARPI. ¿Terapia disponible?",
+    [
+        "177Lu-PSMA-617",
+        "Sipuleucel-T",
+        "Apalutamida",
+        "Abiraterona",
+    ],
+    0,
+    "Lu-177 PSMA-617 está aprobado tras docetaxel y terapia androgénica en pacientes PSMA positivos.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con mCRPC y mutación BRCA2 germinal, progresión tras abiraterona. ¿Tratamiento dirigido?",
+    [
+        "Olaparib",
+        "Cabazitaxel",
+        "Enzalutamida",
+        "Sipuleucel-T",
+    ],
+    0,
+    "Olaparib está aprobado para mCRPC con mutaciones HRR tras exposición a ARPI.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma renal de riesgo pobre. ¿Combinación preferida?",
+    [
+        "Nivolumab + ipilimumab",
+        "Pembrolizumab + axitinib",
+        "Cabozantinib",
+        "Sunitinib",
+    ],
+    0,
+    "Nivolumab + ipilimumab es estándar en riesgo pobre/intermedio.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con HCC que progresa tras atezolizumab+bevacizumab. ¿Siguiente línea recomendada?",
+    [
+        "Cabozantinib",
+        "Sorafenib",
+        "Pembrolizumab",
+        "Gemcitabina",
+    ],
+    0,
+    "Cabozantinib y regorafenib son opciones posteriores a IO + bevacizumab.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Mujer con cáncer de mama HR+ HER2- estadio II residual tras neoadyuvancia. ¿Adyuvancia recomendada según monarchE si riesgo alto?",
+    [
+        "Abemaciclib + endocrina",
+        "Capecitabina",
+        "T-DM1",
+        "Olaparib",
+    ],
+    0,
+    "Abemaciclib adyuvante junto a endocrinoterapia reduce recaídas en HR+/HER2- de alto riesgo.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con cáncer de mama HR+ HER2-, gBRCA1 positiva, estadio III tratado con quimioterapia y cirugía. ¿Terapia adyuvante adicional?",
+    [
+        "Olaparib por 1 año",
+        "Abemaciclib",
+        "Capecitabina",
+        "Nilaparib",
+    ],
+    0,
+    "El estudio OlympiA mostró beneficio de olaparib adyuvante en portadoras de BRCA con alto riesgo.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con TNBC localmente avanzado, recibe neoadyuvancia con carboplatino/paclitaxel + pembrolizumab seguido de AC. Tras cirugía queda enfermedad residual. ¿Tratamiento adyuvante?",
+    [
+        "Capecitabina + completar pembrolizumab",
+        "T-DM1",
+        "Olaparib",
+        "Carboplatino",
+    ],
+    0,
+    "En TNBC con enfermedad residual se puede usar capecitabina; además se completa el año de pembrolizumab.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con cáncer de mama HER2+ residual tras neoadyuvancia. ¿Adyuvancia estándar?",
+    [
+        "T-DM1",
+        "Trastuzumab",
+        "Trastuzumab deruxtecán",
+        "Capecitabina",
+    ],
+    0,
+    "El ensayo KATHERINE demostró que T-DM1 reduce recaídas en enfermedad residual HER2+.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con melanoma mucosal metastásico sin mutaciones. ¿Terapia preferida?",
+    [
+        "Nivolumab + ipilimumab",
+        "Pembrolizumab",
+        "Dacarbazina",
+        "Talimogene laherparepvec",
+    ],
+    0,
+    "Los melanomas mucosales responden mejor a la combinación nivolumab + ipilimumab.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con melanoma BRAF wild-type, metástasis múltiples asintomáticas. ¿Primera línea preferida?",
+    [
+        "Nivolumab + ipilimumab",
+        "Dabrafenib + trametinib",
+        "Pembrolizumab",
+        "Temozolomida",
+    ],
+    0,
+    "En BRAF wild-type avanzado, la combinación IO-IO ofrece respuestas duraderas.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con neuroendocrino bien diferenciado de intestino medio, progresión sintomática. ¿Terapia antiproliferativa?",
+    [
+        "Lanreotida",
+        "Everolimus",
+        "Temozolomida",
+        "Sunitinib",
+    ],
+    0,
+    "Lanreotida o octreótido LAR controlan síntomas y retardan crecimiento en TNE bien diferenciados de intestino medio.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con glioblastoma recidivante, ECOG 1, progresión 8 meses tras temozolomida. Opciones limitadas. ¿Terapia paliativa aceptada?",
+    [
+        "Bevacizumab",
+        "Irinotecán",
+        "Lomustina",
+        "Pembrolizumab",
+    ],
+    0,
+    "Bevacizumab mejora síntomas y control radiográfico aunque no prolonga SG de forma significativa.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con cáncer de mama HER2+ metastásico con metástasis cerebrales múltiples tras T-DM1. ¿Terapia eficaz CNS?",
+    [
+        "Tucatinib + trastuzumab + capecitabina",
+        "Lapatinib + letrozol",
+        "Pertuzumab",
+        "Docetaxel",
+    ],
+    0,
+    "El régimen con tucatinib demuestra actividad intracraneal significativa tras múltiples líneas anti-HER2.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con mesotelioma pleural irresecable, ECOG 1. ¿Combinación inmunoterápica aprobada?",
+    [
+        "Nivolumab + ipilimumab",
+        "Pembrolizumab + quimioterapia",
+        "Sorafenib",
+        "Cabozantinib",
+    ],
+    0,
+    "CheckMate-743 mostró beneficio de nivolumab + ipilimumab frente a quimioterapia en mesotelioma pleural.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con cáncer de ovario platino resistente sobreexpresando FRα. Tratada con múltiples líneas. ¿Nueva opción?",
+    [
+        "Mirvetuximab soravtansine",
+        "Carboplatino",
+        "Gemcitabina",
+        "Olaparib",
+    ],
+    0,
+    "Mirvetuximab soravtansine es un ADC dirigido a FRα aprobado en enfermedad platino resistente con alta expresión del receptor.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma tiroideo diferenciado refractario a yodo radioactivo, progresivo. ¿Tratamiento sistémico estándar?",
+    [
+        "Lenvatinib",
+        "Sorafenib",
+        "Vemurafenib",
+        "Everolimus",
+    ],
+    0,
+    "Lenvatinib ha demostrado mayor SLP frente a sorafenib en carcinoma diferenciado refractario.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con carcinoma renal papilar metastásico MET mutado. ¿Opción preferida?",
+    [
+        "Cabozantinib",
+        "Pembrolizumab",
+        "Sunitinib",
+        "Temsirolimus",
+    ],
+    0,
+    "Cabozantinib muestra eficacia superior en tumores renales no de células claras incluidos papilares.",
+)
+
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con colangiocarcinoma intrahepático IDH1 mutado, progresó tras gemcitabina/cisplatino. ¿Terapia dirigida?",
+    [
+        "Ivosidenib",
+        "Regorafenib",
+        "Sorafenib",
+        "Lenvatinib",
+    ],
+    0,
+    "Ivosidenib está aprobado para colangiocarcinoma IDH1 mutado en recaída, mejorando SLP frente a placebo.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Mujer con cáncer de páncreas metastásico portadora de mutación germinal BRCA2. Tras 4 meses de FOLFIRINOX obtiene respuesta parcial. ¿Mantenimiento recomendado?",
+    [
+        "Olaparib",
+        "Capecitabina",
+        "Gemcitabina",
+        "Pembrolizumab",
+    ],
+    0,
+    "Olaparib como mantenimiento mantiene la respuesta y prolonga SLP en pacientes gBRCA tras quimioterapia basada en platino.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con carcinoma pulmonar RET fusionado metastásico, sin tratamiento previo. ¿Terapia inicial?",
+    [
+        "Selpercatinib",
+        "Pembrolizumab",
+        "Docetaxel",
+        "Osimertinib",
+    ],
+    0,
+    "Selpercatinib y pralsetinib son inhibidores RET de elección en tumores con fusiones RET.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con carcinoma escamoso recurrente de cabeza y cuello tras varios regímenes, PD-L1 negativo. ¿Opción disponible?",
+    [
+        "Nivolumab",
+        "Docetaxel",
+        "Cetuximab",
+        "Bevacizumab",
+    ],
+    0,
+    "Nivolumab está aprobado en enfermedad recurrente/metastásica refractaria a platino independientemente de PD-L1.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Intermedio",
+    "Paciente con cáncer de mama HER2- triple negativo con mutación germinal BRCA1, recaída metastásica después de quimioterapia. ¿Tratamiento dirigido?",
+    [
+        "Olaparib",
+        "Sacituzumab govitecán",
+        "Capecitabina",
+        "Pembrolizumab",
+    ],
+    0,
+    "Los PARP inhibidores como olaparib están indicados en TNBC metastásico portador de mutaciones BRCA germinales tras quimioterapia.",
+)
+
+add_question(
+    "Casos clínicos",
+    "Tumores sólidos",
+    "Avanzado",
+    "Paciente con NSCLC ROS1 fusionado metastásico de novo, sin afectación SNC. ¿Inhibidor preferido en primera línea?",
+    [
+        "Entrectinib",
+        "Pembrolizumab",
+        "Osimertinib",
+        "Docetaxel",
+    ],
+    0,
+    "Entrectinib y crizotinib son opciones para ROS1; entrectinib destaca por actividad intracraneal y respuesta sostenida.",
+)
+
 
 
 
