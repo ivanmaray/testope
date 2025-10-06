@@ -74,7 +74,8 @@ const App = () => {
           porcentaje: total === 0 ? 0 : (totalCategoria / total) * 100,
         };
       })
-      .filter((item) => item.total > 0);
+      .filter((item) => item.total > 0)
+      .sort((a, b) => b.total - a.total);
 
     const porDificultad = dificultadesDisponibles
       .map((dificultad) => {
@@ -85,12 +86,26 @@ const App = () => {
           porcentaje: total === 0 ? 0 : (totalDificultad / total) * 100,
         };
       })
-      .filter((item) => item.total > 0);
+      .filter((item) => item.total > 0)
+      .sort((a, b) => b.total - a.total);
+
+    const porSubcategoria = subcategoriasDisponibles
+      .map((subcategoria) => {
+        const totalSubcategoria = preguntasDisponibles.filter((pregunta) => pregunta.subcategoria === subcategoria).length;
+        return {
+          etiqueta: subcategoria,
+          total: totalSubcategoria,
+          porcentaje: total === 0 ? 0 : (totalSubcategoria / total) * 100,
+        };
+      })
+      .filter((item) => item.total > 0)
+      .sort((a, b) => b.total - a.total);
 
     return {
       total,
       porCategoria,
       porDificultad,
+      porSubcategoria,
     };
   }, []);
 
