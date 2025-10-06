@@ -18,6 +18,7 @@ const calcularAciertos = (preguntas, respuestas) =>
   preguntas.reduce((total, pregunta, index) => total + (respuestas[index] === pregunta.respuestaCorrecta ? 1 : 0), 0);
 
 const App = () => {
+  const FECHA_ACTUALIZACION = '27 de enero de 2025';
   const [paso, setPaso] = useState('config');
   const [configuracion, setConfiguracion] = useState(null);
   const [preguntas, setPreguntas] = useState([]);
@@ -59,6 +60,29 @@ const App = () => {
       preguntasDisponibles.some((pregunta) => pregunta.dificultad === dificultad),
     );
     return ['Todas', ...base];
+  }, []);
+
+  const estadisticasPreguntas = useMemo(() => {
+    const total = preguntasDisponibles.length;
+    const porCategoria = categoriasDisponibles
+      .map((categoria) => ({
+        etiqueta: categoria,
+        total: preguntasDisponibles.filter((pregunta) => pregunta.categoria === categoria).length,
+      }))
+      .filter((item) => item.total > 0);
+
+    const porDificultad = dificultadesDisponibles
+      .map((dificultad) => ({
+        etiqueta: dificultad,
+        total: preguntasDisponibles.filter((pregunta) => pregunta.dificultad === dificultad).length,
+      }))
+      .filter((item) => item.total > 0);
+
+    return {
+      total,
+      porCategoria,
+      porDificultad,
+    };
   }, []);
 
   useEffect(() => {
@@ -284,6 +308,45 @@ const App = () => {
           <button type="button" className="storage-note__button" onClick={limpiarHistorial}>
             Borrar historial local
           </button>
+        </section>
+
+        <section className="question-stats">
+          <div className="question-stats__summary">
+            <div>
+              <span className="question-stats__label">Total de preguntas</span>
+              <strong className="question-stats__value">{estadisticasPreguntas.total}</strong>
+            </div>
+            <div>
+              <span className="question-stats__label">Última actualización</span>
+              <strong className="question-stats__value question-stats__value--small">{FECHA_ACTUALIZACION}</strong>
+            </div>
+          </div>
+
+          <div className="question-stats__lists">
+            <div>
+              <h3>Categorías</h3>
+              <ul>
+                {estadisticasPreguntas.porCategoria.map((item) => (
+                  <li key={item.etiqueta}>
+                    <span>{item.etiqueta}</span>
+                    <strong>{item.total}</strong>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h3>Dificultades</h3>
+              <ul>
+                {estadisticasPreguntas.porDificultad.map((item) => (
+                  <li key={item.etiqueta}>
+                    <span>{item.etiqueta}</span>
+                    <strong>{item.total}</strong>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </section>
 
         {paso === 'config' && (
