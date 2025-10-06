@@ -163,6 +163,32 @@ main.app {
   padding: 1.75rem 1.6rem;
 }
 
+.hero__focus-toggle {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: rgba(226, 232, 240, 0.8);
+}
+
+.hero__focus-toggle label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 600;
+}
+
+.hero__focus-toggle input {
+  width: 1.15rem;
+  height: 1.15rem;
+  accent-color: #38bdf8;
+}
+
+.hero__focus-toggle p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: rgba(226, 232, 240, 0.65);
+}
+
 .hero__session {
   display: flex;
   align-items: center;
@@ -302,6 +328,15 @@ main.app {
   .setup__preset-grid {
     grid-template-columns: 1fr;
   }
+
+  .setup__preset {
+    padding: 0.85rem 1rem;
+  }
+
+  .setup__insights-list li {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -350,7 +385,8 @@ main.app {
   }
 
   .setup__insights {
-    padding: 1.45rem;
+    padding: 1.35rem 1.2rem;
+    gap: 1rem;
   }
 
   .setup__chips li {
@@ -363,6 +399,45 @@ main.app {
 
   .setup__footer {
     gap: 1rem;
+  }
+
+  .setup__preset {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.85rem 1rem;
+  }
+
+  .setup__preset-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .setup__insights-list li {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+
+  .storage-note {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.85rem;
+  }
+
+  .storage-note__content {
+    max-width: 100%;
+  }
+
+  .storage-note__button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero__focus-toggle {
+    font-size: 0.9rem;
+  }
+
+  .hero__focus-toggle p {
+    font-size: 0.82rem;
   }
 }
 
@@ -454,11 +529,13 @@ button:active {
   gap: 1.75rem;
   grid-template-columns: minmax(0, 1.85fr) minmax(0, 1fr);
   align-items: start;
+  min-width: 0;
 }
 
 .setup__panel {
   display: grid;
   gap: 1.75rem;
+  min-width: 0;
 }
 
 .setup__header {
@@ -546,6 +623,7 @@ button:active {
   color: #0f172a;
   text-align: left;
   transition: border 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  min-width: 0;
 }
 
 .setup__preset:hover,
@@ -587,6 +665,7 @@ button:active {
   gap: 1.2rem;
   border: 1px solid rgba(148, 163, 184, 0.25);
   box-shadow: 0 24px 48px -30px rgba(15, 23, 42, 0.6);
+  min-width: 0;
 }
 
 .setup__insights h3 {
@@ -1020,6 +1099,7 @@ main.app.app--auth {
   align-items: center;
   gap: 0.85rem;
   max-width: 75%;
+  min-width: 0;
 }
 
 .storage-note__content p {
@@ -1187,6 +1267,41 @@ main.app.app--auth {
   100% {
     transform: translateY(0px);
   }
+}
+
+.app--focus {
+  max-width: 960px;
+}
+
+.app--focus .hero {
+  background: linear-gradient(160deg, rgba(15, 23, 42, 0.95), rgba(37, 99, 235, 0.65));
+  box-shadow: 0 40px 80px -40px rgba(15, 23, 42, 0.7);
+}
+
+.app--focus .hero__description,
+.app--focus .hero__features li {
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.app--focus .setup,
+.app--focus .storage-note,
+.app--focus .question-stats {
+  font-size: 1.05rem;
+}
+
+.app--focus .setup__form,
+.app--focus .setup__insights,
+.app--focus .storage-note,
+.app--focus .question-stats {
+  border-radius: 26px;
+}
+
+.app--focus .setup__toggle,
+.app--focus .setup__preset,
+.app--focus .question-stats__lists li {
+  transform: none;
+  box-shadow: none;
+  border-width: 2px;
 }
 
 .user-selector {

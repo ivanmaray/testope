@@ -21,6 +21,33 @@ npm install
 
 Si las variables no están presentes, la autenticación mostrará un aviso en consola y no se podrá iniciar sesión.
 
+#### Sincronización de intentos en Supabase
+
+El historial sigue guardándose en `localStorage`, pero también se envía a Supabase. Para ello crea (o adapta) una tabla `quiz_attempts` con la siguiente estructura mínima:
+
+| Columna           | Tipo              | Detalles                                   |
+|-------------------|-------------------|--------------------------------------------|
+| `id`              | `uuid`            | `default uuid_generate_v4()` (opcional)    |
+| `user_id`         | `uuid`            | referenciada a `auth.users`                |
+| `intento_id`      | `text`            | ID generado en la app (index adicional)    |
+| `fecha`           | `timestamptz`     |                                            |
+| `configuracion`   | `jsonb`           |                                            |
+| `preguntas`       | `jsonb`           |                                            |
+| `respuestas`      | `jsonb`           |                                            |
+| `aciertos`        | `integer`         |                                            |
+| `tiempo_total`    | `integer`         | segundos                                   |
+| `tiempo_empleado` | `integer`         | segundos                                   |
+
+Activa RLS y añade una política que permita a cada usuario insertar y leer sus propios intentos:
+
+```sql
+create policy \"Insert own attempts\" on quiz_attempts
+  for insert with check (auth.uid() = user_id);
+
+create policy \"Select own attempts\" on quiz_attempts
+  for select using (auth.uid() = user_id);
+```
+
 ## Scripts
 
 - `npm run dev`: levanta Vite en modo desarrollo.

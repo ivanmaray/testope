@@ -12,6 +12,7 @@ import {
   subcategoriasDisponibles,
 } from './data/questions.js';
 import { guardarResultado, cargarHistorial, eliminarHistorial } from './utils/historyStorage.js';
+import { guardarIntentoRemoto, cargarIntentosRemotos } from './utils/remoteHistory.js';
 
 const mezclarPreguntas = (lista) => [...lista].sort(() => Math.random() - 0.5);
 
@@ -32,7 +33,7 @@ const LegalFooter = () => (
 );
 
 const App = () => {
-  const { user, loading: authLoading, signOut } = useAuth();
+  const { user, loading: authLoading, signOut, focusMode, toggleFocusMode } = useAuth();
   const storageKey = user?.id ?? 'Invitado';
   const displayName = useMemo(
     () => user?.user_metadata?.full_name?.trim() || user?.email || 'Invitado',
@@ -46,7 +47,7 @@ const App = () => {
   const [indiceActual, setIndiceActual] = useState(0);
   const [respuestas, setRespuestas] = useState([]);
   const [resultado, setResultado] = useState(null);
-  const [historial, setHistorial] = useState(() => cargarHistorial(storageKey));
+  const [historial, setHistorial] = useState([]);
   const [mensaje, setMensaje] = useState('');
   const [tiempoRestante, setTiempoRestante] = useState(null);
   const [tiempoTotal, setTiempoTotal] = useState(null);
@@ -167,8 +168,41 @@ const App = () => {
   }, [estadisticasPreguntas]);
 
   useEffect(() => {
-    setHistorial(cargarHistorial(storageKey));
-  }, [storageKey]);
+    if (!user) {
+      return;
+    }
+
+    const local = cargarHistorial(storageKey);
+    setHistorial(local);
+
+    let cancelado = false;
+
+    const sincronizarRemoto = async () => {
+      const { success, data, error } = await cargarIntentosRemotos(user.id, 30);
+      if (!success) {
+        // eslint-disable-next-line no-console
+        console.warn('No se pudo cargar el historial remoto', error);
+        return;
+      }
+      if (cancelado) return;
+      const combinados = [...data, ...local];
+      const vistos = new Set();
+      const fusionado = [];
+      for (const intento of combinados) {
+        if (vistos.has(intento.id)) continue;
+        vistos.add(intento.id);
+        fusionado.push(intento);
+        if (fusionado.length >= 20) break;
+      }
+      setHistorial(fusionado);
+    };
+
+    sincronizarRemoto();
+
+    return () => {
+      cancelado = true;
+    };
+  }, [storageKey, user]);
 
   const alternarCategoria = useCallback((categoria) => {
     setCategoriasDesplegadas((previas) => {
@@ -329,10 +363,19 @@ const App = () => {
 
       guardarResultado(nombreHistorial, nuevoResultado);
       setHistorial((historialPrevio) => [nuevoResultado, ...historialPrevio].slice(0, 20));
+
+      if (user?.id) {
+        guardarIntentoRemoto(user.id, nuevoResultado).then(({ success, error }) => {
+          if (!success) {
+            // eslint-disable-next-line no-console
+            console.warn('No se pudo sincronizar el intento remoto', error);
+          }
+        });
+      }
       setResultado(nuevoResultado);
       setPaso('summary');
     },
-    [configuracion, preguntas, respuestas, tiempoRestante, tiempoTotal, storageKey],
+    [configuracion, preguntas, respuestas, tiempoRestante, tiempoTotal, storageKey, user],
   );
 
   const finalizarDesdeUI = () => {
@@ -408,7 +451,7 @@ const App = () => {
   }
 
   return (
-    <main className="app">
+    <main className={`app ${focusMode ? 'app--focus' : ''}`}>
       <header className="hero">
         <div className="hero__content">
           <span className="hero__badge">Actualizado {FECHA_ACTUALIZACION}</span>
@@ -446,6 +489,13 @@ const App = () => {
           </div>
         </div>
         <aside className="hero__metrics">
+          <div className="hero__focus-toggle">
+            <label>
+              <input type="checkbox" checked={focusMode} onChange={toggleFocusMode} />
+              <span>Modo enfoque</span>
+            </label>
+            <p>Amplía tipografía y elimina distracciones para repasar con máxima concentración.</p>
+          </div>
           <div className="hero__session">
             <span className="hero__user-label">Usuario actual:</span>
             <span className="hero__user-name">{displayName}</span>
