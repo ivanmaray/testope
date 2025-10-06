@@ -7498,5 +7498,755 @@
     ],
     "respuestaCorrecta": 0,
     "explicacion": "Entrectinib y crizotinib son opciones para ROS1; entrectinib destaca por actividad intracraneal y respuesta sostenida."
+  },
+  {
+    "id": "onco-501",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué indicador mide la adherencia a guías clínicas en una unidad oncológica?",
+    "opciones": [
+      "Porcentaje de tratamientos ajustados a protocolos vigentes",
+      "Número de eventos adversos por ciclo",
+      "Tiempo medio de preparación farmacéutica",
+      "Coste mensual de fármacos innovadores"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La adherencia a protocolos refleja el cumplimiento de guías clínicas y constituye un indicador directo de calidad asistencial."
+  },
+  {
+    "id": "onco-502",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es el objetivo del círculo de Deming (PDCA) en mejora continua?",
+    "opciones": [
+      "Planificar, hacer, verificar y actuar sobre procesos asistenciales",
+      "Priorizar inversiones en equipamiento",
+      "Asignar turnos de enfermería",
+      "Evaluar únicamente indicadores financieros"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El ciclo PDCA busca la mejora continua mediante la secuencia planificar, ejecutar, verificar resultados y actuar corrigiendo desviaciones."
+  },
+  {
+    "id": "onco-503",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué herramienta usa la matriz de priorización gravedad-probabilidad para riesgo clínico?",
+    "opciones": [
+      "Análisis modal de fallos y efectos (AMFE)",
+      "Diagrama de Ishikawa",
+      "Cuadro de mando integral",
+      "Benchmarking externo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El AMFE clasifica fallos por gravedad y probabilidad para priorizar acciones preventivas en procesos asistenciales."
+  },
+  {
+    "id": "onco-504",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué documento recoge la trazabilidad de un evento adverso grave según normas de calidad?",
+    "opciones": [
+      "Registro de incidentes con RCA documentado",
+      "Plan de formación anual",
+      "Informe de gasto farmacéutico trimestral",
+      "Checklist quirúrgico"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los sistemas de notificación incluyen registros donde se documenta la investigación de causa raíz (RCA) y las acciones correctivas."
+  },
+  {
+    "id": "onco-505",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la norma ISO 9001, ¿qué elemento sustenta la gestión basada en riesgos?",
+    "opciones": [
+      "Identificar oportunidades y amenazas en procesos críticos",
+      "Auditarlas exclusivamente una vez al año",
+      "Delegar responsabilidades en un único gestor",
+      "Priorizar indicadores financieros sobre los clínicos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "ISO 9001 integra el pensamiento basado en riesgos, que exige identificar y gestionar amenazas y oportunidades que afecten los procesos."
+  },
+  {
+    "id": "onco-506",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué metodología se usa para comparar resultados propios con los de centros líderes?",
+    "opciones": [
+      "Benchmarking",
+      "Six Sigma",
+      "Lean Healthcare",
+      "Kaizen blitz"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El benchmarking analiza brechas de desempeño confrontando indicadores con organizaciones de referencia para impulsar mejoras."
+  },
+  {
+    "id": "onco-507",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué componente del informe de calidad percibida evalúa la satisfacción de pacientes oncológicos?",
+    "opciones": [
+      "Encuestas PREM/PSAT",
+      "Ratios de ocupación de hospital de día",
+      "Tiempo total de estancia",
+      "Coste evitado por biosimilares"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los Patient-Reported Experience Measures (PREM) incluyen encuestas para valorar la experiencia y satisfacción de los pacientes."
+  },
+  {
+    "id": "onco-508",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué indicador de calidad refleja seguridad en la administración de quimioterapia?",
+    "opciones": [
+      "Porcentaje de doble verificación enfermería-farmacia",
+      "Número de pacientes por sillón",
+      "Gasto medio por línea de tratamiento",
+      "Tiempo entre petición y administración"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La doble verificación documentada es un indicador clave de seguridad en la administración de terapias citotóxicas."
+  },
+  {
+    "id": "onco-509",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué fase del ciclo Six Sigma corresponde a la etapa 'Analyze'?",
+    "opciones": [
+      "Identificar causas raíz de variabilidad",
+      "Diseñar nuevas soluciones",
+      "Medir capacidad de proceso",
+      "Controlar sostenibilidad del cambio"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "En DMAIC (Define, Measure, Analyze, Improve, Control), la fase Analyze se centra en descubrir las causas raíz de la variabilidad."
+  },
+  {
+    "id": "onco-510",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es la meta principal de un informe de evaluación de tecnología sanitaria (HTA) para calidad?",
+    "opciones": [
+      "Valorar impacto clínico, económico y organizativo de una intervención",
+      "Negociar descuentos confidenciales con proveedores",
+      "Sustituir la farmacovigilancia clásica",
+      "Establecer turnos del personal sanitario"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los informes HTA analizan múltiples dimensiones para apoyar decisiones de implantación, vinculadas a calidad y eficiencia asistencial."
+  },
+  {
+    "id": "onco-511",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué técnica permite mapear tiempos y desperdicios en el recorrido del paciente oncológico?",
+    "opciones": [
+      "Value Stream Mapping",
+      "Gráfico de Pareto",
+      "Análisis ABC",
+      "Diagrama de Gantt"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Value Stream Mapping identifica pasos que aportan valor y desperdicios, facilitando optimizar tiempos y recursos en el proceso asistencial."
+  },
+  {
+    "id": "onco-512",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué herramienta de calidad requiere definir límites superior e inferior para detectar variaciones?",
+    "opciones": [
+      "Gráfico de control",
+      "Diagrama de afinidad",
+      "Análisis SWOT",
+      "Scrum board"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los gráficos de control establecen límites estadísticos para identificar variaciones especiales en indicadores asistenciales."
+  },
+  {
+    "id": "onco-513",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué requisito impone la norma UNE 179003 sobre gestión de riesgos sanitarios?",
+    "opciones": [
+      "Implementar un sistema documentado de identificación y mitigación de riesgos",
+      "Certificar al personal en auditorías internas",
+      "Reportar mensualmente a la autoridad sanitaria",
+      "Renovar licencias de farmacia hospitalaria cada cinco años"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La norma UNE 179003 exige un sistema estructurado que identifique, evalúe y controle riesgos para la seguridad del paciente."
+  },
+  {
+    "id": "onco-514",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué componente es obligatorio en un plan de calidad hospitalario?",
+    "opciones": [
+      "Objetivos medibles con indicadores asociados",
+      "Compra de equipamiento de última generación",
+      "Formación únicamente presencial",
+      "Reuniones mensuales con todas las direcciones"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los planes de calidad deben incluir objetivos cuantificables y métricas para monitorizar su cumplimiento."
+  },
+  {
+    "id": "onco-515",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué acción corresponde a la fase 'Act' del ciclo PDCA tras detectar desviaciones?",
+    "opciones": [
+      "Implementar acciones correctivas o estandarizar mejoras",
+      "Medir el indicador de nuevo",
+      "Planificar recursos adicionales",
+      "Documentar la situación sin cambios"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "En 'Act' se toman acciones correctivas o se estandariza la mejora según el resultado del análisis previo."
+  },
+  {
+    "id": "onco-516",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué informe analiza eventos adversos graves desde la perspectiva de sistemas?",
+    "opciones": [
+      "Revisión de causa raíz (RCA)",
+      "Plan estratégico",
+      "Memoria económica",
+      "Informe de actividad quirúrgica"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La revisión de causa raíz identifica fallos de sistemas y propone acciones para prevenir recurrencias."
+  },
+  {
+    "id": "onco-517",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué indicador cualitativo valora la experiencia de cuidadores en oncología?",
+    "opciones": [
+      "Encuestas CAREGIVER-PREM",
+      "Ratio enfermera/paciente",
+      "Días de hospitalización",
+      "Consumo de AINE por paciente"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las encuestas PREM específicas para cuidadores recogen su experiencia y son indicadores cualitativos de calidad percibida."
+  },
+  {
+    "id": "onco-518",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué estrategia Lean elimina pasos sin valor en circuitos oncológicos?",
+    "opciones": [
+      "5S (clasificar, ordenar, limpiar, estandarizar, sostener)",
+      "Kanban farmacéutico",
+      "Hoshin Kanri",
+      "Teoría de las restricciones"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La metodología 5S ordena y elimina desperdicios para facilitar flujos seguros y eficientes."
+  },
+  {
+    "id": "onco-519",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué análisis cuantifica la variabilidad injustificada en la práctica clínica?",
+    "opciones": [
+      "Benchmarking ajustado por riesgo",
+      "Análisis de sensibilidad",
+      "Matrix de Eisenhower",
+      "Gestión visual"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El benchmarking ajustado por riesgo permite comparar resultados clínicos corregidos por complejidad para detectar variabilidad no justificada."
+  },
+  {
+    "id": "onco-520",
+    "categoria": "Gestión profesional",
+    "subcategoria": "Calidad asistencial",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es el propósito de un contrato programa interno en calidad oncológica?",
+    "opciones": [
+      "Fijar objetivos asistenciales y de eficiencia entre servicio y dirección",
+      "Autorizar nuevas moléculas para uso compasivo",
+      "Asignar guardias médicas",
+      "Validar protocolos de investigación básica"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los contratos programa establecen compromisos entre la unidad y la dirección sobre objetivos asistenciales, económicos y de calidad."
+  },
+  {
+    "id": "onco-521",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué clase de cabina se utiliza para preparar citotóxicos en farmacia hospitalaria?",
+    "opciones": [
+      "Cabina de bioseguridad tipo II B2",
+      "Cabina de flujo laminar horizontal",
+      "Caja de guantes clase III",
+      "Campana extractora convencional"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los citotóxicos se preparan en cabinas de bioseguridad tipo II B2 que garantizan protección del producto, operador y ambiente."
+  },
+  {
+    "id": "onco-522",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué parámetro controla el recuento de partículas en salas limpias de preparación oncológica?",
+    "opciones": [
+      "Clase ISO de la sala según número de partículas/m³",
+      "Índice de intercambio de calor",
+      "Humedad relativa <20%",
+      "Presión positiva constante"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las salas se clasifican por la cantidad de partículas según la norma ISO 14644 para asegurar condiciones asépticas."
+  },
+  {
+    "id": "onco-523",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es el EPI mínimo obligatorio durante la reconstitución de citostáticos?",
+    "opciones": [
+      "Guantes dobles, bata impermeable, protección ocular y mascarilla",
+      "Guantes simples y mascarilla quirúrgica",
+      "Solo bata y gorro desechable",
+      "Mascarilla FFP3 sin guantes"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La guía USP <800> recomienda doble guante, bata impermeable, protección ocular y mascarilla para manipular citotóxicos."
+  },
+  {
+    "id": "onco-524",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué sistema minimiza aerosoles al desconectar equipos de infusión citotóxica?",
+    "opciones": [
+      "Dispositivos cerrados de transferencia (CSTD)",
+      "Filtros de 0,22 micras",
+      "Bombas elastoméricas",
+      "Sistemas de gravedad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los CSTD mantienen un circuito cerrado y reducen la liberación de aerosoles y vapores al manipular citotóxicos."
+  },
+  {
+    "id": "onco-525",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué significa estabilizar una mezcla intravenosa según guías de compounding?",
+    "opciones": [
+      "Garantizar que mantiene potencia y ausencia de precipitados durante el tiempo de uso",
+      "Asegurar que alcanza temperatura ambiente",
+      "Añadir conservantes bacterianos",
+      "Filtrar con membranas de 5 micras"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La estabilidad incluye conservar potencia, ausencia de precipitados y compatibilidad físico-química durante la vida útil asignada."
+  },
+  {
+    "id": "onco-526",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué ensayo verifica integridad de cierre en jeringas precargadas con citotóxicos?",
+    "opciones": [
+      "Prueba de fuga con presión negativa o burbuja",
+      "Test de endotoxinas LAL",
+      "Determinación de pH",
+      "Conteo microbiano por filtración"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las pruebas de integridad por presión negativa o burbuja evalúan que no existan fugas en sistemas cerrados precargados."
+  },
+  {
+    "id": "onco-527",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué control documenta cada paso de la preparación en farmacia oncológica?",
+    "opciones": [
+      "Hoja de elaboración con trazabilidad operador-lote",
+      "Etiqueta final con código QR",
+      "Factura de proveedor",
+      "Receta electrónica"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las hojas de elaboración registran lotes, operadores, tiempos y verificaciones para asegurar trazabilidad completa."
+  },
+  {
+    "id": "onco-528",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué acción minimiza errores de dosificación en compounding pediátrico oncológico?",
+    "opciones": [
+      "Doble cálculo independiente documentado",
+      "Uso de jeringas prellenadas estándar de adulto",
+      "Dilución única y universal",
+      "Redondeo al entero más cercano"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El doble cálculo independiente por dos profesionales detecta discrepancias y reduce errores en dosis pediátricas."
+  },
+  {
+    "id": "onco-529",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué parámetro define la beyond-use date (BUD) en preparaciones estériles?",
+    "opciones": [
+      "Resultado de estudios de estabilidad y riesgos microbiológicos",
+      "Fecha de caducidad del vial origen",
+      "Número de reconstituciones previas",
+      "Tiempo que tarda el transporte interno"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La BUD se define por estudios de estabilidad física/química y riesgo microbiológico, no solo por la caducidad original."
+  },
+  {
+    "id": "onco-530",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué procedimiento se sigue tras un derrame de citotóxicos en sala blanca?",
+    "opciones": [
+      "Aplicar kit de derrames con descontaminación secuencial documentada",
+      "Ventilar abriendo la puerta principal",
+      "Diluir con agua abundante sin protección",
+      "Continuar la elaboración y limpiar al final"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los kits de derrames incluyen absorbentes y agentes descontaminantes; su uso debe documentarse siguiendo protocolos específicos."
+  },
+  {
+    "id": "onco-531",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué parámetro evalúa la prueba de humo en cabinas de bioseguridad?",
+    "opciones": [
+      "Patrón de flujo de aire y contención",
+      "Velocidad de filtración HEPA",
+      "Nivel de ruido",
+      "Emisiones de ozono"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La prueba de humo visualiza el flujo de aire y confirma la contención adecuada dentro de la cabina de bioseguridad."
+  },
+  {
+    "id": "onco-532",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué control asegura la compatibilidad de diluyentes en mezclas citotóxicas?",
+    "opciones": [
+      "Revisión de tablas de compatibilidad y guías de estabilidad",
+      "Medición de osmolaridad en cada preparación",
+      "Uso exclusivo de solución salina 0,9%",
+      "Añadir estabilizantes universales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La consulta de referencias validadas de compatibilidad evita precipitaciones o degradaciones por diluyentes inadecuados."
+  },
+  {
+    "id": "onco-533",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué evaluación se realiza para validar software de prescripción y compounding integrado?",
+    "opciones": [
+      "Pruebas de aceptación (IQ/OQ/PQ) con casos reales y escenarios de fallo",
+      "Revisión de código fuente por el farmacéutico jefe",
+      "Certificación ISO 27001 del proveedor",
+      "Respaldo diario en la nube"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los protocolos de validación IQ/OQ/PQ prueban instalación, operación y desempeño del software con escenarios reales y de fallo."
+  },
+  {
+    "id": "onco-534",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué prueba confirma esterilidad en lotes extendidos de nutrición parenteral oncológica?",
+    "opciones": [
+      "Control microbiológico por filtración de membrana",
+      "Determinación de densidad",
+      "Prueba de endotoxinas cromogénica",
+      "Ensayo de coloración"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El método de filtración con incubación en medios específicos es un estándar para validar esterilidad en preparaciones estériles."
+  },
+  {
+    "id": "onco-535",
+    "categoria": "Implementación terapéutica",
+    "subcategoria": "Compounding oncológico",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué requisito establece USP <800> para transporte interno de citotóxicos listos?",
+    "opciones": [
+      "Contenedores rígidos cerrados, etiquetados y a prueba de derrames",
+      "Transporte manual sin contenedor para ahorrar tiempo",
+      "Uso exclusivo de tubos neumáticos",
+      "Entregar siempre a temperatura ambiente"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "USP <800> exige transportar citotóxicos en contenedores rígidos, cerrados y etiquetados para evitar derrames o exposición."
+  },
+  {
+    "id": "onco-536",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué molécula se bloquea con CAR-T tisagenlecleucel?",
+    "opciones": [
+      "CD19",
+      "BCMA",
+      "CD22",
+      "CD123"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Tisagenlecleucel está diseñado contra CD19, expresado en linfoblastos B, para tratar LAL B y linfomas difusos de células grandes."
+  },
+  {
+    "id": "onco-537",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál es la complicación aguda más frecuente tras infusión de CAR-T?",
+    "opciones": [
+      "Síndrome de liberación de citocinas",
+      "CID consumptiva",
+      "Síndrome hemofagocítico primario",
+      "Hipertensión pulmonar"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El síndrome de liberación de citocinas es la toxicidad aguda más común, manejada con tocilizumab y soporte hemodinámico."
+  },
+  {
+    "id": "onco-538",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué biomarcador se monitoriza para anticipar neurotoxicidad ICANS en CAR-T?",
+    "opciones": [
+      "Elevación de ferritina y IL-6",
+      "Descenso de fibrinógeno",
+      "Aumento de LDH",
+      "Reducción de CD4 circulantes"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Ferritina elevada y citocinas como IL-6 se correlacionan con riesgo aumentado de neurotoxicidad asociada a CAR-T."
+  },
+  {
+    "id": "onco-539",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué preparación previa requiere la mayoría de terapias CAR-T antes de la infusión?",
+    "opciones": [
+      "Quimioterapia de linfodepleción con fludarabina/ciclofosfamida",
+      "Trasplante autólogo previo",
+      "Perfil genómico completo de tumor sólido",
+      "Radioterapia craneal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La linfodepleción con fludarabina y ciclofosfamida reduce competencia y facilita la expansión de las células CAR-T."
+  },
+  {
+    "id": "onco-540",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es el objetivo de los macrófagos modificados (CAR-M) en oncología?",
+    "opciones": [
+      "Reprogramar el microambiente tumoral y fagocitar células cancerosas",
+      "Activar linfocitos T reguladores",
+      "Suprimir la hematopoyesis normal",
+      "Inducir tolerancia periférica al tumor"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los CAR-M están diseñados para fagocitar células tumorales y reeducar el microambiente con señales proinflamatorias antitumorales."
+  },
+  {
+    "id": "onco-541",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué terapia celular utiliza células NK modificadas con receptores quiméricos?",
+    "opciones": [
+      "CAR-NK",
+      "TIL",
+      "DC-vacunas",
+      "TCR transgénicos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las CAR-NK son células NK modificadas para expresar receptores quiméricos, ofreciendo menor riesgo de injerto contra huésped."
+  },
+  {
+    "id": "onco-542",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué fármaco se usa de primera línea para manejo del síndrome de liberación de citocinas grado ≥2?",
+    "opciones": [
+      "Tocilizumab",
+      "Corticoides altas dosis",
+      "Etanercept",
+      "Anakinra"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Tocilizumab bloquea IL-6 y es el tratamiento de elección en síndrome de liberación de citocinas moderado-grave."
+  },
+  {
+    "id": "onco-543",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué estrategia reduce el riesgo de recaída en pacientes con CAR-T anti-CD19?",
+    "opciones": [
+      "Consolidar con trasplante alogénico en respondedores seleccionados",
+      "Repetir linfodepleción mensual",
+      "Suspender profilaxis antiinfecciosa",
+      "Administrar GM-CSF inmediatamente"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "En subgrupos de alto riesgo, consolidar con trasplante alogénico tras respuesta a CAR-T puede reducir recaídas."
+  },
+  {
+    "id": "onco-544",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué diana reconocen los CAR-T idecabtagene vicleucel y ciltacabtagene autoleucel?",
+    "opciones": [
+      "BCMA",
+      "CD30",
+      "CD52",
+      "SLAMF7"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Ambos CAR-T aprobados para mieloma múltiple se dirigen contra el antígeno de maduración de células B (BCMA)."
+  },
+  {
+    "id": "onco-545",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué requisito logístico es imprescindible antes de fabricar una terapia CAR-T?",
+    "opciones": [
+      "Recoger linfocitos T del paciente mediante aféresis",
+      "Realizar biopsia medular abierta",
+      "Administrar profilaxis antifúngica",
+      "Reservar cama de UCI 48 horas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La aféresis de linfocitos T del propio paciente es el paso inicial para la fabricación de la mayoría de CAR-T autólogas."
+  },
+  {
+    "id": "onco-546",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué define el periodo de monitorización REMS en terapias CAR-T aprobadas?",
+    "opciones": [
+      "Seguimiento estricto de toxicidades graves y formación del centro",
+      "Control exclusivo de parámetros económicos",
+      "Recuento hematológico semanal de por vida",
+      "Obligatoriedad de ingreso prolongado"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los programas REMS exigen centros certificados, vigilancia de toxicidades y formación específica del personal."
+  },
+  {
+    "id": "onco-547",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué ventaja tienen los CAR-T allogénicos de 'off-the-shelf' en ensayo?",
+    "opciones": [
+      "Disponibilidad inmediata sin esperar fabricación individual",
+      "Mayor duración garantizada de respuesta",
+      "Menor necesidad de linfodepleción",
+      "Ausencia total de inmunosupresión"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los CAR-T alogénicos listos para uso eliminan el tiempo de fabricación personalizada, permitiendo tratamiento rápido."
+  },
+  {
+    "id": "onco-548",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué infección oportunista requiere profilaxis tras CAR-T por linfopenia prolongada?",
+    "opciones": [
+      "Pneumocystis jirovecii",
+      "Citomegalovirus en todos los casos",
+      "Toxoplasma gondii universal",
+      "Mycobacterium tuberculosis"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Se recomienda profilaxis frente a Pneumocystis debido a linfopenia prolongada tras terapia CAR-T."
+  },
+  {
+    "id": "onco-549",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué muestra se analiza para liberar el lote final de CAR-T?",
+    "opciones": [
+      "Producto celular expandido para confirmar viabilidad y esterilidad",
+      "Suero del paciente antes de aféresis",
+      "Biopsia tumoral post-linfodepleción",
+      "Médula ósea basal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El lote final se libera tras verificar viabilidad celular, identidad, potencia y esterilidad del producto expandido."
+  },
+  {
+    "id": "onco-550",
+    "categoria": "Hemato-oncología",
+    "subcategoria": "Terapias avanzadas",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué mecanismo buscan los CAR-T duales (bispecíficos) en investigación?",
+    "opciones": [
+      "Dirigirse simultáneamente a dos antígenos para prevenir escape tumoral",
+      "Aumentar la afinidad a un único antígeno",
+      "Reducir la activación de células T reguladoras",
+      "Optimizar únicamente la producción de citoquinas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los CAR-T bispecíficos reconocen dos antígenos diferentes para disminuir el riesgo de escape por pérdida de diana."
   }
 ]
