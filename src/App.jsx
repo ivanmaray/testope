@@ -4,6 +4,7 @@ import TestRunner from './components/TestRunner.jsx';
 import Summary from './components/Summary.jsx';
 import HistoryPanel from './components/HistoryPanel.jsx';
 import LoginForm from './components/LoginForm.jsx';
+import RoscoGame from './components/RoscoGame.jsx';
 import { useAuth } from './context/AuthContext.jsx';
 import {
   preguntasDisponibles,
@@ -11,6 +12,7 @@ import {
   dificultadesDisponibles,
   subcategoriasDisponibles,
 } from './data/questions.js';
+import { ROSCO_TOTAL } from './data/roscoQuestions.js';
 import { guardarResultado, cargarHistorial, eliminarHistorial } from './utils/historyStorage.js';
 import { guardarIntentoRemoto, cargarIntentosRemotos } from './utils/remoteHistory.js';
 
@@ -128,13 +130,16 @@ const App = () => {
     [user],
   );
 
-  const FECHA_ACTUALIZACION = '6 de octubre de 2025';
+  const FECHA_ACTUALIZACION = '7 de octubre de 2025';
+  const FECHA_EXAMEN = '30 de noviembre de 2025';
+  const EXAM_DATETIME = useMemo(() => new Date('2025-11-30T10:00:00'), []);
   const [paso, setPaso] = useState('config');
   const [configuracion, setConfiguracion] = useState(null);
   const [preguntas, setPreguntas] = useState([]);
   const [indiceActual, setIndiceActual] = useState(0);
   const [respuestas, setRespuestas] = useState([]);
   const [resultado, setResultado] = useState(null);
+  const [roscoActivo, setRoscoActivo] = useState(null);
   const [historial, setHistorial] = useState([]);
   const [progress, setProgress] = useState(() => loadProgress());
   const [mensaje, setMensaje] = useState('');
@@ -143,6 +148,23 @@ const App = () => {
   const [categoriasDesplegadas, setCategoriasDesplegadas] = useState(() => new Set());
   const setupSectionRef = useRef(null);
   const statsSectionRef = useRef(null);
+  const computeCountdown = useCallback((objetivo) => {
+    const ahora = new Date();
+    const diff = Math.max(objetivo.getTime() - ahora.getTime(), 0);
+    const totalSegundos = Math.floor(diff / 1000);
+    const dias = Math.floor(totalSegundos / (24 * 3600));
+    const horas = Math.floor((totalSegundos % (24 * 3600)) / 3600);
+    const minutos = Math.floor((totalSegundos % 3600) / 60);
+    const segundos = totalSegundos % 60;
+    return {
+      dias,
+      horas,
+      minutos,
+      segundos,
+      agotado: diff === 0,
+    };
+  }, []);
+  const [countdown, setCountdown] = useState(() => computeCountdown(EXAM_DATETIME));
 
   const subcategoriasPorCategoria = useMemo(() => {
     const mapa = new Map();
@@ -269,6 +291,13 @@ const App = () => {
   }, [estadisticasPreguntas, progress]);
 
   useEffect(() => {
+    const id = window.setInterval(() => {
+      setCountdown(computeCountdown(EXAM_DATETIME));
+    }, 1000);
+    return () => window.clearInterval(id);
+  }, [computeCountdown, EXAM_DATETIME]);
+
+  useEffect(() => {
     if (!user) {
       return;
     }
@@ -304,6 +333,30 @@ const App = () => {
       cancelado = true;
     };
   }, [storageKey, user]);
+
+  const heroBadgeText = focusMode
+    ? `Modo enfoque activo · OPE FH ${FECHA_EXAMEN}`
+    : `Cuenta atrás OPE Farmacia Hospitalaria · ${FECHA_EXAMEN}`;
+
+  const heroDescription = focusMode
+    ? `Modo enfoque activo: minimizamos distracciones y ampliamos el contenido para una sesión de repaso intensiva rumbo a la OPE del ${FECHA_EXAMEN}.`
+    : `Prepara la OPE de Farmacia Hospitalaria del ${FECHA_EXAMEN} con simulacros dirigidos, seguimiento inteligente y repasos enfocados en los temas más preguntados.`;
+
+  const focusModeTips = [
+    'Mostramos solo lo imprescindible para configurar tu simulacro sin ruido visual.',
+    'Tipografía ampliada y contraste reforzado para mejorar la retención en sesiones largas.',
+    'Desactiva el modo enfoque cuando quieras volver a la vista completa y revisar métricas.',
+  ];
+
+  const countdownItems = useMemo(
+    () => [
+      { label: 'Días', value: String(countdown.dias).padStart(2, '0') },
+      { label: 'Horas', value: String(countdown.horas).padStart(2, '0') },
+      { label: 'Minutos', value: String(countdown.minutos).padStart(2, '0') },
+      { label: 'Segundos', value: String(countdown.segundos).padStart(2, '0') },
+    ],
+    [countdown],
+  );
 
   const alternarCategoria = useCallback((categoria) => {
     setCategoriasDesplegadas((previas) => {
@@ -376,6 +429,28 @@ const App = () => {
     tiempoPorPregunta,
   }) => {
     const nombreUsuario = displayName;
+
+    if (modo === 'rosco') {
+      setMensaje('');
+      setConfiguracion({
+        modo,
+        categoria: 'Todas',
+        dificultad: 'Todas',
+        mezclarDificultades: true,
+        subcategoria: 'todas',
+        numeroPreguntas: ROSCO_TOTAL,
+        tiempoPorPregunta: 30,
+        usuario: nombreUsuario,
+      });
+      setPreguntas([]);
+      setRespuestas([]);
+      setResultado(null);
+      setTiempoRestante(null);
+      setTiempoTotal(null);
+      setRoscoActivo({ inicio: Date.now() });
+      setPaso('rosco');
+      return;
+    }
 
     let pool = [];
 
@@ -489,6 +564,45 @@ const App = () => {
     finalizarTest([...respuestas]);
   };
 
+  const finalizarRosco = useCallback(
+    ({ preguntas: preguntasRosco, respuestasIndices, respuestasTexto, aciertos: aciertosRosco, tiempoTotal: tiempoTotalRosco, tiempoEmpleado: tiempoEmpleadoRosco, configuracion: configuracionRosco }) => {
+      const nuevoResultado = {
+        id: `resultado-${Date.now()}`,
+        fecha: new Date().toISOString(),
+        configuracion: configuracionRosco,
+        preguntas: preguntasRosco,
+        respuestas: respuestasIndices,
+        respuestasTexto,
+        aciertos: aciertosRosco,
+        tiempoTotal: tiempoTotalRosco,
+        tiempoEmpleado: tiempoEmpleadoRosco,
+      };
+
+      guardarResultado(storageKey, nuevoResultado);
+      setHistorial((historialPrevio) => [nuevoResultado, ...historialPrevio].slice(0, 20));
+
+      setProgress((previo) => {
+        const actualizado = computeProgress(previo, nuevoResultado);
+        saveProgress(actualizado);
+        return actualizado;
+      });
+
+      if (user?.id) {
+        guardarIntentoRemoto(user.id, nuevoResultado).then(({ success, error }) => {
+          if (!success) {
+            // eslint-disable-next-line no-console
+            console.warn('No se pudo sincronizar el intento remoto', error);
+          }
+        });
+      }
+
+      setResultado(nuevoResultado);
+      setRoscoActivo(null);
+      setPaso('summary');
+    },
+    [storageKey, user],
+  );
+
   useEffect(() => {
     if (paso !== 'quiz' || tiempoRestante === null) {
       return undefined;
@@ -522,6 +636,7 @@ const App = () => {
     setResultado(null);
     setTiempoRestante(null);
     setTiempoTotal(null);
+    setRoscoActivo(null);
   };
 
   const limpiarHistorial = () => {
@@ -559,80 +674,124 @@ const App = () => {
 
   return (
     <main className={`app ${focusMode ? 'app--focus' : ''}`}>
-      <header className="hero">
-        <div className="hero__content">
-          <span className="hero__badge">Actualizado {FECHA_ACTUALIZACION}</span>
-          <h1 className="hero__title">Diseña tu estrategia para el BPS de Oncología</h1>
-          <p className="hero__description">
-            Construye simulacros hiperpersonalizados, analiza tus resultados y refuerza las áreas críticas de farmacia oncológica en cuestión de minutos.
-          </p>
-          <ul className="hero__features">
-            <li>
-              <span className="hero__feature-icon" aria-hidden>
-                ⚡️
-              </span>
-              Simulacros por categoría, subcategoría, dificultad y tiempo por pregunta.
-            </li>
-            <li>
-              <span className="hero__feature-icon" aria-hidden>
-                🧬
-              </span>
-              Banco enriquecido con terapias avanzadas, farmacogenética y casos clínicos reales.
-            </li>
-            <li>
-              <span className="hero__feature-icon" aria-hidden>
-                📊
-              </span>
-              Estadísticas instantáneas, exportación de resultados y seguimiento histórico.
-            </li>
-          </ul>
-          <div className="hero__actions">
-            <button type="button" className="hero__cta" onClick={scrollToSetup}>
-              Comenzar simulacro
-            </button>
-            <button type="button" className="hero__ghost" onClick={scrollToStats}>
-              Explorar banco de preguntas
-            </button>
+      <header className={`hero ${focusMode ? 'hero--focus' : ''}`}>
+        <div className={`hero__content ${focusMode ? 'hero__content--focus' : ''}`}>
+          <span className="hero__badge">{heroBadgeText}</span>
+          <h1 className="hero__title">Planifica tu OPE de Farmacia Hospitalaria</h1>
+          <p className="hero__description">{heroDescription}</p>
+          <div className={`hero__countdown ${countdown.agotado ? 'hero__countdown--done' : ''}`}>
+            {countdown.agotado ? (
+              <p>¡Hoy es el examen! Repasa ligero, respira hondo y confía en tu preparación.</p>
+            ) : (
+              <>
+                <span className="hero__countdown-label">Faltan</span>
+                <div className="hero__countdown-grid">
+                  {countdownItems.map((item) => (
+                    <div key={item.label} className="hero__countdown-item">
+                      <strong>{item.value}</strong>
+                      <span>{item.label}</span>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
           </div>
+          {!focusMode && (
+            <>
+              <ul className="hero__features">
+                <li>
+                  <span className="hero__feature-icon" aria-hidden>
+                    ⚡️
+                  </span>
+                  Simulacros diseñados según el temario y competencias de la OPE de Farmacia Hospitalaria.
+                </li>
+                <li>
+                  <span className="hero__feature-icon" aria-hidden>
+                    🧬
+                  </span>
+                  Casos clínicos, farmacotecnia y legislación sanitaria listos para repasar en profundidad.
+                </li>
+                <li>
+                  <span className="hero__feature-icon" aria-hidden>
+                    📊
+                  </span>
+                  Estadísticas instantáneas para priorizar tus repasos antes del gran día.
+                </li>
+              </ul>
+              <div className="hero__actions">
+                <button type="button" className="hero__cta" onClick={scrollToSetup}>
+                  Comenzar simulacro
+                </button>
+                <button type="button" className="hero__ghost" onClick={scrollToStats}>
+                  Explorar banco de preguntas
+                </button>
+              </div>
+            </>
+          )}
+          {focusMode && (
+            <ul className="hero__focus-hints">
+              {focusModeTips.map((tip) => (
+                <li key={tip}>{tip}</li>
+              ))}
+            </ul>
+          )}
         </div>
-        <aside className="hero__metrics">
+        <aside className={`hero__metrics ${focusMode ? 'hero__metrics--focus' : ''}`}>
           <div className="hero__focus-toggle">
             <label>
               <input type="checkbox" checked={focusMode} onChange={toggleFocusMode} />
               <span>Modo enfoque</span>
             </label>
-            <p>Amplía tipografía y elimina distracciones para repasar con máxima concentración.</p>
+            <p>
+              {focusMode
+                ? 'Interfaz simplificada con bloques ampliados para tu sprint final hacia la OPE.'
+                : 'Amplía tipografía y elimina distracciones para repasar con máxima concentración.'}
+            </p>
           </div>
-          <div className="hero__session">
+          <div className={`hero__session ${focusMode ? 'hero__session--focus' : ''}`}>
             <span className="hero__user-label">Usuario actual:</span>
             <span className="hero__user-name">{displayName}</span>
             <button type="button" className="hero__signout" onClick={signOut}>
               Cerrar sesión
             </button>
           </div>
-          <div className="hero__metric-grid">
-            {heroHighlights.map((item) => (
-              <div key={item.label} className="hero__metric">
-                <strong>{item.value}</strong>
-                <span>{item.label}</span>
+          {!focusMode && (
+            <>
+              <div className="hero__metric-grid">
+                {heroHighlights.map((item) => (
+                  <div key={item.label} className="hero__metric">
+                    <strong>{item.value}</strong>
+                    <span>{item.label}</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-          <p className="hero__note">Optimiza tu estudio con datos actualizados, revisiones guiadas y descarga de resultados en CSV.</p>
+              <p className="hero__note">
+                Sigue tu progreso, detecta lagunas y llega al {FECHA_EXAMEN} con seguridad.
+              </p>
+            </>
+          )}
+          {focusMode && (
+            <div className="hero__focus-reminder">
+              <strong>Focus ON</strong>
+              <p>Solo verás lo esencial para sumar puntos camino al {FECHA_EXAMEN}.</p>
+            </div>
+          )}
         </aside>
       </header>
 
       <div className="app__content">
-        <section className="storage-note">
-          <div className="storage-note__content">
-            <span className="storage-note__icon" aria-hidden>
-              ☁️
-            </span>
-            <p>
-              <strong>Sincronizado:</strong> tus resultados se guardan en Supabase y también localmente para acceso sin conexión.
-            </p>
-          </div>
-        </section>
+        {!focusMode && (
+          <section className="storage-note">
+            <div className="storage-note__content">
+              <span className="storage-note__icon" aria-hidden>
+                ☁️
+              </span>
+              <p>
+                <strong>Sincronizado:</strong> guarda cada simulacro y repásalo en cualquier momento antes de la OPE.
+              </p>
+            </div>
+          </section>
+        )}
 
         {paso === 'config' && (
           <>
@@ -677,6 +836,14 @@ const App = () => {
             onFinalizar={finalizarDesdeUI}
             tiempoRestante={tiempoRestante}
             tiempoTotal={tiempoTotal}
+          />
+        )}
+
+        {paso === 'rosco' && roscoActivo && (
+          <RoscoGame
+            key={roscoActivo.inicio}
+            onComplete={(resultadoRosco) => finalizarRosco(resultadoRosco)}
+            onAbort={() => reiniciar()}
           />
         )}
 
