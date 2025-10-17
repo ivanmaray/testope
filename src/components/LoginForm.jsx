@@ -42,16 +42,28 @@ const LoginForm = () => {
       <div className="auth__visual" aria-hidden>
         <div className="auth__visual-overlay" />
         <div className="auth__visual-content">
-          <span className="auth__badge">Farmacia clínica</span>
-          <h2>Protocolos, farmacogenética y terapias avanzadas en una sola plataforma.</h2>
-          <p>Entrena con bancos actualizados y visualiza tu progreso en tiempo real.</p>
+          <span className="auth__badge">OPE SESPA · Farmacia Hospitalaria 2025</span>
+          <h2>Tu plataforma de entrenamiento para la OPE del SESPA.</h2>
+          <p>Practica con preguntas tipo test de legislación y parte específica, simulacros cronometrados y análisis de resultados. Llega al examen con confianza y precisión.</p>
         </div>
       </div>
 
       <div className="auth__panel">
         <header className="auth__header">
-          <h1>Preparación BPS Oncología</h1>
-          <p>Identifícate para guardar tu avance y seguir tu preparación desde cualquier dispositivo.</p>
+          <h1>Preparación OPE SESPA · Farmacia Hospitalaria</h1>
+          <p>Accede o crea tu cuenta para guardar tu progreso y seguir tu entrenamiento desde cualquier dispositivo.</p>
+          <div className="auth__countdown" style={{marginTop:'0.5rem', fontSize:'0.9rem'}}>
+            {(() => {
+              const EXAM_START = new Date('2025-11-30T10:00:00+01:00');
+              const now = new Date();
+              const diff = EXAM_START - now;
+              if (diff <= 0) return <strong>¡Hoy es el examen! 🏆</strong>;
+              const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+              return <span>⏳ Quedan <strong>{days} días</strong> y {hours}h {minutes}m para el examen</span>;
+            })()}
+          </div>
         </header>
 
         <form className="auth__form" onSubmit={handleSubmit}>

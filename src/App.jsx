@@ -5,6 +5,7 @@ import Summary from './components/Summary.jsx';
 import HistoryPanel from './components/HistoryPanel.jsx';
 import LoginForm from './components/LoginForm.jsx';
 import RoscoGame from './components/RoscoGame.jsx';
+import PabloTest17Oct from './components/PabloTest17Oct.jsx';
 import { useAuth } from './context/AuthContext.jsx';
 import {
   preguntasDisponibles,
@@ -112,7 +113,7 @@ const calcularAciertos = (preguntas, respuestas) =>
 const LegalFooter = () => (
   <footer className="legal-footer">
     <p>
-      © 2025 Iván Maray. Plataforma elaborada para preparación educativa BPS Oncología. Preguntas generadas con apoyo de
+      © 2025 Iván Maray. Plataforma elaborada para preparación educativa OPE FH 2025 Asturias. Preguntas generadas con apoyo de
       inteligencia artificial; no se garantiza la veracidad absoluta del contenido.
     </p>
     <p>
@@ -134,6 +135,7 @@ const App = () => {
   const FECHA_EXAMEN = '30 de noviembre de 2025';
   const EXAM_DATETIME = useMemo(() => new Date('2025-11-30T10:00:00'), []);
   const [paso, setPaso] = useState('config');
+  const [mostrarPabloTest, setMostrarPabloTest] = useState(false);
   const [configuracion, setConfiguracion] = useState(null);
   const [preguntas, setPreguntas] = useState([]);
   const [indiceActual, setIndiceActual] = useState(0);
@@ -663,9 +665,33 @@ const App = () => {
     );
   }
 
+  // Mostrar Test de Pablo si está activado (disponible sin autenticación)
+  if (mostrarPabloTest) {
+    return <PabloTest17Oct onVolver={() => setMostrarPabloTest(false)} />;
+  }
+
   if (!user) {
     return (
       <main className="app app--auth">
+        <div style={{ textAlign: 'center', padding: '2rem 0' }}>
+          <button
+            onClick={() => setMostrarPabloTest(true)}
+            style={{
+              background: 'linear-gradient(to right, #9333ea, #2563eb)',
+              color: 'white',
+              padding: '1rem 2rem',
+              borderRadius: '0.75rem',
+              border: 'none',
+              fontSize: '1.1rem',
+              fontWeight: '600',
+              cursor: 'pointer',
+              marginBottom: '2rem',
+              boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+            }}
+          >
+            🎯 Test de Pablo 17/10/25 (Sin Login)
+          </button>
+        </div>
         <LoginForm />
         <LegalFooter />
       </main>
@@ -724,6 +750,19 @@ const App = () => {
                 </button>
                 <button type="button" className="hero__ghost" onClick={scrollToStats}>
                   Explorar banco de preguntas
+                </button>
+                <button 
+                  type="button" 
+                  className="hero__ghost" 
+                  onClick={() => setMostrarPabloTest(true)}
+                  style={{ 
+                    background: 'linear-gradient(to right, #9333ea, #2563eb)',
+                    color: 'white',
+                    border: 'none',
+                    marginTop: '0.5rem'
+                  }}
+                >
+                  🎯 Test de Pablo 17/10/25
                 </button>
               </div>
             </>

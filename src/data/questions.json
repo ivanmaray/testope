@@ -9748,5 +9748,3535 @@
     ],
     "respuestaCorrecta": 0,
     "explicacion": "La cardiotoxicidad de trastuzumab suele ser reversible tras su interrupción y manejo adecuado."
+  },
+    {
+    "id": "gen-011",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué artículo de la Constitución Española de 1978 reconoce el derecho a la protección de la salud?",
+    "opciones": ["Artículo 41", "Artículo 43", "Artículo 45", "Artículo 47"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El artículo 43 de la Constitución Española reconoce el derecho a la protección de la salud y encomienda a los poderes públicos organizar y tutelar la salud pública mediante medidas preventivas y prestaciones de los servicios necesarios. (Constitución Española de 1978, art. 43)"
+  },
+  {
+    "id": "gen-012",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "Según la Ley 14/1986, de 25 de abril, General de Sanidad, ¿qué principios inspiran la organización del Sistema Nacional de Salud?",
+    "opciones": ["Centralización, eficacia y jerarquía", "Universalidad, equidad y descentralización", "Privatización, subsidiariedad y eficiencia de mercado", "Autonomía municipal, voluntariedad y copago obligatorio"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Ley General de Sanidad configura el SNS bajo principios de universalidad de la asistencia, equidad en el acceso y descentralización/participación de las CCAA. (Ley 14/1986, arts. 1, 3 y 46)"
+  },
+  {
+    "id": "gen-013",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "¿Qué nivel de gobierno tiene competencias de planificación y organización de los servicios de salud según la Ley 14/1986?",
+    "opciones": ["Exclusivamente el Estado", "Exclusivamente los Ayuntamientos", "Las Comunidades Autónomas dentro de su ámbito competencial", "Únicamente las Diputaciones Provinciales"],
+    "respuestaCorrecta": 2,
+    "explicacion": "La LGS reconoce a las Comunidades Autónomas competencias para la organización, administración y gestión de los servicios de salud en su territorio. (Ley 14/1986, arts. 41 y 57)"
+  },
+  {
+    "id": "gen-014",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es la naturaleza jurídica del Consejo Interterritorial del Sistema Nacional de Salud y qué función principal ejerce?",
+    "opciones": ["Órgano decisorio estatal; dicta reglamentos ejecutivos", "Órgano de coordinación; adopta acuerdos para la cohesión del SNS", "Agencia independiente; supervisa la contratación sanitaria", "Órgano jurisdiccional; resuelve conflictos competenciales"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Consejo Interterritorial del SNS es un órgano de coordinación entre el Estado y las CCAA que adopta acuerdos para garantizar la cohesión y la calidad del sistema. (Ley 16/2003, de 28 de mayo, art. 69)"
+  },
+  {
+    "id": "gen-015",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "¿Qué instrumento prevé la Ley 14/1986 para la participación de los ciudadanos en el Sistema Nacional de Salud?",
+    "opciones": ["El Consejo Escolar de Salud", "Los Consejos de Salud", "El Consejo Económico y Social", "La Audiencia Pública sanitaria"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La LGS prevé la existencia de Consejos de Salud como órganos de participación comunitaria en el sistema sanitario. (Ley 14/1986, art. 10)"
+  },
+  {
+    "id": "gen-016",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué previsión constitucional legitima la intervención pública en materia de salud pública, incluyendo medidas preventivas y prestaciones?",
+    "opciones": ["Artículo 38 (libertad de empresa)", "Artículo 43 (protección de la salud)", "Artículo 149.1.1ª (igualdad básica)", "Artículo 128 (intervención económica)"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El art. 43 CE atribuye a los poderes públicos la organización y tutela de la salud pública mediante medidas preventivas y prestaciones, fundamento de la intervención sanitaria. (Constitución Española de 1978, art. 43)"
+  },
+  {
+    "id": "gen-017",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "Según la Ley 14/1986, ¿qué se entiende por ‘área de salud’?",
+    "opciones": ["El hospital de referencia provincial", "El conjunto de recursos y actividades sanitarias en un ámbito territorial para la gestión unitaria", "La zona básica de salud metropolitana", "La demarcación sanitaria estatal"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El área de salud es la estructura fundamental del sistema para organizar a nivel territorial y funcional las prestaciones sanitarias. (Ley 14/1986, arts. 56-58)"
+  },
+  {
+    "id": "gen-018",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué mandato general establece el artículo 43.2 de la Constitución Española a los poderes públicos?",
+    "opciones": ["Garantizar pensiones contributivas", "Organizar y tutelar la salud pública a través de medidas preventivas y prestaciones", "Promover la investigación militar", "Centralizar la sanidad en la Administración General del Estado"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El art. 43.2 CE ordena a los poderes públicos organizar y tutelar la salud pública mediante medidas preventivas y prestaciones necesarias. (Constitución Española de 1978, art. 43.2)"
+  },
+  {
+    "id": "gen-019",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál de los siguientes elementos forma parte de la cartera de servicios comunes del SNS bajo criterios de cohesión?",
+    "opciones": ["Solo atención primaria", "Atención primaria, especializada y prestaciones farmacéuticas", "Únicamente salud pública", "Servicios sociosanitarios exclusivamente privados"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La cartera de servicios comunes incluye atención primaria, especializada, urgencias y prestaciones farmacéuticas, entre otras, bajo criterios de cohesión. (Ley 16/2003, arts. 2 y 8 bis)"
+  },
+  {
+    "id": "gen-020",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "¿Qué principio garantiza el acceso a las prestaciones del SNS en condiciones de igualdad efectiva?",
+    "opciones": ["Eficiencia", "Equidad", "Descentralización", "Libertad de empresa"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La equidad es un principio rector del SNS que garantiza el acceso a las prestaciones en condiciones de igualdad efectiva. (Ley 14/1986, art. 3; Ley 16/2003, art. 2)"
+  },
+  {
+    "id": "gen-021",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "En el marco de la Ley 14/1986, ¿qué carácter tienen las actuaciones de salud pública frente a riesgos para la salud colectiva?",
+    "opciones": ["Siempre voluntarias", "Pueden ser obligatorias cuando lo requieran razones sanitarias de urgencia o necesidad", "Exclusivamente informativas", "Reservadas a la Administración General del Estado"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La LGS permite medidas obligatorias en situaciones de riesgo para la salud colectiva, con base constitucional en el art. 43 CE. (Ley 14/1986, art. 26)"
+  },
+  {
+    "id": "gen-022",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "¿Qué órgano del SNS aprueba acuerdos para garantizar la cohesión y calidad del sistema y la movilidad de profesionales y pacientes?",
+    "opciones": ["Consejo Interterritorial del SNS", "Consejo de Ministros", "Cortes Generales", "Conferencia de Presidentes"],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Consejo Interterritorial del SNS adopta acuerdos orientados a la cohesión, calidad y movilidad del sistema. (Ley 16/2003, art. 69)"
+  },
+  {
+    "id": "gen-023",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué previsión de la Ley 14/1986 articula la participación de los profesionales sanitarios en la organización sanitaria?",
+    "opciones": ["Comités de empresa", "Órganos colegiados de participación profesional", "Referéndum sanitario", "Elecciones primarias"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La LGS contempla la participación de profesionales a través de órganos colegiados y mecanismos de gestión participativa. (Ley 14/1986, art. 10 y concordantes)"
+  },
+  {
+    "id": "gen-024",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "¿Qué competencia básica corresponde al Estado en materia sanitaria según el reparto constitucional y la LGS?",
+    "opciones": ["La gestión hospitalaria", "La coordinación general de la sanidad y la legislación básica", "La contratación del personal estatutario", "La organización de áreas de salud"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Estado ostenta la coordinación general y la legislación básica en sanidad, mientras que la gestión corresponde a las CCAA. (CE art. 149.1.16ª; Ley 14/1986, art. 40)"
+  },
+  {
+    "id": "gen-025",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué principio asegura que las actuaciones del SNS se orienten a mejorar el nivel de salud de la población con el mejor uso de recursos?",
+    "opciones": ["Eficiencia", "Equidad", "Subsidiariedad", "Competitividad"],
+    "respuestaCorrecta": 0,
+    "explicacion": "La eficiencia se reconoce como principio rector en la organización y funcionamiento del SNS. (Ley 14/1986, art. 3; Ley 16/2003, art. 2)"
+  },
+  {
+    "id": "gen-026",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué naturaleza tienen los acuerdos del Consejo Interterritorial del SNS?",
+    "opciones": ["Reglamentaria y de obligado cumplimiento general como ley", "Cooperativa y de coordinación, con compromisos entre Administraciones", "Jurisdiccional, con capacidad sancionadora", "Privada, mediante convenios civiles"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los acuerdos del CISNS tienen naturaleza de cooperación y coordinación interadministrativa, orientados a la cohesión del sistema. (Ley 16/2003, art. 69)"
+  },
+  {
+    "id": "gen-027",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "¿Qué figura territorial organiza la atención primaria según la LGS?",
+    "opciones": ["Área sanitaria estatal", "Zona básica de salud", "Distrito clínico", "Mancomunidad sanitaria"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La zona básica de salud es la demarcación territorial elemental para la atención primaria. (Ley 14/1986, art. 56)"
+  },
+  {
+    "id": "gen-028",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué relación establece la LGS entre salud pública y medio ambiente?",
+    "opciones": ["No existe relación expresa", "La salud pública se limita a la asistencia clínica", "La actuación sanitaria incluye control sanitario del medio ambiente", "La protección ambiental es competencia exclusiva municipal"],
+    "respuestaCorrecta": 2,
+    "explicacion": "La LGS incluye el control sanitario del medio ambiente y de productos como parte de la salud pública. (Ley 14/1986, arts. 18-20)"
+  },
+  {
+    "id": "gen-029",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Media",
+    "pregunta": "¿Cuál es el objetivo del Sistema Nacional de Salud según la LGS?",
+    "opciones": ["Aumentar el gasto sanitario público", "Proveer aseguramiento privado complementario", "Proporcionar atención sanitaria integral y coordinada a la población", "Centralizar la sanidad en el Estado"],
+    "respuestaCorrecta": 2,
+    "explicacion": "El SNS busca garantizar atención sanitaria integral, coordinada y en condiciones de equidad y calidad. (Ley 14/1986, arts. 1 y 3)"
+  },
+  {
+    "id": "gen-030",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española y Ley 14/1986, General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué base constitucional habilita al Estado para dictar legislación básica en materia de sanidad?",
+    "opciones": ["Artículo 149.1.16ª de la Constitución Española", "Artículo 97 de la Constitución Española", "Artículo 135 de la Constitución Española", "Artículo 23 de la Constitución Española"],
+    "respuestaCorrecta": 0,
+    "explicacion": "El art. 149.1.16ª CE atribuye al Estado competencia exclusiva sobre las bases y coordinación general de la sanidad. (Constitución Española de 1978, art. 149.1.16ª)"
+  },
+    {
+    "id": "gen-031",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es el objetivo principal de la Ley 16/2003, de 28 de mayo, de Cohesión y Calidad del Sistema Nacional de Salud?",
+    "opciones": ["Regular el funcionamiento de la sanidad privada", "Garantizar la equidad, calidad y participación en el Sistema Nacional de Salud", "Establecer el régimen de incompatibilidades del personal sanitario", "Desarrollar la Ley General de Sanidad en materia de contratación pública"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El objetivo de la Ley 16/2003 es garantizar la cohesión, calidad y equidad del Sistema Nacional de Salud mediante la coordinación general de los servicios sanitarios. (Ley 16/2003, art. 1)"
+  },
+  {
+    "id": "gen-032",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué se entiende por cohesión en el contexto del Sistema Nacional de Salud según la Ley 16/2003?",
+    "opciones": ["La autonomía plena de las Comunidades Autónomas", "El principio de solidaridad y garantía de equidad en las prestaciones", "La homogeneización de los servicios sanitarios en todo el Estado", "La recentralización de competencias en el Ministerio de Sanidad"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La cohesión garantiza la solidaridad y equidad entre los ciudadanos en el acceso a las prestaciones del SNS, independientemente del territorio. (Ley 16/2003, art. 2)"
+  },
+  {
+    "id": "gen-033",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué es la cartera de servicios comunes del SNS según la Ley 16/2003?",
+    "opciones": ["El conjunto de prestaciones que cada Comunidad Autónoma ofrece por separado", "El catálogo único de servicios garantizados a todos los ciudadanos en el SNS", "El listado de servicios de la sanidad privada", "El registro estatal de médicos especialistas"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La cartera de servicios comunes recoge las prestaciones sanitarias básicas garantizadas a todos los ciudadanos del SNS. (Ley 16/2003, art. 8 bis)"
+  },
+  {
+    "id": "gen-034",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano es responsable de aprobar los criterios para actualizar la cartera de servicios comunes del SNS?",
+    "opciones": ["El Ministerio de Sanidad, sin consulta previa", "El Consejo Interterritorial del Sistema Nacional de Salud", "El Congreso de los Diputados", "El Tribunal de Cuentas"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Consejo Interterritorial del SNS aprueba los criterios y procedimientos para la actualización de la cartera común de servicios. (Ley 16/2003, art. 8 ter)"
+  },
+  {
+    "id": "gen-035",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué instrumento garantiza la coordinación de las actuaciones de salud pública entre las Administraciones según la Ley 16/2003?",
+    "opciones": ["Los convenios marco", "El Plan de Salud Pública del SNS", "El Fondo de Cohesión Sanitaria", "La Comisión de Farmacia y Productos Sanitarios"],
+    "respuestaCorrecta": 2,
+    "explicacion": "El Fondo de Cohesión Sanitaria promueve la compensación económica y la equidad territorial en las actuaciones sanitarias. (Ley 16/2003, art. 70)"
+  },
+  {
+    "id": "gen-036",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la Ley 44/2003, ¿cuál es el principio general del ejercicio de las profesiones sanitarias?",
+    "opciones": ["La autonomía corporativa plena", "La competencia exclusiva del Estado en su regulación", "El servicio a la sociedad y la mejora continua de la calidad asistencial", "La colegiación obligatoria universal"],
+    "respuestaCorrecta": 2,
+    "explicacion": "La Ley 44/2003 establece que el ejercicio de las profesiones sanitarias se orienta al servicio a la sociedad y a la mejora continua de la calidad. (Ley 44/2003, art. 3)"
+  },
+  {
+    "id": "gen-037",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué figura reconoce la Ley 44/2003 como instrumento para garantizar la calidad y la seguridad en la práctica profesional?",
+    "opciones": ["La colegiación voluntaria", "La formación continuada y el desarrollo profesional continuo", "La supervisión sindical", "La autorregulación profesional informal"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La formación continuada y el desarrollo profesional continuo son obligaciones de los profesionales sanitarios. (Ley 44/2003, arts. 33 y 34)"
+  },
+  {
+    "id": "gen-038",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué papel tiene la Agencia de Calidad del SNS según la Ley 16/2003?",
+    "opciones": ["Evaluar los resultados clínicos y promover la mejora continua del sistema", "Gestionar la contratación pública de hospitales", "Emitir certificados de colegiación profesional", "Supervisar la política de precios de medicamentos"],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Agencia de Calidad del SNS evalúa los resultados asistenciales y promueve la mejora continua. (Ley 16/2003, art. 61)"
+  },
+  {
+    "id": "gen-039",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué establece la Ley 44/2003 sobre la colegiación de los profesionales sanitarios?",
+    "opciones": ["Que es voluntaria para empleados públicos", "Que es obligatoria para el ejercicio profesional cuando así lo exija la normativa", "Que depende de cada hospital", "Que la colegiación se sustituye por el registro estatal de profesionales"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La colegiación es obligatoria cuando la normativa específica lo requiera para el ejercicio de la profesión. (Ley 44/2003, art. 4)"
+  },
+  {
+    "id": "gen-040",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué documento regula los derechos de los ciudadanos en relación con las prestaciones sanitarias del SNS?",
+    "opciones": ["El Estatuto Marco", "La Carta de Derechos y Deberes de los Ciudadanos en el SNS", "El Reglamento General de Servicios", "La Ley 31/1995 de Prevención de Riesgos Laborales"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Carta de Derechos y Deberes regula la información, participación y acceso a las prestaciones del SNS. (Ley 16/2003, art. 4)"
+  },
+  {
+    "id": "gen-041",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué es el registro estatal de profesionales sanitarios regulado por la Ley 44/2003?",
+    "opciones": ["Un censo de pacientes atendidos", "Una base de datos de recursos humanos sanitarios", "Un registro voluntario de asociaciones médicas", "Un listado de infraestructuras sanitarias"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El registro estatal recoge datos de los profesionales sanitarios con fines de planificación y transparencia. (Ley 44/2003, art. 44)"
+  },
+  {
+    "id": "gen-042",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principios rigen el funcionamiento del SNS según el artículo 2 de la Ley 16/2003?",
+    "opciones": ["Solidaridad, eficiencia y descentralización", "Equidad, calidad, participación y cooperación", "Privatización, sostenibilidad y rentabilidad", "Centralización, control estatal y jerarquía"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El artículo 2 de la Ley 16/2003 establece como principios básicos la equidad, calidad, participación y cooperación entre Administraciones."
+  },
+  {
+    "id": "gen-043",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué establece la Ley 44/2003 sobre la interdisciplinariedad en el trabajo sanitario?",
+    "opciones": ["Que cada profesión sanitaria actúa de forma aislada", "Que el trabajo en equipo multidisciplinar es esencial para una atención integral", "Que la coordinación es competencia exclusiva del médico jefe", "Que las funciones se definen sin colaboración interprofesional"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Ley 44/2003 promueve el trabajo en equipo y la cooperación entre profesiones sanitarias para garantizar la atención integral. (Ley 44/2003, art. 4)"
+  },
+  {
+    "id": "gen-044",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Cuál es el papel de los colegios profesionales según la Ley 44/2003?",
+    "opciones": ["Ejercer funciones públicas de representación y control deontológico", "Autorizar la prescripción médica", "Gestionar los contratos laborales de los profesionales", "Fijar los precios de los servicios sanitarios"],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los colegios profesionales representan los intereses de la profesión y garantizan el cumplimiento del código deontológico. (Ley 44/2003, art. 5)"
+  },
+  {
+    "id": "gen-045",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué mecanismo establece la Ley 16/2003 para la evaluación del desempeño y la mejora de la calidad asistencial?",
+    "opciones": ["El sistema de incentivos económicos", "Los indicadores de resultados en salud", "El informe anual del Consejo Interterritorial", "Las auditorías contables obligatorias"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los indicadores de resultados en salud permiten evaluar la calidad y la eficiencia del SNS. (Ley 16/2003, art. 59)"
+  },
+  {
+    "id": "gen-046",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué concepto introduce la Ley 44/2003 en relación con la competencia profesional?",
+    "opciones": ["Competencia jurídica", "Competencia asistencial", "Competencia profesional acreditada", "Competencia territorial"],
+    "respuestaCorrecta": 2,
+    "explicacion": "La competencia profesional acreditada hace referencia a la validación de conocimientos, habilidades y actitudes mediante evaluación objetiva. (Ley 44/2003, art. 35)"
+  },
+  {
+    "id": "gen-047",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué tipo de prestaciones comprende la cartera común suplementaria del SNS?",
+    "opciones": ["Servicios de urgencias hospitalarias", "Prestaciones farmacéuticas y ortoprotésicas sujetas a aportación del usuario", "Atención primaria básica", "Programas de vacunación obligatoria"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La cartera común suplementaria incluye las prestaciones farmacéuticas, ortoprotésicas y dietéticas con aportación del usuario. (Ley 16/2003, art. 8 ter)"
+  },
+  {
+    "id": "gen-048",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué establece la Ley 44/2003 sobre la formación de especialistas en Ciencias de la Salud?",
+    "opciones": ["Que será gestionada por las universidades privadas", "Que se realizará mediante el sistema de residencia en centros acreditados", "Que dependerá de los colegios profesionales", "Que se basará en la autoformación del profesional"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La formación de especialistas se lleva a cabo mediante el sistema de residencia en centros acreditados por el Ministerio de Sanidad. (Ley 44/2003, art. 20)"
+  },
+  {
+    "id": "gen-049",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué finalidad tiene la planificación de recursos humanos en el SNS según la Ley 44/2003?",
+    "opciones": ["Evitar duplicidades en los colegios profesionales", "Alinear la formación y las necesidades asistenciales del sistema", "Reducir costes de personal en sanidad", "Incrementar la temporalidad laboral"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La planificación de recursos humanos busca adecuar la formación, distribución y número de profesionales a las necesidades del SNS. (Ley 44/2003, art. 6)"
+  },
+  {
+    "id": "gen-050",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003, de Cohesión y Calidad del SNS y Ley 44/2003, de Ordenación de las Profesiones Sanitarias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué órgano vela por la acreditación de la formación sanitaria especializada en España?",
+    "opciones": ["El Consejo Interterritorial del SNS", "El Ministerio de Sanidad", "Las Comunidades Autónomas sin coordinación estatal", "La Organización Médica Colegial"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La formación sanitaria especializada se regula y acredita a nivel estatal a través del Ministerio de Sanidad, en coordinación con las CCAA. (Ley 44/2003, de 21 de noviembre, arts. 19-22)"
+  },
+  {
+    "id": "gen-051",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué derecho fundamental articula la Ley 41/2002 respecto del paciente?",
+    "opciones": ["Derecho a la confidencialidad y a la información asistencial", "Derecho a la gratuidad universal sin límites", "Derecho a elegir cualquier medicamento sin prescripción", "Derecho a negar la epidemiología"],
+    "respuestaCorrecta": 0,
+    "explicacion": "La ley reconoce el derecho a la información asistencial, a la intimidad y a la confidencialidad de los datos de salud. (Ley 41/2002, arts. 4, 7 y 10)"
+  },
+  {
+    "id": "gen-052",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Media",
+    "pregunta": "¿Qué requisito general se exige para realizar cualquier intervención sanitaria?",
+    "opciones": ["Consentimiento informado del paciente", "Autorización del colegio profesional", "Permiso del juez", "Firma del gerente del hospital"],
+    "respuestaCorrecta": 0,
+    "explicacion": "Con carácter general, toda actuación requiere consentimiento informado del paciente, tras recibir información comprensible. (Ley 41/2002, arts. 8 y 10)"
+  },
+  {
+    "id": "gen-053",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "¿En qué supuestos puede obviarse el consentimiento informado?",
+    "opciones": ["Cuando el médico lo estime más rápido", "Riesgo inmediato grave para la salud pública o del paciente; imposibilidad de obtenerlo", "Si el paciente es mayor de 65 años", "Si la intervención es ambulatoria"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Excepciones: riesgo inmediato grave, imposibilidad de consentimiento y salud pública, entre otros supuestos tasados. (Ley 41/2002, art. 9.2)"
+  },
+  {
+    "id": "gen-054",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Media",
+    "pregunta": "¿Cuál es la regla general sobre la forma del consentimiento informado?",
+    "opciones": ["Siempre escrito", "Verbal con carácter general y escrito en procedimientos de riesgo o invasivos", "Solo tácito", "Siempre ante notario"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Regla general: verbal; será escrito en intervenciones quirúrgicas, procedimientos diagnósticos/terapéuticos invasores y riesgos notorios. (Ley 41/2002, art. 8.2)"
+  },
+  {
+    "id": "gen-055",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Básico",
+    "pregunta": "¿Quién es titular del derecho a la información asistencial?",
+    "opciones": ["El familiar principal", "El propio paciente", "El médico responsable", "La aseguradora"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El titular de la información asistencial es el paciente, sin perjuicio de la posibilidad de no ser informado si así lo desea. (Ley 41/2002, art. 4)"
+  },
+  {
+    "id": "gen-056",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué contenido mínimo debe incluir la información previa al consentimiento?",
+    "opciones": ["Solo el nombre del profesional", "Finalidad, naturaleza, riesgos y alternativas de la intervención", "Coste económico detallado", "Valoración ética colegial"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La información debe abarcar finalidad, naturaleza, riesgos y consecuencias, así como alternativas. (Ley 41/2002, art. 10)"
+  },
+  {
+    "id": "gen-057",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Media",
+    "pregunta": "¿Qué es la historia clínica según la Ley 41/2002?",
+    "opciones": ["Un documento de uso exclusivo del médico", "El conjunto de documentos con datos, valoraciones e informaciones sobre la evolución del paciente", "Un formulario administrativo", "Una receta médica"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La historia clínica integra datos y valoraciones sobre la situación y evolución del paciente. (Ley 41/2002, art. 14)"
+  },
+  {
+    "id": "gen-058",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Quién puede acceder a la historia clínica?",
+    "opciones": ["Cualquier profesional del hospital", "Solo el director médico", "Los profesionales asistenciales implicados y el paciente; con limitaciones para terceros", "La policía sin autorización"],
+    "respuestaCorrecta": 2,
+    "explicacion": "Acceso restringido a profesionales asistenciales implicados y al propio paciente; terceros solo con autorización o supuestos legales. (Ley 41/2002, arts. 16 y 18)"
+  },
+  {
+    "id": "gen-059",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué es el secreto profesional en el ámbito sanitario?",
+    "opciones": ["Una norma de cortesía", "Una obligación jurídica y deontológica de no divulgar datos de salud", "Un derecho exclusivo del médico", "Una facultad discrecional del hospital"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El secreto profesional impone la confidencialidad de la información sanitaria, con excepciones legales tasadas. (Ley 41/2002, art. 7)"
+  },
+  {
+    "id": "gen-060",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Media",
+    "pregunta": "En menores no emancipados, ¿cómo se gestiona el consentimiento?",
+    "opciones": ["Siempre lo otorgan los padres", "Depende de la madurez y tipo de intervención; se oirá al menor", "Nunca se tiene en cuenta la opinión del menor", "Lo da el juez siempre"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Se atenderá a la madurez del menor y a la entidad del acto; los representantes legales actúan en su interés. (Ley 41/2002, art. 9.3)"
+  },
+  {
+    "id": "gen-061",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué son las instrucciones previas y cómo se aplican?",
+    "opciones": ["Notas informales", "Documento registrado donde el paciente expresa su voluntad para situaciones futuras", "Consentimiento de los familiares", "Protocolo clínico obligatorio"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Las instrucciones previas permiten expresar anticipadamente la voluntad y deben constar por escrito y registrarse. (Ley 41/2002, art. 11)"
+  },
+  {
+    "id": "gen-062",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Media",
+    "pregunta": "¿Qué debe garantizar el profesional al informar al paciente?",
+    "opciones": ["Lenguaje técnico", "Información comprensible y veraz adaptada a sus necesidades", "Únicamente riesgos menores", "Información por escrito siempre"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La información debe ser comprensible, veraz y adecuada a las circunstancias del paciente. (Ley 41/2002, art. 4.2)"
+  },
+  {
+    "id": "gen-063",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Básico",
+    "pregunta": "¿Puede el paciente negarse a recibir información?",
+    "opciones": ["No", "Sí, puede manifestar su voluntad de no ser informado", "Solo con aval judicial", "Solo si es mayor de 80 años"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El paciente puede renunciar a ser informado, dejando constancia, sin perjuicio de la salud pública y de terceros. (Ley 41/2002, art. 4.1)"
+  },
+  {
+    "id": "gen-064",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué plazo de conservación mínima prevé la ley para la documentación clínica?",
+    "opciones": ["1 año", "5 años", "El adecuado para la asistencia, con mínimos fijados reglamentariamente por cada servicio de salud", "Indefinido en todo caso"],
+    "respuestaCorrecta": 2,
+    "explicacion": "La conservación se adecúa a las necesidades asistenciales, con mínimos normativos establecidos por los servicios de salud. (Ley 41/2002, art. 17)"
+  },
+  {
+    "id": "gen-065",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Media",
+    "pregunta": "¿Quién designa al médico responsable de la información?",
+    "opciones": ["El paciente", "El centro sanitario según organización asistencial", "El colegio profesional", "La inspección sanitaria"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El centro sanitario designa al profesional responsable de la información y coordinación del proceso asistencial. (Ley 41/2002, art. 3 y 4.3)"
+  },
+  {
+    "id": "gen-066",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué derecho tiene el paciente respecto a copias de su historia clínica?",
+    "opciones": ["Ninguno", "Acceso y obtención de copias de los datos y resultados", "Solo lectura en sala", "Depende del seguro privado"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El paciente puede acceder y obtener copia de su historia clínica, con respeto a terceros. (Ley 41/2002, art. 18)"
+  },
+  {
+    "id": "gen-067",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué ocurre si el paciente revoca el consentimiento informado?",
+    "opciones": ["No puede revocarlo", "Puede revocarlo libremente en cualquier momento", "Solo con autorización judicial", "Solo su familia puede revocarlo"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El consentimiento es revocable libremente por el paciente en cualquier momento. (Ley 41/2002, art. 8.5)"
+  },
+  {
+    "id": "gen-068",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Media",
+    "pregunta": "¿Qué principio guía la utilización de la información clínica por motivos epidemiológicos o de salud pública?",
+    "opciones": ["Difusión pública sin límites", "Anonimización y uso proporcional", "Publicación en boletines", "Acceso comercial"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La información clínica puede usarse con fines sanitarios bajo criterios de confidencialidad, anonimización y proporcionalidad. (Ley 41/2002, art. 16.3)"
+  },
+  {
+    "id": "gen-069",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Básico",
+    "pregunta": "¿Quién suple el consentimiento si el paciente está incapacitado de hecho y no hay representante?",
+    "opciones": ["Nadie", "El médico responsable en decisiones de necesidad clínica inmediata", "El alcalde", "El juez de guardia necesariamente"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Ante imposibilidad de consentir y urgencia, decide el médico responsable en beneficio del paciente. (Ley 41/2002, art. 9.2 y 9.3)"
+  },
+  {
+    "id": "gen-070",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, de 14 de noviembre, de Autonomía del Paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué prevalece si las instrucciones previas contradicen la lex artis actual?",
+    "opciones": ["Prevalecen siempre las instrucciones previas", "Prevalece la lex artis y la buena práctica clínica", "Decide la familia", "Decide el juez automáticamente"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Las instrucciones previas se aplicarán salvo que contravengan la lex artis o no se correspondan con el supuesto previsto. (Ley 41/2002, art. 11.3)"
+  },
+  {
+    "id": "gen-071",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es el objeto de la Ley 55/2003, del Estatuto Marco?",
+    "opciones": ["Regular la sanidad privada", "Regular el régimen jurídico del personal estatutario de los servicios de salud", "Crear un cuerpo único sanitario estatal", "Fijar precios de medicamentos"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La ley regula el régimen jurídico básico del personal estatutario de los servicios de salud. (Ley 55/2003, art. 1)"
+  },
+  {
+    "id": "gen-072",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Media",
+    "pregunta": "¿Cómo clasifica la Ley 55/2003 al personal estatutario?",
+    "opciones": ["Solo en fijo y temporal", "En personal estatutario fijo, temporal y eventual", "En funcionarios y laborales", "En interinos y laborales"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Clasificación en fijo, temporal y eventual, además de categorías y grupos profesionales. (Ley 55/2003, arts. 8 y 9)"
+  },
+  {
+    "id": "gen-073",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué derechos individuales básicos reconoce el Estatuto Marco?",
+    "opciones": ["Huelga sin servicios mínimos", "Carencia de formación", "Carrera profesional, formación continuada y movilidad", "Inamovilidad absoluta"],
+    "respuestaCorrecta": 2,
+    "explicacion": "Se reconocen, entre otros, la carrera profesional, la formación continuada y la movilidad voluntaria. (Ley 55/2003, arts. 16 y 38)"
+  },
+  {
+    "id": "gen-074",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Media",
+    "pregunta": "¿Qué deber general se impone al personal estatutario?",
+    "opciones": ["Actuar según conveniencia personal", "Cumplir con diligencia las funciones y normas éticas y deontológicas", "No aceptar formación", "No colaborar en equipo"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Deberes de desempeño diligente, observando normas éticas y deontológicas y el régimen jurídico aplicable. (Ley 55/2003, art. 19)"
+  },
+  {
+    "id": "gen-075",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué situaciones administrativas contempla el Estatuto Marco?",
+    "opciones": ["Solo servicio activo", "Servicio activo, servicios especiales, excedencias y suspensión", "Solo excedencia", "Vacaciones y permisos"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Se prevén varias situaciones administrativas, incluyendo excedencias y servicios especiales. (Ley 55/2003, arts. 64-70)"
+  },
+  {
+    "id": "gen-076",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es el régimen disciplinario básico?",
+    "opciones": ["No existe", "Infracciones leves, graves y muy graves con sanciones proporcionales", "Sanciones solo económicas", "Solo amonestación verbal"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El régimen disciplinario tipifica infracciones y sanciones con garantías procedimentales. (Ley 55/2003, arts. 72-77)"
+  },
+  {
+    "id": "gen-077",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Media",
+    "pregunta": "¿Qué es la carrera profesional según el Estatuto Marco?",
+    "opciones": ["Un plus salarial arbitrario", "Reconocimiento del desarrollo profesional por méritos, formación y actividad asistencial", "Rotación obligatoria anual", "Un concurso-oposición"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La carrera profesional reconoce y recompensa el desarrollo y la competencia profesional. (Ley 55/2003, art. 38)"
+  },
+  {
+    "id": "gen-078",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué incompatibilidades resultan aplicables al personal estatutario?",
+    "opciones": ["Ninguna", "Las de la Ley 53/1984 de Incompatibilidades del Personal al Servicio de las Administraciones Públicas", "Solo incompatibilidad con docencia", "Solo con investigación"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Se aplica la normativa general de incompatibilidades del personal al servicio de las AAPP. (Ley 55/2003, art. 4 y remisión a Ley 53/1984)"
+  },
+  {
+    "id": "gen-079",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principios rigen la selección del personal estatutario?",
+    "opciones": ["Antigüedad y libre designación", "Igualdad, mérito, capacidad y publicidad", "Cupo provincial", "Sorteo"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La selección se basa en los principios de igualdad, mérito, capacidad y publicidad. (Ley 55/2003, art. 30)"
+  },
+  {
+    "id": "gen-080",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Media",
+    "pregunta": "¿Qué permiso retribuido está contemplado en el Estatuto Marco?",
+    "opciones": ["Viajes de ocio", "Matrimonio o registro de pareja y nacimiento de hijo, entre otros", "Teletrabajo libre", "Baja sin justificación"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La norma regula permisos retribuidos como matrimonio, nacimiento de hijo, fallecimiento de familiar, etc. (Ley 55/2003, art. 61)"
+  },
+  {
+    "id": "gen-081",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué medidas contempla el Estatuto en prevención de riesgos laborales?",
+    "opciones": ["Ninguna específica", "Aplicación de la Ley 31/1995 con evaluación y vigilancia de la salud del personal", "Solo EPIs ocasionales", "Delegar en el trabajador"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Se aplica la Ley 31/1995 de Prevención de Riesgos Laborales con medidas específicas para el personal sanitario. (Ley 55/2003, art. 18)"
+  },
+  {
+    "id": "gen-082",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué tipo de jornada regula el Estatuto Marco?",
+    "opciones": ["Solo jornada partida", "Jornada ordinaria y complementaria (guardias, etc.)", "Solo nocturna", "Libre elección total"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Regula jornada ordinaria y complementaria, incluyendo guardias y descansos. (Ley 55/2003, arts. 47-50)"
+  },
+  {
+    "id": "gen-083",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Media",
+    "pregunta": "¿Qué garantía tiene el personal frente a la movilidad forzosa?",
+    "opciones": ["No existe", "Debe ajustarse a necesidades del servicio con garantías y, en su caso, compensaciones", "Es libre y discrecional", "La decide el jefe de servicio sin motivación"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La movilidad debe motivarse por necesidades del servicio y con garantías para el personal. (Ley 55/2003, art. 37)"
+  },
+  {
+    "id": "gen-084",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cómo se articula la retribución del personal estatutario?",
+    "opciones": ["Solo salario base", "Retribuciones básicas y complementarias (destino, productividad, guardias, etc.)", "Solo productividad", "Dietas fijas"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Se prevén retribuciones básicas y complementarias como destino, productividad, atención continuada, etc. (Ley 55/2003, arts. 41-46)"
+  },
+  {
+    "id": "gen-085",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué implica la condición de personal estatutario fijo?",
+    "opciones": ["Libre designación", "Vinculación permanente a la plaza adjudicada con los derechos y deberes del Estatuto", "Contrato mercantil", "Temporalidad indefinida"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El personal estatutario fijo se vincula con carácter permanente a una plaza, con el régimen del Estatuto. (Ley 55/2003, art. 8)"
+  },
+  {
+    "id": "gen-086",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Media",
+    "pregunta": "¿Qué sanción puede imponerse por falta muy grave?",
+    "opciones": ["Amonestación", "Suspensión de funciones o separación del servicio según el caso", "Ninguna", "Multa simbólica"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Las faltas muy graves pueden conllevar suspensión o separación del servicio, con garantías procedimentales. (Ley 55/2003, arts. 72-77)"
+  },
+  {
+    "id": "gen-087",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué régimen se aplica a permisos por conciliación y violencia de género?",
+    "opciones": ["No existen", "Se ajustan a la normativa general del empleo público y a lo previsto en el Estatuto", "Dependen del hospital privado", "Solo sin sueldo"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Se recogen permisos y medidas de conciliación conforme a normativa del empleo público y previsiones propias. (Ley 55/2003, arts. 60-63)"
+  },
+  {
+    "id": "gen-088",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Media",
+    "pregunta": "¿Qué principios rigen la promoción interna y movilidad voluntaria?",
+    "opciones": ["Antigüedad absoluta", "Concurrencia competitiva con publicidad y mérito y capacidad", "Sorteo", "Libre elección del gerente"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La promoción y movilidad voluntaria siguen criterios de mérito, capacidad y publicidad. (Ley 55/2003, arts. 34-37)"
+  },
+  {
+    "id": "gen-089",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué define al personal estatutario eventual?",
+    "opciones": ["Funciones estructurales permanentes", "Desempeña funciones por necesidades no permanentes (circunstanciales)", "Es personal laboral fijo", "Es funcionario estatal"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El personal eventual atiende necesidades de naturaleza no permanente. (Ley 55/2003, art. 9)"
+  },
+  {
+    "id": "gen-090",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué garantía procedimental rige en los expedientes disciplinarios del personal estatutario?",
+    "opciones": ["Decisión sin audiencia", "Principios de contradicción, audiencia, presunción de inocencia y tipicidad", "Sanción automática", "Secreto profesional del instructor"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El régimen disciplinario respeta garantías básicas del procedimiento sancionador. (Ley 55/2003, arts. 72-77)"
+  },
+    {
+    "id": "gen-091",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019, de 29 de marzo, de Salud del Principado de Asturias",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es el objeto principal de la Ley 7/2019 de Salud del Principado de Asturias?",
+    "opciones": [
+      "Regular la sanidad privada en Asturias",
+      "Establecer el marco jurídico del Sistema de Salud del Principado de Asturias y garantizar el derecho a la protección de la salud",
+      "Crear un colegio profesional autonómico único",
+      "Regular únicamente los hospitales universitarios"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Ley 7/2019 regula la organización, principios y derechos en materia de salud pública y asistencia sanitaria en Asturias. (Art. 1)"
+  },
+  {
+    "id": "gen-092",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué órgano ejerce la alta dirección y gestión del Servicio de Salud del Principado de Asturias (SESPA)?",
+    "opciones": [
+      "Consejería de Ciencia, Innovación y Universidad",
+      "Consejería de Salud",
+      "Consejo de Gobierno",
+      "Dirección General de Planificación Económica y Financiera"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Consejería de Salud asume la alta dirección del SESPA, conforme al Decreto 189/2023, que desarrolla su estructura orgánica."
+  },
+  {
+    "id": "gen-093",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principios informan la actuación del Sistema de Salud del Principado de Asturias según la Ley 7/2019?",
+    "opciones": [
+      "Jerarquía, secreto profesional y voluntariado",
+      "Universalidad, equidad, calidad, coordinación, sostenibilidad y participación",
+      "Privatización y libre competencia",
+      "Solo asistencia hospitalaria pública"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los principios rectores son la universalidad, equidad, calidad, coordinación interinstitucional, sostenibilidad y participación. (Art. 3)"
+  },
+  {
+    "id": "gen-094",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué establece la Ley 7/2019 sobre el derecho a la protección de la salud?",
+    "opciones": [
+      "Solo para personas empadronadas en Oviedo",
+      "Es un derecho universal garantizado por los poderes públicos asturianos",
+      "Requiere suscripción de seguro privado",
+      "Se limita a atención hospitalaria"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Reconoce el derecho universal a la salud, conforme al art. 43 CE, garantizado por el Principado de Asturias. (Art. 4)"
+  },
+  {
+    "id": "gen-095",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué es el Sistema de Salud del Principado de Asturias según la Ley 7/2019?",
+    "opciones": [
+      "El conjunto de centros públicos y privados integrados funcionalmente bajo la dirección de la Consejería de Salud",
+      "Solo los hospitales públicos",
+      "Las mutuas laborales",
+      "Una entidad mercantil autonómica"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Sistema de Salud integra todos los recursos y servicios públicos y privados bajo la dirección sanitaria autonómica. (Art. 2)"
+  },
+  {
+    "id": "gen-096",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué órgano de participación social prevé la Ley 7/2019?",
+    "opciones": [
+      "Consejo de Participación Ciudadana en Salud",
+      "Colegio de Médicos de Asturias",
+      "Asamblea vecinal sanitaria",
+      "Comisión de Precios"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Se crea el Consejo de Participación Ciudadana en Salud como órgano consultivo y de participación. (Art. 49)"
+  },
+  {
+    "id": "gen-097",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Avanzado",
+    "pregunta": "Según el Decreto 189/2023, ¿qué unidad depende directamente de la Dirección Gerencia del SESPA?",
+    "opciones": [
+      "Dirección de Enfermería",
+      "Dirección de Profesionales, Dirección Económico-Financiera y Dirección Asistencial",
+      "Consejería de Hacienda",
+      "Oficina de Comunicación del Principado"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Decreto 189/2023 define la estructura básica: Dirección de Profesionales, Económico-Financiera y Asistencial dependen de la Gerencia."
+  },
+  {
+    "id": "gen-098",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es la finalidad principal del Decreto 189/2023?",
+    "opciones": [
+      "Regular los horarios del personal sanitario",
+      "Establecer la estructura orgánica básica del SESPA",
+      "Determinar la financiación de los conciertos sanitarios",
+      "Aprobar la cartera común de servicios"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Decreto 189/2023 establece la estructura orgánica básica de los órganos de dirección y gestión del SESPA."
+  },
+  {
+    "id": "gen-099",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué funciones tiene el SESPA según la Ley 7/2019?",
+    "opciones": [
+      "Financieras únicamente",
+      "Gestión de centros, servicios y programas sanitarios públicos",
+      "Regulación de la sanidad privada exclusivamente",
+      "Control de precios de medicamentos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El SESPA gestiona centros, servicios y programas sanitarios de titularidad pública del Principado. (Art. 50)"
+  },
+  {
+    "id": "gen-100",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principios rigen la planificación sanitaria en Asturias?",
+    "opciones": [
+      "Eficiencia, equidad, transparencia y participación social",
+      "Rentabilidad empresarial y privatización",
+      "Descentralización sin control",
+      "Rotación obligatoria de personal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La planificación sanitaria se basa en eficiencia, equidad, transparencia y participación. (Ley 7/2019, arts. 24-25)"
+  },
+  {
+    "id": "gen-101",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué documento orienta la estrategia sanitaria a medio plazo según la Ley 7/2019?",
+    "opciones": [
+      "Plan de Salud del Principado de Asturias",
+      "Plan General de Ordenación Urbana",
+      "Plan de Empleo Sanitario Estatal",
+      "Programa de Farmacia"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Plan de Salud del Principado de Asturias define las líneas estratégicas sanitarias. (Art. 27)"
+  },
+  {
+    "id": "gen-102",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué nivel de atención se considera puerta de entrada al sistema sanitario asturiano?",
+    "opciones": [
+      "Atención especializada",
+      "Atención primaria",
+      "Urgencias hospitalarias",
+      "Servicios de farmacia hospitalaria"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La atención primaria es la puerta de entrada y base del sistema sanitario. (Ley 7/2019, art. 39)"
+  },
+  {
+    "id": "gen-103",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué se entiende por salud pública según la Ley 7/2019?",
+    "opciones": [
+      "La asistencia individual en hospitales",
+      "El conjunto de actuaciones de vigilancia, promoción y protección de la salud colectiva",
+      "Solo las campañas de vacunación",
+      "Gestión de bajas laborales"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La salud pública comprende las actuaciones colectivas de vigilancia, promoción y protección. (Art. 7)"
+  },
+  {
+    "id": "gen-104",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Media",
+    "pregunta": "¿Qué establece la Ley 7/2019 respecto a la coordinación sociosanitaria?",
+    "opciones": [
+      "No la menciona",
+      "Debe garantizar la continuidad asistencial entre servicios sanitarios y sociales",
+      "Solo aplica a mayores de 80 años",
+      "Depende del ayuntamiento"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La coordinación sociosanitaria busca garantizar la continuidad asistencial entre niveles y servicios. (Art. 12)"
+  },
+  {
+    "id": "gen-105",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano asesora al SESPA en materia de planificación y gestión sanitaria?",
+    "opciones": [
+      "Consejo Asesor de Salud",
+      "Colegio Oficial de Farmacéuticos",
+      "Comisión Nacional de Sanidad",
+      "Consejo Social Universitario"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Consejo Asesor de Salud del Principado actúa como órgano de consulta y asesoramiento. (Art. 47)"
+  },
+  {
+    "id": "gen-106",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023, estructura orgánica SESPA",
+    "dificultad": "Media",
+    "pregunta": "¿Qué unidad depende de la Dirección Económico-Financiera del SESPA según el Decreto 189/2023?",
+    "opciones": [
+      "Unidad de Farmacia",
+      "Servicio de Gestión Presupuestaria y Contratación",
+      "Unidad de Comunicación",
+      "Servicio de Epidemiología"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Decreto 189/2023 adscribe el Servicio de Gestión Presupuestaria y Contratación a la Dirección Económico-Financiera."
+  },
+  {
+    "id": "gen-107",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023, estructura orgánica SESPA",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué dirección gestiona la política de recursos humanos del SESPA?",
+    "opciones": [
+      "Dirección Asistencial",
+      "Dirección de Profesionales",
+      "Dirección Económico-Financiera",
+      "Gerencia de Atención Primaria"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Dirección de Profesionales gestiona los recursos humanos del SESPA. (Decreto 189/2023, art. 5)"
+  },
+  {
+    "id": "gen-108",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué es el Observatorio de Salud de Asturias?",
+    "opciones": [
+      "Un órgano de vigilancia epidemiológica y evaluación de políticas públicas de salud",
+      "Un laboratorio farmacéutico",
+      "Un centro universitario",
+      "Una empresa de seguros"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Observatorio de Salud evalúa políticas y resultados en salud pública y asistencia sanitaria. (Ley 7/2019, art. 48)"
+  },
+  {
+    "id": "gen-109",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Media",
+    "pregunta": "¿Cómo se estructura territorialmente el Sistema de Salud del Principado de Asturias?",
+    "opciones": [
+      "En áreas sanitarias, zonas básicas y demarcaciones asistenciales",
+      "Solo por hospitales de referencia",
+      "Por provincias",
+      "En distritos municipales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La organización territorial se estructura en áreas sanitarias, zonas básicas y demarcaciones. (Ley 7/2019, art. 51)"
+  },
+  {
+    "id": "gen-110",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué establece la Ley 7/2019 respecto al enfoque de salud en todas las políticas públicas?",
+    "opciones": [
+      "Que compete solo a la Consejería de Salud",
+      "Que debe integrarse la perspectiva de salud en todas las políticas públicas del Principado",
+      "Que solo aplica a la sanidad animal",
+      "No se menciona este principio"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Ley 7/2019 promueve la incorporación del enfoque de salud en todas las políticas públicas. (Art. 5)"
+  },
+    {
+    "id": "gen-111",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Principios fundamentales de la Bioética",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuáles son los cuatro principios clásicos de la bioética según Beauchamp y Childress?",
+    "opciones": [
+      "Autonomía, beneficencia, no maleficencia y justicia",
+      "Autonomía, sinceridad, legalidad y equidad",
+      "Beneficencia, jerarquía, eficiencia y lealtad",
+      "Justicia, ética profesional, legalidad y confidencialidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los principios fundamentales son autonomía, beneficencia, no maleficencia y justicia, que guían la práctica clínica y ética asistencial."
+  },
+  {
+    "id": "gen-112",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Media",
+    "pregunta": "El principio de autonomía implica que:",
+    "opciones": [
+      "El médico decide por el paciente en todos los casos",
+      "El paciente tiene derecho a decidir sobre su cuerpo y tratamientos tras recibir información adecuada",
+      "La decisión depende siempre de la familia",
+      "Solo aplica en investigación clínica"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La autonomía reconoce el derecho del paciente a decidir libremente sobre intervenciones sanitarias tras información suficiente."
+  },
+  {
+    "id": "gen-113",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es la principal diferencia entre beneficencia y no maleficencia?",
+    "opciones": [
+      "No maleficencia exige no causar daño; beneficencia exige promover el bien del paciente",
+      "Son sinónimos",
+      "Beneficencia es jurídica y no maleficencia moral",
+      "Beneficencia implica respetar la autonomía"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Beneficencia obliga a actuar en beneficio del paciente; no maleficencia exige evitar daño. Ambos son principios éticos básicos."
+  },
+  {
+    "id": "gen-114",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Media",
+    "pregunta": "¿Qué principio se vulnera si se realiza un procedimiento sin consentimiento informado?",
+    "opciones": [
+      "Beneficencia",
+      "Autonomía",
+      "Justicia",
+      "No maleficencia"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Realizar una intervención sin consentimiento vulnera el principio de autonomía del paciente."
+  },
+  {
+    "id": "gen-115",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Avanzado",
+    "pregunta": "El principio de justicia en bioética se relaciona con:",
+    "opciones": [
+      "Distribución equitativa de recursos sanitarios y trato igualitario",
+      "Respeto a la confidencialidad",
+      "Cumplimiento de normas laborales",
+      "Rapidez asistencial"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La justicia se vincula con la equidad y la asignación justa de recursos y oportunidades en salud."
+  },
+  {
+    "id": "gen-116",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué documento internacional fundamenta la ética médica moderna?",
+    "opciones": [
+      "Declaración de Helsinki",
+      "Declaración de Oviedo",
+      "Carta de Ottawa",
+      "Código de Nuremberg"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Declaración de Helsinki (1964, revisada) establece principios éticos para la investigación médica con seres humanos."
+  },
+  {
+    "id": "gen-117",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Media",
+    "pregunta": "¿Qué dilema bioético plantea el tratamiento fútil?",
+    "opciones": [
+      "No informar al paciente",
+      "Continuar o retirar medidas sin beneficio real para la vida o calidad del paciente",
+      "Negarse a prescribir medicamentos genéricos",
+      "Delegar decisiones en enfermería"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El tratamiento fútil enfrenta el deber de no causar daño con la obligación de beneficiar, y requiere evaluación ética individualizada."
+  },
+  {
+    "id": "gen-118",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principio se prioriza en decisiones de salud pública frente a autonomía individual?",
+    "opciones": [
+      "Beneficencia colectiva y justicia social",
+      "Autonomía individual siempre",
+      "Libertad de empresa",
+      "Privacidad absoluta"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "En salud pública puede primar la beneficencia colectiva y la justicia social sobre la autonomía individual (vacunación, aislamiento, etc.)."
+  },
+  {
+    "id": "gen-119",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Media",
+    "pregunta": "¿Qué es el consentimiento informado desde la perspectiva bioética?",
+    "opciones": [
+      "Un trámite burocrático",
+      "Expresión de la autonomía y comunicación entre profesional y paciente",
+      "Un documento de renuncia legal",
+      "Una exigencia judicial"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El consentimiento informado expresa el respeto a la autonomía y el diálogo ético entre profesional y paciente."
+  },
+  {
+    "id": "gen-120",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál de los siguientes no es un principio bioético reconocido?",
+    "opciones": [
+      "Autonomía",
+      "Beneficencia",
+      "Eficiencia económica",
+      "Justicia"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La eficiencia económica no forma parte de los cuatro principios clásicos de la bioética."
+  },
+  {
+    "id": "gen-121",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué es un sistema de información sanitaria?",
+    "opciones": [
+      "Una red de hospitales",
+      "Conjunto organizado de datos, procesos y recursos que permiten gestionar información de salud",
+      "Una base de datos privada",
+      "Una historia clínica en papel"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los sistemas de información sanitaria integran datos y procesos para la toma de decisiones en salud pública y clínica."
+  },
+  {
+    "id": "gen-122",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Media",
+    "pregunta": "¿Qué norma protege la confidencialidad de los datos clínicos en España?",
+    "opciones": [
+      "Ley 41/2002 y Reglamento (UE) 2016/679 (RGPD)",
+      "Ley de Propiedad Intelectual",
+      "Ley de Prevención de Riesgos Laborales",
+      "Ley 16/2003 de Cohesión y Calidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La confidencialidad se protege por la Ley 41/2002 y el Reglamento General de Protección de Datos (RGPD)."
+  },
+  {
+    "id": "gen-123",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué característica distingue a la historia clínica electrónica frente a la tradicional?",
+    "opciones": [
+      "Mayor volumen físico",
+      "Interoperabilidad y acceso seguro a datos en red",
+      "Ausencia de registro de profesionales",
+      "No requiere consentimiento del paciente"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La historia clínica electrónica permite interoperabilidad, trazabilidad y acceso seguro a información sanitaria."
+  },
+  {
+    "id": "gen-124",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué finalidad tiene la historia clínica según la Ley 41/2002?",
+    "opciones": [
+      "Registrar datos administrativos exclusivamente",
+      "Facilitar la asistencia sanitaria y garantizar continuidad de cuidados",
+      "Control policial de enfermedades",
+      "Propósitos estadísticos únicamente"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La historia clínica garantiza la asistencia sanitaria y continuidad de cuidados. (Ley 41/2002, art. 14)"
+  },
+  {
+    "id": "gen-125",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Media",
+    "pregunta": "¿Qué herramienta de gestión clínica promueve la mejora continua de la atención sanitaria?",
+    "opciones": [
+      "Medicina basada en la evidencia",
+      "Auditorías financieras",
+      "Protocolos de compras",
+      "Evaluación presupuestaria anual"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La medicina basada en la evidencia integra la mejor evidencia científica con la experiencia clínica y los valores del paciente."
+  },
+  {
+    "id": "gen-126",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué elemento es clave en la evaluación de la práctica clínica?",
+    "opciones": [
+      "Uso de indicadores de calidad y resultados en salud",
+      "Coste de los uniformes",
+      "Antigüedad del profesional",
+      "Número de plantas del hospital"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La evaluación clínica requiere indicadores de estructura, proceso y resultado, medidos objetivamente."
+  },
+  {
+    "id": "gen-127",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Media",
+    "pregunta": "¿Qué componente es esencial para la seguridad de la información sanitaria?",
+    "opciones": [
+      "Contraseñas, cifrado y control de accesos",
+      "Almacenamiento abierto",
+      "Copias públicas en nube no cifrada",
+      "Acceso libre a profesionales externos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La seguridad requiere cifrado, control de accesos y trazabilidad conforme al RGPD y la LOPDGDD."
+  },
+  {
+    "id": "gen-128",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué es la gestión clínica?",
+    "opciones": [
+      "Modelo que busca integrar la gestión de recursos y la práctica profesional para mejorar calidad y eficiencia",
+      "Administración exclusiva de medicamentos",
+      "Supervisión económica de contratos",
+      "Estrategia de comunicación corporativa"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La gestión clínica integra recursos, profesionales y procesos para mejorar calidad, eficiencia y resultados en salud."
+  },
+  {
+    "id": "gen-129",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué herramienta permite medir la variabilidad en la práctica clínica?",
+    "opciones": [
+      "Indicadores de proceso y resultados ajustados por riesgo",
+      "Evaluaciones subjetivas",
+      "Encuestas de satisfacción",
+      "Control de costes"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La variabilidad se evalúa mediante indicadores y análisis ajustados por riesgo, clave para la mejora de calidad."
+  },
+  {
+    "id": "gen-130",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información y gestión clínica",
+    "dificultad": "Media",
+    "pregunta": "¿Qué papel tienen las tecnologías de la información en la gestión clínica moderna?",
+    "opciones": [
+      "Ninguno",
+      "Permiten análisis de datos en tiempo real y apoyo a decisiones clínicas basadas en evidencia",
+      "Sustituyen al juicio profesional",
+      "Solo sirven para facturación"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Las TIC posibilitan analítica de datos, monitorización y soporte a la toma de decisiones clínicas en tiempo real."
+  },
+    {
+    "id": "gen-131",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el Sistema Nacional de Salud",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué se entiende por calidad asistencial en el Sistema Nacional de Salud?",
+    "opciones": [
+      "La disponibilidad de camas hospitalarias",
+      "El grado en que los servicios sanitarios aumentan la probabilidad de resultados deseados y son coherentes con la evidencia científica",
+      "El nivel de gasto sanitario por habitante",
+      "La satisfacción del personal sanitario exclusivamente"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La calidad asistencial combina eficacia, efectividad y seguridad conforme a la mejor evidencia científica. (Ley 16/2003, art. 59)"
+  },
+  {
+    "id": "gen-132",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Media",
+    "pregunta": "¿Qué componentes básicos integran la calidad sanitaria según la Ley 16/2003?",
+    "opciones": [
+      "Eficiencia, efectividad, accesibilidad, equidad y satisfacción del usuario",
+      "Rentabilidad económica y privatización",
+      "Rapidez y confort hotelero",
+      "Coste y tamaño de los hospitales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los componentes esenciales de calidad son eficacia, efectividad, eficiencia, accesibilidad y satisfacción. (Art. 59)"
+  },
+  {
+    "id": "gen-133",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano coordina las políticas de calidad del Sistema Nacional de Salud?",
+    "opciones": [
+      "El Consejo Interterritorial del Sistema Nacional de Salud",
+      "El Ministerio de Economía",
+      "Las diputaciones provinciales",
+      "El Consejo General de Colegios Médicos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Consejo Interterritorial del SNS coordina las políticas comunes, incluidas las de calidad y seguridad. (Ley 16/2003, art. 69)"
+  },
+  {
+    "id": "gen-134",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Media",
+    "pregunta": "¿Qué es la Estrategia de Calidad del SNS?",
+    "opciones": [
+      "Un plan del Ministerio de Sanidad para promover buenas prácticas, seguridad del paciente e innovación",
+      "Un informe económico anual",
+      "Un conjunto de normas sobre recursos humanos",
+      "Un manual de acreditación privada"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Estrategia de Calidad busca garantizar la excelencia, seguridad e innovación en el SNS. (Aprobada por el CISNS en 2006 y actualizaciones posteriores)"
+  },
+  {
+    "id": "gen-135",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué papel tiene la Agencia de Calidad del SNS?",
+    "opciones": [
+      "Evaluar tecnologías sanitarias, elaborar guías de práctica clínica y promover seguridad del paciente",
+      "Aprobar presupuestos autonómicos",
+      "Autorizar medicamentos",
+      "Supervisar contratos laborales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Agencia de Calidad del SNS desarrolla instrumentos de evaluación, guías y seguridad clínica. (Ley 16/2003, art. 60)"
+  },
+  {
+    "id": "gen-136",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué metodología se utiliza para evaluar la calidad asistencial?",
+    "opciones": [
+      "Indicadores de estructura, proceso y resultado",
+      "Número de visitas médicas",
+      "Coste farmacéutico exclusivamente",
+      "Encuestas de opinión empresarial"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Donabedian propuso el modelo de evaluación de estructura, proceso y resultado, adoptado por el SNS."
+  },
+  {
+    "id": "gen-137",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Media",
+    "pregunta": "¿Qué dimensión de la calidad se refiere al uso racional de los recursos sanitarios?",
+    "opciones": [
+      "Eficiencia",
+      "Efectividad",
+      "Accesibilidad",
+      "Equidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La eficiencia implica obtener el máximo beneficio posible con los recursos disponibles."
+  },
+  {
+    "id": "gen-138",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué programa promueve la seguridad del paciente en el SNS?",
+    "opciones": [
+      "Programa de Seguridad del Paciente del Ministerio de Sanidad",
+      "Plan Estratégico de Farmacia",
+      "Plan de Infraestructuras",
+      "Sistema Español de Farmacovigilancia exclusivamente"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Programa de Seguridad del Paciente fomenta prácticas seguras y aprendizaje de incidentes. (CISNS, 2005-actualidad)"
+  },
+  {
+    "id": "gen-139",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué finalidad tienen las auditorías clínicas?",
+    "opciones": [
+      "Controlar el gasto exclusivamente",
+      "Evaluar la calidad de la atención comparando la práctica real con estándares acordados",
+      "Detectar errores administrativos",
+      "Revisar contratos laborales"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Las auditorías clínicas valoran la adecuación de la práctica profesional a los estándares de calidad."
+  },
+  {
+    "id": "gen-140",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Media",
+    "pregunta": "¿Qué instrumentos se utilizan para medir la satisfacción del paciente?",
+    "opciones": [
+      "Encuestas validadas de experiencia y satisfacción",
+      "Balance de situación contable",
+      "Número de quejas",
+      "Listas de espera"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las encuestas de experiencia y satisfacción complementan los indicadores objetivos de calidad asistencial."
+  },
+  {
+    "id": "gen-141",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué diferencia la calidad científico-técnica de la calidad percibida?",
+    "opciones": [
+      "La primera evalúa resultados y procedimientos, la segunda la percepción del usuario",
+      "No existe diferencia",
+      "La percibida se mide por costes",
+      "La científico-técnica depende de la opinión del paciente"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La calidad científico-técnica valora competencia profesional y resultados; la percibida, la experiencia del paciente."
+  },
+  {
+    "id": "gen-142",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué es la acreditación sanitaria?",
+    "opciones": [
+      "Proceso voluntario o reglado que certifica el cumplimiento de estándares de calidad en centros y servicios",
+      "Un registro administrativo",
+      "Una autorización de gasto",
+      "Una inspección fiscal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La acreditación certifica el cumplimiento de estándares estructurales, funcionales y de calidad asistencial."
+  },
+  {
+    "id": "gen-143",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Media",
+    "pregunta": "¿Qué instrumento permite comparar la calidad entre centros sanitarios?",
+    "opciones": [
+      "Sistemas de benchmarking e indicadores comparativos públicos",
+      "Número de camas disponibles",
+      "Salarios medios",
+      "Antigüedad del edificio"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El benchmarking usa indicadores comunes para comparar y mejorar la calidad entre centros sanitarios."
+  },
+  {
+    "id": "gen-144",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué papel tiene la evidencia científica en los programas de calidad?",
+    "opciones": [
+      "Sustenta la elaboración de guías y protocolos que garantizan la práctica clínica segura y efectiva",
+      "Es secundaria frente a la costumbre profesional",
+      "Solo se usa en investigación",
+      "No tiene relevancia práctica"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los programas de calidad deben basarse en evidencia científica y revisarse periódicamente."
+  },
+  {
+    "id": "gen-145",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Media",
+    "pregunta": "¿Qué significa accesibilidad en términos de calidad asistencial?",
+    "opciones": [
+      "Disponibilidad y facilidad con que los pacientes obtienen servicios cuando los necesitan",
+      "Reducción de listas de espera únicamente",
+      "Proximidad física del hospital",
+      "Cobertura mediática"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La accesibilidad implica la posibilidad real de recibir atención adecuada en tiempo y lugar oportunos."
+  },
+  {
+    "id": "gen-146",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué técnica se emplea para diseñar programas de mejora de la calidad?",
+    "opciones": [
+      "Ciclo PDCA (Plan-Do-Check-Act)",
+      "Auditoría económica anual",
+      "Evaluación financiera",
+      "Rotación de personal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El ciclo PDCA o de Deming se utiliza en la gestión de calidad para planificar, ejecutar, comprobar y actuar."
+  },
+  {
+    "id": "gen-147",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Media",
+    "pregunta": "¿Qué es la efectividad clínica?",
+    "opciones": [
+      "Grado en que las intervenciones producen resultados beneficiosos en condiciones reales de práctica clínica",
+      "Resultados en ensayos controlados",
+      "Uso eficiente de recursos",
+      "Cumplimiento normativo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La efectividad mide los resultados reales en pacientes atendidos en condiciones habituales."
+  },
+  {
+    "id": "gen-148",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué dimensión de calidad evalúa el equilibrio entre beneficios, riesgos y costes?",
+    "opciones": [
+      "Eficiencia",
+      "Efectividad",
+      "Equidad",
+      "Accesibilidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La eficiencia considera los recursos empleados en relación con los resultados y beneficios obtenidos."
+  },
+  {
+    "id": "gen-149",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Media",
+    "pregunta": "¿Qué papel desempeñan los programas de formación en la mejora de la calidad?",
+    "opciones": [
+      "Favorecen la actualización de competencias y la cultura de seguridad",
+      "Solo aumentan el gasto",
+      "Sustituyen la experiencia profesional",
+      "Se limitan a personal directivo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La formación continua es herramienta esencial para mantener y mejorar la calidad asistencial."
+  },
+  {
+    "id": "gen-150",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cómo se garantiza la transparencia en los programas de calidad del SNS?",
+    "opciones": [
+      "Mediante publicación periódica de indicadores, resultados y auditorías en portales de transparencia",
+      "Por confidencialidad total de datos",
+      "Solo a través del Tribunal de Cuentas",
+      "Sin obligación de informar al ciudadano"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La transparencia se logra mediante la difusión pública de resultados e indicadores de calidad en los portales institucionales."
+  },
+    {
+    "id": "gen-151",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Técnicas y habilidades de comunicación",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué elemento es esencial en la relación médico-paciente según la Ley 41/2002?",
+    "opciones": [
+      "Comunicación bidireccional y comprensible",
+      "Formalidad administrativa",
+      "Uso de terminología técnica exclusiva",
+      "Autoridad jerárquica del médico"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La relación asistencial se basa en comunicación eficaz y comprensible. (Ley 41/2002, art. 4)"
+  },
+  {
+    "id": "gen-152",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Media",
+    "pregunta": "¿Qué técnica favorece la empatía en la entrevista clínica?",
+    "opciones": [
+      "Escucha activa y reformulación",
+      "Preguntas cerradas consecutivas",
+      "Silencio absoluto",
+      "Lectura del consentimiento antes de hablar"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La escucha activa permite comprender emociones y reforzar la confianza del paciente."
+  },
+  {
+    "id": "gen-153",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué modelo comunicativo se considera más adecuado en la práctica sanitaria moderna?",
+    "opciones": [
+      "Modelo paternalista",
+      "Modelo deliberativo o participativo",
+      "Modelo informativo unidireccional",
+      "Modelo jerárquico"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El modelo deliberativo integra la participación activa del paciente en la toma de decisiones."
+  },
+  {
+    "id": "gen-154",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Media",
+    "pregunta": "¿Qué componente no verbal refuerza la comunicación con el paciente?",
+    "opciones": [
+      "Contacto visual adecuado y postura abierta",
+      "Cruzar los brazos",
+      "Hablar sin mirar",
+      "Interrumpir con frecuencia"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La comunicación no verbal coherente mejora la comprensión y la confianza."
+  },
+  {
+    "id": "gen-155",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué actitud favorece el trabajo en equipo sanitario?",
+    "opciones": [
+      "Comunicación abierta y respeto mutuo",
+      "Competencia entre profesionales",
+      "Aislamiento funcional",
+      "Delegación sin información"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La colaboración se basa en comunicación clara, coordinación y confianza entre profesionales."
+  },
+  {
+    "id": "gen-156",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Media",
+    "pregunta": "¿Qué barrera de comunicación es más frecuente en la relación asistencial?",
+    "opciones": [
+      "Lenguaje técnico inadecuado",
+      "Exceso de empatía",
+      "Silencio activo",
+      "Contacto visual"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El uso de tecnicismos puede dificultar la comprensión y debe adaptarse al nivel del paciente."
+  },
+  {
+    "id": "gen-157",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué estrategia mejora la comunicación en equipos multidisciplinares?",
+    "opciones": [
+      "Reuniones estructuradas con objetivos comunes y liderazgo compartido",
+      "Jerarquía rígida y comunicación descendente",
+      "Mensajes informales sin registro",
+      "Evitar retroalimentación"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las reuniones estructuradas facilitan la coordinación interprofesional y la toma de decisiones conjunta."
+  },
+  {
+    "id": "gen-158",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué elemento diferencia la comunicación terapéutica de la social?",
+    "opciones": [
+      "Tiene finalidad asistencial orientada al bienestar del paciente",
+      "Carece de objetivos",
+      "Se basa solo en simpatía",
+      "No requiere formación"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La comunicación terapéutica busca mejorar la salud y el afrontamiento del paciente."
+  },
+  {
+    "id": "gen-159",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Media",
+    "pregunta": "¿Qué modelo describe las fases de la entrevista clínica?",
+    "opciones": [
+      "Apertura, exploración, resolución y cierre",
+      "Inicio y fin exclusivamente",
+      "Recepción y despedida",
+      "Diagnóstico y alta"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La entrevista clínica estructurada comprende apertura, exploración, resolución y cierre."
+  },
+  {
+    "id": "gen-160",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué técnica comunicativa es clave para dar malas noticias según el protocolo SPIKES?",
+    "opciones": [
+      "Explorar sentimientos y ofrecer apoyo tras la información",
+      "Informar rápidamente sin preparación",
+      "Delegar la comunicación en otro profesional",
+      "Evitar contacto emocional"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El protocolo SPIKES incluye explorar sentimientos, empatizar y planificar el siguiente paso tras informar."
+  },
+  {
+    "id": "gen-161",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué es un estudio descriptivo en investigación sanitaria?",
+    "opciones": [
+      "Analiza asociaciones causales",
+      "Describe características de una población o fenómeno sin establecer relaciones causales",
+      "Compara dos tratamientos",
+      "Evalúa intervenciones aleatorizadas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los estudios descriptivos caracterizan población o fenómeno sin inferir causalidad."
+  },
+  {
+    "id": "gen-162",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Media",
+    "pregunta": "¿Qué tipo de estudio analiza la asociación entre exposición y enfermedad sin intervención del investigador?",
+    "opciones": [
+      "Observacional analítico",
+      "Experimental",
+      "Cohorte aleatorizada",
+      "Ensayo clínico doble ciego"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los estudios observacionales analíticos (caso-control, cohortes) evalúan asociaciones sin intervención directa."
+  },
+  {
+    "id": "gen-163",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué diferencia principal existe entre un ensayo clínico y un estudio observacional?",
+    "opciones": [
+      "La intervención controlada por el investigador",
+      "El tamaño muestral",
+      "La participación de animales",
+      "El análisis estadístico"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "En los ensayos clínicos el investigador asigna la intervención; en los observacionales, no."
+  },
+  {
+    "id": "gen-164",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Media",
+    "pregunta": "¿Qué indicador mide la precisión de una estimación en un estudio?",
+    "opciones": [
+      "Intervalo de confianza",
+      "Valor p",
+      "Odds ratio",
+      "Media aritmética"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El intervalo de confianza expresa el rango dentro del cual se espera que se encuentre el valor verdadero."
+  },
+  {
+    "id": "gen-165",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué error se comete al rechazar la hipótesis nula siendo verdadera?",
+    "opciones": [
+      "Error tipo I (alfa)",
+      "Error tipo II (beta)",
+      "Sesgo de selección",
+      "Confusión"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El error tipo I consiste en rechazar la hipótesis nula cuando es cierta (falso positivo)."
+  },
+  {
+    "id": "gen-166",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Media",
+    "pregunta": "¿Qué variable se manipula en un estudio experimental?",
+    "opciones": [
+      "Variable independiente",
+      "Variable dependiente",
+      "Variable de confusión",
+      "Variable latente"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "En los estudios experimentales se manipula la variable independiente para observar su efecto sobre la dependiente."
+  },
+  {
+    "id": "gen-167",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué base de datos biomédica internacional es más utilizada para revisiones sistemáticas?",
+    "opciones": [
+      "PubMed/MEDLINE",
+      "Google Scholar",
+      "Scopus",
+      "Web of Science"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "PubMed/MEDLINE es la principal base de datos para búsquedas biomédicas y revisiones sistemáticas."
+  },
+  {
+    "id": "gen-168",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Media",
+    "pregunta": "¿Qué diferencia existe entre validez interna y externa?",
+    "opciones": [
+      "La interna evalúa la ausencia de sesgos; la externa, la generalización de los resultados",
+      "La interna depende del tamaño muestral",
+      "La externa se limita a estudios cualitativos",
+      "Son equivalentes"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La validez interna asegura ausencia de sesgos; la externa, aplicabilidad de los resultados a otras poblaciones."
+  },
+  {
+    "id": "gen-169",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué estudio es más adecuado para enfermedades raras?",
+    "opciones": [
+      "Caso-control",
+      "Cohorte prospectiva",
+      "Ensayo clínico",
+      "Ecológico"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El diseño caso-control es eficiente para enfermedades raras o con largos periodos de latencia."
+  },
+  {
+    "id": "gen-170",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Media",
+    "pregunta": "¿Qué nivel de evidencia es el más alto en la jerarquía de la medicina basada en la evidencia?",
+    "opciones": [
+      "Metaanálisis y revisiones sistemáticas de ensayos clínicos",
+      "Opiniones de expertos",
+      "Series de casos",
+      "Estudios transversales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los metaanálisis y revisiones sistemáticas de ensayos controlados ofrecen el mayor nivel de evidencia."
+  },
+  {
+    "id": "gen-171",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué elemento debe incluir siempre un trabajo científico según la estructura IMRyD?",
+    "opciones": [
+      "Introducción, Material y métodos, Resultados y Discusión",
+      "Índice, resumen y bibliografía",
+      "Apéndices administrativos",
+      "Análisis económico"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La estructura IMRyD (Introducción, Métodos, Resultados, Discusión) es el formato estándar internacional de publicación científica."
+  },
+  {
+    "id": "gen-172",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué es un estudio transversal?",
+    "opciones": [
+      "Evalúa una población en un momento determinado para estimar prevalencia",
+      "Sigue a los sujetos a lo largo del tiempo",
+      "Implica intervención terapéutica",
+      "Requiere asignación aleatoria"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los estudios transversales describen o comparan características en un momento dado para estimar prevalencias."
+  },
+  {
+    "id": "gen-173",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Media",
+    "pregunta": "¿Qué fuente de datos se considera secundaria en investigación clínica?",
+    "opciones": [
+      "Bases de datos poblacionales y registros administrativos",
+      "Encuestas directas",
+      "Entrevistas estructuradas",
+      "Exploraciones clínicas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las bases de datos y registros constituyen fuentes secundarias de información clínica."
+  },
+  {
+    "id": "gen-174",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué parámetro se utiliza para valorar la fuerza de asociación en estudios caso-control?",
+    "opciones": [
+      "Odds ratio (OR)",
+      "Riesgo relativo",
+      "Valor p",
+      "Coeficiente de correlación"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La odds ratio mide la fuerza de asociación entre exposición y enfermedad en estudios caso-control."
+  },
+  {
+    "id": "gen-175",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Media",
+    "pregunta": "¿Qué instrumento garantiza la calidad metodológica de un ensayo clínico?",
+    "opciones": [
+      "Aleatorización y enmascaramiento adecuados",
+      "Financiación pública",
+      "Tamaño muestral pequeño",
+      "Análisis sin protocolo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La aleatorización y el enmascaramiento minimizan sesgos y aseguran la validez del ensayo."
+  },
+    {
+    "id": "gen-176",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Ley 2/2011, Igualdad efectiva de mujeres y hombres",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál es el objeto principal de la Ley 2/2011, de 11 de marzo?",
+    "opciones": [
+      "Regular el empleo público exclusivamente",
+      "Garantizar la igualdad efectiva entre mujeres y hombres y prevenir la violencia de género",
+      "Fomentar la natalidad",
+      "Establecer derechos laborales"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El objeto es promover la igualdad real entre mujeres y hombres y prevenir la violencia de género. (Art. 1)"
+  },
+  {
+    "id": "gen-177",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Ley 2/2011, Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué ámbito territorial tiene la Ley 2/2011 del Principado de Asturias?",
+    "opciones": [
+      "Toda España",
+      "El Principado de Asturias",
+      "La Unión Europea",
+      "Solo Oviedo y Gijón"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La ley se aplica en el ámbito territorial del Principado de Asturias. (Art. 2)"
+  },
+  {
+    "id": "gen-178",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Ley 2/2011, Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principio inspira toda la actuación de los poderes públicos según la Ley 2/2011?",
+    "opciones": [
+      "Neutralidad de género",
+      "Integración transversal del principio de igualdad en todas las políticas públicas",
+      "Separación estricta de competencias",
+      "Delegación privada"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La ley establece la transversalidad del principio de igualdad en todas las políticas públicas. (Art. 4)"
+  },
+  {
+    "id": "gen-179",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué artículo de la Ley 2/2011 aborda la igualdad en el empleo público?",
+    "opciones": [
+      "Artículo 20",
+      "Artículo 10",
+      "Artículo 3",
+      "Artículo 25"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El artículo 20 regula la igualdad de mujeres y hombres en el empleo público."
+  },
+  {
+    "id": "gen-180",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué concepto define la ley como toda conducta basada en el género que cause daño o sufrimiento físico, sexual o psicológico?",
+    "opciones": [
+      "Discriminación indirecta",
+      "Violencia de género",
+      "Discriminación institucional",
+      "Brecha salarial"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Se define como violencia de género toda conducta basada en el género que cause daño físico, sexual o psicológico. (Art. 3)"
+  },
+  {
+    "id": "gen-181",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órganos son responsables de aplicar las políticas de igualdad en el Principado de Asturias?",
+    "opciones": [
+      "Consejería competente en materia de igualdad y el Instituto Asturiano de la Mujer",
+      "Ministerio de Trabajo",
+      "Ayuntamientos únicamente",
+      "Organizaciones sindicales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La política de igualdad se articula a través de la Consejería competente y el Instituto Asturiano de la Mujer. (Art. 9)"
+  },
+  {
+    "id": "gen-182",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué medidas promueve la Ley 2/2011 para garantizar la igualdad en salud?",
+    "opciones": [
+      "Integrar la perspectiva de género en la planificación y evaluación de políticas sanitarias",
+      "Crear hospitales específicos por sexo",
+      "Exclusión de diferencias de género",
+      "Segregación asistencial"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El artículo 20 establece la integración del principio de igualdad en la planificación y evaluación de la salud pública."
+  },
+  {
+    "id": "gen-183",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es la discriminación indirecta según la Ley 2/2011?",
+    "opciones": [
+      "Trato diferente explícito",
+      "Situación en la que una disposición aparentemente neutra produce desventaja para un sexo",
+      "Discriminación voluntaria",
+      "Cualquier diferencia salarial"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La discriminación indirecta se produce cuando una norma o práctica neutra afecta de forma desigual. (Art. 5)"
+  },
+  {
+    "id": "gen-184",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué obligación tienen las administraciones públicas respecto al lenguaje administrativo?",
+    "opciones": [
+      "Usar lenguaje inclusivo y no sexista en todos los documentos oficiales",
+      "Restringirse al masculino genérico",
+      "Utilizar lenguaje técnico exclusivamente",
+      "Adoptar abreviaturas neutrales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las administraciones deben emplear lenguaje inclusivo y no sexista. (Art. 8)"
+  },
+  {
+    "id": "gen-185",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué principio rige el acceso al empleo público según la Ley 2/2011?",
+    "opciones": [
+      "Igualdad de trato y oportunidades entre mujeres y hombres",
+      "Libre designación",
+      "Prioridad por antigüedad",
+      "Cuotas fijas por género"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El principio de igualdad de trato y oportunidades es esencial en el acceso al empleo público. (Art. 20)"
+  },
+  {
+    "id": "gen-186",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué establece la Ley 2/2011 sobre la formación en igualdad del personal público?",
+    "opciones": [
+      "Debe incluirse formación en igualdad y prevención de violencia de género en los planes de formación",
+      "No se contempla formación",
+      "Es voluntaria para directivos",
+      "Solo aplica a personal sanitario"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los planes de formación del personal público deben incorporar formación en igualdad. (Art. 23)"
+  },
+  {
+    "id": "gen-187",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué documento regula la integración del principio de igualdad en los presupuestos públicos?",
+    "opciones": [
+      "Informes de impacto de género en los presupuestos",
+      "Memoria económica anual",
+      "Plan estratégico de igualdad",
+      "Plan financiero plurianual"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los presupuestos deben incorporar informes de impacto de género que analicen sus efectos diferenciados. (Art. 25)"
+  },
+  {
+    "id": "gen-188",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué instrumento coordina las actuaciones en materia de igualdad en Asturias?",
+    "opciones": [
+      "Plan Estratégico de Igualdad de Oportunidades",
+      "Consejo de Seguridad Ciudadana",
+      "Plan de Empleo Juvenil",
+      "Consejo de Gobierno Económico"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Plan Estratégico de Igualdad coordina las políticas públicas en materia de igualdad. (Art. 10)"
+  },
+  {
+    "id": "gen-189",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué medidas contempla la Ley 2/2011 para la protección de víctimas de violencia de género?",
+    "opciones": [
+      "Asistencia jurídica, psicológica y social, además de medidas de inserción laboral y vivienda",
+      "Únicamente medidas penales",
+      "Ayudas económicas sin atención sanitaria",
+      "Protección exclusiva a menores"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La ley asturiana establece medidas integrales de asistencia y protección. (Art. 30)"
+  },
+  {
+    "id": "gen-190",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué se entiende por acción positiva según la Ley 2/2011?",
+    "opciones": [
+      "Medidas específicas y temporales para corregir situaciones de desigualdad",
+      "Discriminación inversa permanente",
+      "Política exclusiva para mujeres",
+      "Reforma legislativa obligatoria"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las acciones positivas son medidas temporales que buscan corregir desigualdades de hecho. (Art. 6)"
+  },
+  {
+    "id": "gen-191",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano asesora al Gobierno del Principado en materia de igualdad de género?",
+    "opciones": [
+      "Consejo Asturiano de la Mujer",
+      "Consejo Interterritorial del SNS",
+      "Corte de Arbitraje",
+      "Consejo Económico y Social"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Consejo Asturiano de la Mujer actúa como órgano de consulta y asesoramiento. (Art. 11)"
+  },
+  {
+    "id": "gen-192",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué principio inspira la actuación de los medios de comunicación públicos según la Ley 2/2011?",
+    "opciones": [
+      "Promover una imagen igualitaria, plural y no estereotipada de mujeres y hombres",
+      "Mantener la neutralidad de género total",
+      "Centrarse en contenidos políticos",
+      "Evitar temas de igualdad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los medios públicos deben promover una imagen igualitaria y no sexista. (Art. 27)"
+  },
+  {
+    "id": "gen-193",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué establece la Ley 2/2011 sobre la educación en igualdad?",
+    "opciones": [
+      "Debe incluirse la educación en valores de igualdad y respeto mutuo en todos los niveles educativos",
+      "Solo en educación secundaria",
+      "Solo en formación profesional",
+      "No se contempla la educación en igualdad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La ley exige integrar la igualdad en el currículo y la práctica educativa. (Art. 18)"
+  },
+  {
+    "id": "gen-194",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué sanciones puede conllevar el incumplimiento de las disposiciones de igualdad?",
+    "opciones": [
+      "Sanciones administrativas y pérdida de ayudas o subvenciones públicas",
+      "Solo amonestación verbal",
+      "Sanción penal automática",
+      "No existen sanciones"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El incumplimiento puede implicar sanciones administrativas y la exclusión de ayudas públicas. (Art. 32)"
+  },
+  {
+    "id": "gen-195",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué artículo garantiza la protección de la maternidad y la corresponsabilidad familiar?",
+    "opciones": [
+      "Artículo 21",
+      "Artículo 15",
+      "Artículo 10",
+      "Artículo 30"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El artículo 21 promueve la protección de la maternidad, paternidad y corresponsabilidad familiar."
+  },
+  {
+    "id": "gen-196",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principio debe regir la contratación pública según la Ley 2/2011?",
+    "opciones": [
+      "Incorporar cláusulas de igualdad de género y no discriminación en los pliegos",
+      "Priorizar la oferta económica más baja",
+      "Excluir criterios sociales",
+      "Garantizar neutralidad de género"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La contratación pública debe incluir cláusulas que fomenten la igualdad entre mujeres y hombres. (Art. 24)"
+  },
+  {
+    "id": "gen-197",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué obligación tienen las empresas públicas según la Ley 2/2011?",
+    "opciones": [
+      "Adoptar planes de igualdad y medidas de conciliación",
+      "Cumplir únicamente objetivos financieros",
+      "Informar sobre beneficios",
+      "Evitar contratación femenina"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las empresas públicas deben implementar planes de igualdad y conciliación. (Art. 26)"
+  },
+  {
+    "id": "gen-198",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Básico",
+    "pregunta": "¿Qué artículo garantiza la cooperación entre administraciones públicas en materia de igualdad?",
+    "opciones": [
+      "Artículo 7",
+      "Artículo 3",
+      "Artículo 15",
+      "Artículo 12"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El artículo 7 establece la cooperación interadministrativa para la aplicación efectiva de las políticas de igualdad."
+  },
+  {
+    "id": "gen-199",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué papel tiene el Observatorio de Igualdad según la Ley 2/2011?",
+    "opciones": [
+      "Evaluar la aplicación de la ley y elaborar informes sobre la situación de igualdad en Asturias",
+      "Emitir sanciones disciplinarias",
+      "Aprobar leyes autonómicas",
+      "Gestionar subvenciones culturales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Observatorio de Igualdad evalúa la aplicación de la ley y emite informes periódicos. (Art. 13)"
+  },
+  {
+    "id": "gen-200",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Media",
+    "pregunta": "¿Qué principio general resume la filosofía de la Ley 2/2011?",
+    "opciones": [
+      "Integración transversal del principio de igualdad en todas las políticas públicas y sociales",
+      "Neutralidad sin intervención estatal",
+      "Separación entre género y salud",
+      "Aplicación voluntaria de medidas de igualdad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La ley consagra la transversalidad del principio de igualdad en todas las políticas del Principado de Asturias. (Art. 4)"
+  },
+    {
+    "id": "gen-201",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución y Ley General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "Según el artículo 43 de la Constitución Española, ¿qué tipo de derecho es la protección de la salud?",
+    "opciones": [
+      "Un derecho fundamental exigible judicialmente ante el Tribunal Constitucional",
+      "Un principio rector de la política social y económica no directamente justiciable",
+      "Un derecho civil patrimonial",
+      "Un derecho político del ciudadano"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El artículo 43 CE reconoce el derecho a la protección de la salud como principio rector, no como derecho fundamental."
+  },
+  {
+    "id": "gen-202",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003 de Cohesión y Calidad del SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la Ley 16/2003, ¿qué órgano aprueba la cartera común de servicios del SNS?",
+    "opciones": [
+      "El Ministerio de Sanidad, previo acuerdo del Consejo Interterritorial del SNS",
+      "Las Comunidades Autónomas por decreto propio",
+      "El Congreso de los Diputados",
+      "El Consejo de Ministros sin consulta"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La cartera común se aprueba por el Ministerio de Sanidad tras acuerdo del CISNS (art. 8)."
+  },
+  {
+    "id": "gen-203",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002, Autonomía del paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "Según el artículo 9.2 de la Ley 41/2002, ¿en qué caso puede obviarse el consentimiento informado?",
+    "opciones": [
+      "Cuando el médico considere que el paciente no lo entenderá",
+      "Cuando exista riesgo para la salud pública o urgencia vital",
+      "Cuando el paciente sea menor de edad siempre",
+      "Cuando lo solicite un familiar directo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El consentimiento puede omitirse en situaciones de riesgo para la salud pública o urgencia vital (art. 9.2)."
+  },
+  {
+    "id": "gen-204",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003, Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "Según el Estatuto Marco, ¿cuál de las siguientes situaciones no se considera causa de incompatibilidad?",
+    "opciones": [
+      "Desempeño de otro puesto en el sector público",
+      "Participación ocasional en actividades docentes o de investigación",
+      "Prestación de servicios en una empresa privada relacionada con la sanidad pública",
+      "Desarrollo simultáneo de dos plazas estatutarias en distinto Servicio de Salud"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La docencia e investigación ocasional no se consideran incompatibles si no interfieren con la función pública (art. 98)."
+  },
+  {
+    "id": "gen-205",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la Ley 7/2019, ¿qué órgano asume la función de alta dirección del Servicio de Salud del Principado de Asturias?",
+    "opciones": [
+      "El Consejo de Dirección del SESPA",
+      "El Director Gerente del SESPA",
+      "El Consejero de Sanidad",
+      "El Consejo de Gobierno del Principado"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Director Gerente del SESPA ejerce la alta dirección del Servicio de Salud. (Art. 69)"
+  },
+  {
+    "id": "gen-206",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023",
+    "dificultad": "Avanzado",
+    "pregunta": "Según el Decreto 189/2023, ¿de qué órgano depende jerárquicamente la Dirección de Cuidados y Humanización?",
+    "opciones": [
+      "De la Gerencia del SESPA",
+      "Del Consejo de Salud",
+      "Del Ministerio de Sanidad",
+      "Del Consejo Interterritorial"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Decreto 189/2023 establece que depende jerárquicamente de la Gerencia del SESPA."
+  },
+  {
+    "id": "gen-207",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál de los siguientes principios bioéticos se considera de jerarquía superior en conflictos irreconciliables según Beauchamp y Childress?",
+    "opciones": [
+      "No maleficencia",
+      "Autonomía",
+      "Justicia distributiva",
+      "Beneficencia"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "En conflictos éticos, el principio de no maleficencia prevalece sobre la beneficencia y la autonomía."
+  },
+  {
+    "id": "gen-208",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué documento internacional es considerado la base de la bioética moderna y de los ensayos clínicos éticos?",
+    "opciones": [
+      "Declaración de Helsinki (1964)",
+      "Código de Núremberg (1947)",
+      "Informe Belmont (1979)",
+      "Declaración Universal sobre Bioética (UNESCO, 2005)"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Código de Núremberg (1947) estableció los principios éticos fundamentales para la experimentación con seres humanos."
+  },
+  {
+    "id": "gen-209",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué norma regula actualmente la interoperabilidad de la historia clínica digital en España?",
+    "opciones": [
+      "Real Decreto 1093/2010, de 3 de septiembre",
+      "Ley 55/2003",
+      "Orden SCO/1234/2007",
+      "Decreto 189/2023"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Real Decreto 1093/2010 establece el conjunto mínimo de datos de los informes clínicos interoperables."
+  },
+  {
+    "id": "gen-210",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 7. Sistemas de información",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué documento técnico se utiliza en España para garantizar la interoperabilidad semántica de los sistemas de información sanitaria?",
+    "opciones": [
+      "El catálogo de estándares del SNS basado en SNOMED CT",
+      "El Libro Blanco de la Sanidad Electrónica Europea",
+      "La ISO 9001:2015",
+      "El reglamento de la AEMPS"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "España adoptó SNOMED CT como estándar semántico para la interoperabilidad de datos clínicos (Ministerio de Sanidad, 2017)."
+  },
+  {
+    "id": "gen-211",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 8. Calidad en el SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué informe del SNS evalúa la calidad percibida y objetiva de la atención sanitaria anualmente?",
+    "opciones": [
+      "Informe Anual del Sistema Nacional de Salud",
+      "Plan Nacional de Calidad",
+      "Barómetro Sanitario del CIS",
+      "Memoria del CISNS"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El Barómetro Sanitario del CIS mide la percepción ciudadana sobre la calidad del sistema sanitario cada año."
+  },
+  {
+    "id": "gen-212",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 9. Comunicación sanitaria",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué modelo de comunicación profesional describe Emanuel y Emanuel (1992) como ideal en medicina centrada en el paciente?",
+    "opciones": [
+      "Modelo deliberativo",
+      "Modelo informativo",
+      "Modelo interpretativo",
+      "Modelo paternalista"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El modelo deliberativo implica diálogo ético y búsqueda conjunta del mejor curso de acción para el paciente."
+  },
+  {
+    "id": "gen-213",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Avanzado",
+    "pregunta": "En un ensayo clínico, ¿qué tipo de aleatorización reduce al máximo el desequilibrio en el tamaño de los grupos cuando el reclutamiento es bajo?",
+    "opciones": [
+      "Aleatorización por bloques permutados",
+      "Aleatorización simple",
+      "Aleatorización estratificada",
+      "Aleatorización adaptativa"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los bloques permutados garantizan equilibrio constante en tamaños de grupo, incluso con bajo reclutamiento."
+  },
+  {
+    "id": "gen-214",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Metodología de investigación",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué estadístico se utiliza para medir la concordancia entre observadores más allá del azar?",
+    "opciones": [
+      "Coeficiente kappa de Cohen",
+      "Coeficiente de Pearson",
+      "Prueba t de Student",
+      "Chi cuadrado"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El coeficiente kappa mide la concordancia entre observadores ajustando el acuerdo esperado por azar."
+  },
+  {
+    "id": "gen-215",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 10. Investigación clínica",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué nivel de evidencia corresponde a una guía de práctica clínica basada en consenso de expertos sin estudios experimentales?",
+    "opciones": [
+      "Nivel IV",
+      "Nivel I",
+      "Nivel II",
+      "Nivel III"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las guías basadas en consenso sin evidencia experimental se clasifican como nivel IV de evidencia científica."
+  },
+  {
+    "id": "gen-216",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué disposición adicional de la Ley 2/2011 establece la incorporación de la perspectiva de género en las estadísticas oficiales?",
+    "opciones": [
+      "Disposición adicional segunda",
+      "Disposición transitoria primera",
+      "Disposición adicional primera",
+      "Disposición final segunda"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La disposición adicional segunda obliga a incorporar el enfoque de género en la elaboración de estadísticas públicas."
+  },
+  {
+    "id": "gen-217",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la Ley 7/2019, ¿qué órgano emite los informes preceptivos sobre las estrategias de salud autonómicas?",
+    "opciones": [
+      "El Consejo de Salud del Principado de Asturias",
+      "El Parlamento asturiano",
+      "El Consejo de Gobierno",
+      "El Instituto de Salud Carlos III"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Consejo de Salud emite informe previo y preceptivo sobre las estrategias de salud. (Art. 9)"
+  },
+  {
+    "id": "gen-218",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "Según el Estatuto Marco, ¿qué tipo de jornada se considera excepcional y requiere autorización previa del gerente?",
+    "opciones": [
+      "Jornada complementaria o de atención continuada",
+      "Turno ordinario diurno",
+      "Guardias localizadas",
+      "Jornada reducida"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La jornada complementaria o de atención continuada requiere autorización expresa del gerente. (Art. 48)"
+  },
+  {
+    "id": "gen-219",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Constitución Española",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué artículo de la Constitución regula el deber de los poderes públicos de organizar y tutelar la salud pública?",
+    "opciones": [
+      "Artículo 43.2",
+      "Artículo 40.1",
+      "Artículo 44.1",
+      "Artículo 50"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El artículo 43.2 CE impone a los poderes públicos la obligación de tutelar la salud pública a través de medidas preventivas."
+  },
+  {
+    "id": "gen-220",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 6. Bioética",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la Declaración Universal sobre Bioética y Derechos Humanos (UNESCO, 2005), ¿qué principio requiere equilibrar el beneficio y el riesgo de la intervención médica?",
+    "opciones": [
+      "Principio de proporcionalidad y prudencia",
+      "Principio de autonomía",
+      "Principio de justicia",
+      "Principio de confidencialidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Declaración UNESCO de 2005 recoge el principio de proporcionalidad, que exige balancear beneficios y riesgos en las intervenciones médicas."
+  },
+    {
+    "id": "gen-221",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019 de Salud del Principado de Asturias",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano establece la Ley 7/2019 como responsable de aprobar el Plan de Salud del Principado de Asturias?",
+    "opciones": [
+      "El Consejo de Gobierno del Principado de Asturias",
+      "El Consejo de Salud",
+      "El Parlamento de Asturias",
+      "La Consejería de Sanidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Plan de Salud se aprueba por el Consejo de Gobierno a propuesta del titular de la Consejería de Sanidad. (Art. 8)"
+  },
+  {
+    "id": "gen-222",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué documento fija los objetivos operativos de las Áreas Sanitarias según la Ley 7/2019?",
+    "opciones": [
+      "Los Contratos de Gestión",
+      "Los Planes Estratégicos Hospitalarios",
+      "Las Cartas de Servicios",
+      "Los Programas de Calidad Autonómicos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los Contratos de Gestión concretan objetivos, indicadores y compromisos de cada Área Sanitaria. (Art. 72)"
+  },
+  {
+    "id": "gen-223",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la Ley 7/2019, ¿qué carácter tiene la participación del Consejo de Salud en la planificación sanitaria?",
+    "opciones": [
+      "Consultivo y de asesoramiento",
+      "Ejecutivo",
+      "Vinculante",
+      "Jurisdiccional"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Consejo de Salud es un órgano de participación y asesoramiento, no ejecutivo. (Art. 9)"
+  },
+  {
+    "id": "gen-224",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué figura introduce la Ley 7/2019 para coordinar la atención sociosanitaria?",
+    "opciones": [
+      "La Comisión Mixta de Coordinación Sociosanitaria",
+      "El Consejo de Cuidados Integrales",
+      "El Comité Técnico de Dependencia",
+      "La Gerencia Conjunta de Salud y Bienestar"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Comisión Mixta de Coordinación Sociosanitaria es el órgano de coordinación entre sistemas. (Art. 27)"
+  },
+  {
+    "id": "gen-225",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué naturaleza jurídica tiene el Servicio de Salud del Principado de Asturias (SESPA)?",
+    "opciones": [
+      "Ente público con personalidad jurídica propia y adscripción a la Consejería de Sanidad",
+      "Sociedad mercantil pública",
+      "Fundación sanitaria autonómica",
+      "Dirección general administrativa"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El SESPA es un ente público dotado de personalidad jurídica propia adscrito a la Consejería de Sanidad. (Art. 67)"
+  },
+  {
+    "id": "gen-226",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué establece la Ley 7/2019 respecto a la atención farmacéutica en los centros sanitarios públicos?",
+    "opciones": [
+      "Debe integrarse en la atención clínica y en los programas de uso racional del medicamento",
+      "Depende exclusivamente de la industria farmacéutica",
+      "No se menciona en la ley",
+      "Es competencia del Ministerio de Sanidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La ley incorpora la atención farmacéutica como parte de la atención integral y del uso racional del medicamento. (Art. 53)"
+  },
+  {
+    "id": "gen-227",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Ley 7/2019",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es la estructura básica del SESPA según el Decreto 189/2023?",
+    "opciones": [
+      "Gerencia, Direcciones Generales y Direcciones de Área",
+      "Consejo de Gobierno, Consejería y Consejo Consultivo",
+      "Gerencia, Subdirecciones y Servicios Territoriales",
+      "Dirección Ejecutiva, Consejo Asesor y Comisión de Ética"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Decreto 189/2023 establece la estructura básica del SESPA en Gerencia, Direcciones Generales y Direcciones de Área."
+  },
+  {
+    "id": "gen-228",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023",
+    "dificultad": "Avanzado",
+    "pregunta": "¿De qué depende la Dirección General de Cuidados y Humanización según el Decreto 189/2023?",
+    "opciones": [
+      "De la Gerencia del SESPA",
+      "Del Consejo de Salud",
+      "Del Ministerio de Sanidad",
+      "Del Parlamento de Asturias"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Decreto 189/2023 asigna dependencia jerárquica directa de la Gerencia del SESPA."
+  },
+  {
+    "id": "gen-229",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué función específica tiene la Dirección de Coordinación Asistencial según el Decreto 189/2023?",
+    "opciones": [
+      "Garantizar la continuidad entre niveles asistenciales y la eficiencia en el uso de recursos",
+      "Supervisar la política de personal del SESPA",
+      "Dirigir los servicios jurídicos",
+      "Emitir informes presupuestarios"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Dirección de Coordinación Asistencial busca la continuidad asistencial y eficiencia en recursos. (Art. 7)"
+  },
+  {
+    "id": "gen-230",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano del SESPA ejerce las competencias en materia de calidad y seguridad del paciente?",
+    "opciones": [
+      "La Dirección General de Cuidados y Humanización",
+      "La Dirección Económico-Financiera",
+      "La Dirección de Coordinación Asistencial",
+      "El Consejo de Salud"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Decreto 189/2023 asigna a la Dirección de Cuidados y Humanización las competencias en calidad y seguridad del paciente."
+  },
+  {
+    "id": "gen-231",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué dirección del SESPA tiene competencia sobre la gestión de los sistemas de información sanitaria?",
+    "opciones": [
+      "Dirección Económico-Financiera y de Sistemas de Información",
+      "Dirección de Cuidados",
+      "Dirección de Recursos Humanos",
+      "Dirección de Coordinación Asistencial"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Decreto 189/2023 la atribuye a la Dirección Económico-Financiera y de Sistemas de Información. (Art. 5)"
+  },
+  {
+    "id": "gen-232",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué nivel jerárquico tienen las Direcciones de Área Sanitaria en el SESPA?",
+    "opciones": [
+      "Órganos periféricos de gestión dependientes de la Gerencia del SESPA",
+      "Órganos centrales con autonomía plena",
+      "Entidades independientes",
+      "Delegaciones de la Consejería de Sanidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las Direcciones de Área son órganos periféricos dependientes jerárquicamente de la Gerencia del SESPA. (Art. 9)"
+  },
+  {
+    "id": "gen-233",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 5. Decreto 189/2023",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano del SESPA aprueba los contratos de gestión de las Áreas Sanitarias?",
+    "opciones": [
+      "La Gerencia del SESPA",
+      "La Consejería de Hacienda",
+      "El Consejo de Gobierno",
+      "El Parlamento del Principado"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Gerencia del SESPA aprueba los contratos de gestión con las Áreas Sanitarias. (Art. 11)"
+  },
+  {
+    "id": "gen-234",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Ley 2/2011 Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué artículo de la Ley 2/2011 establece la obligación de los medios de comunicación públicos de promover la igualdad de género?",
+    "opciones": [
+      "Artículo 27",
+      "Artículo 23",
+      "Artículo 19",
+      "Artículo 31"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El artículo 27 obliga a los medios públicos a promover una imagen igualitaria y no estereotipada."
+  },
+  {
+    "id": "gen-235",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principio de actuación exige la Ley 2/2011 en los contratos, subvenciones y convenios públicos?",
+    "opciones": [
+      "Incorporación de cláusulas de igualdad de género",
+      "Neutralidad de género",
+      "Prelación por mérito profesional",
+      "Supresión de la evaluación de impacto de género"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La ley obliga a incluir cláusulas de igualdad en contratos y subvenciones públicas. (Art. 24)"
+  },
+  {
+    "id": "gen-236",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano es responsable del seguimiento del Plan Estratégico de Igualdad en Asturias?",
+    "opciones": [
+      "El Instituto Asturiano de la Mujer",
+      "La Consejería de Hacienda",
+      "El Parlamento del Principado",
+      "La Oficina del Defensor del Pueblo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Instituto Asturiano de la Mujer coordina y evalúa el Plan Estratégico de Igualdad. (Art. 10)"
+  },
+  {
+    "id": "gen-237",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué tipo de medidas considera la Ley 2/2011 de carácter excepcional y temporal?",
+    "opciones": [
+      "Las acciones positivas para corregir desigualdades de hecho",
+      "Las sanciones administrativas",
+      "Los informes de impacto de género",
+      "Las ayudas sociales estructurales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las acciones positivas son medidas temporales para corregir desigualdades reales. (Art. 6)"
+  },
+  {
+    "id": "gen-238",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano elabora los informes de impacto de género en Asturias?",
+    "opciones": [
+      "La Consejería competente en materia de igualdad",
+      "El Ministerio de Igualdad",
+      "El Consejo de Gobierno del Principado",
+      "La Sindicatura de Cuentas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los informes de impacto de género son elaborados por la Consejería competente en igualdad. (Art. 25)"
+  },
+  {
+    "id": "gen-239",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principio rige la cooperación entre administraciones públicas en materia de igualdad según la Ley 2/2011?",
+    "opciones": [
+      "Coordinación y colaboración interadministrativa",
+      "Autonomía plena de cada entidad",
+      "Jerarquía vertical de competencias",
+      "Descentralización total"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El artículo 7 de la Ley 2/2011 consagra la cooperación y coordinación entre administraciones."
+  },
+  {
+    "id": "gen-240",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 11. Igualdad efectiva",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué disposición final de la Ley 2/2011 habilita al Consejo de Gobierno para su desarrollo reglamentario?",
+    "opciones": [
+      "Disposición final primera",
+      "Disposición final segunda",
+      "Disposición adicional primera",
+      "Disposición derogatoria única"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La disposición final primera faculta al Consejo de Gobierno del Principado de Asturias para desarrollar reglamentariamente la Ley 2/2011."
+  },
+    {
+    "id": "gen-241",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 1. Ley 14/1986 General de Sanidad",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué artículo de la Ley General de Sanidad establece la obligación de las administraciones sanitarias de promover la educación sanitaria de la población?",
+    "opciones": [
+      "Artículo 6.4",
+      "Artículo 3.2",
+      "Artículo 20.1",
+      "Artículo 12.3"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El artículo 6.4 LGS impone a las administraciones la obligación de fomentar la educación sanitaria."
+  },
+  {
+    "id": "gen-242",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003 de Cohesión y Calidad del SNS",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué órgano emite los informes de evaluación de tecnologías sanitarias según la Ley 16/2003?",
+    "opciones": [
+      "La Red Española de Agencias de Evaluación de Tecnologías Sanitarias",
+      "El Consejo Interterritorial del SNS directamente",
+      "El Instituto de Salud Carlos III",
+      "El Comité Consultivo del CISNS"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Red Española de Agencias, creada al amparo del art. 77, coordina la evaluación de tecnologías sanitarias."
+  },
+  {
+    "id": "gen-243",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué nivel de cartera de servicios incluye la prestación ortoprotésica según la Ley 16/2003?",
+    "opciones": [
+      "Cartera común suplementaria",
+      "Cartera común básica de servicios asistenciales",
+      "Cartera común de salud pública",
+      "Cartera común de prestación farmacéutica"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La prestación ortoprotésica forma parte de la cartera común suplementaria del SNS. (Art. 8 bis)"
+  },
+  {
+    "id": "gen-244",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 2. Ley 16/2003",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la Ley 16/2003, ¿qué carácter tienen los acuerdos del Consejo Interterritorial del SNS?",
+    "opciones": [
+      "Generalmente de carácter consensuado y no vinculante, salvo acuerdo unánime",
+      "Vinculantes en todos los casos",
+      "Meramente informativos",
+      "Solo aplicables en sanidad privada"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los acuerdos del CISNS son consensuados; solo son vinculantes si hay unanimidad. (Art. 69)"
+  },
+  {
+    "id": "gen-245",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002 Autonomía del paciente",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué documento regula la manifestación anticipada de voluntad del paciente en caso de incapacidad futura según la Ley 41/2002?",
+    "opciones": [
+      "El documento de instrucciones previas o voluntades anticipadas",
+      "El consentimiento informado ordinario",
+      "El informe clínico de alta",
+      "El testamento notarial"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El documento de instrucciones previas permite manifestar la voluntad sobre cuidados y tratamientos futuros. (Art. 11)"
+  },
+  {
+    "id": "gen-246",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 3. Ley 41/2002",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué excepción a la confidencialidad de la historia clínica permite la Ley 41/2002?",
+    "opciones": [
+      "Cuando se requiera por razones epidemiológicas, judiciales o de interés público debidamente justificadas",
+      "Cuando el médico lo considere conveniente",
+      "En todo caso a familiares de primer grado",
+      "Cuando el paciente no firme el consentimiento"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La historia clínica puede ser consultada por razones epidemiológicas, judiciales o de interés público. (Art. 16.3)"
+  },
+  {
+    "id": "gen-247",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Ley 55/2003 Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué tipo de personal estatutario define el Estatuto Marco como aquel que desarrolla funciones propias de la profesión en un centro de salud o institución sanitaria?",
+    "opciones": [
+      "Personal sanitario",
+      "Personal sanitario de formación especializada",
+      "Personal de gestión y servicios",
+      "Personal directivo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El personal sanitario incluye quienes realizan funciones clínicas o asistenciales en centros del sistema. (Art. 6)"
+  },
+  {
+    "id": "gen-248",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué duración máxima tiene la suspensión de funciones como medida cautelar en un procedimiento disciplinario según el Estatuto Marco?",
+    "opciones": [
+      "Seis meses",
+      "Tres meses",
+      "Un año",
+      "Hasta resolución definitiva sin límite temporal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La suspensión cautelar no podrá exceder de seis meses salvo paralización imputable al interesado. (Art. 73.3)"
+  },
+  {
+    "id": "gen-249",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué concepto utiliza el Estatuto Marco para definir el conjunto de normas que regulan las relaciones de servicio del personal estatutario con la administración sanitaria?",
+    "opciones": [
+      "Régimen estatutario",
+      "Relación funcionarial sanitaria",
+      "Régimen laboral mixto",
+      "Contrato administrativo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El régimen estatutario regula las relaciones del personal con la administración sanitaria. (Art. 2)"
+  },
+  {
+    "id": "gen-250",
+    "categoria": "Parte General",
+    "subcategoria": "Tema 4. Estatuto Marco",
+    "dificultad": "Avanzado",
+    "pregunta": "Según el Estatuto Marco, ¿qué tipo de personal estatutario tiene carácter temporal para la realización de programas de carácter sanitario de duración limitada?",
+    "opciones": [
+      "Personal estatutario eventual",
+      "Personal interino",
+      "Personal sustituto",
+      "Personal en prácticas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El personal estatutario eventual se nombra para programas o actividades sanitarias de duración limitada. (Art. 9.3)"
+  },
+  {
+    "id": "esp-001",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 12. Real Decreto Legislativo 1/2015. Texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios",
+    "dificultad": "Básico",
+    "pregunta": "Según el RDL 1/2015, la autoridad que coordina la red nacional de farmacovigilancia es:",
+    "opciones": [
+      "La AEMPS",
+      "El Consejo Interterritorial del SNS",
+      "Cada comunidad autónoma de forma independiente",
+      "El Ministerio de Universidades"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La AEMPS coordina la red nacional; las CCAA actúan integradas en ella."
+  },
+  {
+    "id": "esp-002",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 12. Real Decreto Legislativo 1/2015. Texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios",
+    "dificultad": "Intermedio",
+    "pregunta": "El RDL 1/2015 prohíbe expresamente la publicidad al público de:",
+    "opciones": [
+      "Medicamentos sujetos a prescripción médica",
+      "Medicamentos publicitarios con financiación",
+      "Productos sanitarios clase I",
+      "Sustancias sin indicación terapéutica"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "No puede dirigirse al público la publicidad de fármacos con receta."
+  },
+  {
+    "id": "esp-003",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 12. Real Decreto Legislativo 1/2015. Texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios",
+    "dificultad": "Intermedio",
+    "pregunta": "Una obligación del titular de autorización de comercialización según el RDL 1/2015 es:",
+    "opciones": [
+      "Disponer de un sistema de gestión de riesgos y farmacovigilancia",
+      "Financiar ensayos no intervencionistas",
+      "Asegurar precio menor que el genérico",
+      "Mantener almacén propio en cada hospital"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El sistema de gestión de riesgos y PV es requisito legal."
+  },
+  {
+    "id": "esp-004",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 12. Real Decreto Legislativo 1/2015. Texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios",
+    "dificultad": "Avanzado",
+    "pregunta": "En verificación y trazabilidad, el RDL 1/2015 incorpora el sistema:",
+    "opciones": [
+      "Identificador único y dispositivos contra la manipulación",
+      "Solo código nacional con barras lineales",
+      "Registro manuscrito del lote",
+      "Trazabilidad voluntaria del fabricante"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El sistema de verificación usa identificador único y dispositivos antimanipulación."
+  },
+  {
+    "id": "esp-005",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 12. Real Decreto Legislativo 1/2015. Texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios",
+    "dificultad": "Avanzado",
+    "pregunta": "El depósito de medicamentos en centros sociosanitarios debe:",
+    "opciones": [
+      "Estar autorizado y bajo responsabilidad de un servicio de farmacia",
+      "No requerir autorización",
+      "Ser gestionado por la industria",
+      "Depender de una clínica dental"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Exige autorización y responsabilidad farmacéutica institucional."
+  },
+  {
+    "id": "esp-006",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 13. Ley del Principado de Asturias 1/2007 de Atención y Ordenación Farmacéutica (mod. Ley 1/2018)",
+    "dificultad": "Básico",
+    "pregunta": "La autorización de apertura de una oficina de farmacia en Asturias corresponde a:",
+    "opciones": [
+      "La administración autonómica conforme a planificación",
+      "El ayuntamiento",
+      "El Ministerio de Sanidad",
+      "El colegio profesional"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Competencia del Principado de Asturias según criterios de planificación sanitaria."
+  },
+  {
+    "id": "esp-007",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 13. Ley del Principado de Asturias 1/2007 de Atención y Ordenación Farmacéutica (mod. Ley 1/2018)",
+    "dificultad": "Intermedio",
+    "pregunta": "La atención farmacéutica domiciliaria en Asturias:",
+    "opciones": [
+      "Debe ajustarse a normativa autonómica específica y protocolos",
+      "No está regulada",
+      "Depende de acuerdos privados",
+      "Se limita a residencias sin control"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Existe marco autonómico y protocolos de atención farmacéutica domiciliaria."
+  },
+  {
+    "id": "esp-008",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 14. Servicio de Farmacia hospitalario: marco legal, relaciones internas/externas y colaboración inter-niveles",
+    "dificultad": "Básico",
+    "pregunta": "La misión esencial del Servicio de Farmacia hospitalario es:",
+    "opciones": [
+      "Garantizar efectividad, seguridad y eficiencia en la farmacoterapia",
+      "Reducir costes a toda costa",
+      "Sustituir decisiones clínicas",
+      "Gestionar hostelería"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El uso racional del medicamento guía la actuación del servicio de farmacia hospitalaria."
+  },
+  {
+    "id": "esp-009",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 14. Servicio de Farmacia hospitalario: marco legal, relaciones internas/externas y colaboración inter-niveles",
+    "dificultad": "Intermedio",
+    "pregunta": "Un circuito crítico del medicamento incluye:",
+    "opciones": [
+      "Prescripción validada, preparación/dispensación y administración segura",
+      "Compra directa sin validación",
+      "Registro manual sin trazabilidad",
+      "Entrega por orden alfabético"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Prescripción-validación-dispensación-administración conforman el circuito del medicamento."
+  },
+  {
+    "id": "esp-010",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 14. Servicio de Farmacia hospitalario: marco legal, relaciones internas/externas y colaboración inter-niveles",
+    "dificultad": "Avanzado",
+    "pregunta": "Entre las relaciones externas del Servicio de Farmacia destacan:",
+    "opciones": [
+      "La coordinación con atención primaria, residencias y otros niveles asistenciales",
+      "La gestión de mantenimiento hospitalario",
+      "La inspección de equipos electromédicos",
+      "La contratación del personal de limpieza"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La colaboración con otros niveles asistenciales es esencial para la continuidad del tratamiento."
+  },
+  {
+    "id": "esp-051",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 15. Planificación y organización del Servicio de Farmacia: áreas de trabajo, recursos, equipos y manuales",
+    "dificultad": "Básico",
+    "pregunta": "Un elemento central de la organización del Servicio de Farmacia Hospitalaria es:",
+    "opciones": [
+      "Mapa de procesos y manuales de procedimientos",
+      "Inventario de sillas",
+      "Plano de aparcamiento",
+      "Listado de teléfonos personales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La gestión por procesos mediante manuales de procedimientos garantiza la calidad y seguridad asistencial."
+  },
+  {
+    "id": "esp-052",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 15. Planificación y organización del Servicio de Farmacia: áreas de trabajo, recursos, equipos y manuales",
+    "dificultad": "Intermedio",
+    "pregunta": "Un indicador clave de seguridad en dispensación es:",
+    "opciones": [
+      "Errores de dispensación por 1.000 líneas validadas",
+      "Número de camas por planta",
+      "Gasto eléctrico anual",
+      "Llamadas telefónicas recibidas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La tasa de errores por volumen validado permite comparar desempeño entre unidades."
+  },
+  {
+    "id": "esp-053",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 15. Planificación y organización del Servicio de Farmacia: áreas de trabajo, recursos, equipos y manuales",
+    "dificultad": "Avanzado",
+    "pregunta": "Según la normativa de calidad ISO 9001 aplicada al Servicio de Farmacia, la revisión por la dirección debe realizarse:",
+    "opciones": [
+      "Al menos una vez al año documentando resultados e indicadores",
+      "Cada cinco años sin registro formal",
+      "Solo si hay incidencias",
+      "Cuando lo indique el auditor externo"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "ISO 9001 requiere revisión anual planificada y documentada de la eficacia del sistema de gestión."
+  },
+  {
+    "id": "esp-054",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 16. Comisión de Uso Racional de los Medicamentos y Productos Sanitarios del SESPA",
+    "dificultad": "Básico",
+    "pregunta": "La Comisión de Uso Racional de los Medicamentos del SESPA tiene carácter:",
+    "opciones": [
+      "Asesor y coordinador de políticas de uso racional",
+      "Sancionador",
+      "Legislativo",
+      "Comercial"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Actúa como órgano asesor y coordinador en materia de uso racional de los medicamentos."
+  },
+  {
+    "id": "esp-055",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 16. Comisión de Uso Racional de los Medicamentos y Productos Sanitarios del SESPA",
+    "dificultad": "Intermedio",
+    "pregunta": "Para priorizar intervenciones, la Comisión utiliza principalmente:",
+    "opciones": [
+      "Datos de utilización, gasto, seguridad y resultados en salud",
+      "Encuestas sin estructura",
+      "Presión comercial",
+      "Sorteo entre servicios"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El análisis de utilización y resultados permite orientar políticas de eficiencia y seguridad."
+  },
+  {
+    "id": "esp-056",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 16. Comisión de Uso Racional de los Medicamentos y Productos Sanitarios del SESPA",
+    "dificultad": "Avanzado",
+    "pregunta": "Entre las funciones de la Comisión de Uso Racional destaca:",
+    "opciones": [
+      "Proponer criterios de financiación y posicionamiento terapéutico",
+      "Aprobar licitaciones de obra civil",
+      "Emitir nóminas del personal",
+      "Dirigir los servicios centrales del SESPA"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La CURMP evalúa evidencias y propone posicionamientos terapéuticos de referencia."
+  },
+  {
+    "id": "esp-057",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 17. Comisión de Farmacia y Terapéutica de Área en el SESPA",
+    "dificultad": "Básico",
+    "pregunta": "La CFT de Área decide sobre:",
+    "opciones": [
+      "Inclusión o exclusión de medicamentos en la Guía Farmacoterapéutica",
+      "Guardias del personal sanitario",
+      "Precios de venta al público",
+      "Promociones comerciales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Las CFT analizan los informes de evaluación y acuerdan la inclusión de medicamentos."
+  },
+  {
+    "id": "esp-058",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 17. Comisión de Farmacia y Terapéutica de Área en el SESPA",
+    "dificultad": "Intermedio",
+    "pregunta": "Ante un fármaco de alto impacto presupuestario, la CFT debe:",
+    "opciones": [
+      "Exigir posicionamiento y monitorización de resultados en la práctica",
+      "Aprobar su uso sin condiciones",
+      "Basarse en notas de prensa",
+      "Aplazar indefinidamente la decisión"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El posicionamiento terapéutico con seguimiento permite evaluar efectividad real y sostenibilidad."
+  },
+  {
+    "id": "esp-059",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 17. Comisión de Farmacia y Terapéutica de Área en el SESPA",
+    "dificultad": "Avanzado",
+    "pregunta": "Un aspecto procedimental clave en las CFT es:",
+    "opciones": [
+      "Garantizar la declaración y gestión de conflictos de interés de sus miembros",
+      "Mantener anonimato de los informes",
+      "Delegar las decisiones en la industria",
+      "Adoptar acuerdos por mayoría simple sin acta"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La transparencia y declaración de intereses son requisitos esenciales en comisiones evaluadoras."
+  },
+  {
+    "id": "esp-060",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 18. Comisiones clínicas: participación del Servicio de Farmacia",
+    "dificultad": "Básico",
+    "pregunta": "En el comité de antimicrobianos, el Servicio de Farmacia aporta principalmente:",
+    "opciones": [
+      "Datos de consumo, resistencias y recomendaciones de optimización",
+      "Altas administrativas",
+      "Programación de quirófano",
+      "Asuntos no clínicos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Farmacia lidera la revisión de consumo y la estrategia de optimización antimicrobiana."
+  },
+  {
+    "id": "esp-061",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 18. Comisiones clínicas: participación del Servicio de Farmacia",
+    "dificultad": "Intermedio",
+    "pregunta": "En la Comisión de Seguridad del Paciente, la función del farmacéutico es:",
+    "opciones": [
+      "Analizar incidentes relacionados con medicamentos y proponer mejoras",
+      "Redactar informes de absentismo",
+      "Evaluar siniestros de vehículos",
+      "Controlar el mantenimiento de quirófanos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El farmacéutico identifica y analiza incidentes de medicación contribuyendo a la seguridad global."
+  },
+  {
+    "id": "esp-062",
+    "categoria": "Parte Específica",
+    "subcategoria": "Tema 18. Comisiones clínicas: participación del Servicio de Farmacia",
+    "dificultad": "Avanzado",
+    "pregunta": "La participación del Servicio de Farmacia en comisiones multidisciplinares permite:",
+    "opciones": [
+      "Integrar la visión farmacoterapéutica en la toma de decisiones clínicas",
+      "Duplicar procedimientos burocráticos",
+      "Sustituir al clínico responsable",
+      "Reducir la comunicación entre servicios"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La aportación farmacéutica mejora la calidad y coherencia de las decisiones clínicas compartidas."
   }
 ]

@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "Integrate Summary component into Pablo test results",
+		"description": "Replace custom results view with reusable Summary component.",
+		"status": "completed"
+	},
+	{
+		"id": 2,
+		"title": "Align result payload for Supabase and Summary",
+		"description": "Build separate objects for storage and UI, including configuracion and respuestas arrays.",
+		"status": "completed"
+	},
+	{
+		"id": 3,
+		"title": "Add styling and unanswered handling",
+		"description": "Style the new result shell and ensure unanswered questions use undefined for Summary.",
+		"status": "completed"
+	},
+	{
+		"id": 4,
+		"title": "Validate updated files",
+		"description": "Run get_errors on modified component and stylesheet.",
+		"status": "completed"
+	}
+]
