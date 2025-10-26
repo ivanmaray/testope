@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { guardarResultadoPabloTest, cargarResultadosPabloTest } from '../utils/pabloTestStorage.js';
 import { preguntasPablo171025 } from '../data/pabloTest171025.js';
+import { preguntasPablo241025 } from '../data/pabloTest241025.js';
 import TestRunner from './TestRunner.jsx';
 import Summary from './Summary.jsx';
 
@@ -8,6 +9,7 @@ const TIEMPO_TOTAL = 20 * 60; // 20 minutos en segundos
 
 const PabloTest17Oct = ({ onVolver }) => {
   const [estado, setEstado] = useState('inicio'); // inicio, test, resultado, historial
+  const [versionTest, setVersionTest] = useState('17'); // '17' o '24'
   const [preguntas, setPreguntas] = useState([]);
   const [respuestas, setRespuestas] = useState([]);
   const [indiceActual, setIndiceActual] = useState(0);
@@ -53,9 +55,10 @@ const PabloTest17Oct = ({ onVolver }) => {
         tiempoMedio: '--:--',
       };
 
-  // Cargar 15 preguntas fijas del simulacro del 17/10/2025 (Farmacia Hospitalaria)
+  // Cargar 15 preguntas fijas del simulacro seleccionado (Farmacia Hospitalaria)
   const iniciarTest = () => {
-    const seleccion = preguntasPablo171025.slice(0, 15);
+    const preguntasDisponibles = versionTest === '17' ? preguntasPablo171025 : preguntasPablo241025;
+    const seleccion = preguntasDisponibles.slice(0, 15);
     setPreguntas(seleccion);
     setRespuestas(Array(seleccion.length).fill(undefined));
     setIndiceActual(0);
@@ -139,6 +142,7 @@ const PabloTest17Oct = ({ onVolver }) => {
 
     const resultadoParaGuardar = {
       fecha: new Date().toISOString(),
+      fechaTest: versionTest === '17' ? '17/10/2025' : '24/10/2025',
       tiempoEmpleado,
       correctas,
       incorrectas,
@@ -186,10 +190,9 @@ const PabloTest17Oct = ({ onVolver }) => {
           <div className="auth__visual pablo-test__visual">
             <div className="auth__visual-overlay pablo-test__visual-overlay" />
             <div className="auth__visual-content pablo-test__visual-content">
-              <span className="auth__badge">Test especial · 17 de octubre de 2025</span>
               <h2>Test de Pablo</h2>
               <p>
-                Simulacro cronometrado de Farmacia Hospitalaria: 15 preguntas cuidadas, sin penalización y revisión completa
+                Simulacro cronometrado de Farmacia Hospitalaria: 15 preguntas {versionTest === '17' ? 'cuidadas' : 'muy difíciles'}, sin penalización y revisión completa
                 de cada respuesta.
               </p>
               <ul className="pablo-test__metrics">
@@ -260,25 +263,25 @@ const PabloTest17Oct = ({ onVolver }) => {
             </div>
 
             <section className="pablo-test__list">
-              <h3>Qué encontrarás en este simulacro</h3>
-              <ul>
-                <li>
-                  <span>•</span>
-                  <p>Preguntas recientes de Farmacia Hospitalaria seleccionadas manualmente.</p>
-                </li>
-                <li>
-                  <span>•</span>
-                  <p>Explicaciones claras de cada respuesta tras finalizar.</p>
-                </li>
-                <li>
-                  <span>•</span>
-                  <p>Registro automático de correctas, fallos y blancos.</p>
-                </li>
-                <li>
-                  <span>•</span>
-                  <p>Resumen imprimible con nota final y porcentaje de acierto.</p>
-                </li>
-              </ul>
+              <h3>Selecciona la versión del simulacro</h3>
+              <div className="pablo-test__selector">
+                <button
+                  type="button"
+                  className={`pablo-test__option ${versionTest === '17' ? 'pablo-test__option--selected' : ''}`}
+                  onClick={() => setVersionTest('17')}
+                >
+                  <strong>17 de octubre</strong>
+                  <span>Preguntas cuidadas</span>
+                </button>
+                <button
+                  type="button"
+                  className={`pablo-test__option ${versionTest === '24' ? 'pablo-test__option--selected' : ''}`}
+                  onClick={() => setVersionTest('24')}
+                >
+                  <strong>24 de octubre</strong>
+                  <span>Preguntas muy difíciles</span>
+                </button>
+              </div>
             </section>
 
             <div className="pablo-test__actions">
@@ -317,7 +320,7 @@ const PabloTest17Oct = ({ onVolver }) => {
         <div className="pablo-test__runner-shell">
           <header className="pablo-test__runner-top">
             <div>
-              <span className="pablo-test__tag">Test de Pablo</span>
+              <span className="pablo-test__tag">{versionTest === '17' ? '17 de octubre' : '24 de octubre'}</span>
               <h1>Simulacro en progreso</h1>
               <p>
                 Pregunta {indiceActual + 1} de {preguntas.length}. Recuerda: +1 correcta, 0 incorrecta.
@@ -366,7 +369,7 @@ const PabloTest17Oct = ({ onVolver }) => {
       <div className="pablo-test pablo-test--resultado">
         <div className="pablo-test__resultado-shell">
           <header className="pablo-test__resultado-header">
-            <span className="pablo-test__tag">Test de Pablo</span>
+            <span className="pablo-test__tag">{versionTest === '17' ? '17 de octubre' : '24 de octubre'}</span>
             <h1>Resumen del simulacro</h1>
             <p>Revisa tus respuestas, descarga el informe y vuelve a intentarlo cuando quieras.</p>
           </header>

@@ -150,6 +150,6 @@ Si no aparece el botón:
 
 ---
 
-**Creado el:** 17 de octubre de 2025  
+**Creado el:** 24 de octubre de 2025  
 **Versión:** 1.0  
 **Autor:** Asistente IA
